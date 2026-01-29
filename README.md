@@ -9,25 +9,62 @@ Application PWA pour transformer les vendeurs BDC en experts produit.
 - **Styling:** Emotion (CSS-in-JS)
 - **Package Manager:** pnpm
 
-## 📦 Installation
+## � Démarrage
 
 ```bash
-# Installer les dépendances
+# Installation des dépendances
 pnpm install
-```
 
-## 🛠️ Développement
-
-```bash
-# Lancer le serveur de développement avec HMR
+# Lancer le serveur de développement
 pnpm run dev
 
-# Builder pour la production
+# Builder pour production
 pnpm run build
 
-# Prévisualiser le build de production
+# Prévisualiser le build
 pnpm run preview
+
+# Lancer les tests
+pnpm test
+
+# Vérifier le code (ESLint)
+pnpm run lint
+
+# Formatter le code (Prettier)
+pnpm run format
 ```
+
+## 📱 Installation PWA
+
+### Tester l'installation en local
+
+1. **Builder l'application:**
+   ```bash
+   pnpm run build
+   pnpm run preview
+   ```
+
+2. **Ouvrir dans le navigateur:**
+   - Ouvrir `http://localhost:4173`
+   - Chrome/Edge affichera un prompt d'installation
+   - Cliquer sur "Installer" dans la barre d'adresse
+
+3. **Vérifier l'installation:**
+   - L'application apparaît sur l'écran d'accueil
+   - Lance en mode fullscreen (pas de barre d'adresse)
+   - Splash screen avec couleurs BDC au démarrage
+   - Fonctionne offline après le premier chargement
+
+### Icônes PWA
+
+Les icônes ont été générées avec `@vite-pwa/assets-generator`:
+- **64x64** - Favicon et petite icône
+- **192x192** - Icône Android standard
+- **512x512** - Icône haute résolution et splash screen
+- **512x512 maskable** - Icône adaptative Android
+- **180x180** - Apple touch icon pour iOS
+
+Toutes les icônes utilisent les couleurs BDC (jaune #ffc627, rouge #ff7323).
 
 ## 📁 Structure du Projet
 
