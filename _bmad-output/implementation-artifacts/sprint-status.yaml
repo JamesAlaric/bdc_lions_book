@@ -44,7 +44,7 @@ development_status:
   1-1-initialiser-le-projet-pwa-avec-starter-template: done
   1-2-configurer-pwa-manifest-et-service-worker: done
   1-3-implementer-splash-screen-et-mode-fullscreen: done
-  1-4-creer-page-parametres-avec-version-et-changelog: ready-for-dev
+  1-4-creer-page-parametres-avec-version-et-changelog: done
   1-5-implementer-systeme-de-mise-a-jour-pwa: ready-for-dev
   1-6-implementer-mecanisme-de-rollback-et-versioning-cache: ready-for-dev
   epic-1-retrospective: optional
