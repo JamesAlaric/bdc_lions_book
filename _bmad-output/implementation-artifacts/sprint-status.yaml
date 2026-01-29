@@ -1,0 +1,140 @@
+# generated: 2026-01-29 11:55
+# project: lions_book
+# project_key: lions_book
+# tracking_system: file-system
+# story_location: _bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-01-29 11:55
+project: lions_book
+project_key: lions_book
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: in-progress
+  1-1-initialiser-le-projet-pwa-avec-starter-template: review
+  1-2-configurer-pwa-manifest-et-service-worker: backlog
+  1-3-implementer-splash-screen-et-mode-fullscreen: backlog
+  1-4-creer-page-parametres-avec-version-et-changelog: backlog
+  1-5-implementer-systeme-de-mise-a-jour-pwa: backlog
+  1-6-implementer-mecanisme-de-rollback-et-versioning-cache: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-configurer-indexeddb-pour-stockage-local-catalogue: backlog
+  2-2-implementer-service-worker-avec-cache-strategies: backlog
+  2-3-creer-modele-de-donnees-produits-et-charger-catalogue-initial: backlog
+  2-4-afficher-fiches-produits-avec-glassmorphisme-et-carousel-3d: backlog
+  2-5-implementer-filtres-par-categorie-et-marque: backlog
+  2-6-creer-indicateur-statut-connexion-et-horodatage-sync: backlog
+  2-7-implementer-synchronisation-manuelle: backlog
+  2-8-implementer-synchronisation-automatique-au-demarrage: backlog
+  2-9-implementer-background-sync-automatique: backlog
+  2-10-implementer-alertes-donnees-anciennes-et-sync-selective: backlog
+  2-11-implementer-web-workers-pour-synchronisation-non-bloquante: backlog
+  2-12-creer-systeme-de-pagination-et-lazy-loading-catalogue-initial: backlog
+  2-13-implementer-mode-haute-lisibilite-pour-utilisation-exterieure: backlog
+  2-14-setup-zustand-pour-gestion-etat-global-avec-persistence: backlog
+  2-15-implementer-monitoring-quota-indexeddb-et-cleanup-proactif: backlog
+  2-16-implementer-detection-corruption-et-auto-repair-indexeddb: backlog
+  2-17-implementer-adaptive-performance-mode: backlog
+  2-18-enrichir-fiches-produits-avec-certifications-et-qualite: backlog
+  2-19-ajouter-section-conseils-conservation-produits: backlog
+  2-20-implementer-indicateur-disponibilite-stock-temps-reel: backlog
+  2-21-mettre-a-jour-schema-de-donnees-et-architecture-stock: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-implementer-moteur-de-recherche-local-avec-indexation: backlog
+  3-2-creer-interface-recherche-avec-suggestions-predictives: backlog
+  3-3-implementer-historique-de-recherche: backlog
+  3-4-creer-systeme-de-favoris-avec-acces-rapide: backlog
+  3-5-implementer-filtres-avances-canal-type-client-prix: backlog
+  3-6-optimiser-performance-recherche-et-affichage-resultats: backlog
+  3-7-optimiser-index-de-recherche-avec-strategie-incrementale: backlog
+  3-8-implementer-migration-conditionnelle-moteur-de-recherche: backlog
+  3-9-implementer-index-cleanup-et-garbage-collection: backlog
+  3-10-implementer-progressive-loading-resultats-recherche: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-creer-modele-de-donnees-argumentaires-par-marque: backlog
+  4-2-implementer-modal-speech-rapide-pour-pitch-instantane: backlog
+  4-3-creer-modele-de-donnees-objections-avec-scripts-de-reponse: backlog
+  4-4-implementer-section-gerer-les-objections-dans-fiche-produit: backlog
+  4-5-permettre-adaptation-argumentaires-selon-contexte-client: backlog
+  4-6-creer-arguments-comparatifs-prix-et-notoriete-bdc: backlog
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-creer-modele-de-donnees-campagnes-et-activations: backlog
+  5-2-implementer-telechargement-medias-a-la-demande-style-telegram: backlog
+  5-3-creer-galerie-visuels-activations-avec-formats-multiples: backlog
+  5-4-implementer-gestion-cache-medias-avec-compression-intelligente: backlog
+  5-5-creer-parametres-gestion-medias-auto-telechargement-limites-purge: backlog
+  5-6-afficher-activations-gratuites-comme-argument-commercial: backlog
+  5-7-creer-systeme-d-alertes-proactives-et-nettoyage-intelligent-cache: backlog
+  5-8-implementer-retry-automatique-et-fallback-local-medias: backlog
+  epic-5-retrospective: optional
+
+  epic-6: backlog
+  6-1-configurer-web-push-api-et-firebase-cloud-messaging: backlog
+  6-2-implementer-badge-nouveau-sur-contenu-mis-a-jour: backlog
+  6-3-implementer-notifications-push-pour-campagnes-urgentes: backlog
+  6-4-creer-systeme-de-rappels-synchronisation: backlog
+  6-5-afficher-sections-recemment-modifiees: backlog
+  6-6-creer-parametres-notifications-activer-desactiver: backlog
+  6-7-implementer-validation-automatique-dates-campagnes: backlog
+  epic-6-retrospective: optional
+
+  epic-7: backlog
+  7-1-configurer-backend-deno-avec-hono-framework: backlog
+  7-2-implementer-authentification-jwt-pour-brand-managers: backlog
+  7-3-configurer-drizzle-orm-et-postgresql-pour-contenu-dynamique: backlog
+  7-4-implementer-permissions-granulaires-par-marque-rbac: backlog
+  7-5-creer-interface-admin-pour-gestion-campagnes: backlog
+  7-6-implementer-upload-visuels-avec-cdn-et-securite-renforcee: backlog
+  7-7-implementer-publication-immediate-sans-workflow-validation: backlog
+  7-8-creer-sections-actualites-evenements-et-offres-promotionnelles: backlog
+  7-9-implementer-previsualisation-mobile-avant-publication: backlog
+  7-10-implementer-onboarding-guide-et-tooltips-contextuels-admin: backlog
+  7-11-implementer-refresh-silencieux-jwt-et-revocation-tokens: backlog
+  7-12-implementer-systeme-rollback-campagne-brand-manager: backlog
+  7-13-ajouter-gestion-procedures-commerciales-et-repartition-produits: backlog
+  epic-7-retrospective: optional
+
+  epic-8: backlog
+  8-1-setup-vitest-et-playwright-pour-tests-automatises: backlog
+  8-2-implementer-tests-performance-automatises: backlog
+  8-3-implementer-tests-securite-owasp: backlog
+  8-4-implementer-tests-offline-et-resilience: backlog
+  epic-8-retrospective: optional

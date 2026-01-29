@@ -1,0 +1,5250 @@
+{
+  "bieres": {
+    "products": [
+      {
+        "code": "EXP65C",
+        "brand": "'33 EXPORT",
+        "designation": "CASIER \"33\" EXPORT 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "BA_65",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6503.4,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 782.85,
+            "taux_marge": "11.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7200.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 924.3,
+            "taux_marge": "12.8%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 7800
+          }
+        }
+      },
+      {
+        "code": "EXP50C",
+        "brand": "'33 EXPORT",
+        "designation": "CASIER \"33\" EXPORT 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BA_50",
+        "consigne": 3600,
+        "market": "NORD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4827.34,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 708.91,
+            "taux_marge": "13.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 5450.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 874.3,
+            "taux_marge": "16.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "EXP33C",
+        "brand": "'33 EXPORT",
+        "designation": "CASIER \"33\" EXPORT 33 CL",
+        "format": "33 CL",
+        "unit": "C24",
+        "packaging": "BA_33",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8035.8,
+            "remise": 528.0,
+            "frais_chr": 1056.9,
+            "marge": 1036.3,
+            "taux_marge": "11.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 8800.0,
+            "ristourne": 399.0,
+            "frais_elv": 1200.0,
+            "marge": 1199.0,
+            "taux_marge": "13.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 9600
+          }
+        }
+      },
+      {
+        "code": "EXP50B",
+        "brand": "'33 EXPORT",
+        "designation": "CARTON \"33\" EXPORT BOITE 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 15847.1,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 952.9,
+            "taux_marge": "6.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 16800.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "3.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 725,
+            "prix_casier": 17400
+          }
+        }
+      },
+      {
+        "code": "CAS65C",
+        "brand": "CASTEL BEER",
+        "designation": "CASIER CASTEL 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "APO_65",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6503.4,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 782.85,
+            "taux_marge": "11.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7200.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 924.3,
+            "taux_marge": "12.8%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 7800
+          }
+        }
+      },
+      {
+        "code": "CAS50C",
+        "brand": "CASTEL BEER",
+        "designation": "CASIER CASTEL 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BA_50",
+        "consigne": 3600,
+        "market": "NORD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4827.34,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 708.91,
+            "taux_marge": "13.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 5450.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 874.3,
+            "taux_marge": "16.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "CAS33C",
+        "brand": "CASTEL BEER",
+        "designation": "CASIER CASTEL 33 CL",
+        "format": "33 CL",
+        "unit": "C24",
+        "packaging": "APO_33",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8035.8,
+            "remise": 528.0,
+            "frais_chr": 1056.9,
+            "marge": 1036.3,
+            "taux_marge": "11.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 8800.0,
+            "ristourne": 399.0,
+            "frais_elv": 1200.0,
+            "marge": 1199.0,
+            "taux_marge": "13.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 9600
+          }
+        }
+      },
+      {
+        "code": "CAS50B",
+        "brand": "CASTEL BEER",
+        "designation": "CARTON CASTEL BOITE 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 15847.1,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 952.9,
+            "taux_marge": "6.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 16800.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "3.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 725,
+            "prix_casier": 17400
+          }
+        }
+      },
+      {
+        "code": "MUT65C",
+        "brand": "MÜTZIG",
+        "designation": "CASIER MUTZIG 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "BV_65",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6503.4,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 782.85,
+            "taux_marge": "11.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7200.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 924.3,
+            "taux_marge": "12.8%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 7800
+          }
+        }
+      },
+      {
+        "code": "MUT33C",
+        "brand": "MÜTZIG",
+        "designation": "CASIER MUTZIG 33 CL",
+        "format": "33 CL",
+        "unit": "C24",
+        "packaging": "BV_33",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8035.8,
+            "remise": 528.0,
+            "frais_chr": 1056.9,
+            "marge": 1036.3,
+            "taux_marge": "11.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 8800.0,
+            "ristourne": 399.0,
+            "frais_elv": 1200.0,
+            "marge": 1199.0,
+            "taux_marge": "13.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 9600
+          }
+        }
+      },
+      {
+        "code": "MUT50B",
+        "brand": "MÜTZIG",
+        "designation": "CARTON MÜTZIG BOITE 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 15847.1,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 952.9,
+            "taux_marge": "6.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 16800.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "3.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 725,
+            "prix_casier": 17400
+          }
+        }
+      },
+      {
+        "code": "MNY65C",
+        "brand": "MANYAN",
+        "designation": "CASIER MANYAN 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "BV_65",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4779.52,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 706.73,
+            "taux_marge": "13.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 5400.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 924.3,
+            "taux_marge": "17.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "MNY50B",
+        "brand": "MANYAN",
+        "designation": "CARTON MANYAN BOITE 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 13114.71,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 885.29,
+            "taux_marge": "6.8%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 14000.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 1000.0,
+            "taux_marge": "7.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 625,
+            "prix_casier": 15000
+          }
+        }
+      },
+      {
+        "code": "ISE65C",
+        "brand": "ISENBECK",
+        "designation": "CASIER ISENBECK 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "APO_65",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 7455.68,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 930.57,
+            "taux_marge": "11.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 8300.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 1024.3,
+            "taux_marge": "12.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 750,
+            "prix_casier": 9000
+          }
+        }
+      },
+      {
+        "code": "ISE33C",
+        "brand": "ISENBECK",
+        "designation": "CASIER ISENBECK 33 CL",
+        "format": "33 CL",
+        "unit": "C24",
+        "packaging": "APO_33",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8655.6,
+            "remise": 528.0,
+            "frais_chr": 1056.9,
+            "marge": 1116.5,
+            "taux_marge": "11.5%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 9500.0,
+            "ristourne": 399.0,
+            "frais_elv": 1200.0,
+            "marge": 1699.0,
+            "taux_marge": "17.9%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 450,
+            "prix_casier": 10800
+          }
+        }
+      },
+      {
+        "code": "ISE50B",
+        "brand": "ISENBECK",
+        "designation": "CARTON ISENBECK BOITE 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 17762.59,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 1037.41,
+            "taux_marge": "5.8%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 18800.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 1000.0,
+            "taux_marge": "5.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 825,
+            "prix_casier": 19800
+          }
+        }
+      },
+      {
+        "code": "BFT50C",
+        "brand": "BEAUFORT LAGER",
+        "designation": "CASIER BEAUFORT LAGER 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BV_50",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 5755.68,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 855.57,
+            "taux_marge": "13.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 6525.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 999.3,
+            "taux_marge": "15.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 600,
+            "prix_casier": 7200
+          }
+        }
+      },
+      {
+        "code": "BFT33C",
+        "brand": "BEAUFORT LAGER",
+        "designation": "CASIER BEAUFORT LAGER 33 CL",
+        "format": "33 CL",
+        "unit": "C24",
+        "packaging": "BV_33",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8035.8,
+            "remise": 528.0,
+            "frais_chr": 1056.9,
+            "marge": 1036.3,
+            "taux_marge": "11.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 8800.0,
+            "ristourne": 399.0,
+            "frais_elv": 1200.0,
+            "marge": 1199.0,
+            "taux_marge": "13.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 9600
+          }
+        }
+      },
+      {
+        "code": "BFT50B",
+        "brand": "BEAUFORT LAGER",
+        "designation": "CARTON BEAUFORT LAGER BOITE 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 15847.1,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 952.9,
+            "taux_marge": "6.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 16800.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "3.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 725,
+            "prix_casier": 17400
+          }
+        }
+      },
+      {
+        "code": "BFL50C",
+        "brand": "BEAUFORT LIGHT",
+        "designation": "CASIER BEAUFORT LIGHT 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BV_50",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 5755.68,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 855.57,
+            "taux_marge": "13.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 6525.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 999.3,
+            "taux_marge": "15.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 600,
+            "prix_casier": 7200
+          }
+        }
+      },
+      {
+        "code": "BFL33C",
+        "brand": "BEAUFORT LIGHT",
+        "designation": "CASIER BEAUFORT LIGHT 33 CL",
+        "format": "33 CL",
+        "unit": "C24",
+        "packaging": "BV_33",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8035.8,
+            "remise": 528.0,
+            "frais_chr": 1056.9,
+            "marge": 1036.3,
+            "taux_marge": "11.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 8800.0,
+            "ristourne": 399.0,
+            "frais_elv": 1200.0,
+            "marge": 1199.0,
+            "taux_marge": "13.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 9600
+          }
+        }
+      },
+      {
+        "code": "BFL50B",
+        "brand": "BEAUFORT LIGHT",
+        "designation": "CARTON BEAUFORT LIGHT 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 15847.1,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 952.9,
+            "taux_marge": "6.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 16800.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "3.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 725,
+            "prix_casier": 17400
+          }
+        }
+      },
+      {
+        "code": "CHC50C",
+        "brand": "CHILL CITRON",
+        "designation": "CASIER CHILL 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BV_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4779.12,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 707.13,
+            "taux_marge": "13.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 5400.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 924.3,
+            "taux_marge": "17.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "CHC33C",
+        "brand": "CHILL CITRON",
+        "designation": "CASIER CHILL 33 CL",
+        "format": "33 CL",
+        "unit": "C24",
+        "packaging": "BV_33",
+        "consigne": 3600,
+        "market": null,
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6962.35,
+            "remise": 528.0,
+            "frais_chr": 1056.9,
+            "marge": 1009.75,
+            "taux_marge": "12.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7700.0,
+            "ristourne": 399.0,
+            "frais_elv": 1200.0,
+            "marge": 1099.0,
+            "taux_marge": "14.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 350,
+            "prix_casier": 8400
+          }
+        }
+      },
+      {
+        "code": "CHC50B",
+        "brand": "CHILL CITRON",
+        "designation": "CARTON CHILL BOITE 50",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 14724.87,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 925.13,
+            "taux_marge": "6.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 15650.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 1150.0,
+            "taux_marge": "7.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 700,
+            "prix_casier": 16800
+          }
+        }
+      },
+      {
+        "code": "DOP65C",
+        "brand": "DOPPEL",
+        "designation": "CASIER DOPPEL MUNICH 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "BA_65",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6503.4,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 782.85,
+            "taux_marge": "11.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7200.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 924.3,
+            "taux_marge": "12.8%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 7800
+          }
+        }
+      },
+      {
+        "code": "DOL65C",
+        "brand": "DOPPEL",
+        "designation": "CASIER DOPPEL LAGER 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "BA_65",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 10090.49,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 995.76,
+            "taux_marge": "9.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 11000.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 1324.3,
+            "taux_marge": "12.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 1000,
+            "prix_casier": 12000
+          }
+        }
+      },
+      {
+        "code": "CMS50C",
+        "brand": "CASTLE MILK STOUT",
+        "designation": "CASIER CASTLE MILK STOUT 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BA_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6330.33,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 880.92,
+            "taux_marge": "12.8%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7125.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 999.3,
+            "taux_marge": "14.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 7800
+          }
+        }
+      },
+      {
+        "code": "HEI33V",
+        "brand": "HEINEKEN",
+        "designation": "CARTON HEINEKEN BOUTEILLES 33",
+        "format": "33 CL",
+        "unit": "V24",
+        "packaging": "Verre Perdu",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 17184.81,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 715.19,
+            "taux_marge": "4.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 17900.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 1300.0,
+            "taux_marge": "7.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 800,
+            "prix_casier": 19200
+          }
+        }
+      },
+      {
+        "code": "HEI50B",
+        "brand": "HEINEKEN",
+        "designation": "CARTON HEINEKEN BOITES 50 CL",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 20209.96,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 790.04,
+            "taux_marge": "3.9%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 21000.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 1800.0,
+            "taux_marge": "8.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 950,
+            "prix_casier": 22800
+          }
+        }
+      }
+    ],
+    "brands": {
+      "'33 EXPORT": [
+        {
+          "code": "EXP65C",
+          "brand": "'33 EXPORT",
+          "designation": "CASIER \"33\" EXPORT 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "BA_65",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6503.4,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 782.85,
+              "taux_marge": "11.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7200.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 924.3,
+              "taux_marge": "12.8%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 7800
+            }
+          }
+        },
+        {
+          "code": "EXP50C",
+          "brand": "'33 EXPORT",
+          "designation": "CASIER \"33\" EXPORT 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BA_50",
+          "consigne": 3600,
+          "market": "NORD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4827.34,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 708.91,
+              "taux_marge": "13.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 5450.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 874.3,
+              "taux_marge": "16.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "EXP33C",
+          "brand": "'33 EXPORT",
+          "designation": "CASIER \"33\" EXPORT 33 CL",
+          "format": "33 CL",
+          "unit": "C24",
+          "packaging": "BA_33",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8035.8,
+              "remise": 528.0,
+              "frais_chr": 1056.9,
+              "marge": 1036.3,
+              "taux_marge": "11.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 8800.0,
+              "ristourne": 399.0,
+              "frais_elv": 1200.0,
+              "marge": 1199.0,
+              "taux_marge": "13.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 9600
+            }
+          }
+        },
+        {
+          "code": "EXP50B",
+          "brand": "'33 EXPORT",
+          "designation": "CARTON \"33\" EXPORT BOITE 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 15847.1,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 952.9,
+              "taux_marge": "6.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 16800.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "3.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 725,
+              "prix_casier": 17400
+            }
+          }
+        }
+      ],
+      "CASTEL BEER": [
+        {
+          "code": "CAS65C",
+          "brand": "CASTEL BEER",
+          "designation": "CASIER CASTEL 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "APO_65",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6503.4,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 782.85,
+              "taux_marge": "11.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7200.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 924.3,
+              "taux_marge": "12.8%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 7800
+            }
+          }
+        },
+        {
+          "code": "CAS50C",
+          "brand": "CASTEL BEER",
+          "designation": "CASIER CASTEL 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BA_50",
+          "consigne": 3600,
+          "market": "NORD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4827.34,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 708.91,
+              "taux_marge": "13.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 5450.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 874.3,
+              "taux_marge": "16.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "CAS33C",
+          "brand": "CASTEL BEER",
+          "designation": "CASIER CASTEL 33 CL",
+          "format": "33 CL",
+          "unit": "C24",
+          "packaging": "APO_33",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8035.8,
+              "remise": 528.0,
+              "frais_chr": 1056.9,
+              "marge": 1036.3,
+              "taux_marge": "11.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 8800.0,
+              "ristourne": 399.0,
+              "frais_elv": 1200.0,
+              "marge": 1199.0,
+              "taux_marge": "13.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 9600
+            }
+          }
+        },
+        {
+          "code": "CAS50B",
+          "brand": "CASTEL BEER",
+          "designation": "CARTON CASTEL BOITE 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 15847.1,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 952.9,
+              "taux_marge": "6.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 16800.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "3.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 725,
+              "prix_casier": 17400
+            }
+          }
+        }
+      ],
+      "MÜTZIG": [
+        {
+          "code": "MUT65C",
+          "brand": "MÜTZIG",
+          "designation": "CASIER MUTZIG 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "BV_65",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6503.4,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 782.85,
+              "taux_marge": "11.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7200.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 924.3,
+              "taux_marge": "12.8%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 7800
+            }
+          }
+        },
+        {
+          "code": "MUT33C",
+          "brand": "MÜTZIG",
+          "designation": "CASIER MUTZIG 33 CL",
+          "format": "33 CL",
+          "unit": "C24",
+          "packaging": "BV_33",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8035.8,
+              "remise": 528.0,
+              "frais_chr": 1056.9,
+              "marge": 1036.3,
+              "taux_marge": "11.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 8800.0,
+              "ristourne": 399.0,
+              "frais_elv": 1200.0,
+              "marge": 1199.0,
+              "taux_marge": "13.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 9600
+            }
+          }
+        },
+        {
+          "code": "MUT50B",
+          "brand": "MÜTZIG",
+          "designation": "CARTON MÜTZIG BOITE 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 15847.1,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 952.9,
+              "taux_marge": "6.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 16800.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "3.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 725,
+              "prix_casier": 17400
+            }
+          }
+        }
+      ],
+      "MANYAN": [
+        {
+          "code": "MNY65C",
+          "brand": "MANYAN",
+          "designation": "CASIER MANYAN 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "BV_65",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4779.52,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 706.73,
+              "taux_marge": "13.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 5400.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 924.3,
+              "taux_marge": "17.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "MNY50B",
+          "brand": "MANYAN",
+          "designation": "CARTON MANYAN BOITE 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 13114.71,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 885.29,
+              "taux_marge": "6.8%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 14000.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 1000.0,
+              "taux_marge": "7.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 625,
+              "prix_casier": 15000
+            }
+          }
+        }
+      ],
+      "ISENBECK": [
+        {
+          "code": "ISE65C",
+          "brand": "ISENBECK",
+          "designation": "CASIER ISENBECK 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "APO_65",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 7455.68,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 930.57,
+              "taux_marge": "11.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 8300.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 1024.3,
+              "taux_marge": "12.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 750,
+              "prix_casier": 9000
+            }
+          }
+        },
+        {
+          "code": "ISE33C",
+          "brand": "ISENBECK",
+          "designation": "CASIER ISENBECK 33 CL",
+          "format": "33 CL",
+          "unit": "C24",
+          "packaging": "APO_33",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8655.6,
+              "remise": 528.0,
+              "frais_chr": 1056.9,
+              "marge": 1116.5,
+              "taux_marge": "11.5%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 9500.0,
+              "ristourne": 399.0,
+              "frais_elv": 1200.0,
+              "marge": 1699.0,
+              "taux_marge": "17.9%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 450,
+              "prix_casier": 10800
+            }
+          }
+        },
+        {
+          "code": "ISE50B",
+          "brand": "ISENBECK",
+          "designation": "CARTON ISENBECK BOITE 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 17762.59,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 1037.41,
+              "taux_marge": "5.8%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 18800.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 1000.0,
+              "taux_marge": "5.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 825,
+              "prix_casier": 19800
+            }
+          }
+        }
+      ],
+      "BEAUFORT LAGER": [
+        {
+          "code": "BFT50C",
+          "brand": "BEAUFORT LAGER",
+          "designation": "CASIER BEAUFORT LAGER 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BV_50",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 5755.68,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 855.57,
+              "taux_marge": "13.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 6525.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 999.3,
+              "taux_marge": "15.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 600,
+              "prix_casier": 7200
+            }
+          }
+        },
+        {
+          "code": "BFT33C",
+          "brand": "BEAUFORT LAGER",
+          "designation": "CASIER BEAUFORT LAGER 33 CL",
+          "format": "33 CL",
+          "unit": "C24",
+          "packaging": "BV_33",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8035.8,
+              "remise": 528.0,
+              "frais_chr": 1056.9,
+              "marge": 1036.3,
+              "taux_marge": "11.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 8800.0,
+              "ristourne": 399.0,
+              "frais_elv": 1200.0,
+              "marge": 1199.0,
+              "taux_marge": "13.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 9600
+            }
+          }
+        },
+        {
+          "code": "BFT50B",
+          "brand": "BEAUFORT LAGER",
+          "designation": "CARTON BEAUFORT LAGER BOITE 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 15847.1,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 952.9,
+              "taux_marge": "6.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 16800.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "3.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 725,
+              "prix_casier": 17400
+            }
+          }
+        }
+      ],
+      "BEAUFORT LIGHT": [
+        {
+          "code": "BFL50C",
+          "brand": "BEAUFORT LIGHT",
+          "designation": "CASIER BEAUFORT LIGHT 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BV_50",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 5755.68,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 855.57,
+              "taux_marge": "13.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 6525.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 999.3,
+              "taux_marge": "15.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 600,
+              "prix_casier": 7200
+            }
+          }
+        },
+        {
+          "code": "BFL33C",
+          "brand": "BEAUFORT LIGHT",
+          "designation": "CASIER BEAUFORT LIGHT 33 CL",
+          "format": "33 CL",
+          "unit": "C24",
+          "packaging": "BV_33",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8035.8,
+              "remise": 528.0,
+              "frais_chr": 1056.9,
+              "marge": 1036.3,
+              "taux_marge": "11.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 8800.0,
+              "ristourne": 399.0,
+              "frais_elv": 1200.0,
+              "marge": 1199.0,
+              "taux_marge": "13.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 9600
+            }
+          }
+        },
+        {
+          "code": "BFL50B",
+          "brand": "BEAUFORT LIGHT",
+          "designation": "CARTON BEAUFORT LIGHT 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 15847.1,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 952.9,
+              "taux_marge": "6.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 16800.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "3.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 725,
+              "prix_casier": 17400
+            }
+          }
+        }
+      ],
+      "CHILL CITRON": [
+        {
+          "code": "CHC50C",
+          "brand": "CHILL CITRON",
+          "designation": "CASIER CHILL 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BV_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4779.12,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 707.13,
+              "taux_marge": "13.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 5400.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 924.3,
+              "taux_marge": "17.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "CHC33C",
+          "brand": "CHILL CITRON",
+          "designation": "CASIER CHILL 33 CL",
+          "format": "33 CL",
+          "unit": "C24",
+          "packaging": "BV_33",
+          "consigne": 3600,
+          "market": null,
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6962.35,
+              "remise": 528.0,
+              "frais_chr": 1056.9,
+              "marge": 1009.75,
+              "taux_marge": "12.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7700.0,
+              "ristourne": 399.0,
+              "frais_elv": 1200.0,
+              "marge": 1099.0,
+              "taux_marge": "14.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 350,
+              "prix_casier": 8400
+            }
+          }
+        },
+        {
+          "code": "CHC50B",
+          "brand": "CHILL CITRON",
+          "designation": "CARTON CHILL BOITE 50",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 14724.87,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 925.13,
+              "taux_marge": "6.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 15650.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 1150.0,
+              "taux_marge": "7.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 700,
+              "prix_casier": 16800
+            }
+          }
+        }
+      ],
+      "DOPPEL": [
+        {
+          "code": "DOP65C",
+          "brand": "DOPPEL",
+          "designation": "CASIER DOPPEL MUNICH 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "BA_65",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6503.4,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 782.85,
+              "taux_marge": "11.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7200.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 924.3,
+              "taux_marge": "12.8%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 7800
+            }
+          }
+        },
+        {
+          "code": "DOL65C",
+          "brand": "DOPPEL",
+          "designation": "CASIER DOPPEL LAGER 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "BA_65",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 10090.49,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 995.76,
+              "taux_marge": "9.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 11000.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 1324.3,
+              "taux_marge": "12.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 1000,
+              "prix_casier": 12000
+            }
+          }
+        }
+      ],
+      "CASTLE MILK STOUT": [
+        {
+          "code": "CMS50C",
+          "brand": "CASTLE MILK STOUT",
+          "designation": "CASIER CASTLE MILK STOUT 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BA_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6330.33,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 880.92,
+              "taux_marge": "12.8%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7125.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 999.3,
+              "taux_marge": "14.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 7800
+            }
+          }
+        }
+      ],
+      "HEINEKEN": [
+        {
+          "code": "HEI33V",
+          "brand": "HEINEKEN",
+          "designation": "CARTON HEINEKEN BOUTEILLES 33",
+          "format": "33 CL",
+          "unit": "V24",
+          "packaging": "Verre Perdu",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 17184.81,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 715.19,
+              "taux_marge": "4.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 17900.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 1300.0,
+              "taux_marge": "7.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 800,
+              "prix_casier": 19200
+            }
+          }
+        },
+        {
+          "code": "HEI50B",
+          "brand": "HEINEKEN",
+          "designation": "CARTON HEINEKEN BOITES 50 CL",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 20209.96,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 790.04,
+              "taux_marge": "3.9%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 21000.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 1800.0,
+              "taux_marge": "8.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 950,
+              "prix_casier": 22800
+            }
+          }
+        }
+      ]
+    }
+  },
+  "alcools-mix": {
+    "products": [
+      {
+        "code": "BWC50C",
+        "brand": "BOOSTER WHISKY COLA",
+        "designation": "CASIER BOOSTER WHISKY COLA 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6323.66,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 762.59,
+            "taux_marge": "11.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7000.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 1124.3,
+            "taux_marge": "16.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 7800
+          }
+        }
+      },
+      {
+        "code": "BWC50B",
+        "brand": "BOOSTER WHISKY COLA",
+        "designation": "CARTON BOOSTER WHISKY COLA BOITES 50 CL",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 16102.06,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 1297.94,
+            "taux_marge": "8.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 17400.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "3.4%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 750,
+            "prix_casier": 18000
+          }
+        }
+      },
+      {
+        "code": "BWC65C",
+        "brand": "BOOSTER WHISKY COLA",
+        "designation": "CASIER BOOSTER WHISKY COLA 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "BB_65",
+        "consigne": 3600,
+        "market": "CENTRE",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8958.47,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 827.78,
+            "taux_marge": "8.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 9700.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 1424.3,
+            "taux_marge": "14.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 900,
+            "prix_casier": 10800
+          }
+        }
+      },
+      {
+        "code": "BGT50C",
+        "brand": "BOOSTER GIN TONIC",
+        "designation": "CASIER BOOSTER GIN TONIC 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 6323.66,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 762.59,
+            "taux_marge": "11.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 7000.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 1124.3,
+            "taux_marge": "16.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 7800
+          }
+        }
+      },
+      {
+        "code": "BGT65C",
+        "brand": "BOOSTER GIN TONIC",
+        "designation": "CASIER BOOSTER GIN TONIC 65 CL",
+        "format": "65 CL",
+        "unit": "C12",
+        "packaging": "BB_65",
+        "consigne": 3600,
+        "market": "CENTRE",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8958.47,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 827.78,
+            "taux_marge": "8.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 9700.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 1424.3,
+            "taux_marge": "14.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 900,
+            "prix_casier": 10800
+          }
+        }
+      },
+      {
+        "code": "SMP50CP",
+        "brand": "SMIRNORFF ICE PINEAPLE",
+        "designation": "CASIER SMIRNORFF ICE PINEAPLE 50 CL PROMO",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "CENTRE",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8948.96,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 827.55,
+            "taux_marge": "8.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 9690.26,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 2034.04,
+            "taux_marge": "21.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 950,
+            "prix_casier": 11400
+          }
+        }
+      },
+      {
+        "code": "SMP50BP",
+        "brand": "SMIRNORFF ICE PINEAPLE",
+        "designation": "CARTON SMIRNORFF ICE PINEAPLE 50 CL PROMO",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 23124.5,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 1215.5,
+            "taux_marge": "5.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 24340.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 2060.0,
+            "taux_marge": "8.5%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 1100,
+            "prix_casier": 26400
+          }
+        }
+      },
+      {
+        "code": "SMB50CP",
+        "brand": "SMIRNORFF ICE BLACK",
+        "designation": "CASIER SMIRNORFF ICE BLACK 50 CL PROMO",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "CENTRE",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 8948.96,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 827.55,
+            "taux_marge": "8.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 9690.26,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 2034.04,
+            "taux_marge": "21.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 950,
+            "prix_casier": 11400
+          }
+        }
+      },
+      {
+        "code": "SMB50BP",
+        "brand": "SMIRNORFF ICE BLACK",
+        "designation": "CARTON SMIRNORFF ICE BLACK  50 CL PROMO",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 23124.5,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 1215.5,
+            "taux_marge": "5.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 24340.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 2060.0,
+            "taux_marge": "8.5%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 1100,
+            "prix_casier": 26400
+          }
+        }
+      },
+      {
+        "code": "ORI50CP",
+        "brand": "ORIJIN",
+        "designation": "CASIER ORIJIN 50 CL PROMO",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "OUEST",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 5738.15,
+            "remise": 339.0,
+            "frais_chr": 528.45,
+            "marge": 748.1,
+            "taux_marge": "11.9%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 6400.0,
+            "ristourne": 324.3,
+            "frais_elv": 600.0,
+            "marge": 1124.3,
+            "taux_marge": "17.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 600,
+            "prix_casier": 7200
+          }
+        }
+      }
+    ],
+    "brands": {
+      "BOOSTER WHISKY COLA": [
+        {
+          "code": "BWC50C",
+          "brand": "BOOSTER WHISKY COLA",
+          "designation": "CASIER BOOSTER WHISKY COLA 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6323.66,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 762.59,
+              "taux_marge": "11.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7000.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 1124.3,
+              "taux_marge": "16.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 7800
+            }
+          }
+        },
+        {
+          "code": "BWC50B",
+          "brand": "BOOSTER WHISKY COLA",
+          "designation": "CARTON BOOSTER WHISKY COLA BOITES 50 CL",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 16102.06,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 1297.94,
+              "taux_marge": "8.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 17400.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "3.4%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 750,
+              "prix_casier": 18000
+            }
+          }
+        },
+        {
+          "code": "BWC65C",
+          "brand": "BOOSTER WHISKY COLA",
+          "designation": "CASIER BOOSTER WHISKY COLA 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "BB_65",
+          "consigne": 3600,
+          "market": "CENTRE",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8958.47,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 827.78,
+              "taux_marge": "8.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 9700.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 1424.3,
+              "taux_marge": "14.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 900,
+              "prix_casier": 10800
+            }
+          }
+        }
+      ],
+      "BOOSTER GIN TONIC": [
+        {
+          "code": "BGT50C",
+          "brand": "BOOSTER GIN TONIC",
+          "designation": "CASIER BOOSTER GIN TONIC 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 6323.66,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 762.59,
+              "taux_marge": "11.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 7000.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 1124.3,
+              "taux_marge": "16.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 7800
+            }
+          }
+        },
+        {
+          "code": "BGT65C",
+          "brand": "BOOSTER GIN TONIC",
+          "designation": "CASIER BOOSTER GIN TONIC 65 CL",
+          "format": "65 CL",
+          "unit": "C12",
+          "packaging": "BB_65",
+          "consigne": 3600,
+          "market": "CENTRE",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8958.47,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 827.78,
+              "taux_marge": "8.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 9700.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 1424.3,
+              "taux_marge": "14.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 900,
+              "prix_casier": 10800
+            }
+          }
+        }
+      ],
+      "SMIRNORFF ICE PINEAPLE": [
+        {
+          "code": "SMP50CP",
+          "brand": "SMIRNORFF ICE PINEAPLE",
+          "designation": "CASIER SMIRNORFF ICE PINEAPLE 50 CL PROMO",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "CENTRE",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8948.96,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 827.55,
+              "taux_marge": "8.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 9690.26,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 2034.04,
+              "taux_marge": "21.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 950,
+              "prix_casier": 11400
+            }
+          }
+        },
+        {
+          "code": "SMP50BP",
+          "brand": "SMIRNORFF ICE PINEAPLE",
+          "designation": "CARTON SMIRNORFF ICE PINEAPLE 50 CL PROMO",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 23124.5,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 1215.5,
+              "taux_marge": "5.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 24340.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 2060.0,
+              "taux_marge": "8.5%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 1100,
+              "prix_casier": 26400
+            }
+          }
+        }
+      ],
+      "SMIRNORFF ICE BLACK": [
+        {
+          "code": "SMB50CP",
+          "brand": "SMIRNORFF ICE BLACK",
+          "designation": "CASIER SMIRNORFF ICE BLACK 50 CL PROMO",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "CENTRE",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 8948.96,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 827.55,
+              "taux_marge": "8.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 9690.26,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 2034.04,
+              "taux_marge": "21.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 950,
+              "prix_casier": 11400
+            }
+          }
+        },
+        {
+          "code": "SMB50BP",
+          "brand": "SMIRNORFF ICE BLACK",
+          "designation": "CARTON SMIRNORFF ICE BLACK  50 CL PROMO",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 23124.5,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 1215.5,
+              "taux_marge": "5.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 24340.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 2060.0,
+              "taux_marge": "8.5%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 1100,
+              "prix_casier": 26400
+            }
+          }
+        }
+      ],
+      "ORIJIN": [
+        {
+          "code": "ORI50CP",
+          "brand": "ORIJIN",
+          "designation": "CASIER ORIJIN 50 CL PROMO",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "OUEST",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 5738.15,
+              "remise": 339.0,
+              "frais_chr": 528.45,
+              "marge": 748.1,
+              "taux_marge": "11.9%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 6400.0,
+              "ristourne": 324.3,
+              "frais_elv": 600.0,
+              "marge": 1124.3,
+              "taux_marge": "17.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 600,
+              "prix_casier": 7200
+            }
+          }
+        }
+      ]
+    }
+  },
+  "boissons-gazeuses": {
+    "products": [
+      {
+        "code": "TPA50C",
+        "brand": "TOP ANANAS",
+        "designation": "CASIER TOP ANANAS 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2530.92,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 489.08,
+            "taux_marge": "19.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3100.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "22.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPA10P",
+        "brand": "TOP ANANAS",
+        "designation": "PACK TOP ANANAS PET 100 CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2338.29,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 261.71,
+            "taux_marge": "11.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 2600.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 500.0,
+            "taux_marge": "19.2%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 3000
+          }
+        }
+      },
+      {
+        "code": "TPA35P",
+        "brand": "TOP ANANAS",
+        "designation": "PACK 12 TOP ANANAS PET 35 CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2751.75,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 208.25,
+            "taux_marge": "7.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3000.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "23.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPP50C",
+        "brand": "TOP PAMPLEMOUSSE",
+        "designation": "CASIER TOP PAMPLEMOUSSE 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2530.92,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 489.08,
+            "taux_marge": "19.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3100.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "22.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPP10P",
+        "brand": "TOP PAMPLEMOUSSE",
+        "designation": "PACK TOP PAMPLEMOUSSE PET 100 CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2338.29,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 261.71,
+            "taux_marge": "11.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 2600.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 500.0,
+            "taux_marge": "19.2%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 3000
+          }
+        }
+      },
+      {
+        "code": "TPP35P",
+        "brand": "TOP PAMPLEMOUSSE",
+        "designation": "PACK 12 TOP PAMPLEMOUSSE PET35CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2751.75,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 208.25,
+            "taux_marge": "7.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3000.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "23.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPG50C",
+        "brand": "TOP GRENADINE",
+        "designation": "CASIER TOP GRENADINE 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2530.92,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 489.08,
+            "taux_marge": "19.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3100.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "22.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPG10P",
+        "brand": "TOP GRENADINE",
+        "designation": "PACK TOP GRENADINE PET 100 CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2338.29,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 261.71,
+            "taux_marge": "11.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 2600.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 500.0,
+            "taux_marge": "19.2%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 3000
+          }
+        }
+      },
+      {
+        "code": "TPG35P",
+        "brand": "TOP GRENADINE",
+        "designation": "PACK 6 TOP GRENADINE PET 35 CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2751.75,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 208.25,
+            "taux_marge": "7.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3000.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "23.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPO50C",
+        "brand": "TOP ORANGE",
+        "designation": "CASIER TOP ORANGE 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2530.92,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 489.08,
+            "taux_marge": "19.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3100.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "22.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPO10P",
+        "brand": "TOP ORANGE",
+        "designation": "PACK TOP ORANGE PET 100 CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2751.75,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 248.25,
+            "taux_marge": "9.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3000.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "23.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPO35P",
+        "brand": "TOP ORANGE",
+        "designation": "PACK 6 TOP ORANGE PET 35 CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2751.75,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 208.25,
+            "taux_marge": "7.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3000.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "23.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "DJC60C",
+        "brand": "D'JINO COCKTAIL",
+        "designation": "CASIER D'JINO COCKTAIL 60 CL",
+        "format": "60 CL",
+        "unit": "C12",
+        "packaging": "MB_60",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4211.15,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 608.85,
+            "taux_marge": "14.5%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4900.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 1300.0,
+            "taux_marge": "26.5%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "DJC10P",
+        "brand": "D'JINO COCKTAIL",
+        "designation": "PACK 6 D'JINO COCKTAIL FRUITS PET 100CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3164.0,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 351.0,
+            "taux_marge": "11.1%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3515.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 485.0,
+            "taux_marge": "13.8%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 650,
+            "prix_casier": 3900
+          }
+        }
+      },
+      {
+        "code": "DJC35P",
+        "brand": "D'JINO COCKTAIL",
+        "designation": "PACK 12 D'JINO COCKTAIL FRUITS",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3326.4,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 233.6,
+            "taux_marge": "7.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3600.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "19.4%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 350,
+            "prix_casier": 4200
+          }
+        }
+      },
+      {
+        "code": "ORG60C",
+        "brand": "ORANGINA",
+        "designation": "CASIER ORANGINA 60 CL",
+        "format": "60 CL",
+        "unit": "C12",
+        "packaging": "MB_60",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4211.15,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 608.85,
+            "taux_marge": "14.5%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4900.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 1300.0,
+            "taux_marge": "26.5%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "ORG10P",
+        "brand": "ORANGINA",
+        "designation": "PACK 6 ORANGINA PET 100CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3765.87,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 349.13,
+            "taux_marge": "9.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4115.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 5585.0,
+            "taux_marge": "135.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 9600
+          }
+        }
+      },
+      {
+        "code": "ORG35P",
+        "brand": "ORANGINA",
+        "designation": "PACK 12 ORANGINA PET 35CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3901.3,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 258.7,
+            "taux_marge": "6.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4200.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "16.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 4800
+          }
+        }
+      },
+      {
+        "code": "VIM60C",
+        "brand": "VIMTO",
+        "designation": "CASIER VIMTO 60 CL",
+        "format": "60 CL",
+        "unit": "C12",
+        "packaging": "MB_60",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4211.15,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 608.85,
+            "taux_marge": "14.5%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4900.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 1300.0,
+            "taux_marge": "26.5%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "VIM10P",
+        "brand": "VIMTO",
+        "designation": "PACK 6 VIMTO PET 100CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3765.87,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 314.13,
+            "taux_marge": "8.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4080.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 520.0,
+            "taux_marge": "12.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 750,
+            "prix_casier": 4500
+          }
+        }
+      },
+      {
+        "code": "VIM35P",
+        "brand": "VIMTO",
+        "designation": "PACK 12 VIMTO PET 35CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3901.05,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 258.95,
+            "taux_marge": "6.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4200.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "16.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 4800
+          }
+        }
+      },
+      {
+        "code": "WCO50C",
+        "brand": "WORLD COLA",
+        "designation": "CASIER WORLD COLA 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2530.48,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 489.52,
+            "taux_marge": "19.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3100.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "22.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "WCO10P",
+        "brand": "WORLD COLA",
+        "designation": "PACK WORLD COLA PET 100 CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2876.68,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 338.32,
+            "taux_marge": "11.8%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3215.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 485.0,
+            "taux_marge": "15.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 600,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "WCO35P",
+        "brand": "WORLD COLA",
+        "designation": "PACK 12 WORLD COLA PET 35 CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2751.75,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 208.25,
+            "taux_marge": "7.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3000.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "23.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "YOU50C",
+        "brand": "YOUZOU",
+        "designation": "CASIER YOUZOU 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2530.48,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 489.52,
+            "taux_marge": "19.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3100.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "22.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "YOU10P",
+        "brand": "YOUZOU",
+        "designation": "PACK YOUZOU PET 100 CL",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2876.68,
+            "remise": 100.0,
+            "frais_chr": null,
+            "marge": 338.32,
+            "taux_marge": "11.8%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3215.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 485.0,
+            "taux_marge": "15.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 600,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "YOU35P",
+        "brand": "YOUZOU",
+        "designation": "PACK 12 YOUZOU PET 35 CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3239.68,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 220.32,
+            "taux_marge": "6.8%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3500.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 200.0,
+            "taux_marge": "5.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "SOD60C",
+        "brand": "TOP SODA",
+        "designation": "CASIER SODA WATER 60 CL",
+        "format": "60 CL",
+        "unit": "C12",
+        "packaging": "MB_60",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2160.19,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 359.81,
+            "taux_marge": "16.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 2600.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "23.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 250,
+            "prix_casier": 3000
+          }
+        }
+      },
+      {
+        "code": "SOD35P",
+        "brand": "TOP SODA",
+        "designation": "PACK 12 SODA WATER 35 CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2242.84,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 217.16,
+            "taux_marge": "9.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 2500.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 600.0,
+            "taux_marge": "24.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 250,
+            "prix_casier": 3000
+          }
+        }
+      },
+      {
+        "code": "TPT50C",
+        "brand": "TOP TONIC",
+        "designation": "CASIER TOP TONIC 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2530.48,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 489.52,
+            "taux_marge": "19.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3100.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "22.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "TPT35P",
+        "brand": "TOP TONIC",
+        "designation": "PACK 12 TOPTONIC 35 CL",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 2751.57,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 208.43,
+            "taux_marge": "7.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 3000.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 700.0,
+            "taux_marge": "23.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 3600
+          }
+        }
+      },
+      {
+        "code": "XXL50C",
+        "brand": "XXL",
+        "designation": "CASIER XXL 50 CL",
+        "format": "50 CL",
+        "unit": "C12",
+        "packaging": "BB_50",
+        "consigne": 3600,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 4211.15,
+            "remise": 120.0,
+            "frais_chr": null,
+            "marge": 608.85,
+            "taux_marge": "14.5%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4900.0,
+            "ristourne": 200.0,
+            "frais_elv": null,
+            "marge": 1300.0,
+            "taux_marge": "26.5%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 500,
+            "prix_casier": 6000
+          }
+        }
+      },
+      {
+        "code": "XXL50BP",
+        "brand": "XXL",
+        "designation": "CARTON XXL BOITES 50 CL",
+        "format": "50 CL",
+        "unit": "B24",
+        "packaging": "BOÎTE 50",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 12296.31,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 1003.69,
+            "taux_marge": "8.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 13300.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 1100.0,
+            "taux_marge": "8.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 600,
+            "prix_casier": 14400
+          }
+        }
+      },
+      {
+        "code": "XXL35P",
+        "brand": "XXL",
+        "designation": "PACK 12 XXL  PET 35 CL ",
+        "format": "35 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "TOUS",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 3644.94,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 385.06,
+            "taux_marge": "10.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 4070.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 830.0,
+            "taux_marge": "20.4%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 400,
+            "prix_casier": 4800
+          }
+        }
+      },
+      {
+        "code": "XXL05P",
+        "brand": "XXL",
+        "designation": "PACK 06 XXL  PET 50 CL ",
+        "format": "50 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "NORD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 5980.29,
+            "remise": 60.0,
+            "frais_chr": null,
+            "marge": 489.71,
+            "taux_marge": "8.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 6510.0,
+            "ristourne": 100.0,
+            "frais_elv": null,
+            "marge": 790.0,
+            "taux_marge": "12.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 600,
+            "prix_casier": 7200
+          }
+        }
+      }
+    ],
+    "brands": {
+      "TOP ANANAS": [
+        {
+          "code": "TPA50C",
+          "brand": "TOP ANANAS",
+          "designation": "CASIER TOP ANANAS 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2530.92,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 489.08,
+              "taux_marge": "19.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3100.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "22.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "TPA10P",
+          "brand": "TOP ANANAS",
+          "designation": "PACK TOP ANANAS PET 100 CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2338.29,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 261.71,
+              "taux_marge": "11.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 2600.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 500.0,
+              "taux_marge": "19.2%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 3000
+            }
+          }
+        },
+        {
+          "code": "TPA35P",
+          "brand": "TOP ANANAS",
+          "designation": "PACK 12 TOP ANANAS PET 35 CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2751.75,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 208.25,
+              "taux_marge": "7.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3000.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "23.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        }
+      ],
+      "TOP PAMPLEMOUSSE": [
+        {
+          "code": "TPP50C",
+          "brand": "TOP PAMPLEMOUSSE",
+          "designation": "CASIER TOP PAMPLEMOUSSE 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2530.92,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 489.08,
+              "taux_marge": "19.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3100.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "22.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "TPP10P",
+          "brand": "TOP PAMPLEMOUSSE",
+          "designation": "PACK TOP PAMPLEMOUSSE PET 100 CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2338.29,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 261.71,
+              "taux_marge": "11.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 2600.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 500.0,
+              "taux_marge": "19.2%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 3000
+            }
+          }
+        },
+        {
+          "code": "TPP35P",
+          "brand": "TOP PAMPLEMOUSSE",
+          "designation": "PACK 12 TOP PAMPLEMOUSSE PET35CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2751.75,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 208.25,
+              "taux_marge": "7.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3000.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "23.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        }
+      ],
+      "TOP GRENADINE": [
+        {
+          "code": "TPG50C",
+          "brand": "TOP GRENADINE",
+          "designation": "CASIER TOP GRENADINE 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2530.92,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 489.08,
+              "taux_marge": "19.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3100.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "22.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "TPG10P",
+          "brand": "TOP GRENADINE",
+          "designation": "PACK TOP GRENADINE PET 100 CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2338.29,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 261.71,
+              "taux_marge": "11.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 2600.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 500.0,
+              "taux_marge": "19.2%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 3000
+            }
+          }
+        },
+        {
+          "code": "TPG35P",
+          "brand": "TOP GRENADINE",
+          "designation": "PACK 6 TOP GRENADINE PET 35 CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2751.75,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 208.25,
+              "taux_marge": "7.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3000.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "23.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        }
+      ],
+      "TOP ORANGE": [
+        {
+          "code": "TPO50C",
+          "brand": "TOP ORANGE",
+          "designation": "CASIER TOP ORANGE 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2530.92,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 489.08,
+              "taux_marge": "19.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3100.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "22.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "TPO10P",
+          "brand": "TOP ORANGE",
+          "designation": "PACK TOP ORANGE PET 100 CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2751.75,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 248.25,
+              "taux_marge": "9.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3000.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "23.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "TPO35P",
+          "brand": "TOP ORANGE",
+          "designation": "PACK 6 TOP ORANGE PET 35 CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2751.75,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 208.25,
+              "taux_marge": "7.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3000.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "23.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        }
+      ],
+      "D'JINO COCKTAIL": [
+        {
+          "code": "DJC60C",
+          "brand": "D'JINO COCKTAIL",
+          "designation": "CASIER D'JINO COCKTAIL 60 CL",
+          "format": "60 CL",
+          "unit": "C12",
+          "packaging": "MB_60",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4211.15,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 608.85,
+              "taux_marge": "14.5%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4900.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 1300.0,
+              "taux_marge": "26.5%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "DJC10P",
+          "brand": "D'JINO COCKTAIL",
+          "designation": "PACK 6 D'JINO COCKTAIL FRUITS PET 100CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3164.0,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 351.0,
+              "taux_marge": "11.1%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3515.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 485.0,
+              "taux_marge": "13.8%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 650,
+              "prix_casier": 3900
+            }
+          }
+        },
+        {
+          "code": "DJC35P",
+          "brand": "D'JINO COCKTAIL",
+          "designation": "PACK 12 D'JINO COCKTAIL FRUITS",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3326.4,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 233.6,
+              "taux_marge": "7.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3600.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "19.4%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 350,
+              "prix_casier": 4200
+            }
+          }
+        }
+      ],
+      "ORANGINA": [
+        {
+          "code": "ORG60C",
+          "brand": "ORANGINA",
+          "designation": "CASIER ORANGINA 60 CL",
+          "format": "60 CL",
+          "unit": "C12",
+          "packaging": "MB_60",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4211.15,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 608.85,
+              "taux_marge": "14.5%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4900.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 1300.0,
+              "taux_marge": "26.5%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "ORG10P",
+          "brand": "ORANGINA",
+          "designation": "PACK 6 ORANGINA PET 100CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3765.87,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 349.13,
+              "taux_marge": "9.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4115.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 5585.0,
+              "taux_marge": "135.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 9600
+            }
+          }
+        },
+        {
+          "code": "ORG35P",
+          "brand": "ORANGINA",
+          "designation": "PACK 12 ORANGINA PET 35CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3901.3,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 258.7,
+              "taux_marge": "6.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4200.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "16.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 4800
+            }
+          }
+        }
+      ],
+      "VIMTO": [
+        {
+          "code": "VIM60C",
+          "brand": "VIMTO",
+          "designation": "CASIER VIMTO 60 CL",
+          "format": "60 CL",
+          "unit": "C12",
+          "packaging": "MB_60",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4211.15,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 608.85,
+              "taux_marge": "14.5%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4900.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 1300.0,
+              "taux_marge": "26.5%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "VIM10P",
+          "brand": "VIMTO",
+          "designation": "PACK 6 VIMTO PET 100CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3765.87,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 314.13,
+              "taux_marge": "8.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4080.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 520.0,
+              "taux_marge": "12.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 750,
+              "prix_casier": 4500
+            }
+          }
+        },
+        {
+          "code": "VIM35P",
+          "brand": "VIMTO",
+          "designation": "PACK 12 VIMTO PET 35CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3901.05,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 258.95,
+              "taux_marge": "6.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4200.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "16.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 4800
+            }
+          }
+        }
+      ],
+      "WORLD COLA": [
+        {
+          "code": "WCO50C",
+          "brand": "WORLD COLA",
+          "designation": "CASIER WORLD COLA 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2530.48,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 489.52,
+              "taux_marge": "19.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3100.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "22.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "WCO10P",
+          "brand": "WORLD COLA",
+          "designation": "PACK WORLD COLA PET 100 CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2876.68,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 338.32,
+              "taux_marge": "11.8%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3215.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 485.0,
+              "taux_marge": "15.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 600,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "WCO35P",
+          "brand": "WORLD COLA",
+          "designation": "PACK 12 WORLD COLA PET 35 CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2751.75,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 208.25,
+              "taux_marge": "7.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3000.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "23.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        }
+      ],
+      "YOUZOU": [
+        {
+          "code": "YOU50C",
+          "brand": "YOUZOU",
+          "designation": "CASIER YOUZOU 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2530.48,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 489.52,
+              "taux_marge": "19.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3100.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "22.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "YOU10P",
+          "brand": "YOUZOU",
+          "designation": "PACK YOUZOU PET 100 CL",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2876.68,
+              "remise": 100.0,
+              "frais_chr": null,
+              "marge": 338.32,
+              "taux_marge": "11.8%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3215.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 485.0,
+              "taux_marge": "15.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 600,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "YOU35P",
+          "brand": "YOUZOU",
+          "designation": "PACK 12 YOUZOU PET 35 CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3239.68,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 220.32,
+              "taux_marge": "6.8%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3500.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 200.0,
+              "taux_marge": "5.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        }
+      ],
+      "TOP SODA": [
+        {
+          "code": "SOD60C",
+          "brand": "TOP SODA",
+          "designation": "CASIER SODA WATER 60 CL",
+          "format": "60 CL",
+          "unit": "C12",
+          "packaging": "MB_60",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2160.19,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 359.81,
+              "taux_marge": "16.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 2600.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "23.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 250,
+              "prix_casier": 3000
+            }
+          }
+        },
+        {
+          "code": "SOD35P",
+          "brand": "TOP SODA",
+          "designation": "PACK 12 SODA WATER 35 CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2242.84,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 217.16,
+              "taux_marge": "9.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 2500.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 600.0,
+              "taux_marge": "24.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 250,
+              "prix_casier": 3000
+            }
+          }
+        }
+      ],
+      "TOP TONIC": [
+        {
+          "code": "TPT50C",
+          "brand": "TOP TONIC",
+          "designation": "CASIER TOP TONIC 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2530.48,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 489.52,
+              "taux_marge": "19.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3100.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "22.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        },
+        {
+          "code": "TPT35P",
+          "brand": "TOP TONIC",
+          "designation": "PACK 12 TOPTONIC 35 CL",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 2751.57,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 208.43,
+              "taux_marge": "7.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 3000.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 700.0,
+              "taux_marge": "23.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 3600
+            }
+          }
+        }
+      ],
+      "XXL": [
+        {
+          "code": "XXL50C",
+          "brand": "XXL",
+          "designation": "CASIER XXL 50 CL",
+          "format": "50 CL",
+          "unit": "C12",
+          "packaging": "BB_50",
+          "consigne": 3600,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 4211.15,
+              "remise": 120.0,
+              "frais_chr": null,
+              "marge": 608.85,
+              "taux_marge": "14.5%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4900.0,
+              "ristourne": 200.0,
+              "frais_elv": null,
+              "marge": 1300.0,
+              "taux_marge": "26.5%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 500,
+              "prix_casier": 6000
+            }
+          }
+        },
+        {
+          "code": "XXL50BP",
+          "brand": "XXL",
+          "designation": "CARTON XXL BOITES 50 CL",
+          "format": "50 CL",
+          "unit": "B24",
+          "packaging": "BOÎTE 50",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 12296.31,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 1003.69,
+              "taux_marge": "8.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 13300.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 1100.0,
+              "taux_marge": "8.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 600,
+              "prix_casier": 14400
+            }
+          }
+        },
+        {
+          "code": "XXL35P",
+          "brand": "XXL",
+          "designation": "PACK 12 XXL  PET 35 CL ",
+          "format": "35 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "TOUS",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 3644.94,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 385.06,
+              "taux_marge": "10.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 4070.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 830.0,
+              "taux_marge": "20.4%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 400,
+              "prix_casier": 4800
+            }
+          }
+        },
+        {
+          "code": "XXL05P",
+          "brand": "XXL",
+          "designation": "PACK 06 XXL  PET 50 CL ",
+          "format": "50 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "NORD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 5980.29,
+              "remise": 60.0,
+              "frais_chr": null,
+              "marge": 489.71,
+              "taux_marge": "8.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 6510.0,
+              "ristourne": 100.0,
+              "frais_elv": null,
+              "marge": 790.0,
+              "taux_marge": "12.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 600,
+              "prix_casier": 7200
+            }
+          }
+        }
+      ]
+    }
+  },
+  "eaux": {
+    "products": [
+      {
+        "code": "VIT15P",
+        "brand": "VITALE",
+        "designation": "EAU VITALE 150 CL",
+        "format": "150 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1090.76,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 109.24,
+            "taux_marge": "10.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1200.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 200.0,
+            "taux_marge": "16.7%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 250,
+            "prix_casier": 1400
+          }
+        }
+      },
+      {
+        "code": "VIT10J",
+        "brand": "VITALE",
+        "designation": "BIDON EAU VITALE 10L ",
+        "format": "1000 CL",
+        "unit": "J10",
+        "packaging": "BIDON",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 830.05,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 119.94,
+            "taux_marge": "14.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 949.99,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 250.01,
+            "taux_marge": "26.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 1200,
+            "prix_casier": 1200
+          }
+        }
+      },
+      {
+        "code": "VIT05P",
+        "brand": "VITALE",
+        "designation": "PACK SOURCE VITALE 50 CL ",
+        "format": "50 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1383.78,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 116.22,
+            "taux_marge": "8.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1500.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 300.0,
+            "taux_marge": "20.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 150,
+            "prix_casier": 1800
+          }
+        }
+      },
+      {
+        "code": "TGI18P",
+        "brand": "TANGUI NATURELLE",
+        "designation": "PACK SOURCE TANGUI 180 CL",
+        "format": "180 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1394.94,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 140.06,
+            "taux_marge": "10.0%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1535.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 265.0,
+            "taux_marge": "17.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 1800
+          }
+        }
+      },
+      {
+        "code": "TGI15P",
+        "brand": "TANGUI NATURELLE",
+        "designation": "PACK SOURCE TANGUI 150 CL",
+        "format": "150 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1309.99,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 140.01,
+            "taux_marge": "10.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1450.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 250.0,
+            "taux_marge": "17.2%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 1700
+          }
+        }
+      },
+      {
+        "code": "TGI10P",
+        "brand": "TANGUI NATURELLE",
+        "designation": "PACK SOURCE TANGUI 100 CL ",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1062.23,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 87.77,
+            "taux_marge": "8.3%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1150.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 50.0,
+            "taux_marge": "4.3%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 200,
+            "prix_casier": 1200
+          }
+        }
+      },
+      {
+        "code": "TGI05P",
+        "brand": "TANGUI NATURELLE",
+        "designation": "PACK SOURCE TANGUI 50 CL ",
+        "format": "50 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 945.86,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 54.14,
+            "taux_marge": "5.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1000.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 100.0,
+            "taux_marge": "10.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 200,
+            "prix_casier": 1100
+          }
+        }
+      },
+      {
+        "code": "TGI33P",
+        "brand": "TANGUI NATURELLE",
+        "designation": "PACK SOURCE TANGUI 33 CL ",
+        "format": "33 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1043.44,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 56.56,
+            "taux_marge": "5.4%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1100.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 100.0,
+            "taux_marge": "9.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 100,
+            "prix_casier": 1200
+          }
+        }
+      },
+      {
+        "code": "TCI10P",
+        "brand": "TANGUI CITRON",
+        "designation": "PACK SOURCE TANGUI AROMATISEES 1.0L ",
+        "format": "100 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1615.84,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 91.16,
+            "taux_marge": "5.6%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1707.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 393.0,
+            "taux_marge": "23.0%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 350,
+            "prix_casier": 2100
+          }
+        }
+      },
+      {
+        "code": "AQB05P",
+        "brand": "AQUABELLE",
+        "designation": "PACK EAU AQUABELLE 50 CL",
+        "format": "50 CL",
+        "unit": "P12",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1305.58,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 244.42,
+            "taux_marge": "18.7%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1550.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 250.0,
+            "taux_marge": "16.1%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 150,
+            "prix_casier": 1800
+          }
+        }
+      },
+      {
+        "code": "AQB15PP",
+        "brand": "AQUABELLE",
+        "designation": "PACK EAU AQUABELLE PROMO 150 CL",
+        "format": "150 CL",
+        "unit": "P06",
+        "packaging": "PET",
+        "consigne": 0,
+        "market": "SUD",
+        "pricing": {
+          "marketing_to_distributor": {
+            "prix_achat": 1109.2,
+            "remise": null,
+            "frais_chr": null,
+            "marge": 290.8,
+            "taux_marge": "26.2%"
+          },
+          "distributor_to_retailer": {
+            "prix_achat": 1400.0,
+            "ristourne": null,
+            "frais_elv": null,
+            "marge": 400.0,
+            "taux_marge": "28.6%"
+          },
+          "consumer_price": {
+            "prix_unitaire": 300,
+            "prix_casier": 1800
+          }
+        }
+      }
+    ],
+    "brands": {
+      "VITALE": [
+        {
+          "code": "VIT15P",
+          "brand": "VITALE",
+          "designation": "EAU VITALE 150 CL",
+          "format": "150 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1090.76,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 109.24,
+              "taux_marge": "10.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1200.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 200.0,
+              "taux_marge": "16.7%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 250,
+              "prix_casier": 1400
+            }
+          }
+        },
+        {
+          "code": "VIT10J",
+          "brand": "VITALE",
+          "designation": "BIDON EAU VITALE 10L ",
+          "format": "1000 CL",
+          "unit": "J10",
+          "packaging": "BIDON",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 830.05,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 119.94,
+              "taux_marge": "14.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 949.99,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 250.01,
+              "taux_marge": "26.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 1200,
+              "prix_casier": 1200
+            }
+          }
+        },
+        {
+          "code": "VIT05P",
+          "brand": "VITALE",
+          "designation": "PACK SOURCE VITALE 50 CL ",
+          "format": "50 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1383.78,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 116.22,
+              "taux_marge": "8.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1500.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 300.0,
+              "taux_marge": "20.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 150,
+              "prix_casier": 1800
+            }
+          }
+        }
+      ],
+      "TANGUI NATURELLE": [
+        {
+          "code": "TGI18P",
+          "brand": "TANGUI NATURELLE",
+          "designation": "PACK SOURCE TANGUI 180 CL",
+          "format": "180 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1394.94,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 140.06,
+              "taux_marge": "10.0%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1535.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 265.0,
+              "taux_marge": "17.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 1800
+            }
+          }
+        },
+        {
+          "code": "TGI15P",
+          "brand": "TANGUI NATURELLE",
+          "designation": "PACK SOURCE TANGUI 150 CL",
+          "format": "150 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1309.99,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 140.01,
+              "taux_marge": "10.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1450.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 250.0,
+              "taux_marge": "17.2%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 1700
+            }
+          }
+        },
+        {
+          "code": "TGI10P",
+          "brand": "TANGUI NATURELLE",
+          "designation": "PACK SOURCE TANGUI 100 CL ",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1062.23,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 87.77,
+              "taux_marge": "8.3%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1150.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 50.0,
+              "taux_marge": "4.3%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 200,
+              "prix_casier": 1200
+            }
+          }
+        },
+        {
+          "code": "TGI05P",
+          "brand": "TANGUI NATURELLE",
+          "designation": "PACK SOURCE TANGUI 50 CL ",
+          "format": "50 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 945.86,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 54.14,
+              "taux_marge": "5.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1000.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 100.0,
+              "taux_marge": "10.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 200,
+              "prix_casier": 1100
+            }
+          }
+        },
+        {
+          "code": "TGI33P",
+          "brand": "TANGUI NATURELLE",
+          "designation": "PACK SOURCE TANGUI 33 CL ",
+          "format": "33 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1043.44,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 56.56,
+              "taux_marge": "5.4%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1100.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 100.0,
+              "taux_marge": "9.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 100,
+              "prix_casier": 1200
+            }
+          }
+        }
+      ],
+      "TANGUI CITRON": [
+        {
+          "code": "TCI10P",
+          "brand": "TANGUI CITRON",
+          "designation": "PACK SOURCE TANGUI AROMATISEES 1.0L ",
+          "format": "100 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1615.84,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 91.16,
+              "taux_marge": "5.6%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1707.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 393.0,
+              "taux_marge": "23.0%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 350,
+              "prix_casier": 2100
+            }
+          }
+        }
+      ],
+      "AQUABELLE": [
+        {
+          "code": "AQB05P",
+          "brand": "AQUABELLE",
+          "designation": "PACK EAU AQUABELLE 50 CL",
+          "format": "50 CL",
+          "unit": "P12",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1305.58,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 244.42,
+              "taux_marge": "18.7%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1550.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 250.0,
+              "taux_marge": "16.1%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 150,
+              "prix_casier": 1800
+            }
+          }
+        },
+        {
+          "code": "AQB15PP",
+          "brand": "AQUABELLE",
+          "designation": "PACK EAU AQUABELLE PROMO 150 CL",
+          "format": "150 CL",
+          "unit": "P06",
+          "packaging": "PET",
+          "consigne": 0,
+          "market": "SUD",
+          "pricing": {
+            "marketing_to_distributor": {
+              "prix_achat": 1109.2,
+              "remise": null,
+              "frais_chr": null,
+              "marge": 290.8,
+              "taux_marge": "26.2%"
+            },
+            "distributor_to_retailer": {
+              "prix_achat": 1400.0,
+              "ristourne": null,
+              "frais_elv": null,
+              "marge": 400.0,
+              "taux_marge": "28.6%"
+            },
+            "consumer_price": {
+              "prix_unitaire": 300,
+              "prix_casier": 1800
+            }
+          }
+        }
+      ]
+    }
+  }
+}

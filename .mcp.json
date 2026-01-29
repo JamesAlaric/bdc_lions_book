@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "agentvibes": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=agentvibes",
+        "agentvibes-mcp-server"
+      ]
+    },
+    "next-devtools": {
+      "command": "npx",
+      "args": ["-y", "next-devtools-mcp@latest"]
+    },
+    "tailwind-mcp-server": {
+      "command": "npx",
+      "args": ["tailwind-mcp-server"]
+    }
+    
+  }
+}

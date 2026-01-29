@@ -1,0 +1,345 @@
+# Lions' Book - Catalogue Eaux
+# Segment : Eaux
+# Date : 2026-01-26
+# Source : ELEMENTS BOOK DCM.xlsx
+
+segment:
+  id: "eaux"
+  name: "Eaux"
+  icon: "drink"
+  order: 4
+  description: "Portefeuille Eaux Boissons du Cameroun"
+
+brands:
+  - id: "aquabelle"
+    name: "AQUABELLE"
+    logo_url: "/assets/brands/aquabelle-logo.png"
+    
+    products:
+      - code: "AQB05P"
+        designation: "PACK EAU AQUABELLE 50 CL"
+        format: "50 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1305.58
+            remise: null
+            marge: 244.42
+            taux_marge: "18.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 1550.0
+            ristourne: null
+            marge: 250.0
+            taux_marge: "16.1%"
+          
+          consumer_price:
+            prix_unitaire: 150
+            prix_casier: 1800
+        
+        images:
+          packshot: "/assets/packshots/aqb05p-hd.png"
+      
+      - code: "AQB15PP"
+        designation: "PACK EAU AQUABELLE PROMO 150 CL"
+        format: "150 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1109.2
+            remise: null
+            marge: 290.8
+            taux_marge: "26.2%"
+          
+          distributor_to_retailer:
+            prix_achat: 1400.0
+            ristourne: null
+            marge: 400.0
+            taux_marge: "28.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 1800
+        
+        images:
+          packshot: "/assets/packshots/aqb15pp-hd.png"
+      
+
+  - id: "tangui-citron"
+    name: "TANGUI CITRON"
+    logo_url: "/assets/brands/tangui-citron-logo.png"
+    
+    products:
+      - code: "TCI10P"
+        designation: "PACK SOURCE TANGUI AROMATISEES 1.0L "
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1615.84
+            remise: null
+            marge: 91.16
+            taux_marge: "5.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 1707.0
+            ristourne: null
+            marge: 393.0
+            taux_marge: "23.0%"
+          
+          consumer_price:
+            prix_unitaire: 350
+            prix_casier: 2100
+        
+        images:
+          packshot: "/assets/packshots/tci10p-hd.png"
+      
+
+  - id: "tangui-naturelle"
+    name: "TANGUI NATURELLE"
+    logo_url: "/assets/brands/tangui-naturelle-logo.png"
+    
+    products:
+      - code: "TGI18P"
+        designation: "PACK SOURCE TANGUI 180 CL"
+        format: "180 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1394.94
+            remise: null
+            marge: 140.06
+            taux_marge: "10.0%"
+          
+          distributor_to_retailer:
+            prix_achat: 1535.0
+            ristourne: null
+            marge: 265.0
+            taux_marge: "17.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 1800
+        
+        images:
+          packshot: "/assets/packshots/tgi18p-hd.png"
+      
+      - code: "TGI15P"
+        designation: "PACK SOURCE TANGUI 150 CL"
+        format: "150 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1309.99
+            remise: null
+            marge: 140.01
+            taux_marge: "10.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 1450.0
+            ristourne: null
+            marge: 250.0
+            taux_marge: "17.2%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 1700
+        
+        images:
+          packshot: "/assets/packshots/tgi15p-hd.png"
+      
+      - code: "TGI10P"
+        designation: "PACK SOURCE TANGUI 100 CL "
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1062.23
+            remise: null
+            marge: 87.77
+            taux_marge: "8.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 1150.0
+            ristourne: null
+            marge: 50.0
+            taux_marge: "4.3%"
+          
+          consumer_price:
+            prix_unitaire: 200
+            prix_casier: 1200
+        
+        images:
+          packshot: "/assets/packshots/tgi10p-hd.png"
+      
+      - code: "TGI05P"
+        designation: "PACK SOURCE TANGUI 50 CL "
+        format: "50 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 945.86
+            remise: null
+            marge: 54.14
+            taux_marge: "5.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 1000.0
+            ristourne: null
+            marge: 100.0
+            taux_marge: "10.0%"
+          
+          consumer_price:
+            prix_unitaire: 200
+            prix_casier: 1100
+        
+        images:
+          packshot: "/assets/packshots/tgi05p-hd.png"
+      
+      - code: "TGI33P"
+        designation: "PACK SOURCE TANGUI 33 CL "
+        format: "33 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1043.44
+            remise: null
+            marge: 56.56
+            taux_marge: "5.4%"
+          
+          distributor_to_retailer:
+            prix_achat: 1100.0
+            ristourne: null
+            marge: 100.0
+            taux_marge: "9.1%"
+          
+          consumer_price:
+            prix_unitaire: 100
+            prix_casier: 1200
+        
+        images:
+          packshot: "/assets/packshots/tgi33p-hd.png"
+      
+
+  - id: "vitale"
+    name: "VITALE"
+    logo_url: "/assets/brands/vitale-logo.png"
+    
+    products:
+      - code: "VIT15P"
+        designation: "EAU VITALE 150 CL"
+        format: "150 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1090.76
+            remise: null
+            marge: 109.24
+            taux_marge: "10.0%"
+          
+          distributor_to_retailer:
+            prix_achat: 1200.0
+            ristourne: null
+            marge: 200.0
+            taux_marge: "16.7%"
+          
+          consumer_price:
+            prix_unitaire: 250
+            prix_casier: 1400
+        
+        images:
+          packshot: "/assets/packshots/vit15p-hd.png"
+      
+      - code: "VIT10J"
+        designation: "BIDON EAU VITALE 10L "
+        format: "1000 CL"
+        packaging_type: "BIDON"
+        unit: "J10"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 830.05
+            remise: null
+            marge: 119.94
+            taux_marge: "14.4%"
+          
+          distributor_to_retailer:
+            prix_achat: 949.99
+            ristourne: null
+            marge: 250.01
+            taux_marge: "26.3%"
+          
+          consumer_price:
+            prix_unitaire: 1200
+            prix_casier: 1200
+        
+        images:
+          packshot: "/assets/packshots/vit10j-hd.png"
+      
+      - code: "VIT05P"
+        designation: "PACK SOURCE VITALE 50 CL "
+        format: "50 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 1383.78
+            remise: null
+            marge: 116.22
+            taux_marge: "8.4%"
+          
+          distributor_to_retailer:
+            prix_achat: 1500.0
+            ristourne: null
+            marge: 300.0
+            taux_marge: "20.0%"
+          
+          consumer_price:
+            prix_unitaire: 150
+            prix_casier: 1800
+        
+        images:
+          packshot: "/assets/packshots/vit05p-hd.png"
+      
+

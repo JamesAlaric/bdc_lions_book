@@ -1,0 +1,323 @@
+# Lions' Book - Catalogue Alcools Mix
+# Segment : Alcools Mix
+# Date : 2026-01-26
+# Source : ELEMENTS BOOK DCM.xlsx
+
+segment:
+  id: "alcools-mix"
+  name: "Alcools Mix"
+  icon: "drink"
+  order: 2
+  description: "Portefeuille Alcools Mix Boissons du Cameroun"
+
+brands:
+  - id: "booster-gin-tonic"
+    name: "BOOSTER GIN TONIC"
+    logo_url: "/assets/brands/booster-gin-tonic-logo.png"
+    
+    products:
+      - code: "BGT50C"
+        designation: "CASIER BOOSTER GIN TONIC 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 6323.66
+            remise: 339.0
+            marge: 762.59
+            taux_marge: "11.1%"
+          
+          distributor_to_retailer:
+            prix_achat: 7000.0
+            ristourne: 324.3
+            marge: 1124.3
+            taux_marge: "16.1%"
+          
+          consumer_price:
+            prix_unitaire: 650
+            prix_casier: 7800
+        
+        images:
+          packshot: "/assets/packshots/bgt50c-hd.png"
+      
+      - code: "BGT65C"
+        designation: "CASIER BOOSTER GIN TONIC 65 CL"
+        format: "65 CL"
+        packaging_type: "BB_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["CENTRE"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8958.47
+            remise: 339.0
+            marge: 827.78
+            taux_marge: "8.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 9700.0
+            ristourne: 324.3
+            marge: 1424.3
+            taux_marge: "14.7%"
+          
+          consumer_price:
+            prix_unitaire: 900
+            prix_casier: 10800
+        
+        images:
+          packshot: "/assets/packshots/bgt65c-hd.png"
+      
+
+  - id: "booster-whisky-cola"
+    name: "BOOSTER WHISKY COLA"
+    logo_url: "/assets/brands/booster-whisky-cola-logo.png"
+    
+    products:
+      - code: "BWC50C"
+        designation: "CASIER BOOSTER WHISKY COLA 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 6323.66
+            remise: 339.0
+            marge: 762.59
+            taux_marge: "11.1%"
+          
+          distributor_to_retailer:
+            prix_achat: 7000.0
+            ristourne: 324.3
+            marge: 1124.3
+            taux_marge: "16.1%"
+          
+          consumer_price:
+            prix_unitaire: 650
+            prix_casier: 7800
+        
+        images:
+          packshot: "/assets/packshots/bwc50c-hd.png"
+      
+      - code: "BWC50B"
+        designation: "CARTON BOOSTER WHISKY COLA BOITES 50 CL"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 16102.06
+            remise: null
+            marge: 1297.94
+            taux_marge: "8.1%"
+          
+          distributor_to_retailer:
+            prix_achat: 17400.0
+            ristourne: null
+            marge: 600.0
+            taux_marge: "3.4%"
+          
+          consumer_price:
+            prix_unitaire: 750
+            prix_casier: 18000
+        
+        images:
+          packshot: "/assets/packshots/bwc50b-hd.png"
+      
+      - code: "BWC65C"
+        designation: "CASIER BOOSTER WHISKY COLA 65 CL"
+        format: "65 CL"
+        packaging_type: "BB_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["CENTRE"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8958.47
+            remise: 339.0
+            marge: 827.78
+            taux_marge: "8.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 9700.0
+            ristourne: 324.3
+            marge: 1424.3
+            taux_marge: "14.7%"
+          
+          consumer_price:
+            prix_unitaire: 900
+            prix_casier: 10800
+        
+        images:
+          packshot: "/assets/packshots/bwc65c-hd.png"
+      
+
+  - id: "orijin"
+    name: "ORIJIN"
+    logo_url: "/assets/brands/orijin-logo.png"
+    
+    products:
+      - code: "ORI50CP"
+        designation: "CASIER ORIJIN 50 CL PROMO"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["OUEST"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 5738.15
+            remise: 339.0
+            marge: 748.1
+            taux_marge: "11.9%"
+          
+          distributor_to_retailer:
+            prix_achat: 6400.0
+            ristourne: 324.3
+            marge: 1124.3
+            taux_marge: "17.6%"
+          
+          consumer_price:
+            prix_unitaire: 600
+            prix_casier: 7200
+        
+        images:
+          packshot: "/assets/packshots/ori50cp-hd.png"
+      
+
+  - id: "smirnorff-ice-black"
+    name: "SMIRNORFF ICE BLACK"
+    logo_url: "/assets/brands/smirnorff-ice-black-logo.png"
+    
+    products:
+      - code: "SMB50CP"
+        designation: "CASIER SMIRNORFF ICE BLACK 50 CL PROMO"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["CENTRE"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8948.96
+            remise: 339.0
+            marge: 827.55
+            taux_marge: "8.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 9690.26
+            ristourne: 324.3
+            marge: 2034.04
+            taux_marge: "21.0%"
+          
+          consumer_price:
+            prix_unitaire: 950
+            prix_casier: 11400
+        
+        images:
+          packshot: "/assets/packshots/smb50cp-hd.png"
+      
+      - code: "SMB50BP"
+        designation: "CARTON SMIRNORFF ICE BLACK  50 CL PROMO"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 23124.5
+            remise: null
+            marge: 1215.5
+            taux_marge: "5.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 24340.0
+            ristourne: null
+            marge: 2060.0
+            taux_marge: "8.5%"
+          
+          consumer_price:
+            prix_unitaire: 1100
+            prix_casier: 26400
+        
+        images:
+          packshot: "/assets/packshots/smb50bp-hd.png"
+      
+
+  - id: "smirnorff-ice-pineaple"
+    name: "SMIRNORFF ICE PINEAPLE"
+    logo_url: "/assets/brands/smirnorff-ice-pineaple-logo.png"
+    
+    products:
+      - code: "SMP50CP"
+        designation: "CASIER SMIRNORFF ICE PINEAPLE 50 CL PROMO"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["CENTRE"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8948.96
+            remise: 339.0
+            marge: 827.55
+            taux_marge: "8.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 9690.26
+            ristourne: 324.3
+            marge: 2034.04
+            taux_marge: "21.0%"
+          
+          consumer_price:
+            prix_unitaire: 950
+            prix_casier: 11400
+        
+        images:
+          packshot: "/assets/packshots/smp50cp-hd.png"
+      
+      - code: "SMP50BP"
+        designation: "CARTON SMIRNORFF ICE PINEAPLE 50 CL PROMO"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 23124.5
+            remise: null
+            marge: 1215.5
+            taux_marge: "5.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 24340.0
+            ristourne: null
+            marge: 2060.0
+            taux_marge: "8.5%"
+          
+          consumer_price:
+            prix_unitaire: 1100
+            prix_casier: 26400
+        
+        images:
+          packshot: "/assets/packshots/smp50bp-hd.png"
+      
+

@@ -1,0 +1,1065 @@
+# Lions' Book - Catalogue Boissons Gazeuses
+# Segment : Boissons Gazeuses
+# Date : 2026-01-26
+# Source : ELEMENTS BOOK DCM.xlsx
+
+segment:
+  id: "boissons-gazeuses"
+  name: "Boissons Gazeuses"
+  icon: "drink"
+  order: 3
+  description: "Portefeuille Boissons Gazeuses Boissons du Cameroun"
+
+brands:
+  - id: "djino-cocktail"
+    name: "D'JINO COCKTAIL"
+    logo_url: "/assets/brands/djino-cocktail-logo.png"
+    
+    products:
+      - code: "DJC60C"
+        designation: "CASIER D'JINO COCKTAIL 60 CL"
+        format: "60 CL"
+        packaging_type: "MB_60"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 4211.15
+            remise: 120.0
+            marge: 608.85
+            taux_marge: "14.5%"
+          
+          distributor_to_retailer:
+            prix_achat: 4900.0
+            ristourne: 200.0
+            marge: 1300.0
+            taux_marge: "26.5%"
+          
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 6000
+        
+        images:
+          packshot: "/assets/packshots/djc60c-hd.png"
+      
+      - code: "DJC10P"
+        designation: "PACK 6 D'JINO COCKTAIL FRUITS PET 100CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3164.0
+            remise: 100.0
+            marge: 351.0
+            taux_marge: "11.1%"
+          
+          distributor_to_retailer:
+            prix_achat: 3515.0
+            ristourne: 100.0
+            marge: 485.0
+            taux_marge: "13.8%"
+          
+          consumer_price:
+            prix_unitaire: 650
+            prix_casier: 3900
+        
+        images:
+          packshot: "/assets/packshots/djc10p-hd.png"
+      
+      - code: "DJC35P"
+        designation: "PACK 12 D'JINO COCKTAIL FRUITS"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3326.4
+            remise: 60.0
+            marge: 233.6
+            taux_marge: "7.0%"
+          
+          distributor_to_retailer:
+            prix_achat: 3600.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "19.4%"
+          
+          consumer_price:
+            prix_unitaire: 350
+            prix_casier: 4200
+        
+        images:
+          packshot: "/assets/packshots/djc35p-hd.png"
+      
+
+  - id: "orangina"
+    name: "ORANGINA"
+    logo_url: "/assets/brands/orangina-logo.png"
+    
+    products:
+      - code: "ORG60C"
+        designation: "CASIER ORANGINA 60 CL"
+        format: "60 CL"
+        packaging_type: "MB_60"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 4211.15
+            remise: 120.0
+            marge: 608.85
+            taux_marge: "14.5%"
+          
+          distributor_to_retailer:
+            prix_achat: 4900.0
+            ristourne: 200.0
+            marge: 1300.0
+            taux_marge: "26.5%"
+          
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 6000
+        
+        images:
+          packshot: "/assets/packshots/org60c-hd.png"
+      
+      - code: "ORG10P"
+        designation: "PACK 6 ORANGINA PET 100CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3765.87
+            remise: 100.0
+            marge: 349.13
+            taux_marge: "9.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 4115.0
+            ristourne: 100.0
+            marge: 5585.0
+            taux_marge: "135.7%"
+          
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 9600
+        
+        images:
+          packshot: "/assets/packshots/org10p-hd.png"
+      
+      - code: "ORG35P"
+        designation: "PACK 12 ORANGINA PET 35CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3901.3
+            remise: 60.0
+            marge: 258.7
+            taux_marge: "6.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 4200.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "16.7%"
+          
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 4800
+        
+        images:
+          packshot: "/assets/packshots/org35p-hd.png"
+      
+
+  - id: "top-ananas"
+    name: "TOP ANANAS"
+    logo_url: "/assets/brands/top-ananas-logo.png"
+    
+    products:
+      - code: "TPA50C"
+        designation: "CASIER TOP ANANAS 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2530.92
+            remise: 120.0
+            marge: 489.08
+            taux_marge: "19.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 3100.0
+            ristourne: 200.0
+            marge: 700.0
+            taux_marge: "22.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpa50c-hd.png"
+      
+      - code: "TPA10P"
+        designation: "PACK TOP ANANAS PET 100 CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2338.29
+            remise: 100.0
+            marge: 261.71
+            taux_marge: "11.2%"
+          
+          distributor_to_retailer:
+            prix_achat: 2600.0
+            ristourne: 100.0
+            marge: 500.0
+            taux_marge: "19.2%"
+          
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 3000
+        
+        images:
+          packshot: "/assets/packshots/tpa10p-hd.png"
+      
+      - code: "TPA35P"
+        designation: "PACK 12 TOP ANANAS PET 35 CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2751.75
+            remise: 60.0
+            marge: 208.25
+            taux_marge: "7.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 3000.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "23.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpa35p-hd.png"
+      
+
+  - id: "top-grenadine"
+    name: "TOP GRENADINE"
+    logo_url: "/assets/brands/top-grenadine-logo.png"
+    
+    products:
+      - code: "TPG50C"
+        designation: "CASIER TOP GRENADINE 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2530.92
+            remise: 120.0
+            marge: 489.08
+            taux_marge: "19.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 3100.0
+            ristourne: 200.0
+            marge: 700.0
+            taux_marge: "22.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpg50c-hd.png"
+      
+      - code: "TPG10P"
+        designation: "PACK TOP GRENADINE PET 100 CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2338.29
+            remise: 100.0
+            marge: 261.71
+            taux_marge: "11.2%"
+          
+          distributor_to_retailer:
+            prix_achat: 2600.0
+            ristourne: 100.0
+            marge: 500.0
+            taux_marge: "19.2%"
+          
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 3000
+        
+        images:
+          packshot: "/assets/packshots/tpg10p-hd.png"
+      
+      - code: "TPG35P"
+        designation: "PACK 6 TOP GRENADINE PET 35 CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2751.75
+            remise: 60.0
+            marge: 208.25
+            taux_marge: "7.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 3000.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "23.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpg35p-hd.png"
+      
+
+  - id: "top-orange"
+    name: "TOP ORANGE"
+    logo_url: "/assets/brands/top-orange-logo.png"
+    
+    products:
+      - code: "TPO50C"
+        designation: "CASIER TOP ORANGE 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2530.92
+            remise: 120.0
+            marge: 489.08
+            taux_marge: "19.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 3100.0
+            ristourne: 200.0
+            marge: 700.0
+            taux_marge: "22.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpo50c-hd.png"
+      
+      - code: "TPO10P"
+        designation: "PACK TOP ORANGE PET 100 CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2751.75
+            remise: 100.0
+            marge: 248.25
+            taux_marge: "9.0%"
+          
+          distributor_to_retailer:
+            prix_achat: 3000.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "23.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpo10p-hd.png"
+      
+      - code: "TPO35P"
+        designation: "PACK 6 TOP ORANGE PET 35 CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2751.75
+            remise: 60.0
+            marge: 208.25
+            taux_marge: "7.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 3000.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "23.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpo35p-hd.png"
+      
+
+  - id: "top-pamplemousse"
+    name: "TOP PAMPLEMOUSSE"
+    logo_url: "/assets/brands/top-pamplemousse-logo.png"
+    
+    products:
+      - code: "TPP50C"
+        designation: "CASIER TOP PAMPLEMOUSSE 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2530.92
+            remise: 120.0
+            marge: 489.08
+            taux_marge: "19.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 3100.0
+            ristourne: 200.0
+            marge: 700.0
+            taux_marge: "22.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpp50c-hd.png"
+      
+      - code: "TPP10P"
+        designation: "PACK TOP PAMPLEMOUSSE PET 100 CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2338.29
+            remise: 100.0
+            marge: 261.71
+            taux_marge: "11.2%"
+          
+          distributor_to_retailer:
+            prix_achat: 2600.0
+            ristourne: 100.0
+            marge: 500.0
+            taux_marge: "19.2%"
+          
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 3000
+        
+        images:
+          packshot: "/assets/packshots/tpp10p-hd.png"
+      
+      - code: "TPP35P"
+        designation: "PACK 12 TOP PAMPLEMOUSSE PET35CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2751.75
+            remise: 60.0
+            marge: 208.25
+            taux_marge: "7.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 3000.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "23.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpp35p-hd.png"
+      
+
+  - id: "top-soda"
+    name: "TOP SODA"
+    logo_url: "/assets/brands/top-soda-logo.png"
+    
+    products:
+      - code: "SOD60C"
+        designation: "CASIER SODA WATER 60 CL"
+        format: "60 CL"
+        packaging_type: "MB_60"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2160.19
+            remise: 120.0
+            marge: 359.81
+            taux_marge: "16.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 2600.0
+            ristourne: 200.0
+            marge: 600.0
+            taux_marge: "23.1%"
+          
+          consumer_price:
+            prix_unitaire: 250
+            prix_casier: 3000
+        
+        images:
+          packshot: "/assets/packshots/sod60c-hd.png"
+      
+      - code: "SOD35P"
+        designation: "PACK 12 SODA WATER 35 CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2242.84
+            remise: 60.0
+            marge: 217.16
+            taux_marge: "9.7%"
+          
+          distributor_to_retailer:
+            prix_achat: 2500.0
+            ristourne: 100.0
+            marge: 600.0
+            taux_marge: "24.0%"
+          
+          consumer_price:
+            prix_unitaire: 250
+            prix_casier: 3000
+        
+        images:
+          packshot: "/assets/packshots/sod35p-hd.png"
+      
+
+  - id: "top-tonic"
+    name: "TOP TONIC"
+    logo_url: "/assets/brands/top-tonic-logo.png"
+    
+    products:
+      - code: "TPT50C"
+        designation: "CASIER TOP TONIC 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2530.48
+            remise: 120.0
+            marge: 489.52
+            taux_marge: "19.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 3100.0
+            ristourne: 200.0
+            marge: 700.0
+            taux_marge: "22.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpt50c-hd.png"
+      
+      - code: "TPT35P"
+        designation: "PACK 12 TOPTONIC 35 CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2751.57
+            remise: 60.0
+            marge: 208.43
+            taux_marge: "7.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 3000.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "23.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/tpt35p-hd.png"
+      
+
+  - id: "vimto"
+    name: "VIMTO"
+    logo_url: "/assets/brands/vimto-logo.png"
+    
+    products:
+      - code: "VIM60C"
+        designation: "CASIER VIMTO 60 CL"
+        format: "60 CL"
+        packaging_type: "MB_60"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 4211.15
+            remise: 120.0
+            marge: 608.85
+            taux_marge: "14.5%"
+          
+          distributor_to_retailer:
+            prix_achat: 4900.0
+            ristourne: 200.0
+            marge: 1300.0
+            taux_marge: "26.5%"
+          
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 6000
+        
+        images:
+          packshot: "/assets/packshots/vim60c-hd.png"
+      
+      - code: "VIM10P"
+        designation: "PACK 6 VIMTO PET 100CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3765.87
+            remise: 100.0
+            marge: 314.13
+            taux_marge: "8.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 4080.0
+            ristourne: 100.0
+            marge: 520.0
+            taux_marge: "12.7%"
+          
+          consumer_price:
+            prix_unitaire: 750
+            prix_casier: 4500
+        
+        images:
+          packshot: "/assets/packshots/vim10p-hd.png"
+      
+      - code: "VIM35P"
+        designation: "PACK 12 VIMTO PET 35CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3901.05
+            remise: 60.0
+            marge: 258.95
+            taux_marge: "6.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 4200.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "16.7%"
+          
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 4800
+        
+        images:
+          packshot: "/assets/packshots/vim35p-hd.png"
+      
+
+  - id: "world-cola"
+    name: "WORLD COLA"
+    logo_url: "/assets/brands/world-cola-logo.png"
+    
+    products:
+      - code: "WCO50C"
+        designation: "CASIER WORLD COLA 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2530.48
+            remise: 120.0
+            marge: 489.52
+            taux_marge: "19.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 3100.0
+            ristourne: 200.0
+            marge: 700.0
+            taux_marge: "22.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/wco50c-hd.png"
+      
+      - code: "WCO10P"
+        designation: "PACK WORLD COLA PET 100 CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2876.68
+            remise: 100.0
+            marge: 338.32
+            taux_marge: "11.8%"
+          
+          distributor_to_retailer:
+            prix_achat: 3215.0
+            ristourne: 100.0
+            marge: 485.0
+            taux_marge: "15.1%"
+          
+          consumer_price:
+            prix_unitaire: 600
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/wco10p-hd.png"
+      
+      - code: "WCO35P"
+        designation: "PACK 12 WORLD COLA PET 35 CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2751.75
+            remise: 60.0
+            marge: 208.25
+            taux_marge: "7.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 3000.0
+            ristourne: 100.0
+            marge: 700.0
+            taux_marge: "23.3%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/wco35p-hd.png"
+      
+
+  - id: "xxl"
+    name: "XXL"
+    logo_url: "/assets/brands/xxl-logo.png"
+    
+    products:
+      - code: "XXL50C"
+        designation: "CASIER XXL 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 4211.15
+            remise: 120.0
+            marge: 608.85
+            taux_marge: "14.5%"
+          
+          distributor_to_retailer:
+            prix_achat: 4900.0
+            ristourne: 200.0
+            marge: 1300.0
+            taux_marge: "26.5%"
+          
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 6000
+        
+        images:
+          packshot: "/assets/packshots/xxl50c-hd.png"
+      
+      - code: "XXL50BP"
+        designation: "CARTON XXL BOITES 50 CL"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 12296.31
+            remise: null
+            marge: 1003.69
+            taux_marge: "8.2%"
+          
+          distributor_to_retailer:
+            prix_achat: 13300.0
+            ristourne: null
+            marge: 1100.0
+            taux_marge: "8.3%"
+          
+          consumer_price:
+            prix_unitaire: 600
+            prix_casier: 14400
+        
+        images:
+          packshot: "/assets/packshots/xxl50bp-hd.png"
+      
+      - code: "XXL35P"
+        designation: "PACK 12 XXL  PET 35 CL "
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3644.94
+            remise: 60.0
+            marge: 385.06
+            taux_marge: "10.6%"
+          
+          distributor_to_retailer:
+            prix_achat: 4070.0
+            ristourne: 100.0
+            marge: 830.0
+            taux_marge: "20.4%"
+          
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 4800
+        
+        images:
+          packshot: "/assets/packshots/xxl35p-hd.png"
+      
+      - code: "XXL05P"
+        designation: "PACK 06 XXL  PET 50 CL "
+        format: "50 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["NORD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 5980.29
+            remise: 60.0
+            marge: 489.71
+            taux_marge: "8.2%"
+          
+          distributor_to_retailer:
+            prix_achat: 6510.0
+            ristourne: 100.0
+            marge: 790.0
+            taux_marge: "12.1%"
+          
+          consumer_price:
+            prix_unitaire: 600
+            prix_casier: 7200
+        
+        images:
+          packshot: "/assets/packshots/xxl05p-hd.png"
+      
+
+  - id: "youzou"
+    name: "YOUZOU"
+    logo_url: "/assets/brands/youzou-logo.png"
+    
+    products:
+      - code: "YOU50C"
+        designation: "CASIER YOUZOU 50 CL"
+        format: "50 CL"
+        packaging_type: "BB_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2530.48
+            remise: 120.0
+            marge: 489.52
+            taux_marge: "19.3%"
+          
+          distributor_to_retailer:
+            prix_achat: 3100.0
+            ristourne: 200.0
+            marge: 700.0
+            taux_marge: "22.6%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/you50c-hd.png"
+      
+      - code: "YOU10P"
+        designation: "PACK YOUZOU PET 100 CL"
+        format: "100 CL"
+        packaging_type: "PET"
+        unit: "P06"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 2876.68
+            remise: 100.0
+            marge: 338.32
+            taux_marge: "11.8%"
+          
+          distributor_to_retailer:
+            prix_achat: 3215.0
+            ristourne: 100.0
+            marge: 485.0
+            taux_marge: "15.1%"
+          
+          consumer_price:
+            prix_unitaire: 600
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/you10p-hd.png"
+      
+      - code: "YOU35P"
+        designation: "PACK 12 YOUZOU PET 35 CL"
+        format: "35 CL"
+        packaging_type: "PET"
+        unit: "P12"
+        consigne: 0
+        market: ["TOUS"]
+        
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 3239.68
+            remise: 60.0
+            marge: 220.32
+            taux_marge: "6.8%"
+          
+          distributor_to_retailer:
+            prix_achat: 3500.0
+            ristourne: 100.0
+            marge: 200.0
+            taux_marge: "5.7%"
+          
+          consumer_price:
+            prix_unitaire: 300
+            prix_casier: 3600
+        
+        images:
+          packshot: "/assets/packshots/you35p-hd.png"
+      
+

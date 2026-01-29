@@ -1,0 +1,63 @@
+# Exemple d'intégration argumentaires
+# À intégrer dans bieres-complete.yaml
+
+brand:
+  id: "33-export"
+  name: "33 Export"
+
+    # Argumentaires de vente
+    identity:
+      target: "Hommes et femmes 21-35 ans, jovial, dynamique, sociable"
+      positioning: "Mainstream"
+      alcohol_rate: "5.2%"
+      signature: "Supporter N°1 du Football"
+
+    key_facts:
+      - "Brassée depuis 1875, bière de haute tradition de classe internationale"
+      - "Reconnue et appréciée sur tous les continents"
+      - "Partenaire incontournable des bons moments partagés entre amis"
+      - "Goût franc et unique"
+      - "Bière la plus consommée au Cameroun"
+
+    sales_arguments:
+      rational:
+        - "Bière de grande qualité, la plus consommée au Cameroun"
+        - "Produit rentable à très forte rotation, excellentes marges"
+        - "Disponible en 4 formats (65cl, 50cl, 33cl, canette 50cl)"
+
+      emotional:
+        - "Bière internationale de haute tradition depuis 1875"
+        - "La bière du supporter = suivi personnalisé"
+        - "Bière populaire à avoir absolument en stock"
+
+      by_channel:
+        CHR:
+          - "Bière qui valorise l'établissement"
+          - "Forte demande"
+          - "Rotation rapide"
+        PSV:
+          - "Produit d'appel majeur"
+          - "Trésorerie fluide"
+          - "4 formats disponibles"
+        TT:
+          - "Marque de confiance"
+          - "Support terrain régulier"
+          - "Promotions fréquentes"
+        MT:
+          - "Produit incontournable"
+          - "Forte visibilité"
+          - "Promotions régulières"
+
+    objections:
+      - question: "Votre bière est trop chère"
+        response: "C'est la bière la plus consommée au Cameroun. Le prix reflète la qualité et votre marge est excellente."
+        script: "Avec 33 Export 65cl, vous achetez à 7200 FCFA et vendez à 7800 FCFA le casier. Marge de 600 FCFA, soit 12.8%. Et elle tourne 3x plus vite."
+
+      - question: "Ça ne tourne pas chez moi"
+        response: "Impossible, c'est la N°1 au Cameroun. C'est un problème de visibilité."
+        script: "Mettons votre 33 Export bien en vue avec notre PLV gratuite. En 2 semaines, vous verrez la différence."
+
+      - question: "J'ai déjà un fournisseur"
+        response: "33 Export est incontournable. Vos clients la demandent."
+        script: "Ne pas avoir 33 Export, c'est perdre des clients. Commençons avec 5 casiers pour tester."
+
