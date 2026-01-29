@@ -1,6 +1,6 @@
 # Story 1.1: Initialiser le Projet PWA avec Starter Template
 
-Status: review
+Status: done
 
 ## Story
 
@@ -285,6 +285,35 @@ Claude 3.5 Sonnet (Cascade)
 - Correction erreur TypeScript dans PWABadge.tsx (ligne 32): suppression de la référence à `setOfflineReady` non définie
 - Installation de @types/node pour résoudre les erreurs de définition de types
 - Configuration Babel plugin Emotion dans vite.config.ts pour support CSS-in-JS
+
+### Code Review Record
+
+**Date:** 29 janvier 2026  
+**Reviewer:** Claude 3.5 Sonnet (Cascade) - Adversarial Review  
+**Issues Found:** 13 (5 CRITICAL, 6 MEDIUM, 2 LOW)  
+**Issues Fixed:** 11 (tous CRITICAL et MEDIUM)  
+**Issues Deferred:** 2 (LOW - Story 1.2)
+
+**Corrections Appliquées:**
+1. ✅ Git repository initialisé avec premier commit
+2. ✅ Vitest + @testing-library/preact installés
+3. ✅ 5 tests unitaires créés (App, TestEmotion)
+4. ✅ ESLint 9.39.2 + Prettier 3.8.1 configurés
+5. ✅ Scripts npm ajoutés (test, lint, format)
+6. ✅ @emotion/babel-plugin installé en devDependency
+7. ✅ Tailwind CSS v3.4.19 ajouté (demande utilisateur)
+8. ✅ Page Home.tsx créée dans src/routes/
+9. ✅ Meta tags PWA ajoutés dans index.html
+10. ✅ Documentation mise à jour (architecture.md, story)
+11. ✅ Titre HTML amélioré
+
+**Acceptance Criteria Final:**
+- AC #1: ✅ PASS - Projet initialisé avec pnpm + template preact-ts
+- AC #2: ✅ PASS - Structure complète créée avec fichiers de base
+- AC #3: ✅ PASS - Toutes dépendances installées correctement
+- AC #4: ✅ PASS - Build réussi, tests passent, outils qualité configurés
+
+**Verdict Final:** ✅ **STORY APPROVED - DONE**
 
 ### Completion Notes List
 
