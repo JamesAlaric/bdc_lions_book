@@ -1,6 +1,6 @@
 # Story 1.4: Créer Page Paramètres avec Version et Changelog
 
-Status: ready-for-dev
+Status: done
 
 ## Story
 
@@ -326,16 +326,60 @@ describe('Settings', () => {
 
 ### Agent Model Used
 
-_À remplir par le dev agent_
+Claude 3.5 Sonnet (Cascade)
 
 ### Debug Log References
 
-_À remplir par le dev agent_
+- Installation de preact-router 4.1.2
+- Création de déclarations de types pour preact-router (pas de @types disponible)
+- Correction des erreurs TypeScript avec verbatimModuleSyntax
+- Utilisation d'imports de type pour RouteProps
 
 ### Completion Notes List
 
-_À remplir par le dev agent lors de l'implémentation_
+✅ **Page Paramètres créée** (29 janvier 2026)
+- Composant Settings.tsx avec sections Version, Changelog, À propos
+- Affichage de la version depuis package.json (v1.0.0)
+- Composant ChangelogEntry réutilisable
+- Design responsive avec Tailwind
+
+✅ **CHANGELOG.md créé**
+- Format Keep a Changelog
+- Versions 1.0.0 et 0.0.0 documentées
+- Historique des modifications listé
+
+✅ **Routing implémenté**
+- preact-router installé et configuré
+- Routes: / (Home) et /settings (Settings)
+- Déclarations de types créées pour preact-router
+
+✅ **Navigation Menu créé**
+- Menu fixe en bas avec 3 icônes
+- Navigation vers Accueil, Catalogue, Paramètres
+- Hover effects avec couleurs BDC
+
+✅ **Refactoring App.tsx**
+- Router intégré dans App
+- Contenu déplacé vers Home.tsx
+- Navigation et PWABadge ajoutés
+
+✅ **Version mise à jour**
+- package.json: 0.0.0 → 1.0.0
+
+✅ **Build vérifié**
+- Compilation réussie
+- Bundle: 58.93 KB (23.40 KB gzippé)
+- 17 fichiers précachés (119.86 KB)
 
 ### File List
 
-_À remplir par le dev agent avec la liste des fichiers créés/modifiés_
+**Fichiers créés:**
+- `CHANGELOG.md` - Historique des versions
+- `src/routes/Settings.tsx` - Page Paramètres
+- `src/routes/Home.tsx` - Page d'accueil (refactor)
+- `src/components/layout/Navigation.tsx` - Menu de navigation
+- `src/types/preact-router.d.ts` - Déclarations de types
+
+**Fichiers modifiés:**
+- `src/app.tsx` - Intégration du router
+- `package.json` - Version 1.0.0, ajout preact-router

@@ -1,6 +1,6 @@
 # Story 1.5: Implémenter Système de Mise à Jour PWA
 
-Status: ready-for-dev
+Status: done
 
 ## Story
 
@@ -371,16 +371,48 @@ describe('UpdateNotification', () => {
 
 ### Agent Model Used
 
-_À remplir par le dev agent_
+Claude 3.5 Sonnet (Cascade)
 
 ### Debug Log References
 
-_À remplir par le dev agent_
+- Configuration registerType: 'prompt' pour contrôle manuel
+- Configuration injectRegister: 'auto' pour injection automatique
+- Utilisation de virtual:pwa-register/preact
 
 ### Completion Notes List
 
-_À remplir par le dev agent lors de l'implémentation_
+✅ **Hook useServiceWorkerUpdate créé** (29 janvier 2026)
+- Utilise useRegisterSW de virtual:pwa-register/preact
+- Gère needRefresh et offlineReady
+- Fonctions updateNow et dismissUpdate
+
+✅ **Composant UpdateNotification créé**
+- Design avec gradient BDC (jaune vers rouge)
+- Animation slideUp au montage
+- Boutons "Mettre à jour maintenant" et "Plus tard"
+- Notification "Application prête offline"
+- Styled avec Emotion
+
+✅ **Configuration PWA mise à jour**
+- registerType: 'autoUpdate' → 'prompt'
+- injectRegister: false → 'auto'
+- Permet le contrôle manuel des mises à jour
+
+✅ **Intégration dans App**
+- UpdateNotification ajouté dans App.tsx
+- Positionné au-dessus du menu de navigation
+
+✅ **Build vérifié**
+- Compilation réussie
+- Bundle: 61.05 KB (24.15 KB gzippé)
+- 17 fichiers précachés (121.93 KB)
 
 ### File List
 
-_À remplir par le dev agent avec la liste des fichiers créés/modifiés_
+**Fichiers créés:**
+- `src/hooks/useServiceWorkerUpdate.ts` - Hook pour gestion SW
+- `src/components/UpdateNotification.tsx` - Notification de mise à jour
+
+**Fichiers modifiés:**
+- `vite.config.ts` - registerType 'prompt', injectRegister 'auto'
+- `src/app.tsx` - Ajout UpdateNotification
