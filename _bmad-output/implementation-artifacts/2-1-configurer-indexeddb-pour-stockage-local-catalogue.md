@@ -1,6 +1,6 @@
 # Story 2.1: Configurer IndexedDB pour Stockage Local Catalogue
 
-Status: review
+Status: done
 
 ## Story
 
@@ -594,17 +594,89 @@ Claude 3.5 Sonnet (Cascade)
 - Pas d'erreurs ESLint
 - 17 fichiers précachés (137.67 KB)
 
+---
+
+## Code Review Fixes (30 janvier 2026)
+
+**Review Type:** Adversarial Senior Developer Review  
+**Issues Found:** 2 HIGH, 4 MEDIUM, 2 LOW  
+**Issues Fixed:** 6 (all HIGH and MEDIUM)
+
+### HIGH Issues Fixed ✅
+
+1. **Architecture Violation: Missing `status` field in SyncMetadataStore**
+   - Added `status: 'synced' | 'pending' | 'conflict'` field
+   - Added optional `conflictData?: object` field
+   - Updated all sync.ts functions to set appropriate status
+   - Files: `types.ts`, `sync.ts`
+
+2. **Missing Tests for Critical Stores**
+   - Created `brands.test.ts` with 9 comprehensive tests
+   - Created `sync.test.ts` with 10 comprehensive tests
+   - Total test coverage: 28 tests (9 catalogue + 9 brands + 10 sync)
+   - All tests passing ✅
+
+### MEDIUM Issues Fixed ✅
+
+3. **No Error Handling in Database Operations**
+   - Added try/catch blocks to all CRUD operations
+   - Added console.error logging for debugging
+   - Proper error propagation to callers
+   - Files: `catalogue.ts`, `brands.ts`
+
+4. **Missing Input Validation**
+   - Created `validateProduct()` function checking: empty ID/name, negative prix/marge
+   - Created `validateBrand()` function checking: empty ID/name
+   - Validation called before all create/update operations
+   - Files: `catalogue.ts`, `brands.ts`
+
+5. **Transaction Not Closed on Bulk Operation Failure**
+   - Added nested try/catch in bulk operations
+   - Call `tx.abort()` on failure to rollback partial writes
+   - Prevents database inconsistency
+   - Files: `catalogue.ts:93-109`, `brands.ts:69-85`
+
+6. **Missing Index on `name` Field**
+   - Added `by-name` index in database migration v3
+   - Updated TypeScript schema with index definition
+   - Enables fast product name searches for Story 3.1
+   - Files: `database.ts:78`, `database.ts:26`
+
+### Test Results After Fixes
+
+```
+✓ src/lib/storage/catalogue.test.ts (9 tests) 26ms
+✓ src/lib/storage/brands.test.ts (9 tests) 25ms
+✓ src/lib/storage/sync.test.ts (10 tests) 24ms
+
+Test Files  3 passed (3)
+Tests       28 passed (28)
+```
+
+**New Tests Added:**
+- brands.test.ts: CRUD, validation, bulk operations, transaction rollback
+- sync.test.ts: timestamp tracking, status management, pending changes, conflict data preservation
+
+**Build After Fixes:**
+- Bundle: 75.12 KB (28.82 KB gzipped) - +0.05 KB
+- No TypeScript errors
+- No ESLint errors
+
 ### File List
 
 **Fichiers créés:**
-- `src/lib/storage/types.ts` - Interfaces TypeScript (70 lignes)
-- `src/lib/storage/catalogue.ts` - CRUD operations produits (54 lignes)
-- `src/lib/storage/brands.ts` - CRUD operations marques (38 lignes)
-- `src/lib/storage/sync.ts` - Métadonnées synchronisation (56 lignes)
-- `src/lib/storage/catalogue.test.ts` - Tests unitaires (233 lignes)
+- `src/lib/storage/types.ts` - Interfaces TypeScript (74 lignes, +2 champs status/conflictData)
+- `src/lib/storage/catalogue.ts` - CRUD operations produits avec validation (110 lignes)
+- `src/lib/storage/brands.ts` - CRUD operations marques avec validation (86 lignes)
+- `src/lib/storage/sync.ts` - Métadonnées synchronisation avec status (60 lignes)
+- `src/lib/storage/catalogue.test.ts` - Tests unitaires produits (269 lignes)
+- `src/lib/storage/brands.test.ts` - Tests unitaires marques (191 lignes) **[Code Review]**
+- `src/lib/storage/sync.test.ts` - Tests unitaires sync (125 lignes) **[Code Review]**
 
 **Fichiers modifiés:**
-- `src/lib/storage/database.ts` - Ajout 7 stores + index (113 lignes, +29)
+- `src/lib/storage/database.ts` - Ajout 7 stores + 4 index (117 lignes, +33)
 - `src/lib/storage/migrations.ts` - Migration v3 (115 lignes, +10)
 - `src/test/setup.ts` - Setup fake-indexeddb (8 lignes, +1)
 - `package.json` - Ajout fake-indexeddb@6.2.5
+
+**Total:** 7 fichiers créés, 4 fichiers modifiés

@@ -16,6 +16,8 @@ export async function updateSyncTimestamp(store: string, timestamp: number): Pro
     lastSyncTimestamp: timestamp,
     version: existing?.version || 1,
     pendingChanges: existing?.pendingChanges || 0,
+    status: 'synced',
+    conflictData: existing?.conflictData,
   };
   
   await db.put('syncMetadata', metadata);
@@ -35,6 +37,8 @@ export async function incrementPendingChanges(store: string): Promise<void> {
     lastSyncTimestamp: existing?.lastSyncTimestamp || 0,
     version: existing?.version || 1,
     pendingChanges: (existing?.pendingChanges || 0) + 1,
+    status: 'pending',
+    conflictData: existing?.conflictData,
   };
   
   await db.put('syncMetadata', metadata);
@@ -48,6 +52,7 @@ export async function resetPendingChanges(store: string): Promise<void> {
     const metadata: SyncMetadataStore = {
       ...existing,
       pendingChanges: 0,
+      status: 'synced',
     };
     await db.put('syncMetadata', metadata);
   }

@@ -23,6 +23,7 @@ export interface LionsBookDB extends DBSchema {
     key: string;
     value: ProductStore;
     indexes: {
+      'by-name': string;
       'by-category': string;
       'by-brand': string;
       'by-canal': string;
@@ -75,6 +76,7 @@ export async function initDatabase(): Promise<IDBPDatabase<LionsBookDB>> {
 
       if (oldVersion < 3) {
         const productsStore = db.createObjectStore('products', { keyPath: 'id' });
+        productsStore.createIndex('by-name', 'name');
         productsStore.createIndex('by-category', 'category');
         productsStore.createIndex('by-brand', 'brand');
         productsStore.createIndex('by-canal', 'canal');

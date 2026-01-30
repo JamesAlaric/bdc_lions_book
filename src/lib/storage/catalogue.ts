@@ -1,33 +1,75 @@
 import { getDatabase } from './database';
 import type { ProductStore } from './types';
 
+function validateProduct(product: Partial<ProductStore>): void {
+  if (product.id !== undefined && product.id.trim() === '') {
+    throw new Error('Product ID cannot be empty');
+  }
+  if (product.name !== undefined && product.name.trim() === '') {
+    throw new Error('Product name cannot be empty');
+  }
+  if (product.prix !== undefined && product.prix < 0) {
+    throw new Error('Product price cannot be negative');
+  }
+  if (product.marge !== undefined && product.marge < 0) {
+    throw new Error('Product margin cannot be negative');
+  }
+}
+
 export async function createProduct(product: ProductStore): Promise<void> {
-  const db = await getDatabase();
-  await db.put('products', product);
+  try {
+    validateProduct(product);
+    const db = await getDatabase();
+    await db.put('products', product);
+  } catch (error) {
+    console.error('Failed to create product:', error);
+    throw error;
+  }
 }
 
 export async function getProduct(id: string): Promise<ProductStore | undefined> {
-  const db = await getDatabase();
-  return await db.get('products', id);
+  try {
+    const db = await getDatabase();
+    return await db.get('products', id);
+  } catch (error) {
+    console.error('Failed to get product:', error);
+    throw error;
+  }
 }
 
 export async function updateProduct(id: string, updates: Partial<ProductStore>): Promise<void> {
-  const db = await getDatabase();
-  const existing = await db.get('products', id);
-  if (!existing) {
-    throw new Error(`Product ${id} not found`);
+  try {
+    validateProduct(updates);
+    const db = await getDatabase();
+    const existing = await db.get('products', id);
+    if (!existing) {
+      throw new Error(`Product ${id} not found`);
+    }
+    await db.put('products', { ...existing, ...updates, lastUpdated: Date.now() });
+  } catch (error) {
+    console.error('Failed to update product:', error);
+    throw error;
   }
-  await db.put('products', { ...existing, ...updates, lastUpdated: Date.now() });
 }
 
 export async function deleteProduct(id: string): Promise<void> {
-  const db = await getDatabase();
-  await db.delete('products', id);
+  try {
+    const db = await getDatabase();
+    await db.delete('products', id);
+  } catch (error) {
+    console.error('Failed to delete product:', error);
+    throw error;
+  }
 }
 
 export async function getAllProducts(): Promise<ProductStore[]> {
-  const db = await getDatabase();
-  return await db.getAll('products');
+  try {
+    const db = await getDatabase();
+    return await db.getAll('products');
+  } catch (error) {
+    console.error('Failed to get all products:', error);
+    throw error;
+  }
 }
 
 export async function getProductsByCategory(category: string): Promise<ProductStore[]> {
@@ -49,8 +91,19 @@ export async function getProductsByCanal(canal: string): Promise<ProductStore[]>
 }
 
 export async function bulkCreateProducts(products: ProductStore[]): Promise<void> {
-  const db = await getDatabase();
-  const tx = db.transaction('products', 'readwrite');
-  await Promise.all(products.map(p => tx.store.put(p)));
-  await tx.done;
+  try {
+    products.forEach(validateProduct);
+    const db = await getDatabase();
+    const tx = db.transaction('products', 'readwrite');
+    try {
+      await Promise.all(products.map(p => tx.store.put(p)));
+      await tx.done;
+    } catch (error) {
+      tx.abort();
+      throw error;
+    }
+  } catch (error) {
+    console.error('Failed to bulk create products:', error);
+    throw error;
+  }
 }

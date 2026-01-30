@@ -68,4 +68,6 @@ export interface SyncMetadataStore {
   lastSyncTimestamp: number;
   version: number;
   pendingChanges: number;
+  status: 'synced' | 'pending' | 'conflict';
+  conflictData?: object;
 }
