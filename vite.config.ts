@@ -58,18 +58,10 @@ export default defineConfig({
 
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+        additionalManifestEntries: [
+          { url: '/offline.html', revision: null }
+        ],
         runtimeCaching: [
-          {
-            urlPattern: /\.(?:png|jpg|jpeg|svg|webp|gif)$/,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'images-cache',
-              expiration: {
-                maxEntries: 200,
-                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
-              }
-            }
-          },
           {
             urlPattern: ({ request }) => request.mode === 'navigate',
             handler: 'NetworkFirst',
@@ -80,16 +72,22 @@ export default defineConfig({
                 maxAgeSeconds: 60 * 60 * 24 * 7 // 7 days
               },
               networkTimeoutSeconds: 3,
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
             }
           },
           {
-            urlPattern: /\.(?:js|css|woff2)$/,
+            urlPattern: /\.(?:png|jpg|jpeg|svg|webp|gif)$/,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'static-assets-cache',
+              cacheName: 'images-cache',
               expiration: {
-                maxEntries: 100,
-                maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
+                maxEntries: 200,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
               }
             }
           }
@@ -98,7 +96,6 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/api\//],
         cleanupOutdatedCaches: true,
         clientsClaim: true,
-        skipWaiting: true,
       },
 
       devOptions: {

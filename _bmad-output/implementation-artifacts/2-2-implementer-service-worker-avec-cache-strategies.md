@@ -489,18 +489,20 @@ _À remplir par le dev agent avec la liste des fichiers créés/modifiés_
 - Story 2.15 will add cache monitoring and quota management
 
 **Fichiers créés:**
-- `public/offline.html` - Offline fallback page with BDC branding (48 lignes)
+- `public/offline.html` - Offline fallback page with BDC branding (54 lignes)
 
 **Fichiers modifiés:**
-- `vite.config.ts` - Extended workbox configuration with 3 cache strategies (112 lignes, +26)
-  - Added Network-First for navigation
-  - Added Cache-First for static assets
-  - Added navigateFallback and skipWaiting
+- `vite.config.ts` - Extended and optimized workbox configuration (109 lignes, +23)
+  - Added Network-First for navigation with cacheableResponse
+  - Removed redundant static assets runtime caching (now precached only)
+  - Added explicit offline.html to precache manifest
+  - Removed skipWaiting (respects user consent)
+  - Added response validation (statuses: [0, 200])
 
 **Build Output:**
 - `dist/sw.js` - Generated Service Worker
-- `dist/workbox-f59a37dd.js` - Workbox runtime
-- 18 files precached (138.91 KB total)
+- `dist/workbox-584b7aee.js` - Workbox runtime
+- 19 files precached (138.91 KB total) - +1 vs initial implementation
 
 ## Design System
 
