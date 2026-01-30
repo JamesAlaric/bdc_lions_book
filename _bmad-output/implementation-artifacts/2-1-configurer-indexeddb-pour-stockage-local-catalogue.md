@@ -662,6 +662,14 @@ Tests       28 passed (28)
 - No TypeScript errors
 - No ESLint errors
 
+### Review Follow-ups (LOW Priority)
+
+Les issues suivantes ont été identifiées mais différées car non-critiques. Elles peuvent être adressées lors de futures refactorings ou stories connexes:
+
+- [ ] [AI-Review][LOW] **Inconsistent `data` type in UserDataStore** - Utiliser une discriminated union pour meilleure type safety au lieu de `data: object` générique. Exemple: `type UserDataStore = { id: string; type: 'favorite'; data: { productIds: string[] }; lastUpdated: number } | ...` [`types.ts:59-64`]
+
+- [ ] [AI-Review][LOW] **Test cleanup incomplete** - Le `afterEach` dans `catalogue.test.ts` ne nettoie que le store `products`. Devrait aussi nettoyer `brands`, `objections`, `campaigns`, `media`, `userData`, `syncMetadata` pour éviter la pollution entre tests. [`catalogue.test.ts:20-25`]
+
 ### File List
 
 **Fichiers créés:**
