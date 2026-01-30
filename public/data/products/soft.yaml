@@ -1,0 +1,34 @@
+# Catalogue Soft Drinks - Lions' Book (échantillon MVP)
+category: soft
+products:
+  - id: "soft-top-pamplemousse-50cl"
+    name: "Top Pamplemousse 50cl"
+    brand: "Top"
+    historique: "Gamme de soft drinks colorés appréciés sur le marché camerounais."
+    positionnement: "Soft convivial et rafraîchissant."
+    category: soft
+    canal: TT
+    prix: 300
+    marge: 22
+    specs:
+      contenance: 500
+      format: "Pet"
+    ingredients: ["Eau", "Sucre", "Arôme pamplemousse"]
+    conservation: "À conserver au frais"
+    lastUpdated: 1738230000000
+
+  - id: "soft-djino-ginger-33cl"
+    name: "Djino Ginger 33cl"
+    brand: "Djino"
+    historique: "Soda local apprécié pour ses saveurs épicées et fruitées."
+    positionnement: "Soft énergisant et différenciant pour points de vente CHR."
+    category: soft
+    canal: CHR
+    prix: 250
+    marge: 25
+    specs:
+      contenance: 330
+      format: "Canette"
+    ingredients: ["Eau", "Sucre", "Extrait de gingembre"]
+    conservation: "Servir très frais"
+    lastUpdated: 1738230000000

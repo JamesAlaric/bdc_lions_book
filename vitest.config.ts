@@ -12,4 +12,9 @@ export default defineConfig({
       reporter: ['text', 'json', 'html'],
     },
   },
+  resolve: {
+    alias: {
+      'virtual:pwa-register/preact': '/src/test/mocks/pwa-register-preact.ts',
+    },
+  },
 });

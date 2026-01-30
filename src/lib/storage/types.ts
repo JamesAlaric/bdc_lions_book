@@ -2,6 +2,8 @@ export interface ProductStore {
   id: string;
   name: string;
   brand: string;
+  historique: string;
+  positionnement: string;
   category: 'biere' | 'soft' | 'eau' | 'vin' | 'spiritueux';
   canal: 'CHR' | 'PSV' | 'TT' | 'MT';
   prix: number;

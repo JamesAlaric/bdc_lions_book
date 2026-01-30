@@ -8,6 +8,12 @@ function validateProduct(product: Partial<ProductStore>): void {
   if (product.name !== undefined && product.name.trim() === '') {
     throw new Error('Product name cannot be empty');
   }
+  if (product.historique !== undefined && product.historique.trim() === '') {
+    throw new Error('Product historique cannot be empty');
+  }
+  if (product.positionnement !== undefined && product.positionnement.trim() === '') {
+    throw new Error('Product positionnement cannot be empty');
+  }
   if (product.prix !== undefined && product.prix < 0) {
     throw new Error('Product price cannot be negative');
   }

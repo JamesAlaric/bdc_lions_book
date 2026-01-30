@@ -1,0 +1,40 @@
+# Catalogue Bières - Lions' Book (échantillon MVP)
+category: biere
+products:
+  - id: "biere-33-export-65cl"
+    name: "33 Export 65cl"
+    brand: "33 Export"
+    historique: "Bière emblématique du Cameroun depuis 1960, symbole de convivialité."
+    positionnement: "Leader grand public, accessible et conviviale."
+    category: biere
+    canal: CHR
+    prix: 650
+    marge: 18
+    specs:
+      alcool: 5.2
+      contenance: 650
+      nbBouteilles: 1
+      format: "Bouteille"
+    certifications: ["ISO 9001"]
+    ingredients: ["Eau", "Malt d'orge", "Houblon", "Levure"]
+    conservation: "Conserver entre 4°C et 8°C"
+    lastUpdated: 1738230000000
+
+  - id: "biere-castel-33cl"
+    name: "Castel 33cl"
+    brand: "Castel"
+    historique: "Marque internationale avec présence forte en Afrique, reconnue pour sa qualité."
+    positionnement: "Premium accessible, image moderne."
+    category: biere
+    canal: PSV
+    prix: 500
+    marge: 20
+    specs:
+      alcool: 5.0
+      contenance: 330
+      nbBouteilles: 1
+      format: "Bouteille"
+    certifications: ["ISO 9001"]
+    ingredients: ["Eau", "Malt d'orge", "Houblon", "Levure"]
+    conservation: "Garder au frais, à l'abri de la lumière"
+    lastUpdated: 1738230000000

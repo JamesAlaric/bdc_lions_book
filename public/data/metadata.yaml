@@ -1,0 +1,11 @@
+version: "1.0.0"
+lastUpdate: 2026-01-30T12:00:00Z
+checksum: "sha256-placeholder"
+categories:
+  - biere
+  - soft
+  - eau
+  - vin
+  - spiritueux
+totalProducts: 10
+totalBrands: 5

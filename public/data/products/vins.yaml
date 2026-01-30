@@ -1,0 +1,34 @@
+# Catalogue Vins - Lions' Book (échantillon MVP)
+category: vin
+products:
+  - id: "vin-baronne-rouge-75cl"
+    name: "Baronne Rouge 75cl"
+    brand: "Baronne"
+    historique: "Vin rouge d'assemblage apprécié pour sa rondeur."
+    positionnement: "Vin accessible pour restauration et détaillants."
+    category: vin
+    canal: CHR
+    prix: 2200
+    marge: 30
+    specs:
+      alcool: 12.5
+      contenance: 750
+      format: "Bouteille"
+    conservation: "Conserver entre 12°C et 16°C"
+    lastUpdated: 1738230000000
+
+  - id: "vin-chateau-cameroon-75cl"
+    name: "Château Cameroon 75cl"
+    brand: "Château Cameroon"
+    historique: "Cuvée locale valorisant le terroir et le savoir-faire régional."
+    positionnement: "Vin premium local pour clients exigeants."
+    category: vin
+    canal: MT
+    prix: 3500
+    marge: 28
+    specs:
+      alcool: 13.0
+      contenance: 750
+      format: "Bouteille"
+    conservation: "Stocker couché, à température stable"
+    lastUpdated: 1738230000000

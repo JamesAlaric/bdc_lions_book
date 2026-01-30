@@ -27,7 +27,11 @@ export function TestEmotionComponent() {
   return (
     <div>
       <h2>Test Emotion CSS-in-JS</h2>
-      <TestButton onClick={() => alert('Emotion fonctionne !')}>
+      <TestButton
+        role="button"
+        aria-label="Test Button BDC Colors"
+        onClick={() => alert('Emotion fonctionne !')}
+      >
         Test Button BDC Colors
       </TestButton>
     </div>

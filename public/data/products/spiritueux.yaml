@@ -1,0 +1,34 @@
+# Catalogue Spiritueux - Lions' Book (échantillon MVP)
+category: spiritueux
+products:
+  - id: "spirit-booster-gin-70cl"
+    name: "Booster Gin 70cl"
+    brand: "Booster"
+    historique: "Marque locale d'alcools aromatisés, popularisée pour ses mix prêts à boire."
+    positionnement: "Boissons spiritueuses accessibles, goût punchy."
+    category: spiritueux
+    canal: CHR
+    prix: 4500
+    marge: 32
+    specs:
+      alcool: 37.5
+      contenance: 700
+      format: "Bouteille"
+    conservation: "Conserver debout, à l'abri de la lumière"
+    lastUpdated: 1738230000000
+
+  - id: "spirit-johns-whisky-70cl"
+    name: "John's Whisky 70cl"
+    brand: "John's"
+    historique: "Whisky d'entrée de gamme apprécié pour sa disponibilité."
+    positionnement: "Spiritueux accessible pour consommation courante."
+    category: spiritueux
+    canal: TT
+    prix: 5200
+    marge: 30
+    specs:
+      alcool: 40
+      contenance: 700
+      format: "Bouteille"
+    conservation: "Température ambiante stable"
+    lastUpdated: 1738230000000

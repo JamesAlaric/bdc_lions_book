@@ -1,0 +1,32 @@
+# Catalogue Eaux - Lions' Book (échantillon MVP)
+category: eau
+products:
+  - id: "eau-tangui-50cl"
+    name: "Eau Tanguy 50cl"
+    brand: "Tanguy"
+    historique: "Eau de source camerounaise distribuée largement sur le territoire."
+    positionnement: "Eau accessible et fiable pour consommation quotidienne."
+    category: eau
+    canal: TT
+    prix: 150
+    marge: 18
+    specs:
+      contenance: 500
+      format: "Pet"
+    conservation: "Conserver à l'abri du soleil"
+    lastUpdated: 1738230000000
+
+  - id: "eau-supermont-150cl"
+    name: "Supermont 1.5L"
+    brand: "Supermont"
+    historique: "Eau de source camerounaise pure, réputée pour sa minéralité équilibrée."
+    positionnement: "Eau de source premium, confiance des consommateurs."
+    category: eau
+    canal: MT
+    prix: 300
+    marge: 15
+    specs:
+      contenance: 1500
+      format: "Pet"
+    conservation: "Garder dans un endroit sec"
+    lastUpdated: 1738230000000

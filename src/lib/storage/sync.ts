@@ -7,17 +7,31 @@ export async function getLastSyncTimestamp(store: string): Promise<number> {
   return metadata?.lastSyncTimestamp || 0;
 }
 
-export async function updateSyncTimestamp(store: string, timestamp: number): Promise<void> {
+export interface SyncUpdateOptions {
+  version?: number;
+  conflictData?: object;
+}
+
+export async function updateSyncTimestamp(
+  store: string,
+  timestamp: number,
+  options: SyncUpdateOptions = {},
+): Promise<void> {
   const db = await getDatabase();
   const existing = await db.get('syncMetadata', store);
   
+  const mergedConflictData =
+    options.conflictData && typeof options.conflictData === 'object'
+      ? { ...(existing?.conflictData ?? {}), ...options.conflictData }
+      : existing?.conflictData;
+
   const metadata: SyncMetadataStore = {
     store,
     lastSyncTimestamp: timestamp,
-    version: existing?.version || 1,
+    version: options.version ?? existing?.version ?? 1,
     pendingChanges: existing?.pendingChanges || 0,
     status: 'synced',
-    conflictData: existing?.conflictData,
+    conflictData: mergedConflictData,
   };
   
   await db.put('syncMetadata', metadata);
