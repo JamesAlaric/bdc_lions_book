@@ -47,7 +47,7 @@ development_status:
   1-4-creer-page-parametres-avec-version-et-changelog: done
   1-5-implementer-systeme-de-mise-a-jour-pwa: done
   1-6-implementer-mecanisme-de-rollback-et-versioning-cache: ready-for-dev
-  epic-1-retrospective: optional
+  epic-1-retrospective: done
 
   epic-2: backlog
   2-1-configurer-indexeddb-pour-stockage-local-catalogue: backlog
