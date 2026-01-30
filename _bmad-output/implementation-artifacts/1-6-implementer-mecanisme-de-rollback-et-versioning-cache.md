@@ -1,6 +1,6 @@
 # Story 1.6: Implémenter Mécanisme de Rollback et Versioning Cache
 
-Status: ready-for-dev
+Status: done
 
 ## Story
 
@@ -516,16 +516,75 @@ pnpm add -D @types/idb
 
 ### Agent Model Used
 
-_À remplir par le dev agent_
+Claude 3.5 Sonnet (Cascade)
 
 ### Debug Log References
 
-_À remplir par le dev agent_
+- TypeScript verbatimModuleSyntax: Fixed with `import type` for DBSchema and IDBPDatabase
+- Unused parameters in migrations: Removed db parameter when not used
+- Build successful: 74.21 KB (28.59 KB gzipped)
 
 ### Completion Notes List
 
-_À remplir par le dev agent lors de l'implémentation_
+✅ **Library idb installée** (30 janvier 2026)
+- Version: 8.0.3
+- Wrapper moderne pour IndexedDB avec TypeScript
+
+✅ **Système de versioning IndexedDB créé**
+- database.ts: Gestion de 2 versions de cache (cache_v1, cache_v2)
+- Metadata store pour tracking de version
+- Cleanup automatique des anciennes versions (limite: 2)
+- CURRENT_DB_VERSION = 2
+
+✅ **Système de migration implémenté**
+- migrations.ts: Définition des migrations up/down
+- Migration v1: Initial schema
+- Migration v2: Add cache_v2 for product catalog
+- Rollback automatique en cas d'échec
+- Logging complet des migrations
+
+✅ **Mécanisme de rollback créé**
+- rollback.ts: Gestion du rollback vers version précédente
+- Désinstallation du Service Worker
+- Suppression des caches non-précédents
+- Tracking des 2 dernières versions dans localStorage
+- Rechargement automatique après rollback
+
+✅ **Système de feature flags implémenté**
+- featureFlags.ts: 5 flags définis (newCatalogUI, carousel3D, offlineSync, advancedFilters, searchSuggestions)
+- Stockage dans localStorage avec prefix 'feature_'
+- Valeurs par défaut configurables
+- API: isFeatureEnabled(), setFeatureEnabled(), resetFeatureFlags()
+
+✅ **UI dans Settings.tsx**
+- Section "Gestion des versions" avec version actuelle/précédente
+- Bouton rollback avec confirmation et état de chargement
+- Section "Feature Flags" en mode développeur (collapsible)
+- Toggle switches avec animation pour chaque flag
+- Design cohérent avec couleurs BDC
+
+✅ **Initialisation dans main.tsx**
+- Tracking automatique de la version au démarrage
+- Initialisation de la base de données
+- Exécution des migrations
+- Cleanup des anciennes versions
+- Gestion d'erreur avec UI de fallback
+
+✅ **Build vérifié**
+- Compilation réussie
+- Bundle: 74.21 KB (28.59 KB gzippé) - +13 KB vs Story 1.5
+- 17 fichiers précachés (136.83 KB)
+- Pas d'erreurs TypeScript
 
 ### File List
 
-_À remplir par le dev agent avec la liste des fichiers créés/modifiés_
+**Fichiers créés:**
+- `src/lib/storage/database.ts` - IndexedDB avec versioning (83 lignes)
+- `src/lib/storage/migrations.ts` - Système de migration (93 lignes)
+- `src/lib/rollback.ts` - Mécanisme de rollback (67 lignes)
+- `src/lib/featureFlags.ts` - Feature flags (77 lignes)
+
+**Fichiers modifiés:**
+- `src/routes/Settings.tsx` - Ajout UI rollback et feature flags (210 lignes)
+- `src/main.tsx` - Initialisation versioning et DB (45 lignes)
+- `package.json` - Ajout dépendance idb@8.0.3
