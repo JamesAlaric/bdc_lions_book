@@ -49,8 +49,8 @@ development_status:
   1-6-implementer-mecanisme-de-rollback-et-versioning-cache: done
   epic-1-retrospective: done
 
-  epic-2: backlog
-  2-1-configurer-indexeddb-pour-stockage-local-catalogue: backlog
+  epic-2: in-progress
+  2-1-configurer-indexeddb-pour-stockage-local-catalogue: review
   2-2-implementer-service-worker-avec-cache-strategies: backlog
   2-3-creer-modele-de-donnees-produits-et-charger-catalogue-initial: backlog
   2-4-afficher-fiches-produits-avec-glassmorphisme-et-carousel-3d: backlog

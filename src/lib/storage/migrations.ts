@@ -29,6 +29,16 @@ export const migrations: Migration[] = [
       console.log('Rollback v2: Reverting to cache_v1');
     },
   },
+  {
+    version: 3,
+    name: 'Add catalogue stores',
+    up: async () => {
+      console.log('Migration v3: Catalogue stores (products, brands, objections, campaigns, media, userData, syncMetadata) created in upgrade()');
+    },
+    down: async () => {
+      console.log('Rollback v3: Cannot rollback catalogue stores - critical data');
+    },
+  },
 ];
 
 export async function runMigrations(db: IDBPDatabase<LionsBookDB>): Promise<void> {

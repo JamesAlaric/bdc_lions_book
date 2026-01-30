@@ -1,5 +1,6 @@
 import { openDB } from 'idb';
 import type { DBSchema, IDBPDatabase } from 'idb';
+import type { ProductStore, BrandStore, ObjectionStore, CampaignStore, MediaStore, UserDataStore, SyncMetadataStore } from './types';
 
 export interface LionsBookDB extends DBSchema {
   metadata: {
@@ -18,10 +19,43 @@ export interface LionsBookDB extends DBSchema {
     key: string;
     value: any;
   };
+  products: {
+    key: string;
+    value: ProductStore;
+    indexes: {
+      'by-category': string;
+      'by-brand': string;
+      'by-canal': string;
+    };
+  };
+  brands: {
+    key: string;
+    value: BrandStore;
+  };
+  objections: {
+    key: string;
+    value: ObjectionStore;
+  };
+  campaigns: {
+    key: string;
+    value: CampaignStore;
+  };
+  media: {
+    key: string;
+    value: MediaStore;
+  };
+  userData: {
+    key: string;
+    value: UserDataStore;
+  };
+  syncMetadata: {
+    key: string;
+    value: SyncMetadataStore;
+  };
 }
 
 const DB_NAME = 'lions-book-db';
-export const CURRENT_DB_VERSION = 2;
+export const CURRENT_DB_VERSION = 3;
 
 export async function initDatabase(): Promise<IDBPDatabase<LionsBookDB>> {
   const db = await openDB<LionsBookDB>(DB_NAME, CURRENT_DB_VERSION, {
@@ -37,6 +71,22 @@ export async function initDatabase(): Promise<IDBPDatabase<LionsBookDB>> {
       if (oldVersion < 2) {
         db.createObjectStore('cache_v2');
         console.log('Created cache_v2 store');
+      }
+
+      if (oldVersion < 3) {
+        const productsStore = db.createObjectStore('products', { keyPath: 'id' });
+        productsStore.createIndex('by-category', 'category');
+        productsStore.createIndex('by-brand', 'brand');
+        productsStore.createIndex('by-canal', 'canal');
+        
+        db.createObjectStore('brands', { keyPath: 'id' });
+        db.createObjectStore('objections', { keyPath: 'id' });
+        db.createObjectStore('campaigns', { keyPath: 'id' });
+        db.createObjectStore('media', { keyPath: 'id' });
+        db.createObjectStore('userData', { keyPath: 'id' });
+        db.createObjectStore('syncMetadata', { keyPath: 'store' });
+        
+        console.log('Created catalogue stores: products, brands, objections, campaigns, media, userData, syncMetadata');
       }
     },
   });
