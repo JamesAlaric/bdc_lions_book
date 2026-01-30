@@ -4,10 +4,38 @@ Application PWA pour transformer les vendeurs BDC en experts produit.
 
 ## 🚀 Stack Technique
 
-- **Frontend:** Vite 5 + Preact 10.x + TypeScript
-- **PWA:** vite-plugin-pwa avec Workbox 7
-- **Styling:** Emotion (CSS-in-JS)
+- **Frontend:** Vite 7.3.1 + Preact 10.28.2 + TypeScript 5.9.3
+- **PWA:** vite-plugin-pwa 1.2.0 avec Workbox 7
+- **Styling:** Emotion 11.14.x (CSS-in-JS) + Tailwind CSS 3.4.19
+- **Routing:** preact-router 4.1.2
+- **Storage:** IndexedDB (prévu pour Epic 2)
+- **Testing:** Vitest + @testing-library/preact
+- **Quality:** ESLint 9.39.2 + Prettier 3.8.1
 - **Package Manager:** pnpm
+
+## ✨ Fonctionnalités (Epic 1 - Complété)
+
+### PWA Core
+- ✅ Application installable sur mobile/desktop
+- ✅ Icônes PWA 192x192, 512x512 aux couleurs BDC (#ffc627, #ff7323)
+- ✅ Splash screen automatique avec branding BDC
+- ✅ Mode fullscreen (standalone)
+- ✅ Support portrait et paysage
+- ✅ Service Worker avec cache strategies
+- ✅ Offline-ready après premier chargement
+
+### Navigation & UI
+- ✅ Routing avec preact-router
+- ✅ Menu de navigation fixe (Accueil, Catalogue, Paramètres)
+- ✅ Page Paramètres avec version et changelog
+- ✅ Design responsive avec Tailwind
+- ✅ Effets glassmorphisme avec Emotion
+
+### Mises à jour
+- ✅ Système de notification pour nouvelles versions
+- ✅ Contrôle manuel des mises à jour (prompt)
+- ✅ Notification "Application prête offline"
+- 🔜 Rollback et versioning cache (Story 1.6 - À venir)
 
 ## � Démarrage
 
