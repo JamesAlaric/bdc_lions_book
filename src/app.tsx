@@ -14,6 +14,7 @@ import { initDatabase } from './lib/storage/database';
 import { loadInitialCatalogue, loadBrands, type LoadProgress } from './lib/data/loader';
 import { LoadingScreen } from './components/catalogue/LoadingScreen';
 import './app.css';
+// CSS import - no type declaration needed
 
 const isTestEnv = typeof process !== 'undefined' && process.env.NODE_ENV === 'test';
 
