@@ -1,0 +1,91 @@
+version: 1.0.0
+generatedAt: '2026-01-30T15:16:06.969Z'
+segments:
+  - id: bieres
+    name: Bières
+    icon: beer
+    order: 1
+    description: Portefeuille complet des bières Boissons du Cameroun
+    brands:
+      - id: 33-export
+        name: 33 EXPORT
+      - id: beaufort-lager
+        name: BEAUFORT LAGER
+      - id: beaufort-light
+        name: BEAUFORT LIGHT
+      - id: castel-beer
+        name: CASTEL BEER
+      - id: castle-milk-stout
+        name: CASTLE MILK STOUT
+      - id: chill-citron
+        name: CHILL CITRON
+      - id: doppel
+        name: DOPPEL
+      - id: heineken
+        name: HEINEKEN
+      - id: isenbeck
+        name: ISENBECK
+      - id: manyan
+        name: MANYAN
+      - id: mutzig
+        name: MÜTZIG
+  - id: alcools-mix
+    name: Alcools Mix
+    icon: drink
+    order: 2
+    description: Portefeuille Alcools Mix Boissons du Cameroun
+    brands:
+      - id: booster-gin-tonic
+        name: BOOSTER GIN TONIC
+      - id: booster-whisky-cola
+        name: BOOSTER WHISKY COLA
+      - id: orijin
+        name: ORIJIN
+      - id: smirnorff-ice-black
+        name: SMIRNORFF ICE BLACK
+      - id: smirnorff-ice-pineaple
+        name: SMIRNORFF ICE PINEAPLE
+  - id: boissons-gazeuses
+    name: Boissons Gazeuses
+    icon: drink
+    order: 3
+    description: Portefeuille Boissons Gazeuses Boissons du Cameroun
+    brands:
+      - id: d-jino-cocktail
+        name: D'JINO COCKTAIL
+      - id: orangina
+        name: ORANGINA
+      - id: top-ananas
+        name: TOP ANANAS
+      - id: top-grenadine
+        name: TOP GRENADINE
+      - id: top-orange
+        name: TOP ORANGE
+      - id: top-pamplemousse
+        name: TOP PAMPLEMOUSSE
+      - id: top-soda
+        name: TOP SODA
+      - id: top-tonic
+        name: TOP TONIC
+      - id: vimto
+        name: VIMTO
+      - id: world-cola
+        name: WORLD COLA
+      - id: xxl
+        name: XXL
+      - id: youzou
+        name: YOUZOU
+  - id: eaux
+    name: Eaux
+    icon: drink
+    order: 4
+    description: Portefeuille Eaux Boissons du Cameroun
+    brands:
+      - id: aquabelle
+        name: AQUABELLE
+      - id: tangui-citron
+        name: TANGUI CITRON
+      - id: tangui-naturelle
+        name: TANGUI NATURELLE
+      - id: vitale
+        name: VITALE

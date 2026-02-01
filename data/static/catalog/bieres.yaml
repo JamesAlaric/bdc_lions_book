@@ -330,8 +330,114 @@ brands:
     positioning: "Premium, International"
     target: "Urbain, Classes moyennes et supérieures"
     
-    # Structure similaire à 33 Export...
-    # À compléter avec les données complètes
+    products:
+      - code: "CAS65C"
+        designation: "CASIER CASTEL 65 CL"
+        format: "65 CL"
+        packaging_type: "APO_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 6503.4
+            remise: 339
+            frais_chr: 528.45
+            marge: 782.85
+            taux_marge: "11.1%"
+
+          distributor_to_retailer:
+            prix_achat: 7200
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 924.3
+            taux_marge: "12.8%"
+
+          consumer_price:
+            prix_unitaire: 650
+            prix_casier: 7800
+
+      - code: "CAS50C"
+        designation: "CASIER CASTEL 50 CL"
+        format: "50 CL"
+        packaging_type: "BA_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["NORD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 4827.34
+            remise: 339
+            frais_chr: 528.45
+            marge: 708.91
+            taux_marge: "13.2%"
+
+          distributor_to_retailer:
+            prix_achat: 5450
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 874.3
+            taux_marge: "16.0%"
+
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 6000
+
+      - code: "CAS33C"
+        designation: "CASIER CASTEL 33 CL"
+        format: "33 CL"
+        packaging_type: "APO_33"
+        unit: "C24"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8035.8
+            remise: 528
+            frais_chr: 1056.9
+            marge: 1036.3
+            taux_marge: "11.4%"
+
+          distributor_to_retailer:
+            prix_achat: 8800
+            ristourne: 399
+            frais_elv: 1200
+            marge: 1199
+            taux_marge: "13.6%"
+
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 9600
+
+      - code: "CAS50B"
+        designation: "CARTON CASTEL BOITE 50"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 15847.1
+            remise: null
+            frais_chr: null
+            marge: 952.9
+            taux_marge: "6.0%"
+
+          distributor_to_retailer:
+            prix_achat: 16800
+            ristourne: null
+            frais_elv: null
+            marge: 600
+            taux_marge: "3.6%"
+
+          consumer_price:
+            prix_unitaire: 725
+            prix_casier: 17400
 
   - id: "mutzig"
     name: "Mützig"
@@ -341,6 +447,616 @@ brands:
     positioning: "Premium, Tradition"
     target: "Connaisseurs, Urbain"
     
-    # À compléter...
+    products:
+      - code: "MUT65C"
+        designation: "CASIER MUTZIG 65 CL"
+        format: "65 CL"
+        packaging_type: "BV_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 6503.4
+            remise: 339
+            frais_chr: 528.45
+            marge: 782.85
+            taux_marge: "11.1%"
+
+          distributor_to_retailer:
+            prix_achat: 7200
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 924.3
+            taux_marge: "12.8%"
+
+          consumer_price:
+            prix_unitaire: 650
+            prix_casier: 7800
+
+      - code: "MUT33C"
+        designation: "CASIER MUTZIG 33 CL"
+        format: "33 CL"
+        packaging_type: "BV_33"
+        unit: "C24"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8035.8
+            remise: 528
+            frais_chr: 1056.9
+            marge: 1036.3
+            taux_marge: "11.4%"
+
+          distributor_to_retailer:
+            prix_achat: 8800
+            ristourne: 399
+            frais_elv: 1200
+            marge: 1199
+            taux_marge: "13.6%"
+
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 9600
+
+      - code: "MUT50B"
+        designation: "CARTON MÜTZIG BOITE 50"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 15847.1
+            remise: null
+            frais_chr: null
+            marge: 952.9
+            taux_marge: "6.0%"
+
+          distributor_to_retailer:
+            prix_achat: 16800
+            ristourne: null
+            frais_elv: null
+            marge: 600
+            taux_marge: "3.6%"
+
+          consumer_price:
+            prix_unitaire: 725
+            prix_casier: 17400
 
   # ... Autres marques (Manyan, Isenbeck, Beaufort, etc.)
+
+  - id: "beaufort-lager"
+    name: "BEAUFORT LAGER"
+    products:
+      - code: "BFT50C"
+        designation: "CASIER BEAUFORT LAGER 50 CL"
+        format: "50 CL"
+        packaging_type: "BV_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 5755.68
+            remise: 339
+            frais_chr: 528.45
+            marge: 855.57
+            taux_marge: "13.6%"
+
+          distributor_to_retailer:
+            prix_achat: 6525
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 999.3
+            taux_marge: "15.3%"
+
+          consumer_price:
+            prix_unitaire: 600
+            prix_casier: 7200
+
+      - code: "BFT33C"
+        designation: "CASIER BEAUFORT LAGER 33 CL"
+        format: "33 CL"
+        packaging_type: "BV_33"
+        unit: "C24"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8035.8
+            remise: 528
+            frais_chr: 1056.9
+            marge: 1036.3
+            taux_marge: "11.4%"
+
+          distributor_to_retailer:
+            prix_achat: 8800
+            ristourne: 399
+            frais_elv: 1200
+            marge: 1199
+            taux_marge: "13.6%"
+
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 9600
+
+      - code: "BFT50B"
+        designation: "CARTON BEAUFORT LAGER BOITE 50"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 15847.1
+            remise: null
+            frais_chr: null
+            marge: 952.9
+            taux_marge: "6.0%"
+
+          distributor_to_retailer:
+            prix_achat: 16800
+            ristourne: null
+            frais_elv: null
+            marge: 600
+            taux_marge: "3.6%"
+
+          consumer_price:
+            prix_unitaire: 725
+            prix_casier: 17400
+  - id: "beaufort-light"
+    name: "BEAUFORT LIGHT"
+    products:
+      - code: "BFL50C"
+        designation: "CASIER BEAUFORT LIGHT 50 CL"
+        format: "50 CL"
+        packaging_type: "BV_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 5755.68
+            remise: 339
+            frais_chr: 528.45
+            marge: 855.57
+            taux_marge: "13.6%"
+
+          distributor_to_retailer:
+            prix_achat: 6525
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 999.3
+            taux_marge: "15.3%"
+
+          consumer_price:
+            prix_unitaire: 600
+            prix_casier: 7200
+
+      - code: "BFL33C"
+        designation: "CASIER BEAUFORT LIGHT 33 CL"
+        format: "33 CL"
+        packaging_type: "BV_33"
+        unit: "C24"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8035.8
+            remise: 528
+            frais_chr: 1056.9
+            marge: 1036.3
+            taux_marge: "11.4%"
+
+          distributor_to_retailer:
+            prix_achat: 8800
+            ristourne: 399
+            frais_elv: 1200
+            marge: 1199
+            taux_marge: "13.6%"
+
+          consumer_price:
+            prix_unitaire: 400
+            prix_casier: 9600
+
+      - code: "BFL50B"
+        designation: "CARTON BEAUFORT LIGHT 50"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 15847.1
+            remise: null
+            frais_chr: null
+            marge: 952.9
+            taux_marge: "6.0%"
+
+          distributor_to_retailer:
+            prix_achat: 16800
+            ristourne: null
+            frais_elv: null
+            marge: 600
+            taux_marge: "3.6%"
+
+          consumer_price:
+            prix_unitaire: 725
+            prix_casier: 17400
+  - id: "castle-milk-stout"
+    name: "CASTLE MILK STOUT"
+    products:
+      - code: "CMS50C"
+        designation: "CASIER CASTLE MILK STOUT 50 CL"
+        format: "50 CL"
+        packaging_type: "BA_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 6330.33
+            remise: 339
+            frais_chr: 528.45
+            marge: 880.92
+            taux_marge: "12.8%"
+
+          distributor_to_retailer:
+            prix_achat: 7125
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 999.3
+            taux_marge: "14.0%"
+
+          consumer_price:
+            prix_unitaire: 650
+            prix_casier: 7800
+  - id: "chill-citron"
+    name: "CHILL CITRON"
+    products:
+      - code: "CHC50C"
+        designation: "CASIER CHILL 50 CL"
+        format: "50 CL"
+        packaging_type: "BV_50"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 4779.12
+            remise: 339
+            frais_chr: 528.45
+            marge: 707.13
+            taux_marge: "13.3%"
+
+          distributor_to_retailer:
+            prix_achat: 5400
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 924.3
+            taux_marge: "17.1%"
+
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 6000
+
+      - code: "CHC33C"
+        designation: "CASIER CHILL 33 CL"
+        format: "33 CL"
+        packaging_type: "BV_33"
+        unit: "C24"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 6962.35
+            remise: 528
+            frais_chr: 1056.9
+            marge: 1009.75
+            taux_marge: "12.6%"
+
+          distributor_to_retailer:
+            prix_achat: 7700
+            ristourne: 399
+            frais_elv: 1200
+            marge: 1099
+            taux_marge: "14.3%"
+
+          consumer_price:
+            prix_unitaire: 350
+            prix_casier: 8400
+
+      - code: "CHC50B"
+        designation: "CARTON CHILL BOITE 50"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 14724.87
+            remise: null
+            frais_chr: null
+            marge: 925.13
+            taux_marge: "6.3%"
+
+          distributor_to_retailer:
+            prix_achat: 15650
+            ristourne: null
+            frais_elv: null
+            marge: 1150
+            taux_marge: "7.3%"
+
+          consumer_price:
+            prix_unitaire: 700
+            prix_casier: 16800
+  - id: "doppel"
+    name: "DOPPEL"
+    products:
+      - code: "DOP65C"
+        designation: "CASIER DOPPEL MUNICH 65 CL"
+        format: "65 CL"
+        packaging_type: "BA_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 6503.4
+            remise: 339
+            frais_chr: 528.45
+            marge: 782.85
+            taux_marge: "11.1%"
+
+          distributor_to_retailer:
+            prix_achat: 7200
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 924.3
+            taux_marge: "12.8%"
+
+          consumer_price:
+            prix_unitaire: 650
+            prix_casier: 7800
+
+      - code: "DOL65C"
+        designation: "CASIER DOPPEL LAGER 65 CL"
+        format: "65 CL"
+        packaging_type: "BA_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 10090.49
+            remise: 339
+            frais_chr: 528.45
+            marge: 995.76
+            taux_marge: "9.4%"
+
+          distributor_to_retailer:
+            prix_achat: 11000
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 1324.3
+            taux_marge: "12.0%"
+
+          consumer_price:
+            prix_unitaire: 1000
+            prix_casier: 12000
+  - id: "heineken"
+    name: "HEINEKEN"
+    products:
+      - code: "HEI33V"
+        designation: "CARTON HEINEKEN BOUTEILLES 33"
+        format: "33 CL"
+        packaging_type: "Verre Perdu"
+        unit: "V24"
+        consigne: 0
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 17184.81
+            remise: null
+            frais_chr: null
+            marge: 715.19
+            taux_marge: "4.2%"
+
+          distributor_to_retailer:
+            prix_achat: 17900
+            ristourne: null
+            frais_elv: null
+            marge: 1300
+            taux_marge: "7.3%"
+
+          consumer_price:
+            prix_unitaire: 800
+            prix_casier: 19200
+
+      - code: "HEI50B"
+        designation: "CARTON HEINEKEN BOITES 50 CL"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 20209.96
+            remise: null
+            frais_chr: null
+            marge: 790.04
+            taux_marge: "3.9%"
+
+          distributor_to_retailer:
+            prix_achat: 21000
+            ristourne: null
+            frais_elv: null
+            marge: 1800
+            taux_marge: "8.6%"
+
+          consumer_price:
+            prix_unitaire: 950
+            prix_casier: 22800
+  - id: "isenbeck"
+    name: "ISENBECK"
+    products:
+      - code: "ISE65C"
+        designation: "CASIER ISENBECK 65 CL"
+        format: "65 CL"
+        packaging_type: "APO_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 7455.68
+            remise: 339
+            frais_chr: 528.45
+            marge: 930.57
+            taux_marge: "11.7%"
+
+          distributor_to_retailer:
+            prix_achat: 8300
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 1024.3
+            taux_marge: "12.3%"
+
+          consumer_price:
+            prix_unitaire: 750
+            prix_casier: 9000
+
+      - code: "ISE33C"
+        designation: "CASIER ISENBECK 33 CL"
+        format: "33 CL"
+        packaging_type: "APO_33"
+        unit: "C24"
+        consigne: 3600
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 8655.6
+            remise: 528
+            frais_chr: 1056.9
+            marge: 1116.5
+            taux_marge: "11.5%"
+
+          distributor_to_retailer:
+            prix_achat: 9500
+            ristourne: 399
+            frais_elv: 1200
+            marge: 1699
+            taux_marge: "17.9%"
+
+          consumer_price:
+            prix_unitaire: 450
+            prix_casier: 10800
+
+      - code: "ISE50B"
+        designation: "CARTON ISENBECK BOITE 50"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 17762.59
+            remise: null
+            frais_chr: null
+            marge: 1037.41
+            taux_marge: "5.8%"
+
+          distributor_to_retailer:
+            prix_achat: 18800
+            ristourne: null
+            frais_elv: null
+            marge: 1000
+            taux_marge: "5.3%"
+
+          consumer_price:
+            prix_unitaire: 825
+            prix_casier: 19800
+  - id: "manyan"
+    name: "MANYAN"
+    products:
+      - code: "MNY65C"
+        designation: "CASIER MANYAN 65 CL"
+        format: "65 CL"
+        packaging_type: "BV_65"
+        unit: "C12"
+        consigne: 3600
+        market: ["TOUS"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 4779.52
+            remise: 339
+            frais_chr: 528.45
+            marge: 706.73
+            taux_marge: "13.3%"
+
+          distributor_to_retailer:
+            prix_achat: 5400
+            ristourne: 324.3
+            frais_elv: 600
+            marge: 924.3
+            taux_marge: "17.1%"
+
+          consumer_price:
+            prix_unitaire: 500
+            prix_casier: 6000
+
+      - code: "MNY50B"
+        designation: "CARTON MANYAN BOITE 50"
+        format: "50 CL"
+        packaging_type: "BOÎTE 50"
+        unit: "B24"
+        consigne: 0
+        market: ["SUD"]
+
+        pricing:
+          marketing_to_distributor:
+            prix_achat: 13114.71
+            remise: null
+            frais_chr: null
+            marge: 885.29
+            taux_marge: "6.8%"
+
+          distributor_to_retailer:
+            prix_achat: 14000
+            ristourne: null
+            frais_elv: null
+            marge: 1000
+            taux_marge: "7.1%"
+
+          consumer_price:
+            prix_unitaire: 625
+            prix_casier: 15000

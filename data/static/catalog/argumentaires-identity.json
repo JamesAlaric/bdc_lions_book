@@ -1,0 +1,391 @@
+{
+  "source": "assets/Argumentaires marques FAP All Brand V2.pdf",
+  "identities": {
+    "33 EXPORT": {
+      "positioning": "Mainstream",
+      "target": "Homme et femme entre 21-35 ans, jovial, dynamique, sociable, CSP C1- C2-DE",
+      "alcohol_rate": "5%",
+      "signature": "Supporter N°1 du Football"
+    },
+    "Castel Beer": {
+      "positioning": "Mainstream",
+      "target": "Homme et femme entre 25-40 ans, animé par la volonté de réussir, travailleur, CSP C1-C2-DE",
+      "alcohol_rate": "5,2%",
+      "signature": "Le goût de la réussite"
+    },
+    "MANYAN": {
+      "positioning": "Entrée de gamme",
+      "target": "Homme et femme entre 21-45 ans, de classe populaire, solidaire, fier, CSP C2&DE",
+      "alcohol_rate": "4,9%",
+      "signature": "La Bière du Cameroun!"
+    },
+    "ISENBECK": {
+      "positioning": "Premium",
+      "target": "Homme et femme entre 25-45 ans, décideur, distingué, exigeant, CSP A+, AB",
+      "alcohol_rate": "5,2%",
+      "signature": "Take it easy"
+    },
+    "BEAUFORT LAGER": {
+      "positioning": "Premium",
+      "target": "Homme et femme entre 25-40 ans, connaisseur, CSP AB, C1",
+      "alcohol_rate": "4,6%",
+      "signature": "L’origine de la fraîcheur"
+    },
+    "BEAUFORT LIGHT": {
+      "positioning": "Premium",
+      "target": "Femme et homme entre 25-40 ans, cultivés, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP AB, C1",
+      "alcohol_rate": "3,8%",
+      "signature": "Riche en goût, light en calories"
+    },
+    "BEAUFORT TANGO": {
+      "positioning": "Premium",
+      "target": "Femme et homme entre 21-35 ans, ouvert, viveur, CSP AB&C1",
+      "alcohol_rate": "4,5%",
+      "signature": "Un goût nyanga"
+    },
+    "CHILL CITRON": {
+      "positioning": "Mainstream",
+      "target": "Femme et homme entre 21-30 ans, ouvert, viveur, très présent dans l’informel et l’auto entrepreneuriat, CSP AB&C1",
+      "alcohol_rate": "2%",
+      "signature": "Time To Chill"
+    },
+    "DOPPEL": {
+      "positioning": "Mainstream sur le segment des bières brunes",
+      "target": "Hommes & femmes 25 -35 ans en quête de force, virilité & dynamisme",
+      "alcohol_rate": "6,5%",
+      "signature": "Un Goût puissant à dompter"
+    },
+    "CASTLE MILK STOUT": {
+      "positioning": "Top Mainstream / Premium sur le segment des brunes",
+      "target": "Jeunes de 30 ans et +, sexe masculin, high-tech, fiers de leurs origines, fréquentant les milieux chics et up to date, ayant de la personnalité CSP AB, C1- C2",
+      "alcohol_rate": "6%",
+      "signature": "Savour your richness /Savourez votre richesse"
+    },
+    "PELFORTH": {
+      "positioning": "Top Mainstream sur le segment des brunes",
+      "target": "Hommes entre 25 - 40 ans, in, swagg, talentueux, ayant du caractère, faisant preuve de courage, d’audace, de confiance en soi & en quête d’affirmation CSP C1-C2-DE",
+      "alcohol_rate": "6,5%",
+      "signature": ""
+    },
+    "Booster Whisky Cola": {
+      "positioning": "Top mainstream",
+      "target": "Jeunes hommes et femmes entre 21-45 ans, modernes, aimant l’ambiance hip hop",
+      "alcohol_rate": "7%",
+      "signature": "Boostez vos sensations"
+    },
+    "RACINES": {
+      "positioning": "Mainstream",
+      "target": "Homme et femme entre 21- 35 ans Afro optimiste.",
+      "alcohol_rate": "5,5%",
+      "signature": "Nos Racines, Notre Avenir"
+    },
+    "TOP": {
+      "positioning": "Milieu de gamme",
+      "target": "Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP AB-C-DE",
+      "alcohol_rate": "",
+      "signature": "Poursuis tes rêves avec TOP"
+    },
+    "DJINO": {
+      "positioning": "Premium",
+      "target": "Enfants et jeunes adultes entre 13 et 25 ans, CSP A + - AB-C1",
+      "alcohol_rate": "",
+      "signature": "explosion fruitée"
+    },
+    "VIMTO": {
+      "positioning": "Premium",
+      "target": "Homme et femme entre 20-35 ans, qui aime se distinguer, CSP AB-C1-C2",
+      "alcohol_rate": "",
+      "signature": "\"Donne du goût à ta vie\""
+    },
+    "ORANGINA": {
+      "positioning": "Premium",
+      "target": "Femme et homme entre 15-35 ans, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP AB- C1",
+      "alcohol_rate": "",
+      "signature": "Naturellement originale"
+    },
+    "WORLD-COLA": {
+      "positioning": "TOP Mainstream",
+      "target": "Adolescents 13 - 21 ans et les jeunes adultes africains tendance, joviaux, partisans de l’afro-optimisme.",
+      "alcohol_rate": "",
+      "signature": "Bascule dans un monde rafraichissant"
+    },
+    "YOUZOU": {
+      "positioning": "TOP Mainstream",
+      "target": "Adolescent 13ans -15 ans et Mères entre 21-35 ans, jovial, dynamique, sociable, CSP AB-BC-D",
+      "alcohol_rate": "",
+      "signature": "Etanche la Soif"
+    },
+    "MALTA TONIC": {
+      "positioning": "Mainstream",
+      "target": "Jeunes urbains de 16 - 25 ans /36 – 45 ans, high tech, ambitieux, en quête d’énergie et de vitalité pour la forme au quotidien",
+      "alcohol_rate": "0%",
+      "signature": "# Prends ta vie en main"
+    },
+    "XXL Energy": {
+      "positioning": "Premium",
+      "target": "Homme et femme entre 18-35 ans, à la recherche d’un stimulant permettant de repousser ses limites, CSP A+, A, AB",
+      "alcohol_rate": "",
+      "signature": "C’est petit, mais c’est puissant!"
+    },
+    "Source Tangui": {
+      "positioning": "PREMIUM",
+      "target": "Homme, Femme, enfant de tous âges, CSP AB, C1 25 – 70 ans",
+      "alcohol_rate": "",
+      "signature": ""
+    },
+    "Eau Vitale": {
+      "positioning": "Main Stream local",
+      "target": "Homme, Femme, enfant de tous âges",
+      "alcohol_rate": "",
+      "signature": "L’eau c’est la vie, l’eau c’est VITALE"
+    },
+    "Aquabelle": {
+      "positioning": "Main stream local",
+      "target": "Homme, Femme, enfant de tous âges",
+      "alcohol_rate": "",
+      "signature": "L’eau de chez Moi"
+    }
+  },
+  "pages": [
+    {
+      "page": 8,
+      "brand": "33 EXPORT",
+      "identity": {
+        "positioning": "Mainstream",
+        "target": "Homme et femme entre 21-35 ans, jovial, dynamique, sociable, CSP C1- C2-DE",
+        "alcohol_rate": "5%",
+        "signature": "Supporter N°1 du Football"
+      }
+    },
+    {
+      "page": 11,
+      "brand": "Castel Beer",
+      "identity": {
+        "positioning": "Mainstream",
+        "target": "Homme et femme entre 25-40 ans, animé par la volonté de réussir, travailleur, CSP C1-C2-DE",
+        "alcohol_rate": "5,2%",
+        "signature": "Le goût de la réussite"
+      }
+    },
+    {
+      "page": 14,
+      "brand": "MANYAN",
+      "identity": {
+        "positioning": "Entrée de gamme",
+        "target": "Homme et femme entre 21-45 ans, de classe populaire, solidaire, fier, CSP C2&DE",
+        "alcohol_rate": "4,9%",
+        "signature": "La Bière du Cameroun!"
+      }
+    },
+    {
+      "page": 17,
+      "brand": "ISENBECK",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Homme et femme entre 25-45 ans, décideur, distingué, exigeant, CSP A+, AB",
+        "alcohol_rate": "5,2%",
+        "signature": "Take it easy"
+      }
+    },
+    {
+      "page": 20,
+      "brand": "BEAUFORT LAGER",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Homme et femme entre 25-40 ans, connaisseur, CSP AB, C1",
+        "alcohol_rate": "4,6%",
+        "signature": "L’origine de la fraîcheur"
+      }
+    },
+    {
+      "page": 23,
+      "brand": "BEAUFORT LIGHT",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Femme et homme entre 25-40 ans, cultivés, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP AB, C1",
+        "alcohol_rate": "3,8%",
+        "signature": "Riche en goût, light en calories"
+      }
+    },
+    {
+      "page": 26,
+      "brand": "BEAUFORT TANGO",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Femme et homme entre 21-35 ans, ouvert, viveur, CSP AB&C1",
+        "alcohol_rate": "4,5%",
+        "signature": "Un goût nyanga"
+      }
+    },
+    {
+      "page": 29,
+      "brand": "CHILL CITRON",
+      "identity": {
+        "positioning": "Mainstream",
+        "target": "Femme et homme entre 21-30 ans, ouvert, viveur, très présent dans l’informel et l’auto entrepreneuriat, CSP AB&C1",
+        "alcohol_rate": "2%",
+        "signature": "Time To Chill"
+      }
+    },
+    {
+      "page": 32,
+      "brand": "DOPPEL",
+      "identity": {
+        "positioning": "Mainstream sur le segment des bières brunes",
+        "target": "Hommes & femmes 25 -35 ans en quête de force, virilité & dynamisme",
+        "alcohol_rate": "6,5%",
+        "signature": "Un Goût puissant à dompter"
+      }
+    },
+    {
+      "page": 35,
+      "brand": "CASTLE MILK STOUT",
+      "identity": {
+        "positioning": "Top Mainstream / Premium sur le segment des brunes",
+        "target": "Jeunes de 30 ans et +, sexe masculin, high-tech, fiers de leurs origines, fréquentant les milieux chics et up to date, ayant de la personnalité CSP AB, C1- C2",
+        "alcohol_rate": "6%",
+        "signature": "Savour your richness /Savourez votre richesse"
+      }
+    },
+    {
+      "page": 38,
+      "brand": "PELFORTH",
+      "identity": {
+        "positioning": "Top Mainstream sur le segment des brunes",
+        "target": "Hommes entre 25 - 40 ans, in, swagg, talentueux, ayant du caractère, faisant preuve de courage, d’audace, de confiance en soi & en quête d’affirmation CSP C1-C2-DE",
+        "alcohol_rate": "6,5%",
+        "signature": ""
+      }
+    },
+    {
+      "page": 43,
+      "brand": "Booster Whisky Cola",
+      "identity": {
+        "positioning": "Top mainstream",
+        "target": "Jeunes hommes et femmes entre 21-45 ans, modernes, aimant l’ambiance hip hop",
+        "alcohol_rate": "7%",
+        "signature": "Boostez vos sensations"
+      }
+    },
+    {
+      "page": 48,
+      "brand": "RACINES",
+      "identity": {
+        "positioning": "Mainstream",
+        "target": "Homme et femme entre 21- 35 ans Afro optimiste.",
+        "alcohol_rate": "5,5%",
+        "signature": "Nos Racines, Notre Avenir"
+      }
+    },
+    {
+      "page": 57,
+      "brand": "TOP",
+      "identity": {
+        "positioning": "Milieu de gamme",
+        "target": "Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP AB-C-DE",
+        "alcohol_rate": "",
+        "signature": "Poursuis tes rêves avec TOP"
+      }
+    },
+    {
+      "page": 60,
+      "brand": "DJINO",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Enfants et jeunes adultes entre 13 et 25 ans, CSP A + - AB-C1",
+        "alcohol_rate": "",
+        "signature": "explosion fruitée"
+      }
+    },
+    {
+      "page": 63,
+      "brand": "VIMTO",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Homme et femme entre 20-35 ans, qui aime se distinguer, CSP AB-C1-C2",
+        "alcohol_rate": "",
+        "signature": "\"Donne du goût à ta vie\""
+      }
+    },
+    {
+      "page": 66,
+      "brand": "ORANGINA",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Femme et homme entre 15-35 ans, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP AB- C1",
+        "alcohol_rate": "",
+        "signature": "Naturellement originale"
+      }
+    },
+    {
+      "page": 69,
+      "brand": "WORLD-COLA",
+      "identity": {
+        "positioning": "TOP Mainstream",
+        "target": "Adolescents 13 - 21 ans et les jeunes adultes africains tendance, joviaux, partisans de l’afro-optimisme.",
+        "alcohol_rate": "",
+        "signature": "Bascule dans un monde rafraichissant"
+      }
+    },
+    {
+      "page": 73,
+      "brand": "YOUZOU",
+      "identity": {
+        "positioning": "TOP Mainstream",
+        "target": "Adolescent 13ans -15 ans et Mères entre 21-35 ans, jovial, dynamique, sociable, CSP AB-BC-D",
+        "alcohol_rate": "",
+        "signature": "Etanche la Soif"
+      }
+    },
+    {
+      "page": 78,
+      "brand": "MALTA TONIC",
+      "identity": {
+        "positioning": "Mainstream",
+        "target": "Jeunes urbains de 16 - 25 ans /36 – 45 ans, high tech, ambitieux, en quête d’énergie et de vitalité pour la forme au quotidien",
+        "alcohol_rate": "0%",
+        "signature": "# Prends ta vie en main"
+      }
+    },
+    {
+      "page": 81,
+      "brand": "XXL Energy",
+      "identity": {
+        "positioning": "Premium",
+        "target": "Homme et femme entre 18-35 ans, à la recherche d’un stimulant permettant de repousser ses limites, CSP A+, A, AB",
+        "alcohol_rate": "",
+        "signature": "C’est petit, mais c’est puissant!"
+      }
+    },
+    {
+      "page": 88,
+      "brand": "Source Tangui",
+      "identity": {
+        "positioning": "PREMIUM",
+        "target": "Homme, Femme, enfant de tous âges, CSP AB, C1 25 – 70 ans",
+        "alcohol_rate": "",
+        "signature": ""
+      }
+    },
+    {
+      "page": 92,
+      "brand": "Eau Vitale",
+      "identity": {
+        "positioning": "Main Stream local",
+        "target": "Homme, Femme, enfant de tous âges",
+        "alcohol_rate": "",
+        "signature": "L’eau c’est la vie, l’eau c’est VITALE"
+      }
+    },
+    {
+      "page": 95,
+      "brand": "Aquabelle",
+      "identity": {
+        "positioning": "Main stream local",
+        "target": "Homme, Femme, enfant de tous âges",
+        "alcohol_rate": "",
+        "signature": "L’eau de chez Moi"
+      }
+    }
+  ]
+}

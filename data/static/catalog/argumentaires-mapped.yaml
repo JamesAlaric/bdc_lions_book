@@ -1,0 +1,948 @@
+version: 1.0.0
+generatedAt: "2026-02-01T10:59:51.576Z"
+source:
+  pdf: assets/Argumentaires marques FAP All Brand V2.pdf
+  argumentaires_raw: data/static/catalog/argumentaires-raw.yaml
+  mapping:
+    djino-cocktail: djino
+    top-ananas: top
+    top-grenadine: top
+    top-orange: top
+    top-pamplemousse: top
+    top-soda: top
+    top-tonic: top
+    tangui-citron: source-tangui-citron
+    vitale: eau-vitale
+    booster-gin-tonic: booster
+    booster-whisky-cola: booster
+brands:
+  - id: 33-export
+    name: 33 Export
+    segment_id: bieres
+    pages:
+      a_savoir:
+        - 9
+      motivations:
+        - 10
+    a_savoir:
+      - Brassée depuis 1875, ‘’33’’ Export est une bière de haute tradition de classe internationale
+      - >-
+        Reconnue et appréciée sur tous les continents, ‘’33’’ Export est le partenaire incontournable des bons moments
+        partagés entre amis
+      - Son goût franc et unique en a fait aujourd’hui la bière la plus consommée au cameroun
+      - ’’33’’ Export est le Supporter N°1 du Football
+    motivations_raw: |
+      Argumentaire ‘’33’’ EXPORT
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité ‘‘33’’ EXPORT est une bière c’est la bière la plus consommée Grande satisfaction
+      de grande qualité au Cameroun des consommateurs
+      Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges
+      très forte rotation
+      Commodité La ‘‘33’’ EXPORT est en Elle est disponible en grand et Choix varié pour les
+      quatre formats petit modèle, mais aussi en consommateurs
+      canette
+      IRRATIONNELLES
+      Compétitivité elle a une très forte Donner le nombre de casiers Espoir de gain lors
+      contribution aux ventes achetés par un client du même d’un concours
+      pour le gain d’un concours réseau
+      Orgueil Une bière internationale de Brassée depuis 1875 connaisseur auprès
+      haute tradition des consommateurs
+      Imitation Une bière populaire à avoir Tous les clients l’ont en stock Fidélisation de la
+      absolument en stock clientèle
+      Nouveauté Nouvelle reférence Canette 50CL Client à la page
+      Sympathie La bière du supporter client et vendeur se soutiennent Suivi personnalisé
+  - id: castel-beer
+    name: Castel Beer
+    segment_id: bieres
+    pages:
+      a_savoir:
+        - 12
+      motivations:
+        - 13
+    a_savoir:
+      - >-
+        Bière blonde de qualité supérieure, Castel Beer est l’aboutissement d’un brassage d’ingrédients savamment
+        sélectionnés
+      - >-
+        Son habillage couleur or, tout à fait royal et exceptionnel, une fierté d’arborer sa médaille d’or remportée aux
+        Quality awards 2017 illustre toute la considération que la marque Castel Beer porte au quotidien à ses
+        consommateurs
+      - >-
+        Riche de plus de 50 ans d’histoire, Castel Beer célèbre les valeurs positives de l’afrique, des africains de
+        talent qui font la fierté du continent.
+      - Appréciée dans plus de 22 pays du continent, Castel Beer s’exporte à travers le monde
+      - Fine et rafraîchissante, elle est la Reine des bières blondes africaines.
+    motivations_raw: |
+      Argumentaire Castel Beer
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité La Castel Beer est une bière Elle est consommée dans plus de 22 Bonne satisfaction
+      de qualité supérieure pays des consommateurs
+      Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges
+      forte rotation
+      Commodité La Castel Beer se présente Elle est disponible en grand et petit Choix variés pour les
+      sous quatre formats modèle, mais aussi en canettes consommateurs
+      IRRATIONNELLE
+      S
+      Compétitivité elle a une bonne contribution Donner le nombre de casiers achetés Espoir de gain lors
+      aux ventes pour le gain d’un par un client du même réseau d’un concours
+      concours
+      Orgueil Une bière de luxe Évolution du packaging et habillage connaisseur auprès
+      internationale de couleur or des consommateurs
+      Imitation Une bière à avoir absolument Les autres clients l’ont toujours en Fidélisation de la
+      en stock stock clientèle
+      Nouveauté Nouvelle référence Format canette 50cl Nouvelle offre aux
+      consommateurs
+      Sympathie La Castel Beer rassemble Bon rapport client et vendeur Suivi personnalisé
+  - id: beaufort-lager
+    name: BEAUFORT LAGER
+    segment_id: bieres
+    pages:
+      a_savoir:
+        - 21
+      motivations:
+        - 22
+    a_savoir:
+      - >-
+        Brassée au cameroun depuis 1952, l’excellent process de fabrication de la Beaufort Lager ne tolère que la
+        perfection
+      - >-
+        La renommée de Beaufort Lager a traversé le temps pour imposer à ce jour le respect. Un respect bien assumé avec
+        sa médaille en argent remportée lors des Quality Awards 2017
+      - >-
+        Fine et légère, la fraîcheur inégalée de Beaufort Lager est appréciée dans plus de dix pays sur le continent et
+        au-delà
+      - Bière de distinction au packaging attrayant, elle vous confère du respect
+    motivations_raw: |
+      Argumentaire BEAUFORT LAGER
+      MOTIVATIONS Le fait La preuve L’avantage du client
+      CLIENT
+      RATIONNELLES
+      Sécurité BEAUFORT LAGER est une Elle est consommée sur le continent Bonne satisfaction des
+      bière de qualité reconnue et au-delà consommateurs
+      Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges
+      bonne rotation
+      Commodité Formats à consommer sur Elle est disponible en VC 50CL et, Pratique pour client et
+      place et à emporter mais aussi en canettes et désormais consommateurs
+      en fûts
+      IRRATIONNELLES
+      Compétitivité elle a sa contribution aux Donner le nombre de casiers achetés Espoir de gain lors
+      ventes pour le gain d’un par un client du même réseau d’un concours
+      concours
+      Orgueil Une bière premium Packaging d’exception De la considération
+      Rapport qualité/quantité/prix pour le consommateur
+      Imitation Une bière premium à avoir Tous les bons clients l’ont en stock Fidélisation de la
+      absolument en stock clientèle
+      Nouveauté Nouvel habillage et nouveau Nouveaux éléments de décors Client à la page
+      conditionnement en fûts
+      Sympathie BEAUFORT LAGER, Excellence de la relation client et Suivi personnalisé
+      La bière distinguée vendeur
+  - id: beaufort-light
+    name: BEAUFORT LIGHT
+    segment_id: bieres
+    pages:
+      a_savoir:
+        - 24
+      motivations:
+        - 25
+    a_savoir:
+      - >-
+        Brassée depuis 2006 au Cameroun, BEAUFORT LIGHT est la fierté du Cameroun : 1ère bière light produite et
+        commercialisée au pays.
+      - Avec 3,8% de taux d’alcool, BEAUFORT LIGHT est aussi la bière la moins alcoolisée produite au cameroun
+      - Sa teneur équilibrée en calories permet aux consommateurs de rester à l’écoute de leur corps
+      - légère et désaltérante, BEAUFORT LIGHT vous procure finesse et plaisir exquis
+    motivations_raw: |
+      Argumentaire BEAUFORT LIGHT
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité BEAUFORT LIGHT est une bière Elle est consommée au Cameroun Bonne satisfaction des
+      fine et légère, de qualité et ailleurs consommateurs
+      exceptionnelle.
+      Argent Un produit rentable et à bonne Voir page de calcul des marges Bonnes marges
+      rotation
+      Commodité Formats à consommer sur place et Disponible en grand modèle 50cl Pratique pour client et
+      à emporter et en canette 50CL consommateurs
+      IRRATIONNELL
+      ES
+      Compétitivité elle a sa contribution aux ventes Donner le nombre de casiers Espoir de gain lors
+      pour le gain d’un concours achetés par un client du même d’un concours
+      réseau
+      Orgueil C’est la première bière Light Teneur en alcool et en calories très connaisseur auprès
+      fabriquée localement équilibrée des consommateurs
+      Imitation Une bière premium à avoir Tous les bons clients l’ont en stock Fidélisation de la
+      absolument en stock clientèle
+      Nouveauté Relooking packaging (en cours) Nouveaux éléments de décors Client à la page
+      Nouveau conditionnement Canette 50CL
+      Sympathie BEAUFORT LIGHT, La richesse de la relation client et Suivi personnalisé
+      Riche en goût vendeur
+  - id: castle-milk-stout
+    name: CASTLE MILK STOUT
+    segment_id: bieres
+    pages:
+      a_savoir:
+        - 36
+      motivations:
+        - 37
+    a_savoir:
+      - >-
+        CASTLE MILK STOUT est une bière stout d’origine sud- africaine, brassée au cameroun depuis 2003 sous licence de
+        AB InBev le brasseur N°1 mondial
+      - Bière d’exception, son aspect black et onctueux lui confère un goût de stout unique
+      - C’est la stout au meilleur rapport qualité + quantité / prix du marché
+      - Savourer CASTLE MILK STOUT, c’est affirmer ses appartenances africaines
+    motivations_raw: |
+      Argumentaire CASTLE MILK STOUT
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité La CASTLE MILK STOUT est Partenaire AB InBev, Bonne satisfaction
+      une bière brune de grande brasseur N° 1 mondial des consommateurs
+      qualité
+      Argent Un produit rentable, qui a Voir page de calcul des marges Bonnes marges
+      ses consommateurs à lui
+      Commodité (VAC) Format plus adapté Passé du format 65cl au 50cl Plus digeste
+      IRRATIONNELLES
+      Compétitivité Elle a sa contribution aux Donner le nombre de casiers Espoir de gain lors
+      ventes pour le gain d’un achetés par un client du même d’un concours
+      concours réseau
+      Orgueil C’est une bière pour D’origine sud-africaine, c’est une Satisfaction des
+      consommateurs de brune stout à 6% d’alcool adoreurs de brune
+      avec moins d’amertume
+      Imitation Une bière à avoir Les clients connaisseurs l’ont en Fidélisation de la
+      absolument en stock stock clientèle
+      Nouveauté Format nouveau Format 50cl Client à la page
+      Sympathie Castle Milk Stout incarne les le client et son vendeur ont Suivi personnalisé
+      valeurs Africaines chacun de l'Afrique en eux
+  - id: chill-citron
+    name: CHILL CITRON
+    segment_id: bieres
+    pages:
+      motivations:
+        - 31
+    motivations_raw: |
+      ARGUMENTAIRE CHILL CITRON
+      MOTIVATIONS Le fait La preuve L’avantage du client
+      CLIENT
+      RATIONNELLES
+      Sécurité CHILL CITRON est une bière Elle est consommée sur le continent Bonne satisfaction des
+      aromatisée de qualité. consommateurs
+      Argent Un produit rentable, tarif abordable Voir page de calcul des marges Bonnes marges
+      avec une bonne rotation
+      Commodité (TT) Format unique Elle est disponible en VC 50CL Pratique pour client et
+      consommateurs
+      IRRATIONNELLES
+      Compétitivité elle a sa contribution aux ventes Donner le nombre de casiers achetés par Espoir de gain lors d’un
+      pour le gain d’un concours un client du même réseau concours/incentive client
+      Orgueil Une bière aromatisée et légèrement Packaging d’exception Taux d’alcool très modéré
+      alcoolisée Rapport qualité/quantité/prix pour le consommateur
+      Imitation Une bière à avoir absolument en Tous les bons clients l’ont en stock Fidélisation de la
+      stock clientèle
+      Nouveauté Nouvelle bière aromatisée Goût citronné, unique dans le TT Client à la page
+      Sympathie Chill Citron a un goût raffiné Excellence de la relation client et Suivi personnalisé
+      La bière distinguée vendeur
+  - id: doppel
+    name: DOPPEL
+    segment_id: bieres
+    pages:
+      motivations:
+        - 34
+    motivations_raw: |
+      Argumentaire DOPPEL
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité la DOPPEL est une bière Brune d’origine allemande, avec sa Bonne satisfaction
+      ambrée de qualité formule 100% pure, 100% qualité et 100% des
+      tradition consommateurs
+      Argent Un produit rentable, qui Voir page de calcul des marges Bonnes marges
+      a une bonne rotation
+      Commodité Format très adapté et Disponible en format 50 et 65 cl Répond à toutes
+      varié les demandes
+      IRRATIONNELLE
+      S
+      Compétitivité elle a sa contribution Donner le nombre de casiers achetés par Espoir de gain lors
+      aux ventes pour le gain un client du même réseau d’un concours
+      d’un concours
+      Orgueil c’est une bière pour C’est une extra stout à 6,5% d’alcool Satisfaction des
+      consommateurs de brune adoreurs de brune
+      Imitation Une bière à avoir Tous les bons clients l’ont en stock Fidélisation de la
+      absolument en stock clientèle
+      Nouveauté -
+      Sympathie Le slogan « un goût Procure force, puissance et vitalité pour Suivi personnalisé
+      puissant à dompter » un dynamisme quotidien
+  - id: isenbeck
+    name: ISENBECK
+    segment_id: bieres
+    pages:
+      a_savoir:
+        - 18
+      motivations:
+        - 19
+    a_savoir:
+      - >-
+        Bière internationale d’origine allemande et commercialisée au Cameroun depuis 1999, ISENBECK est reconnue pour
+        son caractère raffinée et sa qualité hautement supérieure.
+      - Finement brassée, ISENBECK procure aux consommateurs des moments particuliers de saveur achevée.
+      - Son habillage premium met tout de suite en relief son côté classe et raffiné.
+      - ISENBECK est une bière de prestige qui fait de ses consommateurs des connaisseurs de bière d’exception.
+    motivations_raw: >
+      Argumentaire ISENBECK
+
+      MOTIVATIONSCLIENT Le fait La preuve L’avantage du client
+
+      RATIONNELLES
+
+      Sécurité ISENBECK est une bière d’origine La qualité allemande s’impose à travers Grande satisfaction des
+
+      allemande le monde consommateurs
+
+      Argent Un produit très rentable et à Voir page de calcul des marges Meilleures marges
+
+      bonne rotation
+
+      Commodité Formats à consommer sur place et Elle est disponible en VC grand et petit Choix variés pour les
+      consommateurs
+
+      à emporter modèle, mais aussi en canettes et
+
+      désormais en fûts
+
+      IRRATIONNELLES
+
+      Compétitivité elle a sa contribution aux ventes Donner le nombre de casiers achetés par Espoir de gain lors d’un
+      concours
+
+      pour le gain d’un concours un client du même réseau
+
+      Orgueil Une bière de prestige Brassée depuis 1769 Connaisseur auprès des
+
+      internationale consommateurs
+
+      Imitation Une bière premium à avoir Tous les bons clients l’ont en stock Fidélisation de la clientèle
+
+      absolument en stock
+
+      Nouveauté Désormais disponible en fûts Engouement à consolider Image du consommateur rehaussée
+
+      Sympathie une bière 100% qualité Bonne qualité de la relation client et Suivi personnalisé
+
+      vendeur
+  - id: manyan
+    name: MANYAN
+    segment_id: bieres
+    pages:
+      motivations:
+        - 16
+    motivations_raw: |
+      Argumentaire MANYAN
+      MOTIVATIONS CLIENT Le fait La preuve L’avantage du
+      client
+      RATIONNELLES
+      Sécurité Manyan est une bière produite à Elle est produite par les Brasseries Bonne satisfaction des
+      partir des ingrédients locaux du Cameroun, distributeurs de consommateurs
+      revenus en interne et en externe
+      Argent Un produit rentable et à forte Voir page de calcul des marges Bonnes marges
+      rotation
+      Commodité Manyan se présente sous deux Elle est disponible en verre Choix varié pour les
+      formats consigné, et bientôt en fûts consommateurs
+      IRRATIONNELLES
+      Compétitivité elle a une bonne contribution aux Donner le nombre de casiers Espoir de gain lors d’un
+      ventes pour le gain d’un concours achetés par un client du même concours
+      réseau
+      Orgueil Manyan est la bière de nos Un habillage aux couleurs du pays, Tarif accessible
+      terres, une fierté patrimoniale mais aussi son prix accessible et les Signe de
+      ingrédients reconnaissance
+      Imitation Une bière à avoir absolument en Les autres clients l’ont toujours en Fidélisation de la
+      stock stock clientèle
+      Nouveauté Nouvelle référence Vente en fûts pour les Nouvelle offre aux
+      manifestations consommateurs
+      Sympathie Manyan rassemble Bon rapport client et vendeur Suivi personnalisé
+  - id: booster-gin-tonic
+    name: BOOSTER GIN TONIC
+    segment_id: alcools-mix
+    source_brand_id: booster
+    source_brand_name: BOOSTER
+    pages:
+      motivations:
+        - 47
+    motivations_raw: |
+      Argumentaire BOOSTER
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité Booster est un cocktail c’est la gamme d’alcool mix la Grande satisfaction
+      alcoolisé base de gin et fait plus consommée au Cameroun des consommateurs
+      de Whisky et Cola
+      Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges
+      très forte rotation
+      Commodité Disponible en 02 formats Elle est disponible en Verre Choix varié pour les
+      consigné, mais aussi en canette consommateurs
+      IRRATIONNELLES
+      Compétitivité elle a une très forte Donner le nombre de casiers Espoir de gain lors
+      contribution aux ventes achetés par un client du même d’un concours
+      pour le gain d’un concours réseau
+      Orgueil Une Alcool Mix panafricain à Alcool Mix à 7° d’alcool connaisseur auprès
+      dégré d’alcool modéré des consommateurs
+      Imitation Une Alcool mix populaire à Tous les clients l’ont en stock Fidélisation de la
+      avoir absolument en stock clientèle
+      Nouveauté Nouvelle reférence Canette 50CL Client à la page
+      Sympathie Booster les sensations client et vendeur se soutiennent Suivi personnalisé
+  - id: booster-whisky-cola
+    name: BOOSTER WHISKY COLA
+    segment_id: alcools-mix
+    source_brand_id: booster
+    source_brand_name: BOOSTER
+    pages:
+      motivations:
+        - 47
+    motivations_raw: |
+      Argumentaire BOOSTER
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité Booster est un cocktail c’est la gamme d’alcool mix la Grande satisfaction
+      alcoolisé base de gin et fait plus consommée au Cameroun des consommateurs
+      de Whisky et Cola
+      Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges
+      très forte rotation
+      Commodité Disponible en 02 formats Elle est disponible en Verre Choix varié pour les
+      consigné, mais aussi en canette consommateurs
+      IRRATIONNELLES
+      Compétitivité elle a une très forte Donner le nombre de casiers Espoir de gain lors
+      contribution aux ventes achetés par un client du même d’un concours
+      pour le gain d’un concours réseau
+      Orgueil Une Alcool Mix panafricain à Alcool Mix à 7° d’alcool connaisseur auprès
+      dégré d’alcool modéré des consommateurs
+      Imitation Une Alcool mix populaire à Tous les clients l’ont en stock Fidélisation de la
+      avoir absolument en stock clientèle
+      Nouveauté Nouvelle reférence Canette 50CL Client à la page
+      Sympathie Booster les sensations client et vendeur se soutiennent Suivi personnalisé
+  - id: djino-cocktail
+    name: D'JINO COCKTAIL
+    segment_id: boissons-gazeuses
+    source_brand_id: djino
+    source_brand_name: DJINO
+    pages:
+      a_savoir:
+        - 61
+    a_savoir:
+      - Marque panafricaine, Djino est un pur concentré de fruits et de goût présent au Cameroun depuis des décennies
+      - Avec pour Slogan « Une explosion fruitée » le goût du produit riche en fruit tient la promesse du slogan
+      - marque premium, le DJINO accompagne surtout les jeunes amoureux de dessin et d’arts plastiques.
+      - DJINO a une très forte notoriété auprès des consommateurs qui la considére comme faisant partie du patrimoine
+  - id: orangina
+    name: ORANGINA
+    segment_id: boissons-gazeuses
+    pages:
+      a_savoir:
+        - 67
+      motivations:
+        - 68
+    a_savoir:
+      - >-
+        Unique de part sa pulpe, Orangina est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du
+        Cameroun depuis Novembre 2010, sous licence de SUNTORY, propriétaire de la marque.
+      - >-
+        Orangina est une boisson sans colorant et sans arôme artificiel faite à base de pulpes d’orange d’où la
+        nécessité de la secouer avant de consommer.
+      - Marque internationale, positionnée sur le premium, Orangina promeut la naturalité, l’originalité, la beauté.
+      - >-
+        La marque sublime la beauté dans tous ses contours par le célèbre concours de beauté « Miss Orangina » et
+        s’investit désormais dans le leadership féminin.
+    motivations_raw: |
+      Argumentaire ORANGINA
+      MOTIVATIONS Le fait La preuve L’avantage du
+      CLIENT client
+      RATIONNELLES
+      Sécurité Orangina est une boisson Fort concentré de fruit (12%) Bonne satisfaction
+      gazeuse qualité premium des consommateurs
+      Argent Un produit rentable et à forte Voir page de calcul des marges Bonnes marges
+      rotation
+      Commodité Orangina se présente sous Elle est disponible PET en verre Choix varié pour les
+      trois conditionnements consigné et en cannette consommateurs
+      IRRATIONNELLES
+      Compétitivité Bonne contribution aux ventes Voir page comparaison des mages Meilleur rapport
+      détaillants qualité / prix
+      Orgueil Marque internationale Disponible dans plus de 50 pays Consommer des
+      marques de référence
+      Imitation Produit à avoir absolument en Très forte demande Satisfaction de la
+      stock demande
+      Nouveauté Nouveau Conditionnement Lancement Cannette 33 B Assouvir les petites
+      en Avril 2020 soifs
+      Sympathie La Marque sublime la beauté Concept Miss Orangina Voir réaliser le rêve
+      et l’entrepreunariat féminin
+  - id: top-ananas
+    name: TOP ANANAS
+    segment_id: boissons-gazeuses
+    source_brand_id: top
+    source_brand_name: TOP
+    pages:
+      a_savoir:
+        - 58
+    a_savoir:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+  - id: top-grenadine
+    name: TOP GRENADINE
+    segment_id: boissons-gazeuses
+    source_brand_id: top
+    source_brand_name: TOP
+    pages:
+      a_savoir:
+        - 58
+    a_savoir:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+  - id: top-orange
+    name: TOP ORANGE
+    segment_id: boissons-gazeuses
+    source_brand_id: top
+    source_brand_name: TOP
+    pages:
+      a_savoir:
+        - 58
+    a_savoir:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+  - id: top-pamplemousse
+    name: TOP PAMPLEMOUSSE
+    segment_id: boissons-gazeuses
+    source_brand_id: top
+    source_brand_name: TOP
+    pages:
+      a_savoir:
+        - 58
+    a_savoir:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+  - id: top-soda
+    name: TOP SODA
+    segment_id: boissons-gazeuses
+    source_brand_id: top
+    source_brand_name: TOP
+    pages:
+      a_savoir:
+        - 58
+    a_savoir:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+  - id: top-tonic
+    name: TOP TONIC
+    segment_id: boissons-gazeuses
+    source_brand_id: top
+    source_brand_name: TOP
+    pages:
+      a_savoir:
+        - 58
+    a_savoir:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+  - id: vimto
+    name: VIMTO
+    segment_id: boissons-gazeuses
+    pages:
+      a_savoir:
+        - 64
+    a_savoir:
+      - >-
+        Si particulière, Vimto est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du Cameroun,
+        sous licence de Nichols International, propriétaire de la marque. SABC a hérité de Siac-Isenbeck
+      - >-
+        Produite à base d’extraits naturels de jus de «Bissap», de framboise et de cassis, c’est une boisson proprement
+        unique de par sa couleur et son goût .
+      - Marque premium, Vimto accompagne les célébrations communautaire et les moments de partage.
+      - Avec VIMTO « donne du goût à ta vie »
+  - id: world-cola
+    name: WORLD COLA
+    segment_id: boissons-gazeuses
+    pages:
+      a_savoir:
+        - 70
+      motivations:
+        - 71
+        - 72
+    a_savoir:
+      - Présente dans 14 pays d’Afrique subsaharienne, World Cola est une boisson Gazeuse aux arômes de cola
+      - >-
+        Fortement désaltérante, allégée en gaz et en sucre, son goût unique plonge le consommateur dans un univers
+        rafraichissant en lui procurant du bonheur.
+      - >-
+        Consciente de l’environnement et des valeurs africaines, elle est la réponse adéquate à un ardent désir de se
+        rafraichir et le fervent plaisir d’un partage en famille et entre amis.
+      - >-
+        World cola prône l’afro – optimisme, célèbre la culture Africaine et a pour vision de devenir la marque de cola
+        de référence en Afrique.
+    motivations_raw: |
+      Argumentaire World Cola
+      Conditions commerciales
+      DISTRIBUTEUR
+      Conditionne Marge
+      Format Prix Vente au casier Ristourne
+      ment directe CFA
+      accordée au Marge totale
+      Prix d'Achat
+      (Détaillant client en frs frs CFA
+      Net de 0% 1% 2% 2,50% 5% 10% Remise
+      2,5%) CFA
+      remises
+      1L P6 2 877 3 086 3 111 3 137 3 150 3 215 3 344 273 98 100 275
+      35 CL P12 2 752 2 879 2 903 2 928 2 940 3 000 3 121 188 98 60 150
+      60CL C12 3 448 3 887 3 920 3 952 3 969 4 050 4 213 521 196 120 445
+      30CL C12 4 251 4 895 4 936 4 977 4 997 5 100 5 305 746 196 120 670
+      Conditionn Marge
+      Format Prix d’achat au casier Détaillants TraditionalTrade PPC
+      ement directe CFA Marge
+      Prix de vente Ristourne
+      totale frs
+      0% 1% 2% 2,50% 5% 10% (Prix de vente au à la bouteille (Détaillant frs CFA CFA
+      consommateur) 2,5%)
+      1L P6 3 086 3 111 3 137 3 150 3 215 3 344 3 600 600 450 98 548
+      35 CL P12 2879 2 903 2 928 2 940 3 000 3 121 3 600 300 660 98 758
+      60CL C12 3887 3 920 3 952 3 969 4 050 4 213 4 800 400 831 196 1 027
+      30CL C12 4895 4 936 4 977 4 997 5 100 5 305 6 000 250 1 003 196 1 199
+      Conditionnem Marge directe
+      Format Prix d’achat au casier Détaillants Modern Trdae PPC
+      ent CFA
+      Prix de vente
+      (Prix de vente à la bouteille
+      (Détaillant
+      0% 1% 2% 2,50% 5% 10% au
+      2,5%)
+      consommateur)
+      1L P6 2 990 3 015 3 040 3 052 3 115 3 240 3 600 600 548
+      35 CL P12 2 783 2 807 2 830 2 842 2 900 3 017 3 600 300 758
+      60CL C12 3 695 3 726 3 757 3 773 3 850 4 005 4 800 400 1 027
+      30CL C12 4 703 4742 4 782 4 801 4 900 5 097 6 000 250 1 199
+  - id: xxl
+    name: XXL
+    segment_id: boissons-gazeuses
+    pages:
+      a_savoir:
+        - 82
+    a_savoir:
+      - Lancée en Octobre 2012 au Cameroun, XXL est une boisson énergisante au goût doux et subtil
+      - >-
+        Grâce à sa composition, riche en caféine et en vitamines B, XXL Energy donne la force et la vitalité et surtout
+        un regain d’énergie. Pour d’autres, elle apporte la bonne humeur grâce aux vertus du ginseng
+      - XXL accompagne les évènements estudiantins festifs et les sports de combat.
+      - >-
+        Présente dans plusieurs pays africains ( Sénégal, Bénin , Guinée , RDC ) XXL se positionne chaque jour comme la
+        boisson incontournable pour repousser ses limites.
+  - id: youzou
+    name: YOUZOU
+    segment_id: boissons-gazeuses
+    pages:
+      a_savoir:
+        - 74
+      motivations:
+        - 75
+        - 76
+    a_savoir:
+      - Youzou est une marque de boisson gazeuse du Groupe BGI, embouteillée au Cameroun par SABC.
+      - Youzou est fait à base d’extraits naturels de citron et citron Vert
+      - >-
+        Rafraîchissement, plaisir, partage et Basketball constituent l’ADN de Youzou, la marque ayant un engagement fort
+        pour le développement du Basketball au Cameroun.
+      - "Sa Signature originale: « Etanche la soif » met suffisamment en avant son côté désaltérant ."
+    motivations_raw: |
+      Argumentaire Youzou
+      Conditions commerciales
+      DISTRIBUTEUR
+      Marge directe
+      Format Conditionnement Prix Vente au détaillant CFA Ristourne
+      accordée au Marge totale frs
+      client en frs CFA
+      Prix d'Achat Net (Détaillant
+      0% 1% 2% 2,50% 5% 10% CFA Remise
+      de remises 2,5%)
+      100 CL P6 2 877 3 086 3 111 3 137 3 150 3 215 3 344 273 98 100 275
+      35 CL P12 2 752 2 879 2 903 2 928 2 940 3 000 3 121 188 98 60 150
+      60CL C12 3 448 3 887 3 920 3 952 3 969 4 050 4 213 521 196 120 445
+      30CL C12 4 251 4 895 4 936 4 977 4 997 5 100 5 305 746 196 120 670
+      Marge
+      Format Conditionnement Prix d’achat Détaillants Traditional Trade PPC Marge
+      Prix de vente directe CFA Ristourne
+      totale frs
+      (Prix de vente au à la bouteille (Détaillant frs CFA
+      0% 1% 2% 2,50% 5% 10% CFA
+      consommateur) 2,5%)
+      100 CL P6 3 086 3 111 3 137 3 150 3 215 3 344 3 600 600 450 98 548
+      35 CL P12 2879 2 903 2 928 2 940 3 000 3 121 3 600 300 660 98 758
+      60CL C12 3887 3 920 3 952 3 969 4 050 4 213 4 800 400 831 196 1 027
+      30CL C12 4895 4 936 4 977 4 997 5 100 5 305 6 000 250 1 003 196 1 199
+      Marge directe
+      Format Conditionnement Prix d’achat Détaillants Modern Trade PPC
+      Prix de vente CFA
+      (Prix de vente au à la bouteille (Détaillant
+      0% 1% 2% 2,50% 5% 10%
+      consommateur) 2,5%)
+      100 CL P6 2 990 3 015 3 040 3 052 3 115 3 240 3 600 600 548
+      35 CL P12 2 783 2 807 2 830 2 842 2 900 3 017 3 600 300 758
+      60CL C12 3 695 3 726 3 757 3 773 3 850 4 005 4 800 400 1 027
+      30CL C12 4 703 4742 4 782 4 801 4 900 5 097 6 000 250 1 199
+  - id: aquabelle
+    name: AQUABELLE
+    segment_id: eaux
+    pages:
+      a_savoir:
+        - 96
+      motivations:
+        - 97
+    a_savoir:
+      - Aquabelle est une eau de table embouteillée sous contrôle et distribuée par la SABC,
+      - >-
+        Pure et de qualité supérieure, Aquabelle est l’alliée au quotidien pour le maintien de l’équilibre naturel de
+        l’organisme,
+      - >-
+        A chaque gorgée, Aquabelle est une source de rafraîchissement recommandée pour notre hydratation et notre bien
+        être,
+      - >-
+        Elle se vend exclusivement dans la région septentrionale du Cameroun, d’où sa signature qui lui est propre. «
+        Aquabelle , l’eau de chez Moi… »
+    motivations_raw: |
+      Argumentaire Aquabelle
+      Motivations Client fait la preuve Avantage du client
+      Rationnelles
+      la première marque d'eau de table qui allie qualité et pureté maintien de l’équilibre
+      Sécurité l'eau à l'etat pur
+      dans le grand Nord naturel de l' organisme
+      Marge attractive pour le
+      Argent Marge directe détaillant =400 Fcfa Amélioration gains
+      détaillant
+      Aquabelle est une source de
+      rafraichissement
+      Commodités Aquabelle est votre allié au quotidien; une eau pure et légère Idéale pour tous
+      recommandée pour votre bien
+      être
+      Irrationnelles
+      La Meilleure eau de table Consommation d'un
+      Compétitivité présentant le meilleur ratio Produite par SABC , la marque est accessible produit de qualité à prix
+      Qualité - accessibilité accessible
+      Une eau de table à la portée la qualité de la marque , cautionnée par le savoir -faire du Consommer des produits
+      Orgueil
+      de Tous Groupe SABC sains
+      Aquabelle est une source de la marque est consommée par des personnes soucieuses de
+      Imitation Idéale pour tous
+      rafraichissement leur santé
+      Elle se reinvente à travers le changement de packaging et
+      Marque emblématique du
+      Nouveauté ne cesse de s'investir auprès des communautés afin de les Marque demandée
+      grand Nord
+      accompagner durant des évènements,
+      la marque accompagne les
+      Sympathie poulations du Grand Nord Aquabelle est votre allié au quotidien; une eau pure et légère Idéale pour tous
+      depuis plusieurs années
+  - id: tangui-citron
+    name: TANGUI CITRON
+    segment_id: eaux
+    source_brand_id: source-tangui-citron
+    source_brand_name: Source Tangui citron
+    pages:
+      a_savoir:
+        - 90
+    a_savoir:
+      - Source Tangui citron est une marque d’eau minérale naturelle aromatisée aux extraits de citron,
+      - Sa teneur en arôme citron lui confère la particularité d’être savoureuse et rafraîchissante,
+      - >-
+        Source Tangui citron est la réponse aux besoins des consommateurs qui souhaitent déguster une eau minérale de
+        qualité, relevée par la saveur citron. Selon les résultats d’une étude, c’est le premier choix de l’offre
+        nationale sur le segment des eaux minérales aromatisées au citron.
+      - >-
+        la marque est disponible actuellement en format 100 cl, avec des marges appréciables pour les distributeurs et
+        détaillants
+  - id: vitale
+    name: VITALE
+    segment_id: eaux
+    source_brand_id: eau-vitale
+    source_brand_name: Eau Vitale
+    pages:
+      a_savoir:
+        - 93
+      motivations:
+        - 94
+    a_savoir:
+      - Produite et commercialisée depuis 2017 par la SEMC, Eau Vitale est une Eau Minérale Naturelle pure et légère,
+      - >-
+        Captée à 156 m dans un sol, contenant une nappe d'eau souterraine composée de grès et suffisamment perméable
+        pour que l'eau puisse y circuler librement, Eau Vitale est riche en éléments essentiels pour l’organisme,
+      - >-
+        Son site de captation est protégé de toute pollution par un triple périmètre de sécurité, lui permettant ainsi
+        de préserver sa qualité originelle,
+      - >-
+        En raison de sa faible minéralité, Eau Vitale est une Eau Minérale Naturelle particulièrement adaptée à
+        l’hydratation de tous au quotidien,
+      - >-
+        Marque accessible de part ses PPR, elle est disponible sous les formats 50 cl, 1,5 litre et pour les familles en
+        bidon 10 litres. L’eau c’est la Vie , l’eau c’est Vitale…
+    motivations_raw: >
+      Argumentaire Eau Vitale
+
+      Motivations Client fait la preuve Avantage du client
+
+      Rationnelles
+
+      Eau Vitale est Captée à 156 m de
+
+      Sécurité profondeur dans un système doté sa composition minérale riche d’éléments essentiels pour l’organisme
+      hydratation de toute la famille
+
+      d’un triple périmètre de protection.
+
+      Meilleures marges du bidon
+
+      Distributeur : Bidon 10L(101 Fcfa) ; 1,5L ( 85 Fcfa) & 0,5 (116 Fcfa)
+
+      Argent (distributeurs & détaillants); Augmentation gains
+
+      Détaillant : Bidon (225 Fcfa); 1,5L (222 Fcfa) ; 0,5L ( 300 Fcfa)
+
+      1,5L & 0,5 L (détaillants
+
+      Elle se consomme plus
+
+      joie de vivre Eau Minérale naturelle légère densité minéralogique moins importante lui confère une meilleure
+      légèreté
+
+      rapidement et désaltère
+
+      Irrationnelles
+
+      La Meilleure eau minérale naturelle
+
+      Produite par SEMC , l' Expert en Eaux Minérales Naturelles, ses différents Consommation d'un produit de
+
+      Compétitivité présentant le meilleur ratio Qualité -
+
+      formats sont proposés à des prix accessibles à Tous qualité à prix accessible
+
+      accessibilité
+
+      Une authentique eau minérale la qualité de la marque , cautionnée par l'Expertise de SEMC et le savoir -
+
+      Orgueil Consommer des produits sains
+
+      naturelle à la portée de Tous faire du Groupe SABC
+
+      Depuis 2017, la marque ne cesse de
+
+      Eau vitale vous accompagne où que vous soyez: au sport, à l'école, au idéale pour chaque membre de
+
+      Imitation grandir car appréciée par les
+
+      bureau, à la maison grâce à ses différents formats… la famille
+
+      nombreux consommateurs
+
+      Son packaging a évolué au fil des années pour pouvoir répondre aux
+
+      Unique marque qui se distingue par Packaging attrayant et un
+
+      attentes des consommateurs; Eau Vitale de par son positionnement
+
+      Nouveauté son packaging avec du vert de l' offre positionnement responsable de
+
+      s'inscrit dans la lutte pour la protection de notre environnement avec un
+
+      locale la marque
+
+      packaging adapté et l'accompagnement des programmes.
+
+      Marque proche de la cible t qui
+
+      Forte prise de parole de la marque et accompagnement des communautés Bonne satisfaction des clients &
+
+      Sympathie s'investit dans le quotidien de ses
+
+      sportives , dans les évènements socio -culturels … consommateurs
+
+      consommateurs
+missing:
+  - id: mutzig
+    name: Mützig
+    segment_id: bieres
+  - id: heineken
+    name: HEINEKEN
+    segment_id: bieres
+  - id: orijin
+    name: ORIJIN
+    segment_id: alcools-mix
+  - id: smirnorff-ice-black
+    name: SMIRNORFF ICE BLACK
+    segment_id: alcools-mix
+  - id: smirnorff-ice-pineaple
+    name: SMIRNORFF ICE PINEAPLE
+    segment_id: alcools-mix
+  - id: tangui-naturelle
+    name: TANGUI NATURELLE
+    segment_id: eaux
