@@ -25,7 +25,7 @@ describe('Brands Storage', () => {
   it('should create brand in IndexedDB', async () => {
     const brand: BrandStore = {
       id: '1',
-      name: 'Castel',
+      name: 'CASTEL BEER',
       histoire: 'Founded in 1949',
       positionnement: 'Premium African beer',
       argumentaires: ['Quality', 'Tradition', 'Local'],
@@ -36,7 +36,7 @@ describe('Brands Storage', () => {
     const retrieved = await getBrand('1');
     
     expect(retrieved).toBeDefined();
-    expect(retrieved?.name).toBe('Castel');
+    expect(retrieved?.name).toBe('CASTEL BEER');
     expect(retrieved?.argumentaires).toHaveLength(3);
   });
 
@@ -69,7 +69,7 @@ describe('Brands Storage', () => {
   it('should update existing brand', async () => {
     const brand: BrandStore = {
       id: '1',
-      name: 'Castel',
+      name: 'CASTEL BEER',
       histoire: 'Founded in 1949',
       positionnement: 'Premium',
       argumentaires: ['Quality'],
@@ -107,7 +107,7 @@ describe('Brands Storage', () => {
   it('should list all brands', async () => {
     const brand1: BrandStore = {
       id: '1',
-      name: 'Castel',
+      name: 'CASTEL BEER',
       histoire: 'Test',
       positionnement: 'Test',
       argumentaires: [],
@@ -116,7 +116,7 @@ describe('Brands Storage', () => {
 
     const brand2: BrandStore = {
       id: '2',
-      name: 'Coca-Cola',
+      name: 'TOP ANANAS',
       histoire: 'Test',
       positionnement: 'Test',
       argumentaires: [],

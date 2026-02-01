@@ -686,7 +686,7 @@ describe('Data Loader', () => {
 ### Task 6: Documentation and Cleanup
 - [x] Update story file with completion notes
 - [x] Document YAML schema for future data additions
-- [ ] Update sprint-status.yaml (2.3: done)
+- [x] Update sprint-status.yaml (2.3: done)
 - [x] Commit with message: "feat: Complete Story 2.3 - Initial Catalogue Load"
 
 ### Review Follow-ups (AI)

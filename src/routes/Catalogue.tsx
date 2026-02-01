@@ -1,125 +1,108 @@
-import { h } from 'preact';
-import { useEffect, useMemo, useState } from 'preact/hooks';
-import { getAllProducts, getProductsByCategory } from '../lib/storage/catalogue';
-import type { ProductStore } from '../lib/storage/types';
+import { useEffect, useState } from 'preact/hooks';
+import { loadSegmentsBrands, type Segment } from '../lib/data/segments';
+import { Header } from '../components/catalogue/Header';
+import { Sidebar } from '../components/catalogue/Sidebar';
+import { BrandCard } from '../components/catalogue/BrandCard';
+import { Loader2 } from '../components/ui/Icon';
 
-const CATEGORIES = [
-  { id: 'biere', label: 'Bières' },
-  { id: 'soft', label: 'Boissons Gazeuses' },
-  { id: 'eau', label: 'Eaux' },
-  { id: 'vin', label: 'Vins' },
-  { id: 'spiritueux', label: 'Spiritueux' },
-];
-
-export interface CatalogueProps {
-  path?: string;
-}
-
-export function Catalogue(_props: CatalogueProps) {
-  const [products, setProducts] = useState<ProductStore[]>([]);
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+export function Catalogue() {
+  const [segments, setSegments] = useState<Segment[]>([]);
+  const [activeSegment, setActiveSegment] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [expandedSegments, setExpandedSegments] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      setLoading(true);
-      const items =
-        activeCategory === null
-          ? await getAllProducts()
-          : await getProductsByCategory(activeCategory);
-      if (!cancelled) {
-        setProducts(items);
-        setLoading(false);
-      }
+    loadSegmentsBrands()
+      .then(data => setSegments(data.segments.sort((a, b) => a.order - b.order)))
+      .finally(() => setLoading(false));
+  }, []);
+
+  const toggleSegment = (segmentId: string) => {
+    const newExpanded = new Set(expandedSegments);
+    if (newExpanded.has(segmentId)) {
+      newExpanded.delete(segmentId);
+    } else {
+      newExpanded.add(segmentId);
     }
-    load();
-    return () => {
-      cancelled = true;
-    };
-  }, [activeCategory]);
+    setExpandedSegments(newExpanded);
+  };
 
-  const countLabel = useMemo(() => {
-    if (activeCategory === null) return 'Tous les produits';
-    const cat = CATEGORIES.find((c) => c.id === activeCategory);
-    return cat ? `Catégorie : ${cat.label}` : 'Filtre actif';
-  }, [activeCategory]);
+  // Filter brands based on active segment and search query
+  const filteredBrands = segments
+    .filter(s => !activeSegment || s.id === activeSegment)
+    .flatMap(s => 
+      s.brands
+        .filter(b => 
+          searchQuery === '' || 
+          b.name.toLowerCase().includes(searchQuery.toLowerCase())
+        )
+        .map(b => ({ ...b, segmentName: s.name }))
+    );
 
-  return (
-    <div className="min-h-screen bg-gray-50 pb-20 px-4 pt-6">
-      <header className="mb-4">
-        <h1 className="text-2xl font-bold text-bdc-red">Catalogue BDC</h1>
-        <p className="text-gray-600 text-sm mt-1">{countLabel}</p>
-      </header>
-
-      <div className="flex flex-wrap gap-2 mb-4">
-        <FilterButton
-          label="Tous"
-          active={activeCategory === null}
-          onClick={() => setActiveCategory(null)}
-        />
-        {CATEGORIES.map((cat) => (
-          <FilterButton
-            key={cat.id}
-            label={cat.label}
-            active={activeCategory === cat.id}
-            onClick={() => setActiveCategory(cat.id)}
-          />
-        ))}
-      </div>
-
-      <div className="flex items-center justify-between mb-3">
-        <span className="text-sm text-gray-600">{products.length} produits</span>
-      </div>
-
-      {loading ? (
-        <p className="text-gray-600">Chargement du catalogue...</p>
-      ) : (
-        <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-          {products.map((product) => (
-            <article
-              key={product.id}
-              className="bg-white rounded-xl shadow-sm p-4 border border-gray-100"
-            >
-              <div className="flex items-baseline justify-between mb-1">
-                <h3 className="text-lg font-semibold text-gray-900">{product.name}</h3>
-                <span className="text-xs text-white bg-bdc-red rounded-full px-2 py-1">
-                  {product.category}
-                </span>
-              </div>
-              <p className="text-sm text-gray-600">{product.brand}</p>
-              <p className="text-xl font-bold text-gray-900 mt-2">{product.prix} FCFA</p>
-              <p className="text-xs text-gray-500 mt-1">Marge: {product.marge}%</p>
-              <div className="text-xs text-gray-500 mt-2 flex gap-2 flex-wrap">
-                {product.specs?.contenance ? <span>{product.specs.contenance} ml</span> : null}
-                {product.specs?.format ? <span>{product.specs.format}</span> : null}
-                {product.canal ? <span>Canal: {product.canal}</span> : null}
-              </div>
-            </article>
-          ))}
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-off-white flex items-center justify-center">
+        <div className="flex items-center gap-3 text-bdc-red">
+          <Loader2 size={24} className="animate-spin" />
+          <span className="font-medium">Chargement des marques...</span>
         </div>
-      )}
-    </div>
-  );
-}
+      </div>
+    );
+  }
 
-interface FilterButtonProps {
-  label: string;
-  active: boolean;
-  onClick: () => void;
-}
-
-function FilterButton({ label, active, onClick }: FilterButtonProps) {
   return (
-    <button
-      onClick={onClick}
-      className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-        active
-          ? 'bg-bdc-yellow text-gray-900 shadow-sm'
-          : 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-50'
-      }`}
-    >
-      {label}
-    </button>
+    <div className="min-h-screen bg-off-white">
+      {/* Header */}
+      <Header searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+
+      {/* Main Content */}
+      <div className="flex">
+        {/* Sidebar */}
+        <Sidebar
+          segments={segments}
+          activeSegment={activeSegment}
+          onSegmentChange={setActiveSegment}
+          expandedSegments={expandedSegments}
+          onToggleSegment={toggleSegment}
+        />
+
+        {/* Main Grid */}
+        <main className="flex-1 p-6">
+          {/* Results Header */}
+          <div className="mb-6 flex items-center justify-between">
+            
+            {searchQuery && (
+              <div className="text-sm text-gray-500">
+                Recherche: "{searchQuery}"
+              </div>
+            )}
+          </div>
+
+          {/* Brands Grid */}
+          {filteredBrands.length > 0 ? (
+            <div className="p-4">
+              <div className="grid gap-4 grid-cols-2 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-8">
+                {filteredBrands.map((brand) => (
+                  <BrandCard 
+                    key={brand.id} 
+                    brand={{ id: brand.id, name: brand.name }} 
+                  />
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="text-center py-12">
+              <p className="text-gray-600">
+                {searchQuery 
+                  ? `Aucune marque trouvée pour "${searchQuery}"`
+                  : 'Aucune marque trouvée'
+                }
+              </p>
+            </div>
+          )}
+        </main>
+      </div>
+    </div>
   );
 }

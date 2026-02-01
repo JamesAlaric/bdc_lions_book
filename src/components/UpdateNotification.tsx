@@ -64,7 +64,7 @@ export function UpdateNotification() {
   if (offlineReady) {
     return (
       <NotificationContainer>
-        <p className="font-semibold">✅ Application prête en mode offline</p>
+        <p className="font-semibold">Application prête en mode offline</p>
         <ButtonGroup>
           <Button onClick={dismissOfflineReady}>OK</Button>
         </ButtonGroup>
@@ -76,7 +76,7 @@ export function UpdateNotification() {
 
   return (
     <NotificationContainer>
-      <p className="font-semibold">🎉 Nouvelle version disponible !</p>
+      <p className="font-semibold">Nouvelle version disponible !</p>
       <p className="text-sm mt-1">Mettez à jour pour profiter des dernières fonctionnalités.</p>
       <ButtonGroup>
         <Button primary onClick={updateNow}>

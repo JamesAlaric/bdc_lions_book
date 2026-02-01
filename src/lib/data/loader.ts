@@ -91,7 +91,7 @@ function normaliseProduct(raw: any, fallbackCategory?: string): ProductStore {
 
   return {
     ...raw,
-    category,
+    category: category as ProductStore['category'],
     specs: {
       contenance: specs.contenance,
       format: specs.format,
@@ -173,7 +173,7 @@ export async function loadInitialCatalogue(options: LoadOptions = {}): Promise<v
   const expectedCategories: string[] = metadata.categories ?? [];
   if (expectedCategories.length > 0) {
     const loadedCategories = new Set(parsedProducts.map((product) => product.category));
-    const missing = expectedCategories.filter((cat) => !loadedCategories.has(cat));
+    const missing = expectedCategories.filter((cat) => !loadedCategories.has(cat as ProductStore['category']));
     if (missing.length > 0) {
       throw new Error(`Missing product categories: ${missing.join(', ')}`);
     }

@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import type { LoadProgress } from '../../lib/data/loader';
 
 interface LoadingScreenProps {

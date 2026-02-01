@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        'bdc-red': '#f7323f',
         'bdc-yellow': '#ffc627',
-        'bdc-red': '#ff7323',
+        'bdc-black': '#1d1d1d',
         'off-white': '#fafafa',
       },
       fontFamily: {

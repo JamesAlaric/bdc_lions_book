@@ -28,7 +28,7 @@ describe('Catalogue Storage', () => {
     const product: ProductStore = {
       id: '1',
       name: 'Castel Beer',
-      brand: 'Castel',
+      brand: 'CASTEL BEER',
       historique: 'Historique test',
       positionnement: 'Positionnement test',
       category: 'biere',
@@ -49,14 +49,14 @@ describe('Catalogue Storage', () => {
     
     expect(retrieved).toBeDefined();
     expect(retrieved?.name).toBe('Castel Beer');
-    expect(retrieved?.brand).toBe('Castel');
+    expect(retrieved?.brand).toBe('CASTEL BEER');
   });
 
   it('should update existing product', async () => {
     const product: ProductStore = {
       id: '1',
       name: 'Castel Beer',
-      brand: 'Castel',
+      brand: 'CASTEL BEER',
       historique: 'Historique test',
       positionnement: 'Positionnement test',
       category: 'biere',
@@ -183,7 +183,7 @@ describe('Catalogue Storage', () => {
     const product1: ProductStore = {
       id: '1',
       name: 'Product 1',
-      brand: 'Castel',
+      brand: 'CASTEL BEER',
       historique: 'Historique test',
       positionnement: 'Positionnement test',
       category: 'biere',
@@ -197,7 +197,7 @@ describe('Catalogue Storage', () => {
     const product2: ProductStore = {
       id: '2',
       name: 'Product 2',
-      brand: 'Coca-Cola',
+      brand: 'TOP ANANAS',
       historique: 'Historique test',
       positionnement: 'Positionnement test',
       category: 'soft',
@@ -211,7 +211,7 @@ describe('Catalogue Storage', () => {
     await createProduct(product1);
     await createProduct(product2);
     
-    const castelProducts = await getProductsByBrand('Castel');
+    const castelProducts = await getProductsByBrand('CASTEL BEER');
     expect(castelProducts).toHaveLength(1);
     expect(castelProducts[0].name).toBe('Product 1');
   });

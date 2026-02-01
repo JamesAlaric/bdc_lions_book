@@ -3,6 +3,8 @@ import { useEffect, useState } from 'preact/hooks';
 import { Home } from './routes/Home';
 import { Settings } from './routes/Settings';
 import { Catalogue } from './routes/Catalogue';
+import { ProductDetail } from './routes/ProductDetail';
+import { BrandDetail } from './routes/BrandDetail';
 import { Navigation } from './components/layout/Navigation';
 import { UpdateNotification } from './components/UpdateNotification';
 import PWABadge from './PWABadge.tsx';
@@ -78,6 +80,8 @@ export function App() {
       <Router>
         <Home path="/" default />
         <Catalogue path="/catalogue" />
+        <ProductDetail path="/product/:id" />
+        <BrandDetail path="/brand/:id" />
         <Settings path="/settings" />
       </Router>
       <Navigation />

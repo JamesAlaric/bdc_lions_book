@@ -43,6 +43,10 @@ export async function getProduct(id: string): Promise<ProductStore | undefined> 
   }
 }
 
+export async function getProductById(id: string): Promise<ProductStore | undefined> {
+  return getProduct(id);
+}
+
 export async function updateProduct(id: string, updates: Partial<ProductStore>): Promise<void> {
   try {
     validateProduct(updates);
@@ -88,6 +92,40 @@ export async function getProductsByBrand(brand: string): Promise<ProductStore[]>
   const db = await getDatabase();
   const index = db.transaction('products').store.index('by-brand');
   return await index.getAll(brand);
+}
+
+/**
+ * Get all unique brands from products using cursor for memory efficiency
+ */
+export async function getAllBrands(): Promise<string[]> {
+  const db = await getDatabase();
+  const brands = new Set<string>();
+  
+  // Use cursor to iterate without loading all products into memory
+  const tx = db.transaction('products', 'readonly');
+  const store = tx.store;
+  
+  let cursor = await store.openCursor();
+  while (cursor) {
+    brands.add(cursor.value.brand);
+    cursor = await cursor.continue();
+  }
+  
+  return Array.from(brands).sort();
+}
+
+/**
+ * Get products by category AND brand (combined filter)
+ */
+export async function getProductsByCategoryAndBrand(
+  category: string,
+  brand: string
+): Promise<ProductStore[]> {
+  const db = await getDatabase();
+  // Use category index first (more selective), then filter by brand
+  const index = db.transaction('products').store.index('by-category');
+  const products = await index.getAll(category);
+  return products.filter(p => p.brand === brand);
 }
 
 export async function getProductsByCanal(canal: string): Promise<ProductStore[]> {

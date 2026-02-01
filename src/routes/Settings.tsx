@@ -3,6 +3,9 @@ import type { RouteProps } from 'preact-router';
 import packageJson from '../../package.json';
 import { rollbackToPreviousVersion, getVersionInfo, type VersionInfo } from '../lib/rollback';
 import { featureFlags, isFeatureEnabled, setFeatureEnabled, type FeatureFlag } from '../lib/featureFlags';
+import { ConnectionIndicator } from '../components/ui/ConnectionIndicator';
+import { LastSyncIndicator } from '../components/ui/LastSyncIndicator';
+import { AlertTriangle, Loader2, ChevronDown, ChevronRight } from '../components/ui/Icon';
 
 export function Settings(_props: RouteProps) {
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
@@ -14,7 +17,7 @@ export function Settings(_props: RouteProps) {
   }, []);
 
   const handleRollback = async () => {
-    if (!confirm('⚠️ Êtes-vous sûr de vouloir revenir à la version précédente ?\n\nCette action rechargera l\'application.')) {
+    if (!confirm('Êtes-vous sûr de vouloir revenir à la version précédente ?\n\nCette action rechargera l\'application.')) {
       return;
     }
 
@@ -23,7 +26,7 @@ export function Settings(_props: RouteProps) {
       await rollbackToPreviousVersion();
     } catch (error) {
       setIsRollingBack(false);
-      alert('❌ Erreur lors du rollback: ' + (error as Error).message);
+      alert('Erreur lors du rollback: ' + (error as Error).message);
     }
   };
 
@@ -39,6 +42,24 @@ export function Settings(_props: RouteProps) {
         <p className="text-gray-600">
           Version actuelle: <span className="font-mono font-bold text-bdc-yellow">v{packageJson.version}</span>
         </p>
+      </section>
+
+      {/* Section Connexion et Synchronisation */}
+      <section className="bg-white rounded-lg shadow-md p-6 mb-4">
+        <h2 className="text-xl font-semibold mb-4 text-gray-800">Connexion et Synchronisation</h2>
+        <div className="space-y-4">
+          {/* Connection Status */}
+          <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <span className="text-gray-700">Statut de connexion</span>
+            <ConnectionIndicator showText={true} />
+          </div>
+
+          {/* Last Sync */}
+          <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <span className="text-gray-700">Synchronisation</span>
+            <LastSyncIndicator store="products" />
+          </div>
+        </div>
       </section>
 
       {/* Section Gestion des versions */}
@@ -66,7 +87,17 @@ export function Settings(_props: RouteProps) {
               disabled={isRollingBack}
               className="w-full bg-red-500 text-white px-4 py-3 rounded-lg hover:bg-red-600 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {isRollingBack ? '⏳ Rollback en cours...' : '⚠️ Revenir à la version précédente'}
+              {isRollingBack ? (
+                <span className="flex items-center justify-center gap-2">
+                  <Loader2 size={18} className="animate-spin" />
+                  Rollback en cours...
+                </span>
+              ) : (
+                <span className="flex items-center justify-center gap-2">
+                  <AlertTriangle size={18} />
+                  Revenir à la version précédente
+                </span>
+              )}
             </button>
           )}
 
@@ -110,7 +141,7 @@ export function Settings(_props: RouteProps) {
           onClick={() => setShowDevMode(!showDevMode)}
           className="text-sm text-gray-500 hover:text-gray-700 transition-colors flex items-center gap-2"
         >
-          <span>{showDevMode ? '▼' : '▶'}</span>
+          {showDevMode ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
           <span>Mode développeur</span>
         </button>
       </div>
