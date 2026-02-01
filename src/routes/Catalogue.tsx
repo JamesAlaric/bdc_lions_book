@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'preact/hooks';
+import type { RouteProps } from 'preact-router';
 import { loadSegmentsBrands, type Segment } from '../lib/data/segments';
 import { Header } from '../components/catalogue/Header';
 import { Sidebar } from '../components/catalogue/Sidebar';
 import { BrandCard } from '../components/catalogue/BrandCard';
 import { Loader2 } from '../components/ui/Icon';
 
-export function Catalogue() {
+export function Catalogue(_props: RouteProps) {
   const [segments, setSegments] = useState<Segment[]>([]);
   const [activeSegment, setActiveSegment] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
