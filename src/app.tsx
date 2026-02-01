@@ -80,7 +80,7 @@ export function App() {
     <>
       <Router>
         <Home path="/" default />
-        <Catalogue />
+        <Catalogue path="/catalogue" />
         <ProductDetail path="/product/:id" />
         <BrandDetail path="/brand/:id" />
         <Settings path="/settings" />
