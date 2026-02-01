@@ -24,7 +24,7 @@ export function Navigation() {
 }
 
 interface NavItemProps {
-  icon: React.ComponentType<{ size?: number; className?: string }>;
+  icon: React.ComponentType<any>;
   label: string;
   path: string;
 }

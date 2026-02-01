@@ -1,4 +1,3 @@
-import { useState } from 'preact/hooks';
 import { Search } from '../ui/Icon';
 
 interface HeaderProps {

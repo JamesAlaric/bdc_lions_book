@@ -265,7 +265,7 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
           
           {/* Grid Preview */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-6">
-            {packshots.map((packshot, index) => (
+            {packshots.map((packshot) => (
               <button
                 key={packshot.id}
                 onClick={() => onPackshotSelect(packshot)}

@@ -45,7 +45,7 @@ const DYNAMIC_PRICING = {
 };
 
 // Calculate dynamic price and margin
-const calculateDynamicPricing = (brandId: string, packshotName: string, format: string, contenance: string) => {
+const calculateDynamicPricing = (brandId: string, packshotName: string, format: string) => {
   const { basePrice, formatMultipliers, brandPremiums, specialFeatures, marginRanges } = DYNAMIC_PRICING;
   
   // Calculate base price with format multiplier
@@ -191,8 +191,7 @@ export function BrandDetail({ id, path }: BrandDetailProps) {
         const { price, margin } = calculateDynamicPricing(
           brandId, 
           packshot.name, 
-          packshot.format, 
-          packshot.contenance
+          packshot.format
         );
         return {
           ...packshot,
@@ -583,7 +582,7 @@ export function BrandDetail({ id, path }: BrandDetailProps) {
                     
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                        <AlertTriangleIcon size={18} className="text-bdc-red" />
+                        <AlertTriangle size={18} className="text-bdc-red" />
                         Réponses aux objections fréquentes
                       </h4>
                       <div className="space-y-3">
@@ -591,7 +590,7 @@ export function BrandDetail({ id, path }: BrandDetailProps) {
                           <div key={index} className="p-4 bg-gray-50/50 rounded-lg border border-gray-200/50">
                             <div className="flex items-start gap-3 mb-2">
                               <div className="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                                <AlertTriangleIcon size={14} className="text-orange-600" />
+                                <AlertTriangle size={14} className="text-orange-600" />
                               </div>
                               <p className="text-sm font-medium text-gray-800 italic">
                                 "{objection.question}"
