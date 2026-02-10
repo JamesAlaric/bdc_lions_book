@@ -883,12 +883,12 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                 )}
 
                 {/* Product Image */}
-                <div className="relative aspect-[2/3] flex items-center justify-center px-10 py-6 lg:px-16 lg:py-10 z-[1]">
+                <div className="relative aspect-[3/4] flex items-center justify-center p-12 lg:p-16 z-[1]">
                   {productImages.length > 0 && (
                     <img
                       src={encodeURI(selectedImage?.src ?? '/images/products/placeholder.svg')}
                       alt={selectedImage?.alt ?? activeProduct.name}
-                      className="max-w-full max-h-full object-contain transition-all duration-500 hover:scale-105"
+                      className="max-w-[70%] max-h-[85%] object-contain transition-all duration-500 hover:scale-105 mx-auto"
                       style={{
                         filter: 'drop-shadow(0 24px 48px rgba(0,0,0,0.35)) drop-shadow(0 8px 20px rgba(0,0,0,0.2))',
                       }}
