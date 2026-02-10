@@ -896,8 +896,6 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                   )}
                 </div>
 
-                {/* Soft fade to page bg at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 h-16 pointer-events-none z-[2] bg-gradient-to-t from-gray-50 dark:from-bdc-black to-transparent" />
 
                 {/* Tap hint */}
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 px-3 py-1.5 bg-black/20 backdrop-blur-xl rounded-full">
@@ -1258,7 +1256,7 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
               <img
                 src={encodeURI(productImages[modalImageIndex]?.src ?? '/images/products/placeholder.svg')}
                 alt={productImages[modalImageIndex]?.alt ?? activeProduct.name}
-                className="relative z-[1] max-w-full max-h-full object-contain animate-scale-in"
+                className="relative z-[1] max-w-[60%] max-h-[70%] object-contain animate-scale-in"
                 style={{
                   filter: 'drop-shadow(0 32px 64px rgba(0,0,0,0.4)) drop-shadow(0 12px 28px rgba(0,0,0,0.25))',
                 }}
