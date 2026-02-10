@@ -108,7 +108,6 @@ export function LastSyncIndicator({ className = '', store = 'products' }: Readon
 
       {/* Label */}
       <span className="text-sm">
-        {/* TODO(i18n): sync.lastSync */}
         Dernière sync:{' '}
         <span className={lastSync === 0 ? 'text-bdc-red font-medium' : ''}>
           {relativeTime}

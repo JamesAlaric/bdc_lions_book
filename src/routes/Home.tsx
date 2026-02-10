@@ -11,7 +11,6 @@ export function Home(_props: RouteProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [brands, setBrands] = useState<Brand[]>([]);
   const [news, setNews] = useState<NewsItem[]>([]);
-  const [greeting, setGreeting] = useState('Bonjour');
   const [heroIndex, setHeroIndex] = useState(0);
   const [newsDialog, setNewsDialog] = useState<NewsItem | null>(null);
   const pageRef = useRef<HTMLDivElement>(null);
@@ -19,11 +18,6 @@ export function Home(_props: RouteProps) {
   const autoPlayRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
-    const hour = new Date().getHours();
-    if (hour < 12) setGreeting('Bonjour');
-    else if (hour < 18) setGreeting('Bon apres-midi');
-    else setGreeting('Bonsoir');
-
     loadSegmentsBrands()
       .then((data) => {
         const allBrands = data.segments.flatMap((s) => s.brands);

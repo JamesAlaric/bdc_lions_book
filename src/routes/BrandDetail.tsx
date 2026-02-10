@@ -297,27 +297,33 @@ function normalizeFormat(value?: string | null) {
   return normalized;
 }
 
+const UNIT_MULTIPLIERS: Record<string, number> = { ML: 1, CL: 10, L: 1000 };
+
+function convertToMl(value: number, unit: string): number | null {
+  const multiplier = UNIT_MULTIPLIERS[unit];
+  return multiplier != null ? Math.round(value * multiplier) : null;
+}
+
+function inferFromRaw(raw: number): number | null {
+  if (raw >= 1000) return raw;
+  if (raw >= 100 && raw % 10 === 0) return raw;
+  if (raw >= 20 && raw <= 99) return raw * 10;
+  return null;
+}
+
 function extractVolumeMl(text: string) {
   if (!text) return null;
   const normalized = text.toUpperCase().replace(',', '.');
   const unitMatch = /(\d+(?:\.\d+)?)\s*(CL|ML|L)\b/.exec(normalized);
   if (unitMatch) {
     const value = Number.parseFloat(unitMatch[1]);
-    const unit = unitMatch[2];
     if (Number.isNaN(value)) return null;
-    if (unit === 'ML') return Math.round(value);
-    if (unit === 'CL') return Math.round(value * 10);
-    if (unit === 'L') return Math.round(value * 1000);
+    return convertToMl(value, unitMatch[2]);
   }
-
   const fallbackMatch = /\b(\d{2,4})\b/.exec(normalized);
   if (!fallbackMatch) return null;
   const raw = Number.parseInt(fallbackMatch[1], 10);
-  if (Number.isNaN(raw)) return null;
-  if (raw >= 1000) return raw;
-  if (raw >= 100 && raw % 10 === 0) return raw;
-  if (raw >= 20 && raw <= 99) return raw * 10;
-  return null;
+  return Number.isNaN(raw) ? null : inferFromRaw(raw);
 }
 
 function extractFormatHint(text: string) {
@@ -400,7 +406,7 @@ function normalizeBrand(value: string) {
 }
 
 function toBrandLabel(brandId: string) {
-  return brandId.replaceAll(/-/g, ' ').trim().toUpperCase();
+  return brandId.replaceAll('-', ' ').trim().toUpperCase();
 }
 
 // Territoire d'expression mapping per brand
@@ -846,7 +852,10 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
               {/* Main Image Container - Brand-colored, edge-to-edge */}
               <div
                 className="relative overflow-hidden cursor-pointer"
+                role="button"
+                tabIndex={0}
                 onClick={() => openImageModal(safeImageIndex)}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') openImageModal(safeImageIndex); }}
                 style={{ background: brandColor.bg }}
               >
                 {/* Dark mode overlay */}
@@ -1122,8 +1131,8 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                         <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                       </svg>
                     </span>
-                    {activeProduct.certifications.map((cert, index) => (
-                      <span key={index} className="px-2 py-0.5 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs font-medium rounded">
+                    {activeProduct.certifications.map((cert) => (
+                      <span key={cert} className="px-2 py-0.5 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs font-medium rounded">
                         {cert}
                       </span>
                     ))}
@@ -1136,8 +1145,8 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                 <div className="p-4 bg-white/50 dark:bg-white/[0.03] backdrop-blur-xl rounded-2xl border border-white/40 dark:border-white/[0.06]">
                   <p className="text-[10px] text-gray-400 dark:text-gray-500 uppercase tracking-wider font-medium mb-2.5">Ingredients</p>
                   <div className="flex flex-wrap gap-1.5">
-                    {activeProduct.ingredients.map((ingredient, index) => (
-                      <span key={index} className="px-2.5 py-1 bg-gray-100 dark:bg-white/[0.06] text-bdc-black dark:text-white text-xs rounded-lg font-medium">
+                    {activeProduct.ingredients.map((ingredient) => (
+                      <span key={ingredient} className="px-2.5 py-1 bg-gray-100 dark:bg-white/[0.06] text-bdc-black dark:text-white text-xs rounded-lg font-medium">
                         {ingredient}
                       </span>
                     ))}
@@ -1171,10 +1180,10 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                   <h2 className="text-[22px] font-bold text-bdc-black dark:text-white font-display tracking-tight">À savoir</h2>
                 </div>
                 <div className="bg-white/60 dark:bg-white/5 backdrop-blur-xl rounded-2xl border border-white/50 dark:border-white/10 shadow-sm divide-y divide-white/30 dark:divide-white/10">
-                  {argumentaire.key_facts.map((fact, index) => (
-                    <div key={index} className="p-4 flex gap-3">
+                  {argumentaire.key_facts.map((fact, factIdx) => (
+                    <div key={`fact-${fact.slice(0, 20)}`} className="p-4 flex gap-3">
                       <span className="w-5 h-5 rounded-full bg-bdc-yellow/20 text-bdc-black dark:text-bdc-yellow flex items-center justify-center flex-shrink-0 text-[10px] font-bold">
-                        {index + 1}
+                        {factIdx + 1}
                       </span>
                       <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{fact}</p>
                     </div>
@@ -1215,7 +1224,10 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
       {showImageModal && (
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center"
+          role="dialog"
+          aria-modal="true"
           onClick={closeImageModal}
+          onKeyDown={(e) => { if (e.key === 'Escape') closeImageModal(); }}
         >
           {/* Blurred backdrop */}
           <div className="absolute inset-0 bg-black/60 backdrop-blur-xl" />
@@ -1223,7 +1235,9 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
           {/* Modal content */}
           <div
             className="relative w-full h-full flex flex-col"
+            role="document"
             onClick={(e) => e.stopPropagation()}
+            onKeyDown={(e) => e.stopPropagation()}
           >
             {/* Close button */}
             <div className="absolute top-4 right-4 z-10">
@@ -1313,9 +1327,9 @@ function BrandNews({ brandName }: Readonly<{ brandName: string; brandId?: string
         <h2 className="text-[22px] font-bold text-bdc-black dark:text-white font-display tracking-tight">Actualites</h2>
       </div>
       <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 -mx-1 px-1 scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-        {news.map((item, index) => (
+        {news.map((item) => (
           <div
-            key={index}
+            key={item.title}
             className="flex-shrink-0 w-[260px] snap-start relative rounded-2xl overflow-hidden shadow-sm h-[220px]"
           >
             {/* Full bleed image */}
