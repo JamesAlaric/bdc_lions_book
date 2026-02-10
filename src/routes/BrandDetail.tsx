@@ -882,8 +882,8 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                   </div>
                 )}
 
-                {/* Product Image — 3:4 ratio */}
-                <div className="relative aspect-[3/4] flex items-center justify-center p-8 lg:p-12 z-[1]">
+                {/* Product Image */}
+                <div className="relative aspect-[2/3] flex items-center justify-center px-10 py-6 lg:px-16 lg:py-10 z-[1]">
                   {productImages.length > 0 && (
                     <img
                       src={encodeURI(selectedImage?.src ?? '/images/products/placeholder.svg')}
@@ -897,7 +897,7 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                 </div>
 
                 {/* Soft fade to page bg at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 h-24 pointer-events-none z-[2] bg-gradient-to-t from-gray-50 dark:from-bdc-black to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 h-16 pointer-events-none z-[2] bg-gradient-to-t from-gray-50 dark:from-bdc-black to-transparent" />
 
                 {/* Tap hint */}
                 <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 px-3 py-1.5 bg-black/20 backdrop-blur-xl rounded-full">
