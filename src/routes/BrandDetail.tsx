@@ -301,7 +301,8 @@ const UNIT_MULTIPLIERS: Record<string, number> = { ML: 1, CL: 10, L: 1000 };
 
 function convertToMl(value: number, unit: string): number | null {
   const multiplier = UNIT_MULTIPLIERS[unit];
-  return multiplier != null ? Math.round(value * multiplier) : null;
+  if (multiplier == null) return null;
+  return Math.round(value * multiplier);
 }
 
 function inferFromRaw(raw: number): number | null {
@@ -850,12 +851,10 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
             {/* Image Gallery */}
             <div className="space-y-0">
               {/* Main Image Container - Brand-colored, edge-to-edge */}
-              <div
-                className="relative overflow-hidden cursor-pointer"
-                role="button"
-                tabIndex={0}
+              <button
+                type="button"
+                className="relative overflow-hidden cursor-pointer w-full text-left block"
                 onClick={() => openImageModal(safeImageIndex)}
-                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') openImageModal(safeImageIndex); }}
                 style={{ background: brandColor.bg }}
               >
                 {/* Dark mode overlay */}
@@ -913,7 +912,7 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                   </svg>
                   <span className="text-white/80 text-[10px] font-medium">Agrandir</span>
                 </div>
-              </div>
+              </button>
 
               {/* Thumbnails - Format selector */}
               {productImages.length > 1 && (
@@ -1222,10 +1221,9 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
 
       {/* Image Modal */}
       {showImageModal && (
-        <div
-          className="fixed inset-0 z-[100] flex items-center justify-center"
-          role="dialog"
-          aria-modal="true"
+        <dialog
+          open
+          className="fixed inset-0 z-[100] flex items-center justify-center w-full h-full max-w-none max-h-none m-0 p-0 border-none bg-transparent"
           onClick={closeImageModal}
           onKeyDown={(e) => { if (e.key === 'Escape') closeImageModal(); }}
         >
@@ -1235,9 +1233,7 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
           {/* Modal content */}
           <div
             className="relative w-full h-full flex flex-col"
-            role="document"
             onClick={(e) => e.stopPropagation()}
-            onKeyDown={(e) => e.stopPropagation()}
           >
             {/* Close button */}
             <div className="absolute top-4 right-4 z-10">
@@ -1305,7 +1301,7 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
               </div>
             )}
           </div>
-        </div>
+        </dialog>
       )}
 
     </div>
