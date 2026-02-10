@@ -4,342 +4,489 @@
 # Source : ELEMENTS BOOK DCM.xlsx
 
 segment:
-  id: "eaux"
-  name: "Eaux"
-  icon: "drink"
+  id: eaux
+  name: Eaux
+  icon: drink
   order: 4
-  description: "Portefeuille Eaux Boissons du Cameroun"
-
+  description: Portefeuille Eaux Boissons du Cameroun
 brands:
-  - id: "aquabelle"
-    name: "AQUABELLE"
-    logo_url: "/assets/brands/aquabelle-logo.png"
-    
+  - id: aquabelle
+    name: AQUABELLE
+    logo_url: /assets/brands/aquabelle-logo.png
     products:
-      - code: "AQB05P"
-        designation: "PACK EAU AQUABELLE 50 CL"
-        format: "50 CL"
-        packaging_type: "PET"
-        unit: "P12"
+      - code: AQB05P
+        designation: PACK EAU AQUABELLE 50 CL
+        format: 50 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1305.58
             remise: null
             marge: 244.42
-            taux_marge: "18.7%"
-          
+            taux_marge: 18.7%
           distributor_to_retailer:
-            prix_achat: 1550.0
+            prix_achat: 1550
             ristourne: null
-            marge: 250.0
-            taux_marge: "16.1%"
-          
+            marge: 250
+            taux_marge: 16.1%
           consumer_price:
             prix_unitaire: 150
             prix_casier: 1800
-        
         images:
-          packshot: "/assets/packshots/aqb05p-hd.png"
-      
-      - code: "AQB15PP"
-        designation: "PACK EAU AQUABELLE PROMO 150 CL"
-        format: "150 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/aqb05p-hd.png
+      - code: AQB15PP
+        designation: PACK EAU AQUABELLE PROMO 150 CL
+        format: 150 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1109.2
             remise: null
             marge: 290.8
-            taux_marge: "26.2%"
-          
+            taux_marge: 26.2%
           distributor_to_retailer:
-            prix_achat: 1400.0
+            prix_achat: 1400
             ristourne: null
-            marge: 400.0
-            taux_marge: "28.6%"
-          
+            marge: 400
+            taux_marge: 28.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 1800
-        
         images:
-          packshot: "/assets/packshots/aqb15pp-hd.png"
-      
+          packshot: /assets/packshots/aqb15pp-hd.png
+    identity:
+      target: Homme, Femme, enfant de tous âges
+      positioning: Main stream local
+      alcohol_rate: ""
+      signature: L’eau de chez Moi
+    positioning: Main stream local
+    target: Homme, Femme, enfant de tous âges
+    signature: L’eau de chez Moi
+    key_facts:
+      - Aquabelle est une eau de table embouteillée sous contrôle et distribuée par la SABC,
+      - >-
+        Pure et de qualité supérieure, Aquabelle est l’alliée au quotidien pour le maintien de l’équilibre naturel de
+        l’organisme,
+      - >-
+        A chaque gorgée, Aquabelle est une source de rafraîchissement recommandée pour notre hydratation et notre bien
+        être,
+      - >-
+        Elle se vend exclusivement dans la région septentrionale du Cameroun, d’où sa signature qui lui est propre. «
+        Aquabelle , l’eau de chez Moi… »
+    briefs:
+      - Aquabelle est une eau de table embouteillée sous contrôle et distribuée par la SABC,
+      - >-
+        Pure et de qualité supérieure, Aquabelle est l’alliée au quotidien pour le maintien de l’équilibre naturel de
+        l’organisme,
+      - >-
+        A chaque gorgée, Aquabelle est une source de rafraîchissement recommandée pour notre hydratation et notre bien
+        être,
+      - >-
+        Elle se vend exclusivement dans la région septentrionale du Cameroun, d’où sa signature qui lui est propre. «
+        Aquabelle , l’eau de chez Moi… »
+    history: >-
+      Aquabelle est une eau de table embouteillée sous contrôle et distribuée par la SABC,
 
-  - id: "tangui-citron"
-    name: "TANGUI CITRON"
-    logo_url: "/assets/brands/tangui-citron-logo.png"
-    
+      Pure et de qualité supérieure, Aquabelle est l’alliée au quotidien pour le maintien de l’équilibre naturel de
+      l’organisme,
+
+      A chaque gorgée, Aquabelle est une source de rafraîchissement recommandée pour notre hydratation et notre bien
+      être,
+
+      Elle se vend exclusivement dans la région septentrionale du Cameroun, d’où sa signature qui lui est propre. «
+      Aquabelle , l’eau de chez Moi… »
+    sales_arguments:
+      rational:
+        - Sécurité l'eau à l'etat pur dans le grand Nord naturel de l' organisme Marge attractive pour le
+        - >-
+          Argent Marge directe détaillant =400 Fcfa Amélioration gains détaillant Aquabelle est une source de
+          rafraichissement
+        - >-
+          Commodités Aquabelle est votre allié au quotidien; une eau pure et légère Idéale pour tous recommandée pour
+          votre bien être
+      emotional:
+        - >-
+          Compétitivité présentant le meilleur ratio Produite par SABC , la marque est accessible produit de qualité à
+          prix Qualité - accessibilité accessible Une eau de table à la portée la qualité de la marque , cautionnée par
+          le savoir -faire du Consommer des produits
+        - >-
+          Orgueil de Tous Groupe SABC sains Aquabelle est une source de la marque est consommée par des personnes
+          soucieuses de
+        - >-
+          Imitation Idéale pour tous rafraichissement leur santé Elle se reinvente à travers le changement de packaging
+          et Marque emblématique du
+        - >-
+          Nouveauté ne cesse de s'investir auprès des communautés afin de les Marque demandée grand Nord accompagner
+          durant des évènements, la marque accompagne les
+        - >-
+          Sympathie poulations du Grand Nord Aquabelle est votre allié au quotidien; une eau pure et légère Idéale pour
+          tous depuis plusieurs années
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: tangui-citron
+    name: TANGUI CITRON
+    logo_url: /assets/brands/tangui-citron-logo.png
     products:
-      - code: "TCI10P"
+      - code: TCI10P
         designation: "PACK SOURCE TANGUI AROMATISEES 1.0L "
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1615.84
             remise: null
             marge: 91.16
-            taux_marge: "5.6%"
-          
+            taux_marge: 5.6%
           distributor_to_retailer:
-            prix_achat: 1707.0
+            prix_achat: 1707
             ristourne: null
-            marge: 393.0
-            taux_marge: "23.0%"
-          
+            marge: 393
+            taux_marge: 23.0%
           consumer_price:
             prix_unitaire: 350
             prix_casier: 2100
-        
         images:
-          packshot: "/assets/packshots/tci10p-hd.png"
-      
+          packshot: /assets/packshots/tci10p-hd.png
+    identity:
+      target: Homme, Femme, enfant de tous âges, CSP AB, C1 25 – 70 ans
+      positioning: PREMIUM
+      alcohol_rate: ""
+      signature: ""
+    positioning: PREMIUM
+    target: Homme, Femme, enfant de tous âges, CSP AB, C1 25 – 70 ans
+    key_facts:
+      - Source Tangui citron est une marque d’eau minérale naturelle aromatisée aux extraits de citron,
+      - Sa teneur en arôme citron lui confère la particularité d’être savoureuse et rafraîchissante,
+      - >-
+        Source Tangui citron est la réponse aux besoins des consommateurs qui souhaitent déguster une eau minérale de
+        qualité, relevée par la saveur citron. Selon les résultats d’une étude, c’est le premier choix de l’offre
+        nationale sur le segment des eaux minérales aromatisées au citron.
+      - >-
+        la marque est disponible actuellement en format 100 cl, avec des marges appréciables pour les distributeurs et
+        détaillants
+    briefs:
+      - Source Tangui citron est une marque d’eau minérale naturelle aromatisée aux extraits de citron,
+      - Sa teneur en arôme citron lui confère la particularité d’être savoureuse et rafraîchissante,
+      - >-
+        Source Tangui citron est la réponse aux besoins des consommateurs qui souhaitent déguster une eau minérale de
+        qualité, relevée par la saveur citron. Selon les résultats d’une étude, c’est le premier choix de l’offre
+        nationale sur le segment des eaux minérales aromatisées au citron.
+      - >-
+        la marque est disponible actuellement en format 100 cl, avec des marges appréciables pour les distributeurs et
+        détaillants
+    history: >-
+      Source Tangui citron est une marque d’eau minérale naturelle aromatisée aux extraits de citron,
 
-  - id: "tangui-naturelle"
-    name: "TANGUI NATURELLE"
-    logo_url: "/assets/brands/tangui-naturelle-logo.png"
-    
+      Sa teneur en arôme citron lui confère la particularité d’être savoureuse et rafraîchissante,
+
+      Source Tangui citron est la réponse aux besoins des consommateurs qui souhaitent déguster une eau minérale de
+      qualité, relevée par la saveur citron. Selon les résultats d’une étude, c’est le premier choix de l’offre
+      nationale sur le segment des eaux minérales aromatisées au citron.
+
+      la marque est disponible actuellement en format 100 cl, avec des marges appréciables pour les distributeurs et
+      détaillants
+  - id: tangui-naturelle
+    name: TANGUI NATURELLE
+    logo_url: /assets/brands/tangui-naturelle-logo.png
     products:
-      - code: "TGI18P"
-        designation: "PACK SOURCE TANGUI 180 CL"
-        format: "180 CL"
-        packaging_type: "PET"
-        unit: "P06"
+      - code: TGI18P
+        designation: PACK SOURCE TANGUI 180 CL
+        format: 180 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1394.94
             remise: null
             marge: 140.06
-            taux_marge: "10.0%"
-          
+            taux_marge: 10.0%
           distributor_to_retailer:
-            prix_achat: 1535.0
+            prix_achat: 1535
             ristourne: null
-            marge: 265.0
-            taux_marge: "17.3%"
-          
+            marge: 265
+            taux_marge: 17.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 1800
-        
         images:
-          packshot: "/assets/packshots/tgi18p-hd.png"
-      
-      - code: "TGI15P"
-        designation: "PACK SOURCE TANGUI 150 CL"
-        format: "150 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/tgi18p-hd.png
+      - code: TGI15P
+        designation: PACK SOURCE TANGUI 150 CL
+        format: 150 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1309.99
             remise: null
             marge: 140.01
-            taux_marge: "10.7%"
-          
+            taux_marge: 10.7%
           distributor_to_retailer:
-            prix_achat: 1450.0
+            prix_achat: 1450
             ristourne: null
-            marge: 250.0
-            taux_marge: "17.2%"
-          
+            marge: 250
+            taux_marge: 17.2%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 1700
-        
         images:
-          packshot: "/assets/packshots/tgi15p-hd.png"
-      
-      - code: "TGI10P"
+          packshot: /assets/packshots/tgi15p-hd.png
+      - code: TGI10P
         designation: "PACK SOURCE TANGUI 100 CL "
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1062.23
             remise: null
             marge: 87.77
-            taux_marge: "8.3%"
-          
+            taux_marge: 8.3%
           distributor_to_retailer:
-            prix_achat: 1150.0
+            prix_achat: 1150
             ristourne: null
-            marge: 50.0
-            taux_marge: "4.3%"
-          
+            marge: 50
+            taux_marge: 4.3%
           consumer_price:
             prix_unitaire: 200
             prix_casier: 1200
-        
         images:
-          packshot: "/assets/packshots/tgi10p-hd.png"
-      
-      - code: "TGI05P"
+          packshot: /assets/packshots/tgi10p-hd.png
+      - code: TGI05P
         designation: "PACK SOURCE TANGUI 50 CL "
-        format: "50 CL"
-        packaging_type: "PET"
-        unit: "P06"
+        format: 50 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 945.86
             remise: null
             marge: 54.14
-            taux_marge: "5.7%"
-          
+            taux_marge: 5.7%
           distributor_to_retailer:
-            prix_achat: 1000.0
+            prix_achat: 1000
             ristourne: null
-            marge: 100.0
-            taux_marge: "10.0%"
-          
+            marge: 100
+            taux_marge: 10.0%
           consumer_price:
             prix_unitaire: 200
             prix_casier: 1100
-        
         images:
-          packshot: "/assets/packshots/tgi05p-hd.png"
-      
-      - code: "TGI33P"
+          packshot: /assets/packshots/tgi05p-hd.png
+      - code: TGI33P
         designation: "PACK SOURCE TANGUI 33 CL "
-        format: "33 CL"
-        packaging_type: "PET"
-        unit: "P12"
+        format: 33 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1043.44
             remise: null
             marge: 56.56
-            taux_marge: "5.4%"
-          
+            taux_marge: 5.4%
           distributor_to_retailer:
-            prix_achat: 1100.0
+            prix_achat: 1100
             ristourne: null
-            marge: 100.0
-            taux_marge: "9.1%"
-          
+            marge: 100
+            taux_marge: 9.1%
           consumer_price:
             prix_unitaire: 100
             prix_casier: 1200
-        
         images:
-          packshot: "/assets/packshots/tgi33p-hd.png"
-      
-
-  - id: "vitale"
-    name: "VITALE"
-    logo_url: "/assets/brands/vitale-logo.png"
-    
+          packshot: /assets/packshots/tgi33p-hd.png
+    identity:
+      target: Homme, Femme, enfant de tous âges, CSP AB, C1 25 – 70 ans
+      positioning: PREMIUM
+      alcohol_rate: ""
+      signature: ""
+    positioning: PREMIUM
+    target: Homme, Femme, enfant de tous âges, CSP AB, C1 25 – 70 ans
+  - id: vitale
+    name: VITALE
+    logo_url: /assets/brands/vitale-logo.png
     products:
-      - code: "VIT15P"
-        designation: "EAU VITALE 150 CL"
-        format: "150 CL"
-        packaging_type: "PET"
-        unit: "P06"
+      - code: VIT15P
+        designation: EAU VITALE 150 CL
+        format: 150 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1090.76
             remise: null
             marge: 109.24
-            taux_marge: "10.0%"
-          
+            taux_marge: 10.0%
           distributor_to_retailer:
-            prix_achat: 1200.0
+            prix_achat: 1200
             ristourne: null
-            marge: 200.0
-            taux_marge: "16.7%"
-          
+            marge: 200
+            taux_marge: 16.7%
           consumer_price:
             prix_unitaire: 250
             prix_casier: 1400
-        
         images:
-          packshot: "/assets/packshots/vit15p-hd.png"
-      
-      - code: "VIT10J"
+          packshot: /assets/packshots/vit15p-hd.png
+      - code: VIT10J
         designation: "BIDON EAU VITALE 10L "
-        format: "1000 CL"
-        packaging_type: "BIDON"
-        unit: "J10"
+        format: 1000 CL
+        packaging_type: BIDON
+        unit: J10
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 830.05
             remise: null
             marge: 119.94
-            taux_marge: "14.4%"
-          
+            taux_marge: 14.4%
           distributor_to_retailer:
             prix_achat: 949.99
             ristourne: null
             marge: 250.01
-            taux_marge: "26.3%"
-          
+            taux_marge: 26.3%
           consumer_price:
             prix_unitaire: 1200
             prix_casier: 1200
-        
         images:
-          packshot: "/assets/packshots/vit10j-hd.png"
-      
-      - code: "VIT05P"
+          packshot: /assets/packshots/vit10j-hd.png
+      - code: VIT05P
         designation: "PACK SOURCE VITALE 50 CL "
-        format: "50 CL"
-        packaging_type: "PET"
-        unit: "P12"
+        format: 50 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 1383.78
             remise: null
             marge: 116.22
-            taux_marge: "8.4%"
-          
+            taux_marge: 8.4%
           distributor_to_retailer:
-            prix_achat: 1500.0
+            prix_achat: 1500
             ristourne: null
-            marge: 300.0
-            taux_marge: "20.0%"
-          
+            marge: 300
+            taux_marge: 20.0%
           consumer_price:
             prix_unitaire: 150
             prix_casier: 1800
-        
         images:
-          packshot: "/assets/packshots/vit05p-hd.png"
-      
+          packshot: /assets/packshots/vit05p-hd.png
+    identity:
+      target: Homme, Femme, enfant de tous âges
+      positioning: Main Stream local
+      alcohol_rate: ""
+      signature: L’eau c’est la vie, l’eau c’est VITALE
+    positioning: Main Stream local
+    target: Homme, Femme, enfant de tous âges
+    signature: L’eau c’est la vie, l’eau c’est VITALE
+    key_facts:
+      - Produite et commercialisée depuis 2017 par la SEMC, Eau Vitale est une Eau Minérale Naturelle pure et légère,
+      - >-
+        Captée à 156 m dans un sol, contenant une nappe d'eau souterraine composée de grès et suffisamment perméable
+        pour que l'eau puisse y circuler librement, Eau Vitale est riche en éléments essentiels pour l’organisme,
+      - >-
+        Son site de captation est protégé de toute pollution par un triple périmètre de sécurité, lui permettant ainsi
+        de préserver sa qualité originelle,
+      - >-
+        En raison de sa faible minéralité, Eau Vitale est une Eau Minérale Naturelle particulièrement adaptée à
+        l’hydratation de tous au quotidien,
+      - >-
+        Marque accessible de part ses PPR, elle est disponible sous les formats 50 cl, 1,5 litre et pour les familles en
+        bidon 10 litres. L’eau c’est la Vie , l’eau c’est Vitale…
+    briefs:
+      - Produite et commercialisée depuis 2017 par la SEMC, Eau Vitale est une Eau Minérale Naturelle pure et légère,
+      - >-
+        Captée à 156 m dans un sol, contenant une nappe d'eau souterraine composée de grès et suffisamment perméable
+        pour que l'eau puisse y circuler librement, Eau Vitale est riche en éléments essentiels pour l’organisme,
+      - >-
+        Son site de captation est protégé de toute pollution par un triple périmètre de sécurité, lui permettant ainsi
+        de préserver sa qualité originelle,
+      - >-
+        En raison de sa faible minéralité, Eau Vitale est une Eau Minérale Naturelle particulièrement adaptée à
+        l’hydratation de tous au quotidien,
+      - >-
+        Marque accessible de part ses PPR, elle est disponible sous les formats 50 cl, 1,5 litre et pour les familles en
+        bidon 10 litres. L’eau c’est la Vie , l’eau c’est Vitale…
+    history: >-
+      Produite et commercialisée depuis 2017 par la SEMC, Eau Vitale est une Eau Minérale Naturelle pure et légère,
 
+      Captée à 156 m dans un sol, contenant une nappe d'eau souterraine composée de grès et suffisamment perméable pour
+      que l'eau puisse y circuler librement, Eau Vitale est riche en éléments essentiels pour l’organisme,
+
+      Son site de captation est protégé de toute pollution par un triple périmètre de sécurité, lui permettant ainsi de
+      préserver sa qualité originelle,
+
+      En raison de sa faible minéralité, Eau Vitale est une Eau Minérale Naturelle particulièrement adaptée à
+      l’hydratation de tous au quotidien,
+
+      Marque accessible de part ses PPR, elle est disponible sous les formats 50 cl, 1,5 litre et pour les familles en
+      bidon 10 litres. L’eau c’est la Vie , l’eau c’est Vitale…
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité profondeur dans un système doté sa composition minérale riche d’éléments essentiels pour l’organisme
+          hydratation de toute la famille d’un triple périmètre de protection. Meilleures marges du bidon
+        - >-
+          Argent (distributeurs & détaillants); Augmentation gains Détaillant : Bidon (225 Fcfa); 1,5L (222 Fcfa) ; 0,5L
+          ( 300 Fcfa) 1,5L & 0,5 L (détaillants Elle se consomme plus joie de vivre Eau Minérale naturelle légère
+          densité minéralogique moins importante lui confère une meilleure légèreté rapidement et désaltère
+      emotional:
+        - >-
+          Compétitivité présentant le meilleur ratio Qualité - accessibilité Une authentique eau minérale la qualité de
+          la marque , cautionnée par l'Expertise de SEMC et le savoir -
+        - >-
+          Orgueil Consommer des produits sains naturelle à la portée de Tous faire du Groupe SABC Depuis 2017, la marque
+          ne cesse de Eau vitale vous accompagne où que vous soyez: au sport, à l'école, au idéale pour chaque membre de
+        - >-
+          Imitation grandir car appréciée par les bureau, à la maison grâce à ses différents formats… la famille
+          nombreux consommateurs Son packaging a évolué au fil des années pour pouvoir répondre aux Unique marque qui se
+          distingue par Packaging attrayant et un attentes des consommateurs; Eau Vitale de par son positionnement
+        - >-
+          Nouveauté son packaging avec du vert de l' offre positionnement responsable de s'inscrit dans la lutte pour la
+          protection de notre environnement avec un locale la marque packaging adapté et l'accompagnement des
+          programmes. Marque proche de la cible t qui Forte prise de parole de la marque et accompagnement des
+          communautés Bonne satisfaction des clients &
+        - >-
+          Sympathie s'investit dans le quotidien de ses sportives , dans les évènements socio -culturels … consommateurs
+          consommateurs
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []

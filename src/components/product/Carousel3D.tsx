@@ -69,11 +69,14 @@ export function Carousel3D({ images, onFormatChange }: Carousel3DProps) {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: '#f5f5f5',
-          borderRadius: '16px',
+          background: 'var(--aw-soft, #ffffff)',
+          border: '1px solid rgba(19, 18, 16, 0.12)',
+          borderRadius: '18px',
+          boxShadow: 'var(--aw-shadow, 0 18px 32px rgba(15, 23, 42, 0.08))',
+          fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif",
         }}
       >
-        <span style={{ color: '#999' }}>Aucune image disponible</span>
+        <span style={{ color: 'var(--aw-muted, #94a3b8)' }}>Aucune image disponible</span>
       </div>
     );
   }
@@ -82,10 +85,13 @@ export function Carousel3D({ images, onFormatChange }: Carousel3DProps) {
     <div
       style={{
         position: 'relative',
-        height: '350px',
+        height: '360px',
         perspective: '1000px',
         overflow: 'hidden',
-        borderRadius: '16px',
+        borderRadius: '18px',
+        background: 'var(--aw-soft, #ffffff)',
+        border: '1px solid rgba(19, 18, 16, 0.12)',
+        boxShadow: 'var(--aw-shadow, 0 18px 32px rgba(15, 23, 42, 0.08))',
       }}
     >
       <AnimatePresence initial={false} custom={direction} mode="wait">
@@ -124,23 +130,26 @@ export function Carousel3D({ images, onFormatChange }: Carousel3DProps) {
             src={images[currentIndex].src}
             alt={images[currentIndex].alt}
             style={{
-              maxWidth: '80%',
-              maxHeight: '250px',
+              maxWidth: '78%',
+              maxHeight: '240px',
               objectFit: 'contain',
               borderRadius: '12px',
-              boxShadow: '0 8px 32px rgba(0, 0, 0, 0.15)',
+              background: 'rgba(255, 255, 255, 0.92)',
+              padding: '12px',
+              boxShadow: '0 16px 30px rgba(15, 23, 42, 0.12)',
             }}
           />
           {images[currentIndex].format && (
             <div
               style={{
                 marginTop: '16px',
-                padding: '8px 16px',
-                background: 'rgba(255, 115, 35, 0.9)',
+                padding: '6px 14px',
+                background: 'var(--aw-ink, #0f172a)',
                 color: '#fff',
-                borderRadius: '20px',
-                fontSize: '0.875rem',
+                borderRadius: '999px',
+                fontSize: '0.85rem',
                 fontWeight: 600,
+                fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif",
               }}
             >
               {images[currentIndex].format}
@@ -161,18 +170,18 @@ export function Carousel3D({ images, onFormatChange }: Carousel3DProps) {
               left: '16px',
               top: '50%',
               transform: 'translateY(-50%)',
-              width: '44px',
-              height: '44px',
-              borderRadius: '50%',
-              border: 'none',
-              background: currentIndex === 0 ? 'rgba(200, 200, 200, 0.5)' : 'rgba(255, 115, 35, 0.9)',
-              color: '#fff',
+              width: '42px',
+              height: '42px',
+              borderRadius: '12px',
+              border: '1px solid rgba(19, 18, 16, 0.15)',
+              background: currentIndex === 0 ? 'rgba(255, 255, 255, 0.6)' : 'var(--aw-soft, #fff)',
+              color: 'var(--aw-ink, #0f172a)',
               cursor: currentIndex === 0 ? 'not-allowed' : 'pointer',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              fontSize: '1.25rem',
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+              fontSize: '1.2rem',
+              boxShadow: '0 8px 18px rgba(15, 23, 42, 0.12)',
               zIndex: 10,
             }}
           >
@@ -187,18 +196,21 @@ export function Carousel3D({ images, onFormatChange }: Carousel3DProps) {
               right: '16px',
               top: '50%',
               transform: 'translateY(-50%)',
-              width: '44px',
-              height: '44px',
-              borderRadius: '50%',
-              border: 'none',
-              background: currentIndex === images.length - 1 ? 'rgba(200, 200, 200, 0.5)' : 'rgba(255, 115, 35, 0.9)',
-              color: '#fff',
+              width: '42px',
+              height: '42px',
+              borderRadius: '12px',
+              border: '1px solid rgba(19, 18, 16, 0.15)',
+              background:
+                currentIndex === images.length - 1
+                  ? 'rgba(255, 255, 255, 0.6)'
+                  : 'var(--aw-soft, #fff)',
+              color: 'var(--aw-ink, #0f172a)',
               cursor: currentIndex === images.length - 1 ? 'not-allowed' : 'pointer',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              fontSize: '1.25rem',
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+              fontSize: '1.2rem',
+              boxShadow: '0 8px 18px rgba(15, 23, 42, 0.12)',
               zIndex: 10,
             }}
           >
@@ -228,8 +240,8 @@ export function Carousel3D({ images, onFormatChange }: Carousel3DProps) {
                 width: '10px',
                 height: '10px',
                 borderRadius: '50%',
-                border: 'none',
-                background: index === currentIndex ? '#ff7323' : 'rgba(255, 255, 255, 0.6)',
+                border: '1px solid rgba(19, 18, 16, 0.2)',
+                background: index === currentIndex ? 'var(--aw-ink, #0f172a)' : 'var(--aw-soft, #fff)',
                 cursor: 'pointer',
                 transition: 'background 0.2s',
               }}

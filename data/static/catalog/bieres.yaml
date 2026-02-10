@@ -3,220 +3,196 @@
 # Date : 2026-01-26
 
 segment:
-  id: "bieres"
-  name: "Bières"
-  name_en: "Beers"
-  icon: "beer"
+  id: bieres
+  name: Bières
+  name_en: Beers
+  icon: beer
   order: 1
-  description: "Portefeuille complet des bières Boissons du Cameroun"
-
+  description: Portefeuille complet des bières Boissons du Cameroun
 brands:
-  - id: "33-export"
-    name: "33 Export"
-    logo_url: "/assets/brands/33-export-logo.png"
-    description: "Bière blonde camerounaise de référence depuis 1960"
-    alcohol_rate: "5,2%"
-    positioning: "Leader, Premium"
-    target: "Urbain, Jeunes, Familles"
-    seasonality: "Toute l'année"
-    
+  - id: 33-export
+    name: 33 Export
+    logo_url: /assets/brands/33-export-logo.png
+    description: Bière blonde camerounaise de référence depuis 1960
+    alcohol_rate: 5,2%
+    positioning: Leader, Premium
+    target: Urbain, Jeunes, Familles
+    seasonality: Toute l'année
     history: |
       Créée en 1960, "33" Export est la bière emblématique du Cameroun.
       Leader incontesté du marché depuis plus de 60 ans, elle symbolise 
       la convivialité et le partage à la camerounaise.
-      
+
       Son nom "33" fait référence à la température idéale de dégustation 
       et à l'année de sa création. Aujourd'hui, elle reste la bière 
       la plus consommée au Cameroun avec une part de marché dominante.
-    
     products:
-      - code: "EXP65C"
-        designation: "Casier \"33\" Export 65 CL"
-        format: "65cl"
-        packaging_type: "Bouteille verre consigné"
-        container: "Casier de 12 bouteilles"
-        unit: "C12"
-        packaging_code: "BA_65"
+      - code: EXP65C
+        designation: Casier \"33\" Export 65 CL
+        format: 65cl
+        packaging_type: Bouteille verre consigné
+        container: Casier de 12 bouteilles
+        unit: C12
+        packaging_code: BA_65
         consigne: 3600
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 6503
             remise: 339
             frais_chr: 528.45
             marge: 783
-            taux_marge: "11.1%"
+            taux_marge: 11.1%
             prix_vente: 7200
-          
           distributor_to_retailer:
             prix_achat: 7200
             ristourne: 324.3
             frais_elv: 600
             marge: 924.3
-            taux_marge: "12.8%"
+            taux_marge: 12.8%
             prix_unitaire: 650
             prix_casier: 7800
-          
           consumer_price:
             prix_unitaire: 650
             prix_casier: 7800
-        
         images:
-          packshot: "/assets/packshots/exp65c-hd.png"
-          product: "/assets/products/exp65c.png"
-          thumbnail: "/assets/products/exp65c-thumb.png"
-      
-      - code: "EXP50C"
-        designation: "Casier \"33\" Export 50 CL"
-        format: "50cl"
-        packaging_type: "Bouteille verre consigné"
-        container: "Casier de 12 bouteilles"
-        unit: "C12"
-        packaging_code: "BA_50"
+          packshot: /assets/packshots/exp65c-hd.png
+          product: /assets/products/exp65c.png
+          thumbnail: /assets/products/exp65c-thumb.png
+      - code: EXP50C
+        designation: Casier \"33\" Export 50 CL
+        format: 50cl
+        packaging_type: Bouteille verre consigné
+        container: Casier de 12 bouteilles
+        unit: C12
+        packaging_code: BA_50
         consigne: 3600
-        market: ["NORD"]
-        
+        market:
+          - NORD
         pricing:
           marketing_to_distributor:
             prix_achat: 4827
             remise: 339
             frais_chr: 528.45
             marge: 709
-            taux_marge: "13.2%"
+            taux_marge: 13.2%
             prix_vente: 5450
-          
           distributor_to_retailer:
             prix_achat: 5450
             ristourne: 324.3
             frais_elv: 600
             marge: 874.3
-            taux_marge: "16.0%"
+            taux_marge: 16.0%
             prix_unitaire: 500
             prix_casier: 6000
-          
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-        
         images:
-          packshot: "/assets/packshots/exp50c-hd.png"
-          product: "/assets/products/exp50c.png"
-          thumbnail: "/assets/products/exp50c-thumb.png"
-      
-      - code: "EXP33C"
-        designation: "Casier \"33\" Export 33 CL"
-        format: "33cl"
-        packaging_type: "Bouteille verre consigné"
-        container: "Casier de 24 bouteilles"
-        unit: "C24"
-        packaging_code: "BA_33"
+          packshot: /assets/packshots/exp50c-hd.png
+          product: /assets/products/exp50c.png
+          thumbnail: /assets/products/exp50c-thumb.png
+      - code: EXP33C
+        designation: Casier \"33\" Export 33 CL
+        format: 33cl
+        packaging_type: Bouteille verre consigné
+        container: Casier de 24 bouteilles
+        unit: C24
+        packaging_code: BA_33
         consigne: 3600
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 8036
             remise: 528
             frais_chr: 1056.9
             marge: 1036
-            taux_marge: "11.4%"
+            taux_marge: 11.4%
             prix_vente: 8800
-          
           distributor_to_retailer:
             prix_achat: 8800
             ristourne: 399
             frais_elv: 1200
             marge: 1199
-            taux_marge: "13.6%"
+            taux_marge: 13.6%
             prix_unitaire: 400
             prix_casier: 9600
-          
           consumer_price:
             prix_unitaire: 400
             prix_casier: 9600
-        
         images:
-          packshot: "/assets/packshots/exp33c-hd.png"
-          product: "/assets/products/exp33c.png"
-          thumbnail: "/assets/products/exp33c-thumb.png"
-      
-      - code: "EXP50B"
-        designation: "Carton \"33\" Export Boîte 50"
-        format: "50cl"
-        packaging_type: "Canette"
-        container: "Carton de 24 canettes"
-        unit: "B24"
-        packaging_code: "BOÎTE 50"
+          packshot: /assets/packshots/exp33c-hd.png
+          product: /assets/products/exp33c.png
+          thumbnail: /assets/products/exp33c-thumb.png
+      - code: EXP50B
+        designation: Carton \"33\" Export Boîte 50
+        format: 50cl
+        packaging_type: Canette
+        container: Carton de 24 canettes
+        unit: B24
+        packaging_code: BOÎTE 50
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 15847
             remise: 0
             frais_chr: 0
             marge: 953
-            taux_marge: "6.0%"
+            taux_marge: 6.0%
             prix_vente: 16800
-          
           distributor_to_retailer:
             prix_achat: 16800
             ristourne: 0
             frais_elv: 600
             marge: 600
-            taux_marge: "3.6%"
+            taux_marge: 3.6%
             prix_unitaire: 725
             prix_casier: 17400
-          
           consumer_price:
             prix_unitaire: 725
             prix_casier: 17400
-        
         images:
-          packshot: "/assets/packshots/exp50b-hd.png"
-          product: "/assets/products/exp50b.png"
-          thumbnail: "/assets/products/exp50b-thumb.png"
-    
+          packshot: /assets/packshots/exp50b-hd.png
+          product: /assets/products/exp50b.png
+          thumbnail: /assets/products/exp50b-thumb.png
     sales_arguments:
       general:
-        - "Bière n°1 au Cameroun depuis plus de 60 ans - marque de confiance"
-        - "Qualité constante et goût apprécié par tous les camerounais"
-        - "Forte rotation garantie dans tous les points de vente"
-        - "Marque premium qui valorise votre établissement"
-        - "Disponible en plusieurs formats pour tous les budgets (33cl, 50cl, 65cl, canettes)"
-      
+        - Bière n°1 au Cameroun depuis plus de 60 ans - marque de confiance
+        - Qualité constante et goût apprécié par tous les camerounais
+        - Forte rotation garantie dans tous les points de vente
+        - Marque premium qui valorise votre établissement
+        - Disponible en plusieurs formats pour tous les budgets (33cl, 50cl, 65cl, canettes)
       by_channel:
         CHR:
-          - "Marque premium qui attire une clientèle aisée"
-          - "Forte demande client = rotation rapide = trésorerie fluide"
-          - "Marge attractive de 12-16% selon format"
-          - "Support marketing régulier (PLV, frigos, activations)"
-          - "Image de marque qui valorise votre établissement"
-        
+          - Marque premium qui attire une clientèle aisée
+          - Forte demande client = rotation rapide = trésorerie fluide
+          - Marge attractive de 12-16% selon format
+          - Support marketing régulier (PLV, frigos, activations)
+          - Image de marque qui valorise votre établissement
         PSV:
-          - "Produit d'appel qui attire les clients dans votre boutique"
-          - "Rotation la plus rapide du marché = pas de stock dormant"
-          - "Formats variés pour tous les budgets de vos clients"
-          - "Consigne sécurisée avec système rodé depuis 60 ans"
-          - "Promotions régulières pour booster vos ventes"
-        
+          - Produit d'appel qui attire les clients dans votre boutique
+          - Rotation la plus rapide du marché = pas de stock dormant
+          - Formats variés pour tous les budgets de vos clients
+          - Consigne sécurisée avec système rodé depuis 60 ans
+          - Promotions régulières pour booster vos ventes
         TT:
-          - "Marque de confiance = vente assurée"
-          - "Système de consigne simple et sécurisé"
-          - "Support terrain régulier de nos équipes"
-          - "Activations fréquentes pour dynamiser vos ventes"
-          - "Meilleure marge du segment bières"
-        
+          - Marque de confiance = vente assurée
+          - Système de consigne simple et sécurisé
+          - Support terrain régulier de nos équipes
+          - Activations fréquentes pour dynamiser vos ventes
+          - Meilleure marge du segment bières
         MT:
-          - "Leader de catégorie = incontournable en rayon"
-          - "Forte visibilité consommateur = forte demande"
-          - "Promotions régulières pour booster le trafic"
-          - "Planogrammes optimisés pour maximiser vos ventes"
-          - "Support merchandising complet (PLV, frigos, formations)"
-    
+          - Leader de catégorie = incontournable en rayon
+          - Forte visibilité consommateur = forte demande
+          - Promotions régulières pour booster le trafic
+          - Planogrammes optimisés pour maximiser vos ventes
+          - Support merchandising complet (PLV, frigos, formations)
     objections:
-      - question: "Votre bière est trop chère"
+      - question: Votre bière est trop chère
         response: |
           "33" Export offre le meilleur rapport qualité-prix du marché.
           Avec une marge de 12-16% pour vous selon le format, vous gagnez 
@@ -226,8 +202,7 @@ brands:
           "Regardez : sur 100 caisses vendues, vous gagnez [X] FCFA de plus 
           qu'avec [concurrent]. Et comme ça tourne 2x plus vite, vous gagnez 
           en fait le double. Faisons le calcul ensemble..."
-        
-      - question: "Ça ne tourne pas chez moi"
+      - question: Ça ne tourne pas chez moi
         response: |
           "33" Export est la bière la plus demandée au Cameroun avec plus de 
           60% de part de marché. Si la rotation est faible chez vous, c'est 
@@ -237,8 +212,7 @@ brands:
           "Essayons ensemble : je vous mets en visibilité avec notre PLV 
           gratuite, je vous installe un frigo, et on fait le point dans 
           2 semaines. Vous verrez la différence immédiatement."
-      
-      - question: "Je n'ai pas de place en frigo"
+      - question: Je n'ai pas de place en frigo
         response: |
           Nous pouvons vous installer un frigo BDC gratuitement. Cela 
           augmentera vos ventes de bières fraîches de 30% minimum. Le frigo 
@@ -247,8 +221,7 @@ brands:
           "Je programme l'installation pour la semaine prochaine. Vous ne 
           payez rien, le frigo reste chez vous, et vos ventes de bières 
           vont exploser. C'est gagnant-gagnant."
-      
-      - question: "Les consignes sont compliquées"
+      - question: Les consignes sont compliquées
         response: |
           Le système de consigne est simple et sécurisé. Vous payez 3600 FCFA 
           une fois pour le casier, et ensuite c'est un échange à chaque 
@@ -258,8 +231,7 @@ brands:
           "Pas de souci, je vous explique en 2 minutes : vous payez la 
           consigne une fois, après c'est juste un échange. Je vous donne 
           le contact direct de notre équipe pour toute question."
-      
-      - question: "J'ai déjà un fournisseur"
+      - question: J'ai déjà un fournisseur
         response: |
           Excellent ! Diversifier vos fournisseurs vous protège des ruptures 
           et vous permet de négocier de meilleures conditions. "33" Export 
@@ -269,23 +241,20 @@ brands:
           "Commençons petit : 5 caisiers pour tester. Si ça marche bien, 
           on augmente. Sinon, aucune obligation. Vous ne risquez rien et 
           vous pouvez gagner gros."
-    
     competitors:
-      - name: "Supermont"
-        brand: "Supermont"
-        differentiation: "Qualité supérieure, goût plus raffiné, marque plus premium avec 60 ans d'histoire"
-        price_comparison: "Prix similaire mais rotation 2x plus rapide"
-      
-      - name: "UCB"
-        brand: "UCB"
-        differentiation: "Meilleure distribution nationale, rotation plus rapide, marque plus connue et appréciée"
-        price_comparison: "Marge équivalente mais ventes supérieures"
-    
+      - name: Supermont
+        brand: Supermont
+        differentiation: Qualité supérieure, goût plus raffiné, marque plus premium avec 60 ans d'histoire
+        price_comparison: Prix similaire mais rotation 2x plus rapide
+      - name: UCB
+        brand: UCB
+        differentiation: Meilleure distribution nationale, rotation plus rapide, marque plus connue et appréciée
+        price_comparison: Marge équivalente mais ventes supérieures
     activations:
-      - id: "booster-33-2026"
-        name: "Booster 33"
-        period: "Toute l'année"
-        mechanics: "Paie & Gagne - Lots instantanés sous les capsules"
+      - id: booster-33-2026
+        name: Booster 33
+        period: Toute l'année
+        mechanics: Paie & Gagne - Lots instantanés sous les capsules
         description: |
           Gagnez des lots instantanés en achetant "33" Export :
           - Smartphones
@@ -293,770 +262,1138 @@ brands:
           - Bons d'achat
           - Recharges téléphoniques
         plv_available:
-          - "Affiches A3"
-          - "Kakémonos"
-          - "Stickers vitrine"
-          - "Wobblers frigo"
+          - Affiches A3
+          - Kakémonos
+          - Stickers vitrine
+          - Wobblers frigo
         plv_urls:
-          - "/assets/plv/booster-33-affiche.png"
-          - "/assets/plv/booster-33-kakemono.png"
-    
+          - /assets/plv/booster-33-affiche.png
+          - /assets/plv/booster-33-kakemono.png
     merchandising:
       placement_rules:
-        - "Placer en hauteur d'yeux (120-160cm) pour maximiser la visibilité"
-        - "Regrouper tous les formats ensemble (33cl, 50cl, 65cl, canettes)"
-        - "Assurer visibilité du logo sur au moins 3 faces"
-        - "Privilégier l'emplacement frigo pour les ventes impulsives"
-        - "Créer un facing minimum de 3 bouteilles par format"
-      
-      planogram_url: "/assets/planograms/33-export-psv.png"
-      
+        - Placer en hauteur d'yeux (120-160cm) pour maximiser la visibilité
+        - Regrouper tous les formats ensemble (33cl, 50cl, 65cl, canettes)
+        - Assurer visibilité du logo sur au moins 3 faces
+        - Privilégier l'emplacement frigo pour les ventes impulsives
+        - Créer un facing minimum de 3 bouteilles par format
+      planogram_url: /assets/planograms/33-export-psv.png
       best_practices:
-        - description: "Frigo dédié avec PLV complète"
-          image_url: "/assets/best-practices/33-export-fridge-full.jpg"
-        
-        - description: "Linéaire optimisé avec tous les formats"
-          image_url: "/assets/best-practices/33-export-shelf.jpg"
-        
-        - description: "Point de vente avec activation Booster"
-          image_url: "/assets/best-practices/33-export-activation.jpg"
-
-  # Autres marques à compléter...
-  - id: "castel-beer"
-    name: "Castel Beer"
-    logo_url: "/assets/brands/castel-beer-logo.png"
-    description: "Bière blonde internationale de qualité"
-    alcohol_rate: "5%"
-    positioning: "Premium, International"
-    target: "Urbain, Classes moyennes et supérieures"
-    
+        - description: Frigo dédié avec PLV complète
+          image_url: /assets/best-practices/33-export-fridge-full.jpg
+        - description: Linéaire optimisé avec tous les formats
+          image_url: /assets/best-practices/33-export-shelf.jpg
+        - description: Point de vente avec activation Booster
+          image_url: /assets/best-practices/33-export-activation.jpg
+    identity:
+      target: Homme et femme entre 21-35 ans, jovial, dynamique, sociable, CSP C1- C2-DE
+      positioning: Mainstream
+      alcohol_rate: 5%
+      signature: Supporter N°1 du Football
+    signature: Supporter N°1 du Football
+    key_facts:
+      - Brassée depuis 1875, ‘’33’’ Export est une bière de haute tradition de classe internationale
+      - >-
+        Reconnue et appréciée sur tous les continents, ‘’33’’ Export est le partenaire incontournable des bons moments
+        partagés entre amis
+      - Son goût franc et unique en a fait aujourd’hui la bière la plus consommée au cameroun
+      - ’’33’’ Export est le Supporter N°1 du Football
+    briefs:
+      - Brassée depuis 1875, ‘’33’’ Export est une bière de haute tradition de classe internationale
+      - >-
+        Reconnue et appréciée sur tous les continents, ‘’33’’ Export est le partenaire incontournable des bons moments
+        partagés entre amis
+      - Son goût franc et unique en a fait aujourd’hui la bière la plus consommée au cameroun
+      - ’’33’’ Export est le Supporter N°1 du Football
+  - id: castel-beer
+    name: Castel Beer
+    logo_url: /assets/brands/castel-beer-logo.png
+    description: Bière blonde internationale de qualité
+    alcohol_rate: 5%
+    positioning: Premium, International
+    target: Urbain, Classes moyennes et supérieures
     products:
-      - code: "CAS65C"
-        designation: "CASIER CASTEL 65 CL"
-        format: "65 CL"
-        packaging_type: "APO_65"
-        unit: "C12"
+      - code: CAS65C
+        designation: CASIER CASTEL 65 CL
+        format: 65 CL
+        packaging_type: APO_65
+        unit: C12
         consigne: 3600
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 6503.4
             remise: 339
             frais_chr: 528.45
             marge: 782.85
-            taux_marge: "11.1%"
-
+            taux_marge: 11.1%
           distributor_to_retailer:
             prix_achat: 7200
             ristourne: 324.3
             frais_elv: 600
             marge: 924.3
-            taux_marge: "12.8%"
-
+            taux_marge: 12.8%
           consumer_price:
             prix_unitaire: 650
             prix_casier: 7800
-
-      - code: "CAS50C"
-        designation: "CASIER CASTEL 50 CL"
-        format: "50 CL"
-        packaging_type: "BA_50"
-        unit: "C12"
+      - code: CAS50C
+        designation: CASIER CASTEL 50 CL
+        format: 50 CL
+        packaging_type: BA_50
+        unit: C12
         consigne: 3600
-        market: ["NORD"]
-
+        market:
+          - NORD
         pricing:
           marketing_to_distributor:
             prix_achat: 4827.34
             remise: 339
             frais_chr: 528.45
             marge: 708.91
-            taux_marge: "13.2%"
-
+            taux_marge: 13.2%
           distributor_to_retailer:
             prix_achat: 5450
             ristourne: 324.3
             frais_elv: 600
             marge: 874.3
-            taux_marge: "16.0%"
-
+            taux_marge: 16.0%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-
-      - code: "CAS33C"
-        designation: "CASIER CASTEL 33 CL"
-        format: "33 CL"
-        packaging_type: "APO_33"
-        unit: "C24"
+      - code: CAS33C
+        designation: CASIER CASTEL 33 CL
+        format: 33 CL
+        packaging_type: APO_33
+        unit: C24
         consigne: 3600
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 8035.8
             remise: 528
             frais_chr: 1056.9
             marge: 1036.3
-            taux_marge: "11.4%"
-
+            taux_marge: 11.4%
           distributor_to_retailer:
             prix_achat: 8800
             ristourne: 399
             frais_elv: 1200
             marge: 1199
-            taux_marge: "13.6%"
-
+            taux_marge: 13.6%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 9600
-
-      - code: "CAS50B"
-        designation: "CARTON CASTEL BOITE 50"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: CAS50B
+        designation: CARTON CASTEL BOITE 50
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 15847.1
             remise: null
             frais_chr: null
             marge: 952.9
-            taux_marge: "6.0%"
-
+            taux_marge: 6.0%
           distributor_to_retailer:
             prix_achat: 16800
             ristourne: null
             frais_elv: null
             marge: 600
-            taux_marge: "3.6%"
-
+            taux_marge: 3.6%
           consumer_price:
             prix_unitaire: 725
             prix_casier: 17400
+    identity:
+      target: Homme et femme entre 25-40 ans, animé par la volonté de réussir, travailleur, CSP C1-C2-DE
+      positioning: Mainstream
+      alcohol_rate: 5,2%
+      signature: Le goût de la réussite
+    signature: Le goût de la réussite
+    key_facts:
+      - >-
+        Bière blonde de qualité supérieure, Castel Beer est l’aboutissement d’un brassage d’ingrédients savamment
+        sélectionnés
+      - >-
+        Son habillage couleur or, tout à fait royal et exceptionnel, une fierté d’arborer sa médaille d’or remportée aux
+        Quality awards 2017 illustre toute la considération que la marque Castel Beer porte au quotidien à ses
+        consommateurs
+      - >-
+        Riche de plus de 50 ans d’histoire, Castel Beer célèbre les valeurs positives de l’afrique, des africains de
+        talent qui font la fierté du continent.
+      - Appréciée dans plus de 22 pays du continent, Castel Beer s’exporte à travers le monde
+      - Fine et rafraîchissante, elle est la Reine des bières blondes africaines.
+    briefs:
+      - >-
+        Bière blonde de qualité supérieure, Castel Beer est l’aboutissement d’un brassage d’ingrédients savamment
+        sélectionnés
+      - >-
+        Son habillage couleur or, tout à fait royal et exceptionnel, une fierté d’arborer sa médaille d’or remportée aux
+        Quality awards 2017 illustre toute la considération que la marque Castel Beer porte au quotidien à ses
+        consommateurs
+      - >-
+        Riche de plus de 50 ans d’histoire, Castel Beer célèbre les valeurs positives de l’afrique, des africains de
+        talent qui font la fierté du continent.
+      - Appréciée dans plus de 22 pays du continent, Castel Beer s’exporte à travers le monde
+      - Fine et rafraîchissante, elle est la Reine des bières blondes africaines.
+    history: >-
+      Bière blonde de qualité supérieure, Castel Beer est l’aboutissement d’un brassage d’ingrédients savamment
+      sélectionnés
 
-  - id: "mutzig"
-    name: "Mützig"
-    logo_url: "/assets/brands/mutzig-logo.png"
-    description: "Bière alsacienne de tradition"
-    alcohol_rate: "5,2%"
-    positioning: "Premium, Tradition"
-    target: "Connaisseurs, Urbain"
-    
+      Son habillage couleur or, tout à fait royal et exceptionnel, une fierté d’arborer sa médaille d’or remportée aux
+      Quality awards 2017 illustre toute la considération que la marque Castel Beer porte au quotidien à ses
+      consommateurs
+
+      Riche de plus de 50 ans d’histoire, Castel Beer célèbre les valeurs positives de l’afrique, des africains de
+      talent qui font la fierté du continent.
+
+      Appréciée dans plus de 22 pays du continent, Castel Beer s’exporte à travers le monde
+
+      Fine et rafraîchissante, elle est la Reine des bières blondes africaines.
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité La Castel Beer est une bière Elle est consommée dans plus de 22 Bonne satisfaction de qualité
+          supérieure pays des consommateurs
+        - Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges forte rotation
+        - >-
+          Commodité La Castel Beer se présente Elle est disponible en grand et petit Choix variés pour les sous quatre
+          formats modèle, mais aussi en canettes consommateurs
+      emotional:
+        - >-
+          Compétitivité elle a une bonne contribution Donner le nombre de casiers achetés Espoir de gain lors aux ventes
+          pour le gain d’un par un client du même réseau d’un concours concours
+        - >-
+          Orgueil Une bière de luxe Évolution du packaging et habillage connaisseur auprès internationale de couleur or
+          des consommateurs
+        - >-
+          Imitation Une bière à avoir absolument Les autres clients l’ont toujours en Fidélisation de la en stock stock
+          clientèle
+        - Nouveauté Nouvelle référence Format canette 50cl Nouvelle offre aux consommateurs
+        - Sympathie La Castel Beer rassemble Bon rapport client et vendeur Suivi personnalisé
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: mutzig
+    name: Mützig
+    logo_url: /assets/brands/mutzig-logo.png
+    description: Bière alsacienne de tradition
+    alcohol_rate: 5,2%
+    positioning: Premium, Tradition
+    target: Connaisseurs, Urbain
     products:
-      - code: "MUT65C"
-        designation: "CASIER MUTZIG 65 CL"
-        format: "65 CL"
-        packaging_type: "BV_65"
-        unit: "C12"
+      - code: MUT65C
+        designation: CASIER MUTZIG 65 CL
+        format: 65 CL
+        packaging_type: BV_65
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 6503.4
             remise: 339
             frais_chr: 528.45
             marge: 782.85
-            taux_marge: "11.1%"
-
+            taux_marge: 11.1%
           distributor_to_retailer:
             prix_achat: 7200
             ristourne: 324.3
             frais_elv: 600
             marge: 924.3
-            taux_marge: "12.8%"
-
+            taux_marge: 12.8%
           consumer_price:
             prix_unitaire: 650
             prix_casier: 7800
-
-      - code: "MUT33C"
-        designation: "CASIER MUTZIG 33 CL"
-        format: "33 CL"
-        packaging_type: "BV_33"
-        unit: "C24"
+      - code: MUT33C
+        designation: CASIER MUTZIG 33 CL
+        format: 33 CL
+        packaging_type: BV_33
+        unit: C24
         consigne: 3600
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 8035.8
             remise: 528
             frais_chr: 1056.9
             marge: 1036.3
-            taux_marge: "11.4%"
-
+            taux_marge: 11.4%
           distributor_to_retailer:
             prix_achat: 8800
             ristourne: 399
             frais_elv: 1200
             marge: 1199
-            taux_marge: "13.6%"
-
+            taux_marge: 13.6%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 9600
-
-      - code: "MUT50B"
-        designation: "CARTON MÜTZIG BOITE 50"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: MUT50B
+        designation: CARTON MÜTZIG BOITE 50
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 15847.1
             remise: null
             frais_chr: null
             marge: 952.9
-            taux_marge: "6.0%"
-
+            taux_marge: 6.0%
           distributor_to_retailer:
             prix_achat: 16800
             ristourne: null
             frais_elv: null
             marge: 600
-            taux_marge: "3.6%"
-
+            taux_marge: 3.6%
           consumer_price:
             prix_unitaire: 725
             prix_casier: 17400
-
-  # ... Autres marques (Manyan, Isenbeck, Beaufort, etc.)
-
-  - id: "beaufort-lager"
-    name: "BEAUFORT LAGER"
+  - id: beaufort-lager
+    name: BEAUFORT LAGER
     products:
-      - code: "BFT50C"
-        designation: "CASIER BEAUFORT LAGER 50 CL"
-        format: "50 CL"
-        packaging_type: "BV_50"
-        unit: "C12"
+      - code: BFT50C
+        designation: CASIER BEAUFORT LAGER 50 CL
+        format: 50 CL
+        packaging_type: BV_50
+        unit: C12
         consigne: 3600
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 5755.68
             remise: 339
             frais_chr: 528.45
             marge: 855.57
-            taux_marge: "13.6%"
-
+            taux_marge: 13.6%
           distributor_to_retailer:
             prix_achat: 6525
             ristourne: 324.3
             frais_elv: 600
             marge: 999.3
-            taux_marge: "15.3%"
-
+            taux_marge: 15.3%
           consumer_price:
             prix_unitaire: 600
             prix_casier: 7200
-
-      - code: "BFT33C"
-        designation: "CASIER BEAUFORT LAGER 33 CL"
-        format: "33 CL"
-        packaging_type: "BV_33"
-        unit: "C24"
+      - code: BFT33C
+        designation: CASIER BEAUFORT LAGER 33 CL
+        format: 33 CL
+        packaging_type: BV_33
+        unit: C24
         consigne: 3600
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 8035.8
             remise: 528
             frais_chr: 1056.9
             marge: 1036.3
-            taux_marge: "11.4%"
-
+            taux_marge: 11.4%
           distributor_to_retailer:
             prix_achat: 8800
             ristourne: 399
             frais_elv: 1200
             marge: 1199
-            taux_marge: "13.6%"
-
+            taux_marge: 13.6%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 9600
-
-      - code: "BFT50B"
-        designation: "CARTON BEAUFORT LAGER BOITE 50"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: BFT50B
+        designation: CARTON BEAUFORT LAGER BOITE 50
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 15847.1
             remise: null
             frais_chr: null
             marge: 952.9
-            taux_marge: "6.0%"
-
+            taux_marge: 6.0%
           distributor_to_retailer:
             prix_achat: 16800
             ristourne: null
             frais_elv: null
             marge: 600
-            taux_marge: "3.6%"
-
+            taux_marge: 3.6%
           consumer_price:
             prix_unitaire: 725
             prix_casier: 17400
-  - id: "beaufort-light"
-    name: "BEAUFORT LIGHT"
-    products:
-      - code: "BFL50C"
-        designation: "CASIER BEAUFORT LIGHT 50 CL"
-        format: "50 CL"
-        packaging_type: "BV_50"
-        unit: "C12"
-        consigne: 3600
-        market: ["TOUS"]
+    identity:
+      target: Homme et femme entre 25-40 ans, connaisseur, CSP AB, C1
+      positioning: Premium
+      alcohol_rate: 4,6%
+      signature: L’origine de la fraîcheur
+    positioning: Premium
+    target: Homme et femme entre 25-40 ans, connaisseur, CSP AB, C1
+    alcohol_rate: 4,6%
+    signature: L’origine de la fraîcheur
+    key_facts:
+      - >-
+        Brassée au cameroun depuis 1952, l’excellent process de fabrication de la Beaufort Lager ne tolère que la
+        perfection
+      - >-
+        La renommée de Beaufort Lager a traversé le temps pour imposer à ce jour le respect. Un respect bien assumé avec
+        sa médaille en argent remportée lors des Quality Awards 2017
+      - >-
+        Fine et légère, la fraîcheur inégalée de Beaufort Lager est appréciée dans plus de dix pays sur le continent et
+        au-delà
+      - Bière de distinction au packaging attrayant, elle vous confère du respect
+    briefs:
+      - >-
+        Brassée au cameroun depuis 1952, l’excellent process de fabrication de la Beaufort Lager ne tolère que la
+        perfection
+      - >-
+        La renommée de Beaufort Lager a traversé le temps pour imposer à ce jour le respect. Un respect bien assumé avec
+        sa médaille en argent remportée lors des Quality Awards 2017
+      - >-
+        Fine et légère, la fraîcheur inégalée de Beaufort Lager est appréciée dans plus de dix pays sur le continent et
+        au-delà
+      - Bière de distinction au packaging attrayant, elle vous confère du respect
+    history: >-
+      Brassée au cameroun depuis 1952, l’excellent process de fabrication de la Beaufort Lager ne tolère que la
+      perfection
 
+      La renommée de Beaufort Lager a traversé le temps pour imposer à ce jour le respect. Un respect bien assumé avec
+      sa médaille en argent remportée lors des Quality Awards 2017
+
+      Fine et légère, la fraîcheur inégalée de Beaufort Lager est appréciée dans plus de dix pays sur le continent et
+      au-delà
+
+      Bière de distinction au packaging attrayant, elle vous confère du respect
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité BEAUFORT LAGER est une Elle est consommée sur le continent Bonne satisfaction des bière de qualité
+          reconnue et au-delà consommateurs
+        - Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges bonne rotation
+        - >-
+          Commodité Formats à consommer sur Elle est disponible en VC 50CL et, Pratique pour client et place et à
+          emporter mais aussi en canettes et désormais consommateurs en fûts
+      emotional:
+        - >-
+          Compétitivité elle a sa contribution aux Donner le nombre de casiers achetés Espoir de gain lors ventes pour
+          le gain d’un par un client du même réseau d’un concours concours
+        - >-
+          Orgueil Une bière premium Packaging d’exception De la considération Rapport qualité/quantité/prix pour le
+          consommateur
+        - >-
+          Imitation Une bière premium à avoir Tous les bons clients l’ont en stock Fidélisation de la absolument en
+          stock clientèle
+        - Nouveauté Nouvel habillage et nouveau Nouveaux éléments de décors Client à la page
+        - Sympathie BEAUFORT LAGER, Excellence de la relation client et Suivi personnalisé La bière distinguée vendeur
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: beaufort-light
+    name: BEAUFORT LIGHT
+    products:
+      - code: BFL50C
+        designation: CASIER BEAUFORT LIGHT 50 CL
+        format: 50 CL
+        packaging_type: BV_50
+        unit: C12
+        consigne: 3600
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 5755.68
             remise: 339
             frais_chr: 528.45
             marge: 855.57
-            taux_marge: "13.6%"
-
+            taux_marge: 13.6%
           distributor_to_retailer:
             prix_achat: 6525
             ristourne: 324.3
             frais_elv: 600
             marge: 999.3
-            taux_marge: "15.3%"
-
+            taux_marge: 15.3%
           consumer_price:
             prix_unitaire: 600
             prix_casier: 7200
-
-      - code: "BFL33C"
-        designation: "CASIER BEAUFORT LIGHT 33 CL"
-        format: "33 CL"
-        packaging_type: "BV_33"
-        unit: "C24"
+      - code: BFL33C
+        designation: CASIER BEAUFORT LIGHT 33 CL
+        format: 33 CL
+        packaging_type: BV_33
+        unit: C24
         consigne: 3600
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 8035.8
             remise: 528
             frais_chr: 1056.9
             marge: 1036.3
-            taux_marge: "11.4%"
-
+            taux_marge: 11.4%
           distributor_to_retailer:
             prix_achat: 8800
             ristourne: 399
             frais_elv: 1200
             marge: 1199
-            taux_marge: "13.6%"
-
+            taux_marge: 13.6%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 9600
-
-      - code: "BFL50B"
-        designation: "CARTON BEAUFORT LIGHT 50"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: BFL50B
+        designation: CARTON BEAUFORT LIGHT 50
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 15847.1
             remise: null
             frais_chr: null
             marge: 952.9
-            taux_marge: "6.0%"
-
+            taux_marge: 6.0%
           distributor_to_retailer:
             prix_achat: 16800
             ristourne: null
             frais_elv: null
             marge: 600
-            taux_marge: "3.6%"
-
+            taux_marge: 3.6%
           consumer_price:
             prix_unitaire: 725
             prix_casier: 17400
-  - id: "castle-milk-stout"
-    name: "CASTLE MILK STOUT"
-    products:
-      - code: "CMS50C"
-        designation: "CASIER CASTLE MILK STOUT 50 CL"
-        format: "50 CL"
-        packaging_type: "BA_50"
-        unit: "C12"
-        consigne: 3600
-        market: ["SUD"]
+    identity:
+      target: >-
+        Femme et homme entre 25-40 ans, cultivés, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP
+        AB, C1
+      positioning: Premium
+      alcohol_rate: 3,8%
+      signature: Riche en goût, light en calories
+    positioning: Premium
+    target: >-
+      Femme et homme entre 25-40 ans, cultivés, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP
+      AB, C1
+    alcohol_rate: 3,8%
+    signature: Riche en goût, light en calories
+    key_facts:
+      - >-
+        Brassée depuis 2006 au Cameroun, BEAUFORT LIGHT est la fierté du Cameroun : 1ère bière light produite et
+        commercialisée au pays.
+      - Avec 3,8% de taux d’alcool, BEAUFORT LIGHT est aussi la bière la moins alcoolisée produite au cameroun
+      - Sa teneur équilibrée en calories permet aux consommateurs de rester à l’écoute de leur corps
+      - légère et désaltérante, BEAUFORT LIGHT vous procure finesse et plaisir exquis
+    briefs:
+      - >-
+        Brassée depuis 2006 au Cameroun, BEAUFORT LIGHT est la fierté du Cameroun : 1ère bière light produite et
+        commercialisée au pays.
+      - Avec 3,8% de taux d’alcool, BEAUFORT LIGHT est aussi la bière la moins alcoolisée produite au cameroun
+      - Sa teneur équilibrée en calories permet aux consommateurs de rester à l’écoute de leur corps
+      - légère et désaltérante, BEAUFORT LIGHT vous procure finesse et plaisir exquis
+    history: >-
+      Brassée depuis 2006 au Cameroun, BEAUFORT LIGHT est la fierté du Cameroun : 1ère bière light produite et
+      commercialisée au pays.
 
+      Avec 3,8% de taux d’alcool, BEAUFORT LIGHT est aussi la bière la moins alcoolisée produite au cameroun
+
+      Sa teneur équilibrée en calories permet aux consommateurs de rester à l’écoute de leur corps
+
+      légère et désaltérante, BEAUFORT LIGHT vous procure finesse et plaisir exquis
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité BEAUFORT LIGHT est une bière Elle est consommée au Cameroun Bonne satisfaction des fine et légère, de
+          qualité et ailleurs consommateurs exceptionnelle.
+        - Argent Un produit rentable et à bonne Voir page de calcul des marges Bonnes marges rotation
+        - >-
+          Commodité Formats à consommer sur place et Disponible en grand modèle 50cl Pratique pour client et à emporter
+          et en canette 50CL consommateurs
+      emotional:
+        - >-
+          Compétitivité elle a sa contribution aux ventes Donner le nombre de casiers Espoir de gain lors pour le gain
+          d’un concours achetés par un client du même d’un concours réseau
+        - >-
+          Orgueil C’est la première bière Light Teneur en alcool et en calories très connaisseur auprès fabriquée
+          localement équilibrée des consommateurs
+        - >-
+          Imitation Une bière premium à avoir Tous les bons clients l’ont en stock Fidélisation de la absolument en
+          stock clientèle
+        - >-
+          Nouveauté Relooking packaging (en cours) Nouveaux éléments de décors Client à la page Nouveau conditionnement
+          Canette 50CL
+        - Sympathie BEAUFORT LIGHT, La richesse de la relation client et Suivi personnalisé Riche en goût vendeur
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: castle-milk-stout
+    name: CASTLE MILK STOUT
+    products:
+      - code: CMS50C
+        designation: CASIER CASTLE MILK STOUT 50 CL
+        format: 50 CL
+        packaging_type: BA_50
+        unit: C12
+        consigne: 3600
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 6330.33
             remise: 339
             frais_chr: 528.45
             marge: 880.92
-            taux_marge: "12.8%"
-
+            taux_marge: 12.8%
           distributor_to_retailer:
             prix_achat: 7125
             ristourne: 324.3
             frais_elv: 600
             marge: 999.3
-            taux_marge: "14.0%"
-
+            taux_marge: 14.0%
           consumer_price:
             prix_unitaire: 650
             prix_casier: 7800
-  - id: "chill-citron"
-    name: "CHILL CITRON"
-    products:
-      - code: "CHC50C"
-        designation: "CASIER CHILL 50 CL"
-        format: "50 CL"
-        packaging_type: "BV_50"
-        unit: "C12"
-        consigne: 3600
-        market: ["SUD"]
+    identity:
+      target: >-
+        Jeunes de 30 ans et +, sexe masculin, high-tech, fiers de leurs origines, fréquentant les milieux chics et up to
+        date, ayant de la personnalité CSP AB, C1- C2
+      positioning: Top Mainstream / Premium sur le segment des brunes
+      alcohol_rate: 6%
+      signature: Savour your richness /Savourez votre richesse
+    positioning: Top Mainstream / Premium sur le segment des brunes
+    target: >-
+      Jeunes de 30 ans et +, sexe masculin, high-tech, fiers de leurs origines, fréquentant les milieux chics et up to
+      date, ayant de la personnalité CSP AB, C1- C2
+    alcohol_rate: 6%
+    signature: Savour your richness /Savourez votre richesse
+    key_facts:
+      - >-
+        CASTLE MILK STOUT est une bière stout d’origine sud- africaine, brassée au cameroun depuis 2003 sous licence de
+        AB InBev le brasseur N°1 mondial
+      - Bière d’exception, son aspect black et onctueux lui confère un goût de stout unique
+      - C’est la stout au meilleur rapport qualité + quantité / prix du marché
+      - Savourer CASTLE MILK STOUT, c’est affirmer ses appartenances africaines
+    briefs:
+      - >-
+        CASTLE MILK STOUT est une bière stout d’origine sud- africaine, brassée au cameroun depuis 2003 sous licence de
+        AB InBev le brasseur N°1 mondial
+      - Bière d’exception, son aspect black et onctueux lui confère un goût de stout unique
+      - C’est la stout au meilleur rapport qualité + quantité / prix du marché
+      - Savourer CASTLE MILK STOUT, c’est affirmer ses appartenances africaines
+    history: >-
+      CASTLE MILK STOUT est une bière stout d’origine sud- africaine, brassée au cameroun depuis 2003 sous licence de AB
+      InBev le brasseur N°1 mondial
 
+      Bière d’exception, son aspect black et onctueux lui confère un goût de stout unique
+
+      C’est la stout au meilleur rapport qualité + quantité / prix du marché
+
+      Savourer CASTLE MILK STOUT, c’est affirmer ses appartenances africaines
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité La CASTLE MILK STOUT est Partenaire AB InBev, Bonne satisfaction une bière brune de grande brasseur
+          N° 1 mondial des consommateurs qualité
+        - Argent Un produit rentable, qui a Voir page de calcul des marges Bonnes marges ses consommateurs à lui
+        - Commodité (VAC) Format plus adapté Passé du format 65cl au 50cl Plus digeste
+      emotional:
+        - >-
+          Compétitivité Elle a sa contribution aux Donner le nombre de casiers Espoir de gain lors ventes pour le gain
+          d’un achetés par un client du même d’un concours concours réseau
+        - >-
+          Orgueil C’est une bière pour D’origine sud-africaine, c’est une Satisfaction des consommateurs de brune stout
+          à 6% d’alcool adoreurs de brune avec moins d’amertume
+        - >-
+          Imitation Une bière à avoir Les clients connaisseurs l’ont en Fidélisation de la absolument en stock stock
+          clientèle
+        - Nouveauté Format nouveau Format 50cl Client à la page
+        - >-
+          Sympathie Castle Milk Stout incarne les le client et son vendeur ont Suivi personnalisé valeurs Africaines
+          chacun de l'Afrique en eux
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: chill-citron
+    name: CHILL CITRON
+    products:
+      - code: CHC50C
+        designation: CASIER CHILL 50 CL
+        format: 50 CL
+        packaging_type: BV_50
+        unit: C12
+        consigne: 3600
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 4779.12
             remise: 339
             frais_chr: 528.45
             marge: 707.13
-            taux_marge: "13.3%"
-
+            taux_marge: 13.3%
           distributor_to_retailer:
             prix_achat: 5400
             ristourne: 324.3
             frais_elv: 600
             marge: 924.3
-            taux_marge: "17.1%"
-
+            taux_marge: 17.1%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-
-      - code: "CHC33C"
-        designation: "CASIER CHILL 33 CL"
-        format: "33 CL"
-        packaging_type: "BV_33"
-        unit: "C24"
+      - code: CHC33C
+        designation: CASIER CHILL 33 CL
+        format: 33 CL
+        packaging_type: BV_33
+        unit: C24
         consigne: 3600
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 6962.35
             remise: 528
             frais_chr: 1056.9
             marge: 1009.75
-            taux_marge: "12.6%"
-
+            taux_marge: 12.6%
           distributor_to_retailer:
             prix_achat: 7700
             ristourne: 399
             frais_elv: 1200
             marge: 1099
-            taux_marge: "14.3%"
-
+            taux_marge: 14.3%
           consumer_price:
             prix_unitaire: 350
             prix_casier: 8400
-
-      - code: "CHC50B"
-        designation: "CARTON CHILL BOITE 50"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: CHC50B
+        designation: CARTON CHILL BOITE 50
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 14724.87
             remise: null
             frais_chr: null
             marge: 925.13
-            taux_marge: "6.3%"
-
+            taux_marge: 6.3%
           distributor_to_retailer:
             prix_achat: 15650
             ristourne: null
             frais_elv: null
             marge: 1150
-            taux_marge: "7.3%"
-
+            taux_marge: 7.3%
           consumer_price:
             prix_unitaire: 700
             prix_casier: 16800
-  - id: "doppel"
-    name: "DOPPEL"
+    identity:
+      target: >-
+        Femme et homme entre 21-30 ans, ouvert, viveur, très présent dans l’informel et l’auto entrepreneuriat, CSP
+        AB&C1
+      positioning: Mainstream
+      alcohol_rate: 2%
+      signature: Time To Chill
+    positioning: Mainstream
+    target: Femme et homme entre 21-30 ans, ouvert, viveur, très présent dans l’informel et l’auto entrepreneuriat, CSP AB&C1
+    alcohol_rate: 2%
+    signature: Time To Chill
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité CHILL CITRON est une bière Elle est consommée sur le continent Bonne satisfaction des aromatisée de
+          qualité. consommateurs
+        - >-
+          Argent Un produit rentable, tarif abordable Voir page de calcul des marges Bonnes marges avec une bonne
+          rotation
+        - Commodité (TT) Format unique Elle est disponible en VC 50CL Pratique pour client et consommateurs
+      emotional:
+        - >-
+          Compétitivité elle a sa contribution aux ventes Donner le nombre de casiers achetés par Espoir de gain lors
+          d’un pour le gain d’un concours un client du même réseau concours/incentive client
+        - >-
+          Orgueil Une bière aromatisée et légèrement Packaging d’exception Taux d’alcool très modéré alcoolisée Rapport
+          qualité/quantité/prix pour le consommateur
+        - >-
+          Imitation Une bière à avoir absolument en Tous les bons clients l’ont en stock Fidélisation de la stock
+          clientèle
+        - Nouveauté Nouvelle bière aromatisée Goût citronné, unique dans le TT Client à la page
+        - >-
+          Sympathie Chill Citron a un goût raffiné Excellence de la relation client et Suivi personnalisé La bière
+          distinguée vendeur
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: doppel
+    name: DOPPEL
     products:
-      - code: "DOP65C"
-        designation: "CASIER DOPPEL MUNICH 65 CL"
-        format: "65 CL"
-        packaging_type: "BA_65"
-        unit: "C12"
+      - code: DOP65C
+        designation: CASIER DOPPEL MUNICH 65 CL
+        format: 65 CL
+        packaging_type: BA_65
+        unit: C12
         consigne: 3600
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 6503.4
             remise: 339
             frais_chr: 528.45
             marge: 782.85
-            taux_marge: "11.1%"
-
+            taux_marge: 11.1%
           distributor_to_retailer:
             prix_achat: 7200
             ristourne: 324.3
             frais_elv: 600
             marge: 924.3
-            taux_marge: "12.8%"
-
+            taux_marge: 12.8%
           consumer_price:
             prix_unitaire: 650
             prix_casier: 7800
-
-      - code: "DOL65C"
-        designation: "CASIER DOPPEL LAGER 65 CL"
-        format: "65 CL"
-        packaging_type: "BA_65"
-        unit: "C12"
+      - code: DOL65C
+        designation: CASIER DOPPEL LAGER 65 CL
+        format: 65 CL
+        packaging_type: BA_65
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 10090.49
             remise: 339
             frais_chr: 528.45
             marge: 995.76
-            taux_marge: "9.4%"
-
+            taux_marge: 9.4%
           distributor_to_retailer:
             prix_achat: 11000
             ristourne: 324.3
             frais_elv: 600
             marge: 1324.3
-            taux_marge: "12.0%"
-
+            taux_marge: 12.0%
           consumer_price:
             prix_unitaire: 1000
             prix_casier: 12000
-  - id: "heineken"
-    name: "HEINEKEN"
+    identity:
+      target: Hommes & femmes 25 -35 ans en quête de force, virilité & dynamisme
+      positioning: Mainstream sur le segment des bières brunes
+      alcohol_rate: 6,5%
+      signature: Un Goût puissant à dompter
+    positioning: Mainstream sur le segment des bières brunes
+    target: Hommes & femmes 25 -35 ans en quête de force, virilité & dynamisme
+    alcohol_rate: 6,5%
+    signature: Un Goût puissant à dompter
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité la DOPPEL est une bière Brune d’origine allemande, avec sa Bonne satisfaction ambrée de qualité
+          formule 100% pure, 100% qualité et 100% des tradition consommateurs
+        - Argent Un produit rentable, qui Voir page de calcul des marges Bonnes marges a une bonne rotation
+        - Commodité Format très adapté et Disponible en format 50 et 65 cl Répond à toutes varié les demandes
+      emotional:
+        - >-
+          Compétitivité elle a sa contribution Donner le nombre de casiers achetés par Espoir de gain lors aux ventes
+          pour le gain un client du même réseau d’un concours d’un concours
+        - >-
+          Orgueil c’est une bière pour C’est une extra stout à 6,5% d’alcool Satisfaction des consommateurs de brune
+          adoreurs de brune
+        - >-
+          Imitation Une bière à avoir Tous les bons clients l’ont en stock Fidélisation de la absolument en stock
+          clientèle
+        - Nouveauté -
+        - >-
+          Sympathie Le slogan « un goût Procure force, puissance et vitalité pour Suivi personnalisé puissant à dompter
+          » un dynamisme quotidien
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: heineken
+    name: HEINEKEN
     products:
-      - code: "HEI33V"
-        designation: "CARTON HEINEKEN BOUTEILLES 33"
-        format: "33 CL"
-        packaging_type: "Verre Perdu"
-        unit: "V24"
+      - code: HEI33V
+        designation: CARTON HEINEKEN BOUTEILLES 33
+        format: 33 CL
+        packaging_type: Verre Perdu
+        unit: V24
         consigne: 0
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 17184.81
             remise: null
             frais_chr: null
             marge: 715.19
-            taux_marge: "4.2%"
-
+            taux_marge: 4.2%
           distributor_to_retailer:
             prix_achat: 17900
             ristourne: null
             frais_elv: null
             marge: 1300
-            taux_marge: "7.3%"
-
+            taux_marge: 7.3%
           consumer_price:
             prix_unitaire: 800
             prix_casier: 19200
-
-      - code: "HEI50B"
-        designation: "CARTON HEINEKEN BOITES 50 CL"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: HEI50B
+        designation: CARTON HEINEKEN BOITES 50 CL
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 20209.96
             remise: null
             frais_chr: null
             marge: 790.04
-            taux_marge: "3.9%"
-
+            taux_marge: 3.9%
           distributor_to_retailer:
             prix_achat: 21000
             ristourne: null
             frais_elv: null
             marge: 1800
-            taux_marge: "8.6%"
-
+            taux_marge: 8.6%
           consumer_price:
             prix_unitaire: 950
             prix_casier: 22800
-  - id: "isenbeck"
-    name: "ISENBECK"
+  - id: isenbeck
+    name: ISENBECK
     products:
-      - code: "ISE65C"
-        designation: "CASIER ISENBECK 65 CL"
-        format: "65 CL"
-        packaging_type: "APO_65"
-        unit: "C12"
+      - code: ISE65C
+        designation: CASIER ISENBECK 65 CL
+        format: 65 CL
+        packaging_type: APO_65
+        unit: C12
         consigne: 3600
-        market: ["TOUS"]
-
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 7455.68
             remise: 339
             frais_chr: 528.45
             marge: 930.57
-            taux_marge: "11.7%"
-
+            taux_marge: 11.7%
           distributor_to_retailer:
             prix_achat: 8300
             ristourne: 324.3
             frais_elv: 600
             marge: 1024.3
-            taux_marge: "12.3%"
-
+            taux_marge: 12.3%
           consumer_price:
             prix_unitaire: 750
             prix_casier: 9000
-
-      - code: "ISE33C"
-        designation: "CASIER ISENBECK 33 CL"
-        format: "33 CL"
-        packaging_type: "APO_33"
-        unit: "C24"
+      - code: ISE33C
+        designation: CASIER ISENBECK 33 CL
+        format: 33 CL
+        packaging_type: APO_33
+        unit: C24
         consigne: 3600
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 8655.6
             remise: 528
             frais_chr: 1056.9
             marge: 1116.5
-            taux_marge: "11.5%"
-
+            taux_marge: 11.5%
           distributor_to_retailer:
             prix_achat: 9500
             ristourne: 399
             frais_elv: 1200
             marge: 1699
-            taux_marge: "17.9%"
-
+            taux_marge: 17.9%
           consumer_price:
             prix_unitaire: 450
             prix_casier: 10800
-
-      - code: "ISE50B"
-        designation: "CARTON ISENBECK BOITE 50"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: ISE50B
+        designation: CARTON ISENBECK BOITE 50
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 17762.59
             remise: null
             frais_chr: null
             marge: 1037.41
-            taux_marge: "5.8%"
-
+            taux_marge: 5.8%
           distributor_to_retailer:
             prix_achat: 18800
             ristourne: null
             frais_elv: null
             marge: 1000
-            taux_marge: "5.3%"
-
+            taux_marge: 5.3%
           consumer_price:
             prix_unitaire: 825
             prix_casier: 19800
-  - id: "manyan"
-    name: "MANYAN"
-    products:
-      - code: "MNY65C"
-        designation: "CASIER MANYAN 65 CL"
-        format: "65 CL"
-        packaging_type: "BV_65"
-        unit: "C12"
-        consigne: 3600
-        market: ["TOUS"]
+    identity:
+      target: Homme et femme entre 25-45 ans, décideur, distingué, exigeant, CSP A+, AB
+      positioning: Premium
+      alcohol_rate: 5,2%
+      signature: Take it easy
+    positioning: Premium
+    target: Homme et femme entre 25-45 ans, décideur, distingué, exigeant, CSP A+, AB
+    alcohol_rate: 5,2%
+    signature: Take it easy
+    key_facts:
+      - >-
+        Bière internationale d’origine allemande et commercialisée au Cameroun depuis 1999, ISENBECK est reconnue pour
+        son caractère raffinée et sa qualité hautement supérieure.
+      - Finement brassée, ISENBECK procure aux consommateurs des moments particuliers de saveur achevée.
+      - Son habillage premium met tout de suite en relief son côté classe et raffiné.
+      - ISENBECK est une bière de prestige qui fait de ses consommateurs des connaisseurs de bière d’exception.
+    briefs:
+      - >-
+        Bière internationale d’origine allemande et commercialisée au Cameroun depuis 1999, ISENBECK est reconnue pour
+        son caractère raffinée et sa qualité hautement supérieure.
+      - Finement brassée, ISENBECK procure aux consommateurs des moments particuliers de saveur achevée.
+      - Son habillage premium met tout de suite en relief son côté classe et raffiné.
+      - ISENBECK est une bière de prestige qui fait de ses consommateurs des connaisseurs de bière d’exception.
+    history: >-
+      Bière internationale d’origine allemande et commercialisée au Cameroun depuis 1999, ISENBECK est reconnue pour son
+      caractère raffinée et sa qualité hautement supérieure.
 
+      Finement brassée, ISENBECK procure aux consommateurs des moments particuliers de saveur achevée.
+
+      Son habillage premium met tout de suite en relief son côté classe et raffiné.
+
+      ISENBECK est une bière de prestige qui fait de ses consommateurs des connaisseurs de bière d’exception.
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité ISENBECK est une bière d’origine La qualité allemande s’impose à travers Grande satisfaction des
+          allemande le monde consommateurs
+        - Argent Un produit très rentable et à Voir page de calcul des marges Meilleures marges bonne rotation
+        - >-
+          Commodité Formats à consommer sur place et Elle est disponible en VC grand et petit Choix variés pour les
+          consommateurs à emporter modèle, mais aussi en canettes et désormais en fûts
+      emotional:
+        - >-
+          Compétitivité elle a sa contribution aux ventes Donner le nombre de casiers achetés par Espoir de gain lors
+          d’un concours pour le gain d’un concours un client du même réseau
+        - Orgueil Une bière de prestige Brassée depuis 1769 Connaisseur auprès des internationale consommateurs
+        - >-
+          Imitation Une bière premium à avoir Tous les bons clients l’ont en stock Fidélisation de la clientèle
+          absolument en stock
+        - Nouveauté Désormais disponible en fûts Engouement à consolider Image du consommateur rehaussée
+        - Sympathie une bière 100% qualité Bonne qualité de la relation client et Suivi personnalisé vendeur
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: manyan
+    name: MANYAN
+    products:
+      - code: MNY65C
+        designation: CASIER MANYAN 65 CL
+        format: 65 CL
+        packaging_type: BV_65
+        unit: C12
+        consigne: 3600
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 4779.52
             remise: 339
             frais_chr: 528.45
             marge: 706.73
-            taux_marge: "13.3%"
-
+            taux_marge: 13.3%
           distributor_to_retailer:
             prix_achat: 5400
             ristourne: 324.3
             frais_elv: 600
             marge: 924.3
-            taux_marge: "17.1%"
-
+            taux_marge: 17.1%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-
-      - code: "MNY50B"
-        designation: "CARTON MANYAN BOITE 50"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+      - code: MNY50B
+        designation: CARTON MANYAN BOITE 50
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 13114.71
             remise: null
             frais_chr: null
             marge: 885.29
-            taux_marge: "6.8%"
-
+            taux_marge: 6.8%
           distributor_to_retailer:
             prix_achat: 14000
             ristourne: null
             frais_elv: null
             marge: 1000
-            taux_marge: "7.1%"
-
+            taux_marge: 7.1%
           consumer_price:
             prix_unitaire: 625
             prix_casier: 15000
+    identity:
+      target: Homme et femme entre 21-45 ans, de classe populaire, solidaire, fier, CSP C2&DE
+      positioning: Entrée de gamme
+      alcohol_rate: 4,9%
+      signature: La Bière du Cameroun!
+    positioning: Entrée de gamme
+    target: Homme et femme entre 21-45 ans, de classe populaire, solidaire, fier, CSP C2&DE
+    alcohol_rate: 4,9%
+    signature: La Bière du Cameroun!
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité Manyan est une bière produite à Elle est produite par les Brasseries Bonne satisfaction des partir
+          des ingrédients locaux du Cameroun, distributeurs de consommateurs revenus en interne et en externe
+        - Argent Un produit rentable et à forte Voir page de calcul des marges Bonnes marges rotation
+        - Commodité Manyan se présente sous deux Elle est disponible en verre Choix varié pour les
+      emotional:
+        - >-
+          Compétitivité elle a une bonne contribution aux Donner le nombre de casiers Espoir de gain lors d’un ventes
+          pour le gain d’un concours achetés par un client du même concours réseau
+        - >-
+          Orgueil Manyan est la bière de nos Un habillage aux couleurs du pays, Tarif accessible terres, une fierté
+          patrimoniale mais aussi son prix accessible et les Signe de ingrédients reconnaissance
+        - >-
+          Imitation Une bière à avoir absolument en Les autres clients l’ont toujours en Fidélisation de la stock stock
+          clientèle
+        - Nouveauté Nouvelle référence Vente en fûts pour les Nouvelle offre aux manifestations consommateurs
+        - Sympathie Manyan rassemble Bon rapport client et vendeur Suivi personnalisé
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []

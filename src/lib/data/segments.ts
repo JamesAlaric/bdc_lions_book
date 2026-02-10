@@ -3,6 +3,7 @@ import yaml from 'js-yaml';
 export interface Brand {
   id: string;
   name: string;
+  discontinued?: boolean;
 }
 
 export interface Segment {

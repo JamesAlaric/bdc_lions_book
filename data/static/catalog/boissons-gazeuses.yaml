@@ -4,1062 +4,1445 @@
 # Source : ELEMENTS BOOK DCM.xlsx
 
 segment:
-  id: "boissons-gazeuses"
-  name: "Boissons Gazeuses"
-  icon: "drink"
+  id: boissons-gazeuses
+  name: Boissons Gazeuses
+  icon: drink
   order: 3
-  description: "Portefeuille Boissons Gazeuses Boissons du Cameroun"
-
+  description: Portefeuille Boissons Gazeuses Boissons du Cameroun
 brands:
-  - id: "djino-cocktail"
-    name: "D'JINO COCKTAIL"
-    logo_url: "/assets/brands/djino-cocktail-logo.png"
-    
+  - id: djino-cocktail
+    name: D'JINO COCKTAIL
+    logo_url: /assets/brands/djino-cocktail-logo.png
     products:
-      - code: "DJC60C"
-        designation: "CASIER D'JINO COCKTAIL 60 CL"
-        format: "60 CL"
-        packaging_type: "MB_60"
-        unit: "C12"
+      - code: DJC60C
+        designation: CASIER D'JINO COCKTAIL 60 CL
+        format: 60 CL
+        packaging_type: MB_60
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 4211.15
-            remise: 120.0
+            remise: 120
             marge: 608.85
-            taux_marge: "14.5%"
-          
+            taux_marge: 14.5%
           distributor_to_retailer:
-            prix_achat: 4900.0
-            ristourne: 200.0
-            marge: 1300.0
-            taux_marge: "26.5%"
-          
+            prix_achat: 4900
+            ristourne: 200
+            marge: 1300
+            taux_marge: 26.5%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-        
         images:
-          packshot: "/assets/packshots/djc60c-hd.png"
-      
-      - code: "DJC10P"
-        designation: "PACK 6 D'JINO COCKTAIL FRUITS PET 100CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/djc60c-hd.png
+      - code: DJC10P
+        designation: PACK 6 D'JINO COCKTAIL FRUITS PET 100CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
-            prix_achat: 3164.0
-            remise: 100.0
-            marge: 351.0
-            taux_marge: "11.1%"
-          
+            prix_achat: 3164
+            remise: 100
+            marge: 351
+            taux_marge: 11.1%
           distributor_to_retailer:
-            prix_achat: 3515.0
-            ristourne: 100.0
-            marge: 485.0
-            taux_marge: "13.8%"
-          
+            prix_achat: 3515
+            ristourne: 100
+            marge: 485
+            taux_marge: 13.8%
           consumer_price:
             prix_unitaire: 650
             prix_casier: 3900
-        
         images:
-          packshot: "/assets/packshots/djc10p-hd.png"
-      
-      - code: "DJC35P"
-        designation: "PACK 12 D'JINO COCKTAIL FRUITS"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/djc10p-hd.png
+      - code: DJC35P
+        designation: PACK 12 D'JINO COCKTAIL FRUITS
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 3326.4
-            remise: 60.0
+            remise: 60
             marge: 233.6
-            taux_marge: "7.0%"
-          
+            taux_marge: 7.0%
           distributor_to_retailer:
-            prix_achat: 3600.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "19.4%"
-          
+            prix_achat: 3600
+            ristourne: 100
+            marge: 700
+            taux_marge: 19.4%
           consumer_price:
             prix_unitaire: 350
             prix_casier: 4200
-        
         images:
-          packshot: "/assets/packshots/djc35p-hd.png"
-      
-
-  - id: "orangina"
-    name: "ORANGINA"
-    logo_url: "/assets/brands/orangina-logo.png"
-    
+          packshot: /assets/packshots/djc35p-hd.png
+    identity:
+      target: Enfants et jeunes adultes entre 13 et 25 ans, CSP A + - AB-C1
+      positioning: Premium
+      alcohol_rate: ""
+      signature: explosion fruitée
+    positioning: Premium
+    target: Enfants et jeunes adultes entre 13 et 25 ans, CSP A + - AB-C1
+    signature: explosion fruitée
+    key_facts:
+      - Marque panafricaine, Djino est un pur concentré de fruits et de goût présent au Cameroun depuis des décennies
+      - Avec pour Slogan « Une explosion fruitée » le goût du produit riche en fruit tient la promesse du slogan
+      - marque premium, le DJINO accompagne surtout les jeunes amoureux de dessin et d’arts plastiques.
+      - DJINO a une très forte notoriété auprès des consommateurs qui la considére comme faisant partie du patrimoine
+    briefs:
+      - Marque panafricaine, Djino est un pur concentré de fruits et de goût présent au Cameroun depuis des décennies
+      - Avec pour Slogan « Une explosion fruitée » le goût du produit riche en fruit tient la promesse du slogan
+      - marque premium, le DJINO accompagne surtout les jeunes amoureux de dessin et d’arts plastiques.
+      - DJINO a une très forte notoriété auprès des consommateurs qui la considére comme faisant partie du patrimoine
+    history: |-
+      Marque panafricaine, Djino est un pur concentré de fruits et de goût présent au Cameroun depuis des décennies
+      Avec pour Slogan « Une explosion fruitée » le goût du produit riche en fruit tient la promesse du slogan
+      marque premium, le DJINO accompagne surtout les jeunes amoureux de dessin et d’arts plastiques.
+      DJINO a une très forte notoriété auprès des consommateurs qui la considére comme faisant partie du patrimoine
+  - id: orangina
+    name: ORANGINA
+    logo_url: /assets/brands/orangina-logo.png
     products:
-      - code: "ORG60C"
-        designation: "CASIER ORANGINA 60 CL"
-        format: "60 CL"
-        packaging_type: "MB_60"
-        unit: "C12"
+      - code: ORG60C
+        designation: CASIER ORANGINA 60 CL
+        format: 60 CL
+        packaging_type: MB_60
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 4211.15
-            remise: 120.0
+            remise: 120
             marge: 608.85
-            taux_marge: "14.5%"
-          
+            taux_marge: 14.5%
           distributor_to_retailer:
-            prix_achat: 4900.0
-            ristourne: 200.0
-            marge: 1300.0
-            taux_marge: "26.5%"
-          
+            prix_achat: 4900
+            ristourne: 200
+            marge: 1300
+            taux_marge: 26.5%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-        
         images:
-          packshot: "/assets/packshots/org60c-hd.png"
-      
-      - code: "ORG10P"
-        designation: "PACK 6 ORANGINA PET 100CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/org60c-hd.png
+      - code: ORG10P
+        designation: PACK 6 ORANGINA PET 100CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 3765.87
-            remise: 100.0
+            remise: 100
             marge: 349.13
-            taux_marge: "9.3%"
-          
+            taux_marge: 9.3%
           distributor_to_retailer:
-            prix_achat: 4115.0
-            ristourne: 100.0
-            marge: 5585.0
-            taux_marge: "135.7%"
-          
+            prix_achat: 4115
+            ristourne: 100
+            marge: 5585
+            taux_marge: 135.7%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 9600
-        
         images:
-          packshot: "/assets/packshots/org10p-hd.png"
-      
-      - code: "ORG35P"
-        designation: "PACK 12 ORANGINA PET 35CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/org10p-hd.png
+      - code: ORG35P
+        designation: PACK 12 ORANGINA PET 35CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 3901.3
-            remise: 60.0
+            remise: 60
             marge: 258.7
-            taux_marge: "6.6%"
-          
+            taux_marge: 6.6%
           distributor_to_retailer:
-            prix_achat: 4200.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "16.7%"
-          
+            prix_achat: 4200
+            ristourne: 100
+            marge: 700
+            taux_marge: 16.7%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 4800
-        
         images:
-          packshot: "/assets/packshots/org35p-hd.png"
-      
+          packshot: /assets/packshots/org35p-hd.png
+    identity:
+      target: Femme et homme entre 15-35 ans, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP AB- C1
+      positioning: Premium
+      alcohol_rate: ""
+      signature: Naturellement originale
+    positioning: Premium
+    target: Femme et homme entre 15-35 ans, aimant profiter de la vie tout en restant à l’écoute de son corps, CSP AB- C1
+    signature: Naturellement originale
+    key_facts:
+      - >-
+        Unique de part sa pulpe, Orangina est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du
+        Cameroun depuis Novembre 2010, sous licence de SUNTORY, propriétaire de la marque.
+      - >-
+        Orangina est une boisson sans colorant et sans arôme artificiel faite à base de pulpes d’orange d’où la
+        nécessité de la secouer avant de consommer.
+      - Marque internationale, positionnée sur le premium, Orangina promeut la naturalité, l’originalité, la beauté.
+      - >-
+        La marque sublime la beauté dans tous ses contours par le célèbre concours de beauté « Miss Orangina » et
+        s’investit désormais dans le leadership féminin.
+    briefs:
+      - >-
+        Unique de part sa pulpe, Orangina est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du
+        Cameroun depuis Novembre 2010, sous licence de SUNTORY, propriétaire de la marque.
+      - >-
+        Orangina est une boisson sans colorant et sans arôme artificiel faite à base de pulpes d’orange d’où la
+        nécessité de la secouer avant de consommer.
+      - Marque internationale, positionnée sur le premium, Orangina promeut la naturalité, l’originalité, la beauté.
+      - >-
+        La marque sublime la beauté dans tous ses contours par le célèbre concours de beauté « Miss Orangina » et
+        s’investit désormais dans le leadership féminin.
+    history: >-
+      Unique de part sa pulpe, Orangina est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du
+      Cameroun depuis Novembre 2010, sous licence de SUNTORY, propriétaire de la marque.
 
-  - id: "top-ananas"
-    name: "TOP ANANAS"
-    logo_url: "/assets/brands/top-ananas-logo.png"
-    
+      Orangina est une boisson sans colorant et sans arôme artificiel faite à base de pulpes d’orange d’où la nécessité
+      de la secouer avant de consommer.
+
+      Marque internationale, positionnée sur le premium, Orangina promeut la naturalité, l’originalité, la beauté.
+
+      La marque sublime la beauté dans tous ses contours par le célèbre concours de beauté « Miss Orangina » et
+      s’investit désormais dans le leadership féminin.
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité Orangina est une boisson Fort concentré de fruit (12%) Bonne satisfaction gazeuse qualité premium des
+          consommateurs
+        - Argent Un produit rentable et à forte Voir page de calcul des marges Bonnes marges rotation
+        - >-
+          Commodité Orangina se présente sous Elle est disponible PET en verre Choix varié pour les trois
+          conditionnements consigné et en cannette consommateurs
+      emotional:
+        - >-
+          Compétitivité Bonne contribution aux ventes Voir page comparaison des mages Meilleur rapport détaillants
+          qualité / prix
+        - Orgueil Marque internationale Disponible dans plus de 50 pays Consommer des marques de référence
+        - Imitation Produit à avoir absolument en Très forte demande Satisfaction de la stock demande
+        - Nouveauté Nouveau Conditionnement Lancement Cannette 33 B Assouvir les petites en Avril 2020 soifs
+        - Sympathie La Marque sublime la beauté Concept Miss Orangina Voir réaliser le rêve et l’entrepreunariat féminin
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: top-ananas
+    name: TOP ANANAS
+    logo_url: /assets/brands/top-ananas-logo.png
     products:
-      - code: "TPA50C"
-        designation: "CASIER TOP ANANAS 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: TPA50C
+        designation: CASIER TOP ANANAS 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2530.92
-            remise: 120.0
+            remise: 120
             marge: 489.08
-            taux_marge: "19.3%"
-          
+            taux_marge: 19.3%
           distributor_to_retailer:
-            prix_achat: 3100.0
-            ristourne: 200.0
-            marge: 700.0
-            taux_marge: "22.6%"
-          
+            prix_achat: 3100
+            ristourne: 200
+            marge: 700
+            taux_marge: 22.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpa50c-hd.png"
-      
-      - code: "TPA10P"
-        designation: "PACK TOP ANANAS PET 100 CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/tpa50c-hd.png
+      - code: TPA10P
+        designation: PACK TOP ANANAS PET 100 CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2338.29
-            remise: 100.0
+            remise: 100
             marge: 261.71
-            taux_marge: "11.2%"
-          
+            taux_marge: 11.2%
           distributor_to_retailer:
-            prix_achat: 2600.0
-            ristourne: 100.0
-            marge: 500.0
-            taux_marge: "19.2%"
-          
+            prix_achat: 2600
+            ristourne: 100
+            marge: 500
+            taux_marge: 19.2%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 3000
-        
         images:
-          packshot: "/assets/packshots/tpa10p-hd.png"
-      
-      - code: "TPA35P"
-        designation: "PACK 12 TOP ANANAS PET 35 CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/tpa10p-hd.png
+      - code: TPA35P
+        designation: PACK 12 TOP ANANAS PET 35 CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2751.75
-            remise: 60.0
+            remise: 60
             marge: 208.25
-            taux_marge: "7.6%"
-          
+            taux_marge: 7.6%
           distributor_to_retailer:
-            prix_achat: 3000.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "23.3%"
-          
+            prix_achat: 3000
+            ristourne: 100
+            marge: 700
+            taux_marge: 23.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpa35p-hd.png"
-      
+          packshot: /assets/packshots/tpa35p-hd.png
+    identity:
+      target: >-
+        Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+        AB-C-DE
+      positioning: Milieu de gamme
+      alcohol_rate: ""
+      signature: Poursuis tes rêves avec TOP
+    positioning: Milieu de gamme
+    target: >-
+      Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+      AB-C-DE
+    signature: Poursuis tes rêves avec TOP
+    key_facts:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    briefs:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    history: >-
+      Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+      qualité proposée en milieu de gamme.
 
-  - id: "top-grenadine"
-    name: "TOP GRENADINE"
-    logo_url: "/assets/brands/top-grenadine-logo.png"
-    
+      La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme du
+      pays.
+
+      Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+      marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné depuis
+      ses premiers pas.
+
+      Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse la
+      plus consommée.
+  - id: top-grenadine
+    name: TOP GRENADINE
+    logo_url: /assets/brands/top-grenadine-logo.png
     products:
-      - code: "TPG50C"
-        designation: "CASIER TOP GRENADINE 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: TPG50C
+        designation: CASIER TOP GRENADINE 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2530.92
-            remise: 120.0
+            remise: 120
             marge: 489.08
-            taux_marge: "19.3%"
-          
+            taux_marge: 19.3%
           distributor_to_retailer:
-            prix_achat: 3100.0
-            ristourne: 200.0
-            marge: 700.0
-            taux_marge: "22.6%"
-          
+            prix_achat: 3100
+            ristourne: 200
+            marge: 700
+            taux_marge: 22.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpg50c-hd.png"
-      
-      - code: "TPG10P"
-        designation: "PACK TOP GRENADINE PET 100 CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/tpg50c-hd.png
+      - code: TPG10P
+        designation: PACK TOP GRENADINE PET 100 CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2338.29
-            remise: 100.0
+            remise: 100
             marge: 261.71
-            taux_marge: "11.2%"
-          
+            taux_marge: 11.2%
           distributor_to_retailer:
-            prix_achat: 2600.0
-            ristourne: 100.0
-            marge: 500.0
-            taux_marge: "19.2%"
-          
+            prix_achat: 2600
+            ristourne: 100
+            marge: 500
+            taux_marge: 19.2%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 3000
-        
         images:
-          packshot: "/assets/packshots/tpg10p-hd.png"
-      
-      - code: "TPG35P"
-        designation: "PACK 6 TOP GRENADINE PET 35 CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/tpg10p-hd.png
+      - code: TPG35P
+        designation: PACK 6 TOP GRENADINE PET 35 CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2751.75
-            remise: 60.0
+            remise: 60
             marge: 208.25
-            taux_marge: "7.6%"
-          
+            taux_marge: 7.6%
           distributor_to_retailer:
-            prix_achat: 3000.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "23.3%"
-          
+            prix_achat: 3000
+            ristourne: 100
+            marge: 700
+            taux_marge: 23.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpg35p-hd.png"
-      
+          packshot: /assets/packshots/tpg35p-hd.png
+    identity:
+      target: >-
+        Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+        AB-C-DE
+      positioning: Milieu de gamme
+      alcohol_rate: ""
+      signature: Poursuis tes rêves avec TOP
+    positioning: Milieu de gamme
+    target: >-
+      Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+      AB-C-DE
+    signature: Poursuis tes rêves avec TOP
+    key_facts:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    briefs:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    history: >-
+      Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+      qualité proposée en milieu de gamme.
 
-  - id: "top-orange"
-    name: "TOP ORANGE"
-    logo_url: "/assets/brands/top-orange-logo.png"
-    
+      La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme du
+      pays.
+
+      Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+      marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné depuis
+      ses premiers pas.
+
+      Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse la
+      plus consommée.
+  - id: top-orange
+    name: TOP ORANGE
+    logo_url: /assets/brands/top-orange-logo.png
     products:
-      - code: "TPO50C"
-        designation: "CASIER TOP ORANGE 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: TPO50C
+        designation: CASIER TOP ORANGE 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2530.92
-            remise: 120.0
+            remise: 120
             marge: 489.08
-            taux_marge: "19.3%"
-          
+            taux_marge: 19.3%
           distributor_to_retailer:
-            prix_achat: 3100.0
-            ristourne: 200.0
-            marge: 700.0
-            taux_marge: "22.6%"
-          
+            prix_achat: 3100
+            ristourne: 200
+            marge: 700
+            taux_marge: 22.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpo50c-hd.png"
-      
-      - code: "TPO10P"
-        designation: "PACK TOP ORANGE PET 100 CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/tpo50c-hd.png
+      - code: TPO10P
+        designation: PACK TOP ORANGE PET 100 CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2751.75
-            remise: 100.0
+            remise: 100
             marge: 248.25
-            taux_marge: "9.0%"
-          
+            taux_marge: 9.0%
           distributor_to_retailer:
-            prix_achat: 3000.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "23.3%"
-          
+            prix_achat: 3000
+            ristourne: 100
+            marge: 700
+            taux_marge: 23.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpo10p-hd.png"
-      
-      - code: "TPO35P"
-        designation: "PACK 6 TOP ORANGE PET 35 CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/tpo10p-hd.png
+      - code: TPO35P
+        designation: PACK 6 TOP ORANGE PET 35 CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2751.75
-            remise: 60.0
+            remise: 60
             marge: 208.25
-            taux_marge: "7.6%"
-          
+            taux_marge: 7.6%
           distributor_to_retailer:
-            prix_achat: 3000.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "23.3%"
-          
+            prix_achat: 3000
+            ristourne: 100
+            marge: 700
+            taux_marge: 23.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpo35p-hd.png"
-      
+          packshot: /assets/packshots/tpo35p-hd.png
+    identity:
+      target: >-
+        Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+        AB-C-DE
+      positioning: Milieu de gamme
+      alcohol_rate: ""
+      signature: Poursuis tes rêves avec TOP
+    positioning: Milieu de gamme
+    target: >-
+      Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+      AB-C-DE
+    signature: Poursuis tes rêves avec TOP
+    key_facts:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    briefs:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    history: >-
+      Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+      qualité proposée en milieu de gamme.
 
-  - id: "top-pamplemousse"
-    name: "TOP PAMPLEMOUSSE"
-    logo_url: "/assets/brands/top-pamplemousse-logo.png"
-    
+      La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme du
+      pays.
+
+      Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+      marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné depuis
+      ses premiers pas.
+
+      Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse la
+      plus consommée.
+  - id: top-pamplemousse
+    name: TOP PAMPLEMOUSSE
+    logo_url: /assets/brands/top-pamplemousse-logo.png
     products:
-      - code: "TPP50C"
-        designation: "CASIER TOP PAMPLEMOUSSE 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: TPP50C
+        designation: CASIER TOP PAMPLEMOUSSE 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2530.92
-            remise: 120.0
+            remise: 120
             marge: 489.08
-            taux_marge: "19.3%"
-          
+            taux_marge: 19.3%
           distributor_to_retailer:
-            prix_achat: 3100.0
-            ristourne: 200.0
-            marge: 700.0
-            taux_marge: "22.6%"
-          
+            prix_achat: 3100
+            ristourne: 200
+            marge: 700
+            taux_marge: 22.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpp50c-hd.png"
-      
-      - code: "TPP10P"
-        designation: "PACK TOP PAMPLEMOUSSE PET 100 CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/tpp50c-hd.png
+      - code: TPP10P
+        designation: PACK TOP PAMPLEMOUSSE PET 100 CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2338.29
-            remise: 100.0
+            remise: 100
             marge: 261.71
-            taux_marge: "11.2%"
-          
+            taux_marge: 11.2%
           distributor_to_retailer:
-            prix_achat: 2600.0
-            ristourne: 100.0
-            marge: 500.0
-            taux_marge: "19.2%"
-          
+            prix_achat: 2600
+            ristourne: 100
+            marge: 500
+            taux_marge: 19.2%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 3000
-        
         images:
-          packshot: "/assets/packshots/tpp10p-hd.png"
-      
-      - code: "TPP35P"
-        designation: "PACK 12 TOP PAMPLEMOUSSE PET35CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/tpp10p-hd.png
+      - code: TPP35P
+        designation: PACK 12 TOP PAMPLEMOUSSE PET35CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2751.75
-            remise: 60.0
+            remise: 60
             marge: 208.25
-            taux_marge: "7.6%"
-          
+            taux_marge: 7.6%
           distributor_to_retailer:
-            prix_achat: 3000.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "23.3%"
-          
+            prix_achat: 3000
+            ristourne: 100
+            marge: 700
+            taux_marge: 23.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpp35p-hd.png"
-      
+          packshot: /assets/packshots/tpp35p-hd.png
+    identity:
+      target: >-
+        Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+        AB-C-DE
+      positioning: Milieu de gamme
+      alcohol_rate: ""
+      signature: Poursuis tes rêves avec TOP
+    positioning: Milieu de gamme
+    target: >-
+      Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+      AB-C-DE
+    signature: Poursuis tes rêves avec TOP
+    key_facts:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    briefs:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    history: >-
+      Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+      qualité proposée en milieu de gamme.
 
-  - id: "top-soda"
-    name: "TOP SODA"
-    logo_url: "/assets/brands/top-soda-logo.png"
-    
+      La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme du
+      pays.
+
+      Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+      marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné depuis
+      ses premiers pas.
+
+      Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse la
+      plus consommée.
+  - id: top-soda
+    name: TOP SODA
+    logo_url: /assets/brands/top-soda-logo.png
     products:
-      - code: "SOD60C"
-        designation: "CASIER SODA WATER 60 CL"
-        format: "60 CL"
-        packaging_type: "MB_60"
-        unit: "C12"
+      - code: SOD60C
+        designation: CASIER SODA WATER 60 CL
+        format: 60 CL
+        packaging_type: MB_60
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2160.19
-            remise: 120.0
+            remise: 120
             marge: 359.81
-            taux_marge: "16.7%"
-          
+            taux_marge: 16.7%
           distributor_to_retailer:
-            prix_achat: 2600.0
-            ristourne: 200.0
-            marge: 600.0
-            taux_marge: "23.1%"
-          
+            prix_achat: 2600
+            ristourne: 200
+            marge: 600
+            taux_marge: 23.1%
           consumer_price:
             prix_unitaire: 250
             prix_casier: 3000
-        
         images:
-          packshot: "/assets/packshots/sod60c-hd.png"
-      
-      - code: "SOD35P"
-        designation: "PACK 12 SODA WATER 35 CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/sod60c-hd.png
+      - code: SOD35P
+        designation: PACK 12 SODA WATER 35 CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2242.84
-            remise: 60.0
+            remise: 60
             marge: 217.16
-            taux_marge: "9.7%"
-          
+            taux_marge: 9.7%
           distributor_to_retailer:
-            prix_achat: 2500.0
-            ristourne: 100.0
-            marge: 600.0
-            taux_marge: "24.0%"
-          
+            prix_achat: 2500
+            ristourne: 100
+            marge: 600
+            taux_marge: 24.0%
           consumer_price:
             prix_unitaire: 250
             prix_casier: 3000
-        
         images:
-          packshot: "/assets/packshots/sod35p-hd.png"
-      
+          packshot: /assets/packshots/sod35p-hd.png
+    identity:
+      target: >-
+        Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+        AB-C-DE
+      positioning: Milieu de gamme
+      alcohol_rate: ""
+      signature: Poursuis tes rêves avec TOP
+    positioning: Milieu de gamme
+    target: >-
+      Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+      AB-C-DE
+    signature: Poursuis tes rêves avec TOP
+    key_facts:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    briefs:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    history: >-
+      Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+      qualité proposée en milieu de gamme.
 
-  - id: "top-tonic"
-    name: "TOP TONIC"
-    logo_url: "/assets/brands/top-tonic-logo.png"
-    
+      La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme du
+      pays.
+
+      Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+      marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné depuis
+      ses premiers pas.
+
+      Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse la
+      plus consommée.
+  - id: top-tonic
+    name: TOP TONIC
+    logo_url: /assets/brands/top-tonic-logo.png
     products:
-      - code: "TPT50C"
-        designation: "CASIER TOP TONIC 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: TPT50C
+        designation: CASIER TOP TONIC 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2530.48
-            remise: 120.0
+            remise: 120
             marge: 489.52
-            taux_marge: "19.3%"
-          
+            taux_marge: 19.3%
           distributor_to_retailer:
-            prix_achat: 3100.0
-            ristourne: 200.0
-            marge: 700.0
-            taux_marge: "22.6%"
-          
+            prix_achat: 3100
+            ristourne: 200
+            marge: 700
+            taux_marge: 22.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpt50c-hd.png"
-      
-      - code: "TPT35P"
-        designation: "PACK 12 TOPTONIC 35 CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/tpt50c-hd.png
+      - code: TPT35P
+        designation: PACK 12 TOPTONIC 35 CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2751.57
-            remise: 60.0
+            remise: 60
             marge: 208.43
-            taux_marge: "7.6%"
-          
+            taux_marge: 7.6%
           distributor_to_retailer:
-            prix_achat: 3000.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "23.3%"
-          
+            prix_achat: 3000
+            ristourne: 100
+            marge: 700
+            taux_marge: 23.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/tpt35p-hd.png"
-      
+          packshot: /assets/packshots/tpt35p-hd.png
+    identity:
+      target: >-
+        Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+        AB-C-DE
+      positioning: Milieu de gamme
+      alcohol_rate: ""
+      signature: Poursuis tes rêves avec TOP
+    positioning: Milieu de gamme
+    target: >-
+      Adolescents et jeunes adultes entre 13 à 30 ans, pleins d'énergie, joyeux, souriants, qui aiment s’amuser. CSP
+      AB-C-DE
+    signature: Poursuis tes rêves avec TOP
+    key_facts:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    briefs:
+      - >-
+        Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+        qualité proposée en milieu de gamme.
+      - >-
+        La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme
+        du pays.
+      - >-
+        Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+        marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné
+        depuis ses premiers pas.
+      - >-
+        Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse
+        la plus consommée.
+    history: >-
+      Boisson gazeuse historique, TOP est la reine des boissons gazeuses, entre eau et ingrédients c’est un produit de
+      qualité proposée en milieu de gamme.
 
-  - id: "vimto"
-    name: "VIMTO"
-    logo_url: "/assets/brands/vimto-logo.png"
-    
+      La marque jouit d’un capital sympathie quasiment historique. A l‘extérieur du Cameroun, c’est une petite larme du
+      pays.
+
+      Riche de plusieurs parfums, TOP célèbre le partage entre les générations, la transition des âges. Historiquement
+      marque des enfants, TOP évolue désormais vers un public adolescent attaché à la boisson qui l’a accompagné depuis
+      ses premiers pas.
+
+      Appréciée dans plusieurs pays, la marque TOP s’exporte à travers le monde. Au Cameroun C’est la boisson gazeuse la
+      plus consommée.
+  - id: vimto
+    name: VIMTO
+    logo_url: /assets/brands/vimto-logo.png
     products:
-      - code: "VIM60C"
-        designation: "CASIER VIMTO 60 CL"
-        format: "60 CL"
-        packaging_type: "MB_60"
-        unit: "C12"
+      - code: VIM60C
+        designation: CASIER VIMTO 60 CL
+        format: 60 CL
+        packaging_type: MB_60
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 4211.15
-            remise: 120.0
+            remise: 120
             marge: 608.85
-            taux_marge: "14.5%"
-          
+            taux_marge: 14.5%
           distributor_to_retailer:
-            prix_achat: 4900.0
-            ristourne: 200.0
-            marge: 1300.0
-            taux_marge: "26.5%"
-          
+            prix_achat: 4900
+            ristourne: 200
+            marge: 1300
+            taux_marge: 26.5%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-        
         images:
-          packshot: "/assets/packshots/vim60c-hd.png"
-      
-      - code: "VIM10P"
-        designation: "PACK 6 VIMTO PET 100CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/vim60c-hd.png
+      - code: VIM10P
+        designation: PACK 6 VIMTO PET 100CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 3765.87
-            remise: 100.0
+            remise: 100
             marge: 314.13
-            taux_marge: "8.3%"
-          
+            taux_marge: 8.3%
           distributor_to_retailer:
-            prix_achat: 4080.0
-            ristourne: 100.0
-            marge: 520.0
-            taux_marge: "12.7%"
-          
+            prix_achat: 4080
+            ristourne: 100
+            marge: 520
+            taux_marge: 12.7%
           consumer_price:
             prix_unitaire: 750
             prix_casier: 4500
-        
         images:
-          packshot: "/assets/packshots/vim10p-hd.png"
-      
-      - code: "VIM35P"
-        designation: "PACK 12 VIMTO PET 35CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/vim10p-hd.png
+      - code: VIM35P
+        designation: PACK 12 VIMTO PET 35CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 3901.05
-            remise: 60.0
+            remise: 60
             marge: 258.95
-            taux_marge: "6.6%"
-          
+            taux_marge: 6.6%
           distributor_to_retailer:
-            prix_achat: 4200.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "16.7%"
-          
+            prix_achat: 4200
+            ristourne: 100
+            marge: 700
+            taux_marge: 16.7%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 4800
-        
         images:
-          packshot: "/assets/packshots/vim35p-hd.png"
-      
+          packshot: /assets/packshots/vim35p-hd.png
+    identity:
+      target: Homme et femme entre 20-35 ans, qui aime se distinguer, CSP AB-C1-C2
+      positioning: Premium
+      alcohol_rate: ""
+      signature: "\"Donne du goût à ta vie\""
+    positioning: Premium
+    target: Homme et femme entre 20-35 ans, qui aime se distinguer, CSP AB-C1-C2
+    signature: \"Donne du goût à ta vie\"
+    key_facts:
+      - >-
+        Si particulière, Vimto est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du Cameroun,
+        sous licence de Nichols International, propriétaire de la marque. SABC a hérité de Siac-Isenbeck
+      - >-
+        Produite à base d’extraits naturels de jus de «Bissap», de framboise et de cassis, c’est une boisson proprement
+        unique de par sa couleur et son goût .
+      - Marque premium, Vimto accompagne les célébrations communautaire et les moments de partage.
+      - Avec VIMTO « donne du goût à ta vie »
+    briefs:
+      - >-
+        Si particulière, Vimto est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du Cameroun,
+        sous licence de Nichols International, propriétaire de la marque. SABC a hérité de Siac-Isenbeck
+      - >-
+        Produite à base d’extraits naturels de jus de «Bissap», de framboise et de cassis, c’est une boisson proprement
+        unique de par sa couleur et son goût .
+      - Marque premium, Vimto accompagne les célébrations communautaire et les moments de partage.
+      - Avec VIMTO « donne du goût à ta vie »
+    history: >-
+      Si particulière, Vimto est une boisson rafraîchissante sans alcool fabriquée par Les Brasseries du Cameroun, sous
+      licence de Nichols International, propriétaire de la marque. SABC a hérité de Siac-Isenbeck
 
-  - id: "world-cola"
-    name: "WORLD COLA"
-    logo_url: "/assets/brands/world-cola-logo.png"
-    
+      Produite à base d’extraits naturels de jus de «Bissap», de framboise et de cassis, c’est une boisson proprement
+      unique de par sa couleur et son goût .
+
+      Marque premium, Vimto accompagne les célébrations communautaire et les moments de partage.
+
+      Avec VIMTO « donne du goût à ta vie »
+  - id: world-cola
+    name: WORLD COLA
+    logo_url: /assets/brands/world-cola-logo.png
     products:
-      - code: "WCO50C"
-        designation: "CASIER WORLD COLA 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: WCO50C
+        designation: CASIER WORLD COLA 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2530.48
-            remise: 120.0
+            remise: 120
             marge: 489.52
-            taux_marge: "19.3%"
-          
+            taux_marge: 19.3%
           distributor_to_retailer:
-            prix_achat: 3100.0
-            ristourne: 200.0
-            marge: 700.0
-            taux_marge: "22.6%"
-          
+            prix_achat: 3100
+            ristourne: 200
+            marge: 700
+            taux_marge: 22.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/wco50c-hd.png"
-      
-      - code: "WCO10P"
-        designation: "PACK WORLD COLA PET 100 CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/wco50c-hd.png
+      - code: WCO10P
+        designation: PACK WORLD COLA PET 100 CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2876.68
-            remise: 100.0
+            remise: 100
             marge: 338.32
-            taux_marge: "11.8%"
-          
+            taux_marge: 11.8%
           distributor_to_retailer:
-            prix_achat: 3215.0
-            ristourne: 100.0
-            marge: 485.0
-            taux_marge: "15.1%"
-          
+            prix_achat: 3215
+            ristourne: 100
+            marge: 485
+            taux_marge: 15.1%
           consumer_price:
             prix_unitaire: 600
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/wco10p-hd.png"
-      
-      - code: "WCO35P"
-        designation: "PACK 12 WORLD COLA PET 35 CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/wco10p-hd.png
+      - code: WCO35P
+        designation: PACK 12 WORLD COLA PET 35 CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2751.75
-            remise: 60.0
+            remise: 60
             marge: 208.25
-            taux_marge: "7.6%"
-          
+            taux_marge: 7.6%
           distributor_to_retailer:
-            prix_achat: 3000.0
-            ristourne: 100.0
-            marge: 700.0
-            taux_marge: "23.3%"
-          
+            prix_achat: 3000
+            ristourne: 100
+            marge: 700
+            taux_marge: 23.3%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/wco35p-hd.png"
-      
+          packshot: /assets/packshots/wco35p-hd.png
+    identity:
+      target: Adolescents 13 - 21 ans et les jeunes adultes africains tendance, joviaux, partisans de l’afro-optimisme.
+      positioning: TOP Mainstream
+      alcohol_rate: ""
+      signature: Bascule dans un monde rafraichissant
+    positioning: TOP Mainstream
+    target: Adolescents 13 - 21 ans et les jeunes adultes africains tendance, joviaux, partisans de l’afro-optimisme.
+    signature: Bascule dans un monde rafraichissant
+    key_facts:
+      - Présente dans 14 pays d’Afrique subsaharienne, World Cola est une boisson Gazeuse aux arômes de cola
+      - >-
+        Fortement désaltérante, allégée en gaz et en sucre, son goût unique plonge le consommateur dans un univers
+        rafraichissant en lui procurant du bonheur.
+      - >-
+        Consciente de l’environnement et des valeurs africaines, elle est la réponse adéquate à un ardent désir de se
+        rafraichir et le fervent plaisir d’un partage en famille et entre amis.
+      - >-
+        World cola prône l’afro – optimisme, célèbre la culture Africaine et a pour vision de devenir la marque de cola
+        de référence en Afrique.
+    briefs:
+      - Présente dans 14 pays d’Afrique subsaharienne, World Cola est une boisson Gazeuse aux arômes de cola
+      - >-
+        Fortement désaltérante, allégée en gaz et en sucre, son goût unique plonge le consommateur dans un univers
+        rafraichissant en lui procurant du bonheur.
+      - >-
+        Consciente de l’environnement et des valeurs africaines, elle est la réponse adéquate à un ardent désir de se
+        rafraichir et le fervent plaisir d’un partage en famille et entre amis.
+      - >-
+        World cola prône l’afro – optimisme, célèbre la culture Africaine et a pour vision de devenir la marque de cola
+        de référence en Afrique.
+    history: >-
+      Présente dans 14 pays d’Afrique subsaharienne, World Cola est une boisson Gazeuse aux arômes de cola
 
-  - id: "xxl"
-    name: "XXL"
-    logo_url: "/assets/brands/xxl-logo.png"
-    
+      Fortement désaltérante, allégée en gaz et en sucre, son goût unique plonge le consommateur dans un univers
+      rafraichissant en lui procurant du bonheur.
+
+      Consciente de l’environnement et des valeurs africaines, elle est la réponse adéquate à un ardent désir de se
+      rafraichir et le fervent plaisir d’un partage en famille et entre amis.
+
+      World cola prône l’afro – optimisme, célèbre la culture Africaine et a pour vision de devenir la marque de cola de
+      référence en Afrique.
+  - id: xxl
+    name: XXL
+    logo_url: /assets/brands/xxl-logo.png
     products:
-      - code: "XXL50C"
-        designation: "CASIER XXL 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: XXL50C
+        designation: CASIER XXL 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 4211.15
-            remise: 120.0
+            remise: 120
             marge: 608.85
-            taux_marge: "14.5%"
-          
+            taux_marge: 14.5%
           distributor_to_retailer:
-            prix_achat: 4900.0
-            ristourne: 200.0
-            marge: 1300.0
-            taux_marge: "26.5%"
-          
+            prix_achat: 4900
+            ristourne: 200
+            marge: 1300
+            taux_marge: 26.5%
           consumer_price:
             prix_unitaire: 500
             prix_casier: 6000
-        
         images:
-          packshot: "/assets/packshots/xxl50c-hd.png"
-      
-      - code: "XXL50BP"
-        designation: "CARTON XXL BOITES 50 CL"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+          packshot: /assets/packshots/xxl50c-hd.png
+      - code: XXL50BP
+        designation: CARTON XXL BOITES 50 CL
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 12296.31
             remise: null
             marge: 1003.69
-            taux_marge: "8.2%"
-          
+            taux_marge: 8.2%
           distributor_to_retailer:
-            prix_achat: 13300.0
+            prix_achat: 13300
             ristourne: null
-            marge: 1100.0
-            taux_marge: "8.3%"
-          
+            marge: 1100
+            taux_marge: 8.3%
           consumer_price:
             prix_unitaire: 600
             prix_casier: 14400
-        
         images:
-          packshot: "/assets/packshots/xxl50bp-hd.png"
-      
-      - code: "XXL35P"
+          packshot: /assets/packshots/xxl50bp-hd.png
+      - code: XXL35P
         designation: "PACK 12 XXL  PET 35 CL "
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 3644.94
-            remise: 60.0
+            remise: 60
             marge: 385.06
-            taux_marge: "10.6%"
-          
+            taux_marge: 10.6%
           distributor_to_retailer:
-            prix_achat: 4070.0
-            ristourne: 100.0
-            marge: 830.0
-            taux_marge: "20.4%"
-          
+            prix_achat: 4070
+            ristourne: 100
+            marge: 830
+            taux_marge: 20.4%
           consumer_price:
             prix_unitaire: 400
             prix_casier: 4800
-        
         images:
-          packshot: "/assets/packshots/xxl35p-hd.png"
-      
-      - code: "XXL05P"
+          packshot: /assets/packshots/xxl35p-hd.png
+      - code: XXL05P
         designation: "PACK 06 XXL  PET 50 CL "
-        format: "50 CL"
-        packaging_type: "PET"
-        unit: "P12"
+        format: 50 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["NORD"]
-        
+        market:
+          - NORD
         pricing:
           marketing_to_distributor:
             prix_achat: 5980.29
-            remise: 60.0
+            remise: 60
             marge: 489.71
-            taux_marge: "8.2%"
-          
+            taux_marge: 8.2%
           distributor_to_retailer:
-            prix_achat: 6510.0
-            ristourne: 100.0
-            marge: 790.0
-            taux_marge: "12.1%"
-          
+            prix_achat: 6510
+            ristourne: 100
+            marge: 790
+            taux_marge: 12.1%
           consumer_price:
             prix_unitaire: 600
             prix_casier: 7200
-        
         images:
-          packshot: "/assets/packshots/xxl05p-hd.png"
-      
+          packshot: /assets/packshots/xxl05p-hd.png
+    identity:
+      target: Homme et femme entre 18-35 ans, à la recherche d’un stimulant permettant de repousser ses limites, CSP A+, A, AB
+      positioning: Premium
+      alcohol_rate: ""
+      signature: C’est petit, mais c’est puissant!
+    positioning: Premium
+    target: Homme et femme entre 18-35 ans, à la recherche d’un stimulant permettant de repousser ses limites, CSP A+, A, AB
+    signature: C’est petit, mais c’est puissant!
+    key_facts:
+      - Lancée en Octobre 2012 au Cameroun, XXL est une boisson énergisante au goût doux et subtil
+      - >-
+        Grâce à sa composition, riche en caféine et en vitamines B, XXL Energy donne la force et la vitalité et surtout
+        un regain d’énergie. Pour d’autres, elle apporte la bonne humeur grâce aux vertus du ginseng
+      - XXL accompagne les évènements estudiantins festifs et les sports de combat.
+      - >-
+        Présente dans plusieurs pays africains ( Sénégal, Bénin , Guinée , RDC ) XXL se positionne chaque jour comme la
+        boisson incontournable pour repousser ses limites.
+    briefs:
+      - Lancée en Octobre 2012 au Cameroun, XXL est une boisson énergisante au goût doux et subtil
+      - >-
+        Grâce à sa composition, riche en caféine et en vitamines B, XXL Energy donne la force et la vitalité et surtout
+        un regain d’énergie. Pour d’autres, elle apporte la bonne humeur grâce aux vertus du ginseng
+      - XXL accompagne les évènements estudiantins festifs et les sports de combat.
+      - >-
+        Présente dans plusieurs pays africains ( Sénégal, Bénin , Guinée , RDC ) XXL se positionne chaque jour comme la
+        boisson incontournable pour repousser ses limites.
+    history: >-
+      Lancée en Octobre 2012 au Cameroun, XXL est une boisson énergisante au goût doux et subtil
 
-  - id: "youzou"
-    name: "YOUZOU"
-    logo_url: "/assets/brands/youzou-logo.png"
-    
+      Grâce à sa composition, riche en caféine et en vitamines B, XXL Energy donne la force et la vitalité et surtout un
+      regain d’énergie. Pour d’autres, elle apporte la bonne humeur grâce aux vertus du ginseng
+
+      XXL accompagne les évènements estudiantins festifs et les sports de combat.
+
+      Présente dans plusieurs pays africains ( Sénégal, Bénin , Guinée , RDC ) XXL se positionne chaque jour comme la
+      boisson incontournable pour repousser ses limites.
+  - id: youzou
+    name: YOUZOU
+    logo_url: /assets/brands/youzou-logo.png
     products:
-      - code: "YOU50C"
-        designation: "CASIER YOUZOU 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: YOU50C
+        designation: CASIER YOUZOU 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 2530.48
-            remise: 120.0
+            remise: 120
             marge: 489.52
-            taux_marge: "19.3%"
-          
+            taux_marge: 19.3%
           distributor_to_retailer:
-            prix_achat: 3100.0
-            ristourne: 200.0
-            marge: 700.0
-            taux_marge: "22.6%"
-          
+            prix_achat: 3100
+            ristourne: 200
+            marge: 700
+            taux_marge: 22.6%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/you50c-hd.png"
-      
-      - code: "YOU10P"
-        designation: "PACK YOUZOU PET 100 CL"
-        format: "100 CL"
-        packaging_type: "PET"
-        unit: "P06"
+          packshot: /assets/packshots/you50c-hd.png
+      - code: YOU10P
+        designation: PACK YOUZOU PET 100 CL
+        format: 100 CL
+        packaging_type: PET
+        unit: P06
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 2876.68
-            remise: 100.0
+            remise: 100
             marge: 338.32
-            taux_marge: "11.8%"
-          
+            taux_marge: 11.8%
           distributor_to_retailer:
-            prix_achat: 3215.0
-            ristourne: 100.0
-            marge: 485.0
-            taux_marge: "15.1%"
-          
+            prix_achat: 3215
+            ristourne: 100
+            marge: 485
+            taux_marge: 15.1%
           consumer_price:
             prix_unitaire: 600
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/you10p-hd.png"
-      
-      - code: "YOU35P"
-        designation: "PACK 12 YOUZOU PET 35 CL"
-        format: "35 CL"
-        packaging_type: "PET"
-        unit: "P12"
+          packshot: /assets/packshots/you10p-hd.png
+      - code: YOU35P
+        designation: PACK 12 YOUZOU PET 35 CL
+        format: 35 CL
+        packaging_type: PET
+        unit: P12
         consigne: 0
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 3239.68
-            remise: 60.0
+            remise: 60
             marge: 220.32
-            taux_marge: "6.8%"
-          
+            taux_marge: 6.8%
           distributor_to_retailer:
-            prix_achat: 3500.0
-            ristourne: 100.0
-            marge: 200.0
-            taux_marge: "5.7%"
-          
+            prix_achat: 3500
+            ristourne: 100
+            marge: 200
+            taux_marge: 5.7%
           consumer_price:
             prix_unitaire: 300
             prix_casier: 3600
-        
         images:
-          packshot: "/assets/packshots/you35p-hd.png"
-      
+          packshot: /assets/packshots/you35p-hd.png
+    identity:
+      target: Adolescent 13ans -15 ans et Mères entre 21-35 ans, jovial, dynamique, sociable, CSP AB-BC-D
+      positioning: TOP Mainstream
+      alcohol_rate: ""
+      signature: Etanche la Soif
+    positioning: TOP Mainstream
+    target: Adolescent 13ans -15 ans et Mères entre 21-35 ans, jovial, dynamique, sociable, CSP AB-BC-D
+    signature: Etanche la Soif
+    key_facts:
+      - Youzou est une marque de boisson gazeuse du Groupe BGI, embouteillée au Cameroun par SABC.
+      - Youzou est fait à base d’extraits naturels de citron et citron Vert
+      - >-
+        Rafraîchissement, plaisir, partage et Basketball constituent l’ADN de Youzou, la marque ayant un engagement fort
+        pour le développement du Basketball au Cameroun.
+      - "Sa Signature originale: « Etanche la soif » met suffisamment en avant son côté désaltérant ."
+    briefs:
+      - Youzou est une marque de boisson gazeuse du Groupe BGI, embouteillée au Cameroun par SABC.
+      - Youzou est fait à base d’extraits naturels de citron et citron Vert
+      - >-
+        Rafraîchissement, plaisir, partage et Basketball constituent l’ADN de Youzou, la marque ayant un engagement fort
+        pour le développement du Basketball au Cameroun.
+      - "Sa Signature originale: « Etanche la soif » met suffisamment en avant son côté désaltérant ."
+    history: >-
+      Youzou est une marque de boisson gazeuse du Groupe BGI, embouteillée au Cameroun par SABC.
 
+      Youzou est fait à base d’extraits naturels de citron et citron Vert
+
+      Rafraîchissement, plaisir, partage et Basketball constituent l’ADN de Youzou, la marque ayant un engagement fort
+      pour le développement du Basketball au Cameroun.
+
+      Sa Signature originale: « Etanche la soif » met suffisamment en avant son côté désaltérant .

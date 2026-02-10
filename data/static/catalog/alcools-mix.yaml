@@ -4,320 +4,339 @@
 # Source : ELEMENTS BOOK DCM.xlsx
 
 segment:
-  id: "alcools-mix"
-  name: "Alcools Mix"
-  icon: "drink"
+  id: alcools-mix
+  name: Alcools Mix
+  icon: drink
   order: 2
-  description: "Portefeuille Alcools Mix Boissons du Cameroun"
-
+  description: Portefeuille Alcools Mix Boissons du Cameroun
 brands:
-  - id: "booster-gin-tonic"
-    name: "BOOSTER GIN TONIC"
-    logo_url: "/assets/brands/booster-gin-tonic-logo.png"
-    
+  - id: booster-gin-tonic
+    name: BOOSTER GIN TONIC
+    logo_url: /assets/brands/booster-gin-tonic-logo.png
     products:
-      - code: "BGT50C"
-        designation: "CASIER BOOSTER GIN TONIC 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: BGT50C
+        designation: CASIER BOOSTER GIN TONIC 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 6323.66
-            remise: 339.0
+            remise: 339
             marge: 762.59
-            taux_marge: "11.1%"
-          
+            taux_marge: 11.1%
           distributor_to_retailer:
-            prix_achat: 7000.0
+            prix_achat: 7000
             ristourne: 324.3
             marge: 1124.3
-            taux_marge: "16.1%"
-          
+            taux_marge: 16.1%
           consumer_price:
             prix_unitaire: 650
             prix_casier: 7800
-        
         images:
-          packshot: "/assets/packshots/bgt50c-hd.png"
-      
-      - code: "BGT65C"
-        designation: "CASIER BOOSTER GIN TONIC 65 CL"
-        format: "65 CL"
-        packaging_type: "BB_65"
-        unit: "C12"
+          packshot: /assets/packshots/bgt50c-hd.png
+      - code: BGT65C
+        designation: CASIER BOOSTER GIN TONIC 65 CL
+        format: 65 CL
+        packaging_type: BB_65
+        unit: C12
         consigne: 3600
-        market: ["CENTRE"]
-        
+        market:
+          - CENTRE
         pricing:
           marketing_to_distributor:
             prix_achat: 8958.47
-            remise: 339.0
+            remise: 339
             marge: 827.78
-            taux_marge: "8.7%"
-          
+            taux_marge: 8.7%
           distributor_to_retailer:
-            prix_achat: 9700.0
+            prix_achat: 9700
             ristourne: 324.3
             marge: 1424.3
-            taux_marge: "14.7%"
-          
+            taux_marge: 14.7%
           consumer_price:
             prix_unitaire: 900
             prix_casier: 10800
-        
         images:
-          packshot: "/assets/packshots/bgt65c-hd.png"
-      
-
-  - id: "booster-whisky-cola"
-    name: "BOOSTER WHISKY COLA"
-    logo_url: "/assets/brands/booster-whisky-cola-logo.png"
-    
+          packshot: /assets/packshots/bgt65c-hd.png
+    identity:
+      target: Jeunes hommes et femmes entre 21-45 ans, modernes, aimant l’ambiance hip hop
+      positioning: Top mainstream
+      alcohol_rate: 7%
+      signature: Boostez vos sensations
+    positioning: Top mainstream
+    target: Jeunes hommes et femmes entre 21-45 ans, modernes, aimant l’ambiance hip hop
+    alcohol_rate: 7%
+    signature: Boostez vos sensations
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité Booster est un cocktail c’est la gamme d’alcool mix la Grande satisfaction alcoolisé base de gin et
+          fait plus consommée au Cameroun des consommateurs de Whisky et Cola
+        - Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges très forte rotation
+        - >-
+          Commodité Disponible en 02 formats Elle est disponible en Verre Choix varié pour les consigné, mais aussi en
+          canette consommateurs
+      emotional:
+        - >-
+          Compétitivité elle a une très forte Donner le nombre de casiers Espoir de gain lors contribution aux ventes
+          achetés par un client du même d’un concours pour le gain d’un concours réseau
+        - >-
+          Orgueil Une Alcool Mix panafricain à Alcool Mix à 7° d’alcool connaisseur auprès dégré d’alcool modéré des
+          consommateurs
+        - >-
+          Imitation Une Alcool mix populaire à Tous les clients l’ont en stock Fidélisation de la avoir absolument en
+          stock clientèle
+        - Nouveauté Nouvelle reférence Canette 50CL Client à la page
+        - Sympathie Booster les sensations client et vendeur se soutiennent Suivi personnalisé
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: booster-whisky-cola
+    name: BOOSTER WHISKY COLA
+    logo_url: /assets/brands/booster-whisky-cola-logo.png
     products:
-      - code: "BWC50C"
-        designation: "CASIER BOOSTER WHISKY COLA 50 CL"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: BWC50C
+        designation: CASIER BOOSTER WHISKY COLA 50 CL
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["TOUS"]
-        
+        market:
+          - TOUS
         pricing:
           marketing_to_distributor:
             prix_achat: 6323.66
-            remise: 339.0
+            remise: 339
             marge: 762.59
-            taux_marge: "11.1%"
-          
+            taux_marge: 11.1%
           distributor_to_retailer:
-            prix_achat: 7000.0
+            prix_achat: 7000
             ristourne: 324.3
             marge: 1124.3
-            taux_marge: "16.1%"
-          
+            taux_marge: 16.1%
           consumer_price:
             prix_unitaire: 650
             prix_casier: 7800
-        
         images:
-          packshot: "/assets/packshots/bwc50c-hd.png"
-      
-      - code: "BWC50B"
-        designation: "CARTON BOOSTER WHISKY COLA BOITES 50 CL"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+          packshot: /assets/packshots/bwc50c-hd.png
+      - code: BWC50B
+        designation: CARTON BOOSTER WHISKY COLA BOITES 50 CL
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 16102.06
             remise: null
             marge: 1297.94
-            taux_marge: "8.1%"
-          
+            taux_marge: 8.1%
           distributor_to_retailer:
-            prix_achat: 17400.0
+            prix_achat: 17400
             ristourne: null
-            marge: 600.0
-            taux_marge: "3.4%"
-          
+            marge: 600
+            taux_marge: 3.4%
           consumer_price:
             prix_unitaire: 750
             prix_casier: 18000
-        
         images:
-          packshot: "/assets/packshots/bwc50b-hd.png"
-      
-      - code: "BWC65C"
-        designation: "CASIER BOOSTER WHISKY COLA 65 CL"
-        format: "65 CL"
-        packaging_type: "BB_65"
-        unit: "C12"
+          packshot: /assets/packshots/bwc50b-hd.png
+      - code: BWC65C
+        designation: CASIER BOOSTER WHISKY COLA 65 CL
+        format: 65 CL
+        packaging_type: BB_65
+        unit: C12
         consigne: 3600
-        market: ["CENTRE"]
-        
+        market:
+          - CENTRE
         pricing:
           marketing_to_distributor:
             prix_achat: 8958.47
-            remise: 339.0
+            remise: 339
             marge: 827.78
-            taux_marge: "8.7%"
-          
+            taux_marge: 8.7%
           distributor_to_retailer:
-            prix_achat: 9700.0
+            prix_achat: 9700
             ristourne: 324.3
             marge: 1424.3
-            taux_marge: "14.7%"
-          
+            taux_marge: 14.7%
           consumer_price:
             prix_unitaire: 900
             prix_casier: 10800
-        
         images:
-          packshot: "/assets/packshots/bwc65c-hd.png"
-      
-
-  - id: "orijin"
-    name: "ORIJIN"
-    logo_url: "/assets/brands/orijin-logo.png"
-    
+          packshot: /assets/packshots/bwc65c-hd.png
+    identity:
+      target: Jeunes hommes et femmes entre 21-45 ans, modernes, aimant l’ambiance hip hop
+      positioning: Top mainstream
+      alcohol_rate: 7%
+      signature: Boostez vos sensations
+    positioning: Top mainstream
+    target: Jeunes hommes et femmes entre 21-45 ans, modernes, aimant l’ambiance hip hop
+    alcohol_rate: 7%
+    signature: Boostez vos sensations
+    sales_arguments:
+      rational:
+        - >-
+          Sécurité Booster est un cocktail c’est la gamme d’alcool mix la Grande satisfaction alcoolisé base de gin et
+          fait plus consommée au Cameroun des consommateurs de Whisky et Cola
+        - Argent Un produit rentable et à Voir page de calcul des marges Bonnes marges très forte rotation
+        - >-
+          Commodité Disponible en 02 formats Elle est disponible en Verre Choix varié pour les consigné, mais aussi en
+          canette consommateurs
+      emotional:
+        - >-
+          Compétitivité elle a une très forte Donner le nombre de casiers Espoir de gain lors contribution aux ventes
+          achetés par un client du même d’un concours pour le gain d’un concours réseau
+        - >-
+          Orgueil Une Alcool Mix panafricain à Alcool Mix à 7° d’alcool connaisseur auprès dégré d’alcool modéré des
+          consommateurs
+        - >-
+          Imitation Une Alcool mix populaire à Tous les clients l’ont en stock Fidélisation de la avoir absolument en
+          stock clientèle
+        - Nouveauté Nouvelle reférence Canette 50CL Client à la page
+        - Sympathie Booster les sensations client et vendeur se soutiennent Suivi personnalisé
+      by_channel:
+        CHR: []
+        PSV: []
+        TT: []
+        MT: []
+  - id: orijin
+    name: ORIJIN
+    logo_url: /assets/brands/orijin-logo.png
     products:
-      - code: "ORI50CP"
-        designation: "CASIER ORIJIN 50 CL PROMO"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: ORI50CP
+        designation: CASIER ORIJIN 50 CL PROMO
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["OUEST"]
-        
+        market:
+          - OUEST
         pricing:
           marketing_to_distributor:
             prix_achat: 5738.15
-            remise: 339.0
+            remise: 339
             marge: 748.1
-            taux_marge: "11.9%"
-          
+            taux_marge: 11.9%
           distributor_to_retailer:
-            prix_achat: 6400.0
+            prix_achat: 6400
             ristourne: 324.3
             marge: 1124.3
-            taux_marge: "17.6%"
-          
+            taux_marge: 17.6%
           consumer_price:
             prix_unitaire: 600
             prix_casier: 7200
-        
         images:
-          packshot: "/assets/packshots/ori50cp-hd.png"
-      
-
-  - id: "smirnorff-ice-black"
-    name: "SMIRNORFF ICE BLACK"
-    logo_url: "/assets/brands/smirnorff-ice-black-logo.png"
-    
+          packshot: /assets/packshots/ori50cp-hd.png
+  - id: smirnorff-ice-black
+    name: SMIRNORFF ICE BLACK
+    logo_url: /assets/brands/smirnorff-ice-black-logo.png
     products:
-      - code: "SMB50CP"
-        designation: "CASIER SMIRNORFF ICE BLACK 50 CL PROMO"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: SMB50CP
+        designation: CASIER SMIRNORFF ICE BLACK 50 CL PROMO
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["CENTRE"]
-        
+        market:
+          - CENTRE
         pricing:
           marketing_to_distributor:
             prix_achat: 8948.96
-            remise: 339.0
+            remise: 339
             marge: 827.55
-            taux_marge: "8.7%"
-          
+            taux_marge: 8.7%
           distributor_to_retailer:
             prix_achat: 9690.26
             ristourne: 324.3
             marge: 2034.04
-            taux_marge: "21.0%"
-          
+            taux_marge: 21.0%
           consumer_price:
             prix_unitaire: 950
             prix_casier: 11400
-        
         images:
-          packshot: "/assets/packshots/smb50cp-hd.png"
-      
-      - code: "SMB50BP"
-        designation: "CARTON SMIRNORFF ICE BLACK  50 CL PROMO"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+          packshot: /assets/packshots/smb50cp-hd.png
+      - code: SMB50BP
+        designation: CARTON SMIRNORFF ICE BLACK  50 CL PROMO
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 3600
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 23124.5
             remise: null
             marge: 1215.5
-            taux_marge: "5.3%"
-          
+            taux_marge: 5.3%
           distributor_to_retailer:
-            prix_achat: 24340.0
+            prix_achat: 24340
             ristourne: null
-            marge: 2060.0
-            taux_marge: "8.5%"
-          
+            marge: 2060
+            taux_marge: 8.5%
           consumer_price:
             prix_unitaire: 1100
             prix_casier: 26400
-        
         images:
-          packshot: "/assets/packshots/smb50bp-hd.png"
-      
-
-  - id: "smirnorff-ice-pineaple"
-    name: "SMIRNORFF ICE PINEAPLE"
-    logo_url: "/assets/brands/smirnorff-ice-pineaple-logo.png"
-    
+          packshot: /assets/packshots/smb50bp-hd.png
+  - id: smirnorff-ice-pineaple
+    name: SMIRNORFF ICE PINEAPLE
+    logo_url: /assets/brands/smirnorff-ice-pineaple-logo.png
     products:
-      - code: "SMP50CP"
-        designation: "CASIER SMIRNORFF ICE PINEAPLE 50 CL PROMO"
-        format: "50 CL"
-        packaging_type: "BB_50"
-        unit: "C12"
+      - code: SMP50CP
+        designation: CASIER SMIRNORFF ICE PINEAPLE 50 CL PROMO
+        format: 50 CL
+        packaging_type: BB_50
+        unit: C12
         consigne: 3600
-        market: ["CENTRE"]
-        
+        market:
+          - CENTRE
         pricing:
           marketing_to_distributor:
             prix_achat: 8948.96
-            remise: 339.0
+            remise: 339
             marge: 827.55
-            taux_marge: "8.7%"
-          
+            taux_marge: 8.7%
           distributor_to_retailer:
             prix_achat: 9690.26
             ristourne: 324.3
             marge: 2034.04
-            taux_marge: "21.0%"
-          
+            taux_marge: 21.0%
           consumer_price:
             prix_unitaire: 950
             prix_casier: 11400
-        
         images:
-          packshot: "/assets/packshots/smp50cp-hd.png"
-      
-      - code: "SMP50BP"
-        designation: "CARTON SMIRNORFF ICE PINEAPLE 50 CL PROMO"
-        format: "50 CL"
-        packaging_type: "BOÎTE 50"
-        unit: "B24"
+          packshot: /assets/packshots/smp50cp-hd.png
+      - code: SMP50BP
+        designation: CARTON SMIRNORFF ICE PINEAPLE 50 CL PROMO
+        format: 50 CL
+        packaging_type: BOÎTE 50
+        unit: B24
         consigne: 0
-        market: ["SUD"]
-        
+        market:
+          - SUD
         pricing:
           marketing_to_distributor:
             prix_achat: 23124.5
             remise: null
             marge: 1215.5
-            taux_marge: "5.3%"
-          
+            taux_marge: 5.3%
           distributor_to_retailer:
-            prix_achat: 24340.0
+            prix_achat: 24340
             ristourne: null
-            marge: 2060.0
-            taux_marge: "8.5%"
-          
+            marge: 2060
+            taux_marge: 8.5%
           consumer_price:
             prix_unitaire: 1100
             prix_casier: 26400
-        
         images:
-          packshot: "/assets/packshots/smp50bp-hd.png"
-      
-
+          packshot: /assets/packshots/smp50bp-hd.png

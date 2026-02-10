@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'preact/hooks';
 import { getLastSyncTimestamp } from '../../lib/storage/sync';
-import { Clock } from './Icon';
 
 interface LastSyncIndicatorProps {
   className?: string;
@@ -65,7 +64,7 @@ function formatFullDate(timestamp: number): string {
   });
 }
 
-export function LastSyncIndicator({ className = '', store = 'products' }: LastSyncIndicatorProps) {
+export function LastSyncIndicator({ className = '', store = 'products' }: Readonly<LastSyncIndicatorProps>) {
   const [lastSync, setLastSync] = useState<number>(0);
   const [relativeTime, setRelativeTime] = useState<string>('Chargement...');
   const lastSyncRef = useRef<number>(0);
@@ -99,17 +98,19 @@ export function LastSyncIndicator({ className = '', store = 'products' }: LastSy
 
   return (
     <div
-      className={`flex items-center gap-2 text-gray-600 ${className}`}
+      className={`flex items-center gap-2 text-muted dark:text-gray-400 ${className}`}
       title={formatFullDate(lastSync)}
     >
       {/* Clock icon */}
-      <Clock size={16} className="text-gray-500" />
+      <svg className="w-4 h-4 text-muted dark:text-gray-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
 
       {/* Label */}
       <span className="text-sm">
         {/* TODO(i18n): sync.lastSync */}
         Dernière sync:{' '}
-        <span className={lastSync === 0 ? 'text-red-600 font-medium' : ''}>
+        <span className={lastSync === 0 ? 'text-bdc-red font-medium' : ''}>
           {relativeTime}
         </span>
       </span>

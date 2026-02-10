@@ -116,7 +116,8 @@ function parseBrandYaml(text: string): BrandStore {
   }
   return {
     ...doc,
-    argumentaires: doc.argumentaires ?? [],
+    // Argumentaires are sourced from YAML catalog files, not stored in IndexedDB.
+    argumentaires: [],
     lastUpdated: doc.lastUpdated ?? Date.now(),
   } as BrandStore;
 }

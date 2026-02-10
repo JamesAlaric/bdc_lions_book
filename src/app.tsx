@@ -3,15 +3,19 @@ import { useEffect, useState } from 'preact/hooks';
 import { Home } from './routes/Home';
 import { Settings } from './routes/Settings';
 import { Catalogue } from './routes/Catalogue';
-import { ProductDetail } from './routes/ProductDetail';
 import { BrandDetail } from './routes/BrandDetail';
+import { Segments } from './routes/Segments';
+import { Objections } from './routes/Objections';
+import { Promos } from './routes/Promos';
+import { Assets } from './routes/Assets';
+import { PricingGrid } from './routes/PricingGrid';
 import { Navigation } from './components/layout/Navigation';
+import { PageTransition } from './components/layout/PageTransition';
 import { UpdateNotification } from './components/UpdateNotification';
 import PWABadge from './PWABadge.tsx';
 import { getAllProducts } from './lib/storage/catalogue';
-import { getAllBrands } from './lib/storage/brands';
 import { initDatabase } from './lib/storage/database';
-import { loadInitialCatalogue, loadBrands, type LoadProgress } from './lib/data/loader';
+import { loadInitialCatalogue, type LoadProgress } from './lib/data/loader';
 import { LoadingScreen } from './components/catalogue/LoadingScreen';
 import './app.css';
 // CSS import - no type declaration needed
@@ -31,15 +35,9 @@ export function App() {
 
       try {
         await initDatabase();
-        const [existingProducts, existingBrands] = await Promise.all([
-          getAllProducts(),
-          getAllBrands(),
-        ]);
+        const existingProducts = await getAllProducts();
         if (existingProducts.length === 0) {
           await loadInitialCatalogue({ onProgress: (p) => !cancelled && setProgress(p) });
-        }
-        if (existingBrands.length === 0) {
-          await loadBrands();
         }
       } catch (error) {
         if (!cancelled) {
@@ -59,11 +57,11 @@ export function App() {
 
   if (loadError) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-off-white">
-        <h1 className="text-2xl font-bold text-bdc-red mb-2">Erreur de chargement</h1>
-        <p className="text-gray-700 mb-4">{loadError}</p>
+      <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-gray-50 dark:bg-bdc-black transition-colors">
+        <h1 className="text-xl font-bold text-bdc-red mb-2 font-display">Erreur de chargement</h1>
+        <p className="text-muted dark:text-gray-400 text-sm mb-4">{loadError}</p>
         <button
-          className="px-4 py-2 bg-bdc-red text-white rounded-lg shadow active:scale-95 transition"
+          className="px-4 py-2 bg-bdc-red text-white rounded-xl text-sm font-semibold active:scale-95 transition"
           onClick={() => location.reload()}
         >
           Réessayer
@@ -78,14 +76,20 @@ export function App() {
 
   return (
     <>
-      <Router>
+      <Router onChange={(e: { url: string }) => window.dispatchEvent(new CustomEvent('routechange', { detail: e.url }))}>
         <Home path="/" default />
         <Catalogue path="/catalogue" />
-        <ProductDetail path="/product/:id" />
+        <Segments path="/segments" />
+        <Objections path="/objections" />
+        <PricingGrid path="/prix" />
         <BrandDetail path="/brand/:id" />
+        <Promos path="/promos" />
+        <Assets path="/assets" />
         <Settings path="/settings" />
       </Router>
+      <div className="nav-bottom-fade" />
       <Navigation />
+      <PageTransition />
       <UpdateNotification />
       <PWABadge />
     </>

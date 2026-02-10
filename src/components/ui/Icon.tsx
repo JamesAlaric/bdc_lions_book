@@ -1,13 +1,14 @@
-import { 
-  Home, 
-  Package, 
-  Settings, 
-  AlertTriangle, 
-  Loader2, 
-  XCircle, 
+import {
+  Home,
+  Package,
+  Settings,
+  AlertTriangle,
+  Loader2,
+  XCircle,
   CheckCircle2,
   ChevronDown,
   ChevronRight,
+  ChevronLeft,
   Wifi,
   WifiOff,
   Clock,
@@ -24,7 +25,33 @@ import {
   Award,
   Target,
   Box,
-  type LucideIcon 
+  X,
+  Beer,
+  Wine,
+  GlassWater,
+  Droplets,
+  Zap,
+  CupSoda,
+  Newspaper,
+  ReceiptText,
+  ChevronUp,
+  Tag,
+  FolderOpen,
+  Download,
+  Image,
+  FileText,
+  Palette,
+  Grid3x3,
+  LayoutGrid,
+  Eye,
+  Camera,
+  Megaphone,
+  BookOpen,
+  Bookmark,
+  DollarSign,
+  MessageCircle,
+  Briefcase,
+  type LucideIcon
 } from 'lucide-react';
 
 // Map of icon names to Lucide components
@@ -38,6 +65,7 @@ const iconMap: Record<string, LucideIcon> = {
   checkCircle: CheckCircle2,
   chevronDown: ChevronDown,
   chevronRight: ChevronRight,
+  chevronUp: ChevronUp,
   wifi: Wifi,
   wifiOff: WifiOff,
   clock: Clock,
@@ -54,6 +82,32 @@ const iconMap: Record<string, LucideIcon> = {
   award: Award,
   target: Target,
   box: Box,
+  x: X,
+  beer: Beer,
+  wine: Wine,
+  glassWater: GlassWater,
+  droplets: Droplets,
+  zap: Zap,
+  cupSoda: CupSoda,
+  newspaper: Newspaper,
+  receiptText: ReceiptText,
+  tag: Tag,
+  folderOpen: FolderOpen,
+  download: Download,
+  image: Image,
+  fileText: FileText,
+  palette: Palette,
+  grid3x3: Grid3x3,
+  eye: Eye,
+  camera: Camera,
+  megaphone: Megaphone,
+  layoutGrid: LayoutGrid,
+  bookOpen: BookOpen,
+  chevronLeft: ChevronLeft,
+  bookmark: Bookmark,
+  dollarSign: DollarSign,
+  messageCircle: MessageCircle,
+  briefcase: Briefcase,
 };
 
 export interface IconProps {
@@ -63,17 +117,17 @@ export interface IconProps {
   strokeWidth?: number;
 }
 
-export function Icon({ name, size = 24, className = '', strokeWidth = 2 }: IconProps) {
+export function Icon({ name, size = 24, className = '', strokeWidth = 2 }: Readonly<IconProps>) {
   const IconComponent = iconMap[name];
-  
+
   if (!IconComponent) {
     console.warn(`Icon "${name}" not found`);
     return null;
   }
 
   return (
-    <IconComponent 
-      size={size} 
+    <IconComponent
+      size={size}
       className={className}
       strokeWidth={strokeWidth}
     />
@@ -91,6 +145,7 @@ export {
   CheckCircle2,
   ChevronDown,
   ChevronRight,
+  ChevronUp,
   Wifi,
   WifiOff,
   Clock,
@@ -102,9 +157,35 @@ export {
   Star,
   Share2,
   CheckCircle,
-  AlertTriangleIcon,
+  AlertTriangle as AlertTriangleIcon,
   Truck,
   Award,
   Target,
   Box,
-};
+  X,
+  Beer,
+  Wine,
+  GlassWater,
+  Droplets,
+  Zap,
+  CupSoda,
+  Newspaper,
+  ReceiptText,
+  Tag,
+  FolderOpen,
+  Download,
+  Image,
+  FileText,
+  Palette,
+  Grid3x3,
+  Eye,
+  Camera,
+  Megaphone,
+  LayoutGrid,
+  BookOpen,
+  ChevronLeft,
+  Bookmark,
+  DollarSign,
+  MessageCircle,
+  Briefcase,
+} from 'lucide-react';

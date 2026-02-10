@@ -1,5 +1,5 @@
-version: 1.0.0
-generatedAt: '2026-01-30T15:16:06.969Z'
+version: 1.1.0
+generatedAt: '2026-02-06T09:00:00.000Z'
 segments:
   - id: bieres
     name: Bières
@@ -13,6 +13,9 @@ segments:
         name: BEAUFORT LAGER
       - id: beaufort-light
         name: BEAUFORT LIGHT
+      - id: beaufort-tango
+        name: BEAUFORT TANGO
+        discontinued: true
       - id: castel-beer
         name: CASTEL BEER
       - id: castle-milk-stout
@@ -29,50 +32,43 @@ segments:
         name: MANYAN
       - id: mutzig
         name: MÜTZIG
+      - id: pelforth
+        name: PELFORTH
+        discontinued: true
   - id: alcools-mix
     name: Alcools Mix
     icon: drink
     order: 2
     description: Portefeuille Alcools Mix Boissons du Cameroun
     brands:
-      - id: booster-gin-tonic
-        name: BOOSTER GIN TONIC
-      - id: booster-whisky-cola
-        name: BOOSTER WHISKY COLA
+      - id: booster-cola
+        name: BOOSTER COLA
+      - id: booster-tonic
+        name: BOOSTER TONIC
       - id: orijin
         name: ORIJIN
-      - id: smirnorff-ice-black
-        name: SMIRNORFF ICE BLACK
-      - id: smirnorff-ice-pineaple
-        name: SMIRNORFF ICE PINEAPLE
+      - id: racine
+        name: RACINE
+      - id: smirnoff-black-ice
+        name: SMIRNOFF BLACK ICE
+      - id: smirnoff-pineapple-ice
+        name: SMIRNOFF PINEAPPLE ICE
   - id: boissons-gazeuses
     name: Boissons Gazeuses
     icon: drink
     order: 3
     description: Portefeuille Boissons Gazeuses Boissons du Cameroun
     brands:
-      - id: d-jino-cocktail
-        name: D'JINO COCKTAIL
+      - id: djino
+        name: DJINO
       - id: orangina
         name: ORANGINA
-      - id: top-ananas
-        name: TOP ANANAS
-      - id: top-grenadine
-        name: TOP GRENADINE
-      - id: top-orange
-        name: TOP ORANGE
-      - id: top-pamplemousse
-        name: TOP PAMPLEMOUSSE
-      - id: top-soda
-        name: TOP SODA
-      - id: top-tonic
-        name: TOP TONIC
+      - id: top
+        name: TOP
       - id: vimto
         name: VIMTO
       - id: world-cola
         name: WORLD COLA
-      - id: xxl
-        name: XXL
       - id: youzou
         name: YOUZOU
   - id: eaux
@@ -85,7 +81,60 @@ segments:
         name: AQUABELLE
       - id: tangui-citron
         name: TANGUI CITRON
-      - id: tangui-naturelle
-        name: TANGUI NATURELLE
+      - id: tangui
+        name: TANGUI
       - id: vitale
         name: VITALE
+  - id: malts-energy-drink
+    name: Malts & Energy Drink
+    icon: drink
+    order: 5
+    description: Portefeuille Malts et boissons énergétiques Boissons du Cameroun
+    brands:
+      - id: malta-tonic
+        name: MALTA TONIC
+        discontinued: true
+      - id: xxl
+        name: XXL
+  - id: spiritueux
+    name: Spiritueux
+    icon: drink
+    order: 6
+    description: Portefeuille Spiritueux Boissons du Cameroun
+    brands:
+      - id: absolut-vodka
+        name: ABSOLUT VODKA
+      - id: ballantines
+        name: BALLANTINE'S
+      - id: chivas-regal
+        name: CHIVAS REGAL
+      - id: gh-mumm
+        name: G.H. MUMM
+      - id: jameson
+        name: JAMESON
+      - id: martell
+        name: MARTELL
+  - id: vins
+    name: Vins
+    icon: drink
+    order: 7
+    description: Portefeuille Vins Boissons du Cameroun
+    brands:
+      - id: baron-de-lestac
+        name: BARON DE LESTAC
+      - id: chateau-cavalier
+        name: CHÂTEAU CAVALIER
+      - id: chateau-de-haut-coulon
+        name: CHÂTEAU DE HAUT COULON
+      - id: chateau-du-bousquet
+        name: CHÂTEAU DU BOUSQUET
+      - id: chateau-ferrande
+        name: CHÂTEAU FERRANDE
+      - id: chateau-tour-prignac
+        name: CHÂTEAU TOUR PRIGNAC
+      - id: chateau-d-arcins
+        name: CHÂTEAU D'ARCINS
+      - id: maison-castel
+        name: MAISON CASTEL
+      - id: monbazillac
+        name: MONBAZILLAC

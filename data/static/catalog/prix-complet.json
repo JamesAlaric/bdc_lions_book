@@ -1,0 +1,2496 @@
+[
+  {
+    "segment": "BIERES",
+    "brand": "33 EXPORT",
+    "code": "EXP65C",
+    "designation": "CASIER \"33\" EXPORT 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "BA_65",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 6503.400936547119,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 782.8490634528816,
+      "taux": 0.11132901856382175
+    },
+    "detaillant": {
+      "prix_achat": 7200.000000000001,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 924.299999999999,
+      "taux": 0.12837499999999985
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 7800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "33 EXPORT",
+    "code": "EXP50C",
+    "designation": "CASIER \"33\" EXPORT 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BA_50",
+    "consigne": 3600,
+    "region": "NORD",
+    "distributeur": {
+      "prix_achat": 4827.344598518951,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 708.905401481049,
+      "taux": 0.13236232055596084
+    },
+    "detaillant": {
+      "prix_achat": 5450.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 874.3,
+      "taux": 0.16042201834862385
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "33 EXPORT",
+    "code": "EXP33C",
+    "designation": "CASIER \"33\" EXPORT 33 CL",
+    "format": "33 CL",
+    "unite": "C24",
+    "emballage": "BA_33",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 8035.795302744304,
+      "remise": 528.0,
+      "frais": 1056.9,
+      "marge": 1036.304697255698,
+      "taux": 0.1139711232755074
+    },
+    "detaillant": {
+      "prix_achat": 8800.000000000002,
+      "ristourne": 399.0,
+      "frais": 1200.0,
+      "marge": 1198.9999999999982,
+      "taux": 0.13624999999999976
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 9600
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "33 EXPORT",
+    "code": "EXP50B",
+    "designation": "CARTON \"33\" EXPORT BOITE 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 15847.100578730115,
+      "remise": 0,
+      "frais": 0,
+      "marge": 952.8994212698854,
+      "taux": 0.06013083696514562
+    },
+    "detaillant": {
+      "prix_achat": 16800.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 600.0,
+      "taux": 0.03571428571428571
+    },
+    "consommateur": {
+      "prix_unitaire": 725,
+      "prix_casier": 17400
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CASTEL BEER",
+    "code": "CAS65C",
+    "designation": "CASIER CASTEL 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "APO_65",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 6503.400936547119,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 782.8490634528816,
+      "taux": 0.11132901856382175
+    },
+    "detaillant": {
+      "prix_achat": 7200.000000000001,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 924.299999999999,
+      "taux": 0.12837499999999985
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 7800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CASTEL BEER",
+    "code": "CAS50C",
+    "designation": "CASIER CASTEL 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BA_50",
+    "consigne": 3600,
+    "region": "NORD",
+    "distributeur": {
+      "prix_achat": 4827.344598518951,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 708.905401481049,
+      "taux": 0.13236232055596084
+    },
+    "detaillant": {
+      "prix_achat": 5450.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 874.3,
+      "taux": 0.16042201834862385
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CASTEL BEER",
+    "code": "CAS33C",
+    "designation": "CASIER CASTEL 33 CL",
+    "format": "33 CL",
+    "unite": "C24",
+    "emballage": "APO_33",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 8035.795302744303,
+      "remise": 528.0,
+      "frais": 1056.9,
+      "marge": 1036.304697255699,
+      "taux": 0.1139711232755075
+    },
+    "detaillant": {
+      "prix_achat": 8800.000000000002,
+      "ristourne": 399.0,
+      "frais": 1200.0,
+      "marge": 1198.9999999999982,
+      "taux": 0.13624999999999976
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 9600
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CASTEL BEER",
+    "code": "CAS50B",
+    "designation": "CARTON CASTEL BOITE 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 15847.100578730115,
+      "remise": 0,
+      "frais": 0,
+      "marge": 952.8994212698854,
+      "taux": 0.06013083696514562
+    },
+    "detaillant": {
+      "prix_achat": 16800.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 600.0,
+      "taux": 0.03571428571428571
+    },
+    "consommateur": {
+      "prix_unitaire": 725,
+      "prix_casier": 17400
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "MÜTZIG",
+    "code": "MUT65C",
+    "designation": "CASIER MUTZIG 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "BV_65",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 6503.400936547119,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 782.8490634528816,
+      "taux": 0.11132901856382175
+    },
+    "detaillant": {
+      "prix_achat": 7200.000000000001,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 924.299999999999,
+      "taux": 0.12837499999999985
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 7800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "MÜTZIG",
+    "code": "MUT33C",
+    "designation": "CASIER MUTZIG 33 CL",
+    "format": "33 CL",
+    "unite": "C24",
+    "emballage": "BV_33",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 8035.795302744304,
+      "remise": 528.0,
+      "frais": 1056.9,
+      "marge": 1036.304697255698,
+      "taux": 0.1139711232755074
+    },
+    "detaillant": {
+      "prix_achat": 8800.000000000002,
+      "ristourne": 399.0,
+      "frais": 1200.0,
+      "marge": 1198.9999999999982,
+      "taux": 0.13624999999999976
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 9600
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "MÜTZIG",
+    "code": "MUT50B",
+    "designation": "CARTON MÜTZIG BOITE 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 15847.100578730115,
+      "remise": 0,
+      "frais": 0,
+      "marge": 952.8994212698854,
+      "taux": 0.06013083696514562
+    },
+    "detaillant": {
+      "prix_achat": 16800.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 600.0,
+      "taux": 0.03571428571428571
+    },
+    "consommateur": {
+      "prix_unitaire": 725,
+      "prix_casier": 17400
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "MANYAN",
+    "code": "MNY65C",
+    "designation": "CASIER MANYAN 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "BV_65",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 4779.524177583206,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 706.7258224167945,
+      "taux": 0.1331441711607151
+    },
+    "detaillant": {
+      "prix_achat": 5400.000000000001,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 924.299999999999,
+      "taux": 0.17116666666666647
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "MANYAN",
+    "code": "MNY50B",
+    "designation": "CARTON MANYAN BOITE 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 13114.706212532925,
+      "remise": 0,
+      "frais": 0,
+      "marge": 885.2937874670679,
+      "taux": 0.06750389777096544
+    },
+    "detaillant": {
+      "prix_achat": 13999.999999999993,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 1000.0000000000073,
+      "taux": 0.07142857142857198
+    },
+    "consommateur": {
+      "prix_unitaire": 625,
+      "prix_casier": 15000
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "ISENBECK",
+    "code": "ISE65C",
+    "designation": "CASIER ISENBECK 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "APO_65",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 7455.6849499056225,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 930.5650500943793,
+      "taux": 0.11655176871795976
+    },
+    "detaillant": {
+      "prix_achat": 8300.000000000002,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 1024.2999999999981,
+      "taux": 0.12340963855421662
+    },
+    "consommateur": {
+      "prix_unitaire": 750,
+      "prix_casier": 9000
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "ISENBECK",
+    "code": "ISE33C",
+    "designation": "CASIER ISENBECK 33 CL",
+    "format": "33 CL",
+    "unite": "C24",
+    "emballage": "APO_33",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 8655.59928125454,
+      "remise": 528.0,
+      "frais": 1056.9,
+      "marge": 1116.5007187454626,
+      "taux": 0.11495503746397673
+    },
+    "detaillant": {
+      "prix_achat": 9500.000000000002,
+      "ristourne": 399.0,
+      "frais": 1200.0,
+      "marge": 1698.9999999999982,
+      "taux": 0.17884210526315766
+    },
+    "consommateur": {
+      "prix_unitaire": 450,
+      "prix_casier": 10800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "ISENBECK",
+    "code": "ISE50B",
+    "designation": "CARTON ISENBECK BOITE 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 17762.59353647657,
+      "remise": 0,
+      "frais": 0,
+      "marge": 1037.4064635234063,
+      "taux": 0.05840399721994589
+    },
+    "detaillant": {
+      "prix_achat": 18799.999999999975,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 1000.0000000000255,
+      "taux": 0.05319148936170356
+    },
+    "consommateur": {
+      "prix_unitaire": 825,
+      "prix_casier": 19800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "BEAUFORT LAGER",
+    "code": "BFT50C",
+    "designation": "CASIER BEAUFORT LAGER 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BV_50",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 5755.684949905621,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 855.5650500943793,
+      "taux": 0.1361468295818868
+    },
+    "detaillant": {
+      "prix_achat": 6525.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 999.3,
+      "taux": 0.1531494252873563
+    },
+    "consommateur": {
+      "prix_unitaire": 600,
+      "prix_casier": 7200
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "BEAUFORT LAGER",
+    "code": "BFT33C",
+    "designation": "CASIER BEAUFORT LAGER 33 CL",
+    "format": "33 CL",
+    "unite": "C24",
+    "emballage": "BV_33",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 8035.795302744304,
+      "remise": 528.0,
+      "frais": 1056.9,
+      "marge": 1036.304697255698,
+      "taux": 0.1139711232755074
+    },
+    "detaillant": {
+      "prix_achat": 8800.000000000002,
+      "ristourne": 399.0,
+      "frais": 1200.0,
+      "marge": 1198.9999999999982,
+      "taux": 0.13624999999999976
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 9600
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "BEAUFORT LAGER",
+    "code": "BFT50B",
+    "designation": "CARTON BEAUFORT LAGER BOITE 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 15847.100578730115,
+      "remise": 0,
+      "frais": 0,
+      "marge": 952.8994212698854,
+      "taux": 0.06013083696514562
+    },
+    "detaillant": {
+      "prix_achat": 16800.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 600.0,
+      "taux": 0.03571428571428571
+    },
+    "consommateur": {
+      "prix_unitaire": 725,
+      "prix_casier": 17400
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "BEAUFORT LIGHT",
+    "code": "BFL50C",
+    "designation": "CASIER BEAUFORT LIGHT 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BV_50",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 5755.684949905621,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 855.5650500943793,
+      "taux": 0.1361468295818868
+    },
+    "detaillant": {
+      "prix_achat": 6525.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 999.3,
+      "taux": 0.1531494252873563
+    },
+    "consommateur": {
+      "prix_unitaire": 600,
+      "prix_casier": 7200
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "BEAUFORT LIGHT",
+    "code": "BFL33C",
+    "designation": "CASIER BEAUFORT LIGHT 33 CL",
+    "format": "33 CL",
+    "unite": "C24",
+    "emballage": "BV_33",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 8035.795302744304,
+      "remise": 528.0,
+      "frais": 1056.9,
+      "marge": 1036.304697255698,
+      "taux": 0.1139711232755074
+    },
+    "detaillant": {
+      "prix_achat": 8800.000000000002,
+      "ristourne": 399.0,
+      "frais": 1200.0,
+      "marge": 1198.9999999999982,
+      "taux": 0.13624999999999976
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 9600
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "BEAUFORT LIGHT",
+    "code": "BFL50B",
+    "designation": "CARTON BEAUFORT LIGHT 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 15847.100578730115,
+      "remise": 0,
+      "frais": 0,
+      "marge": 952.8994212698854,
+      "taux": 0.06013083696514562
+    },
+    "detaillant": {
+      "prix_achat": 16800.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 600.0,
+      "taux": 0.03571428571428571
+    },
+    "consommateur": {
+      "prix_unitaire": 725,
+      "prix_casier": 17400
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CHILL CITRON",
+    "code": "CHC50C",
+    "designation": "CASIER CHILL 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BV_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 4779.117706237425,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 707.1322937625755,
+      "taux": 0.1332309511438841
+    },
+    "detaillant": {
+      "prix_achat": 5400.000000000001,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 924.299999999999,
+      "taux": 0.17116666666666647
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CHILL CITRON",
+    "code": "CHC33C",
+    "designation": "CASIER CHILL 33 CL",
+    "format": "33 CL",
+    "unite": "C24",
+    "emballage": "BV_33",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 6962.354658881125,
+      "remise": 528.0,
+      "frais": 1056.9,
+      "marge": 1009.7453411188776,
+      "taux": 0.12591511107589154
+    },
+    "detaillant": {
+      "prix_achat": 7700.000000000003,
+      "ristourne": 399.0,
+      "frais": 1200.0,
+      "marge": 1098.9999999999973,
+      "taux": 0.14272727272727231
+    },
+    "consommateur": {
+      "prix_unitaire": 350,
+      "prix_casier": 8400
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CHILL CITRON",
+    "code": "CHC50B",
+    "designation": "CARTON CHILL BOITE 50",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 14724.867178327699,
+      "remise": 0,
+      "frais": 0,
+      "marge": 925.1328216723014,
+      "taux": 0.06282792302764721
+    },
+    "detaillant": {
+      "prix_achat": 15650.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 1150.0,
+      "taux": 0.07348242811501597
+    },
+    "consommateur": {
+      "prix_unitaire": 700,
+      "prix_casier": 16800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "DOPPEL",
+    "code": "DOP65C",
+    "designation": "CASIER DOPPEL MUNICH 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "BA_65",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 6503.400936547119,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 782.8490634528816,
+      "taux": 0.11132901856382175
+    },
+    "detaillant": {
+      "prix_achat": 7200.000000000001,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 924.299999999999,
+      "taux": 0.12837499999999985
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 7800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "DOPPEL",
+    "code": "DOL65C",
+    "designation": "CASIER DOPPEL LAGER 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "BA_65",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 10090.493803024337,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 995.7561969756662,
+      "taux": 0.09377167969304714
+    },
+    "detaillant": {
+      "prix_achat": 11000.000000000004,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 1324.2999999999963,
+      "taux": 0.12039090909090872
+    },
+    "consommateur": {
+      "prix_unitaire": 1000,
+      "prix_casier": 12000
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "CASTLE MILK STOUT",
+    "code": "CMS50C",
+    "designation": "CASIER CASTLE MILK STOUT 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BA_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 6330.332837229565,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 880.9171627704354,
+      "taux": 0.12843636891210572
+    },
+    "detaillant": {
+      "prix_achat": 7125.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 999.3,
+      "taux": 0.14025263157894735
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 7800
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "HEINEKEN",
+    "code": "HEI33V",
+    "designation": "CARTON HEINEKEN BOUTEILLES 33",
+    "format": "33 CL",
+    "unite": "V24",
+    "emballage": "Verre Perdu",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 17184.806841046273,
+      "remise": 0,
+      "frais": 0,
+      "marge": 715.1931589537235,
+      "taux": 0.04161775954591876
+    },
+    "detaillant": {
+      "prix_achat": 17899.999999999996,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 1300.0000000000036,
+      "taux": 0.07262569832402256
+    },
+    "consommateur": {
+      "prix_unitaire": 800,
+      "prix_casier": 19200
+    }
+  },
+  {
+    "segment": "BIERES",
+    "brand": "HEINEKEN",
+    "code": "HEI50B",
+    "designation": "CARTON HEINEKEN BOITES 50 CL",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 20209.957746478816,
+      "remise": 0,
+      "frais": 0,
+      "marge": 790.0422535211255,
+      "taux": 0.039091732077409944
+    },
+    "detaillant": {
+      "prix_achat": 20999.99999999994,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 1800.0000000000582,
+      "taux": 0.08571428571428873
+    },
+    "consommateur": {
+      "prix_unitaire": 950,
+      "prix_casier": 22800
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "BOOSTER WHISKY COLA",
+    "code": "BWC50C",
+    "designation": "CASIER BOOSTER WHISKY COLA 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 6323.6583418034,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 762.5916581966003,
+      "taux": 0.11129299482090421
+    },
+    "detaillant": {
+      "prix_achat": 7000.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 1124.3,
+      "taux": 0.1606142857142857
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 7800
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "BOOSTER WHISKY COLA",
+    "code": "BWC50B",
+    "designation": "CARTON BOOSTER WHISKY COLA BOITES 50 CL",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 16102.063929971577,
+      "remise": 0,
+      "frais": 0,
+      "marge": 1297.936070028416,
+      "taux": 0.08060681386393596
+    },
+    "detaillant": {
+      "prix_achat": 17399.999999999993,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 600.0000000000073,
+      "taux": 0.034482758620690085
+    },
+    "consommateur": {
+      "prix_unitaire": 750,
+      "prix_casier": 18000
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "BOOSTER WHISKY COLA",
+    "code": "BWC65C",
+    "designation": "CASIER BOOSTER WHISKY COLA 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "BB_65",
+    "consigne": 3600,
+    "region": "CENTRE",
+    "distributeur": {
+      "prix_achat": 8958.467194922112,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 827.782805077888,
+      "taux": 0.08725519450311636
+    },
+    "detaillant": {
+      "prix_achat": 9700.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 1424.3,
+      "taux": 0.14683505154639176
+    },
+    "consommateur": {
+      "prix_unitaire": 900,
+      "prix_casier": 10800
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "BOOSTER GIN TONIC",
+    "code": "BGT50C",
+    "designation": "CASIER BOOSTER GIN TONIC 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 6323.6583418034,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 762.5916581966003,
+      "taux": 0.11129299482090421
+    },
+    "detaillant": {
+      "prix_achat": 7000.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 1124.3,
+      "taux": 0.1606142857142857
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 7800
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "BOOSTER GIN TONIC",
+    "code": "BGT65C",
+    "designation": "CASIER BOOSTER GIN TONIC 65 CL",
+    "format": "65 CL",
+    "unite": "C12",
+    "emballage": "BB_65",
+    "consigne": 3600,
+    "region": "CENTRE",
+    "distributeur": {
+      "prix_achat": 8958.467194922112,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 827.782805077888,
+      "taux": 0.08725519450311636
+    },
+    "detaillant": {
+      "prix_achat": 9700.0,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 1424.3,
+      "taux": 0.14683505154639176
+    },
+    "consommateur": {
+      "prix_unitaire": 900,
+      "prix_casier": 10800
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "SMIRNORFF ICE PINEAPLE",
+    "code": "SMP50CP",
+    "designation": "CASIER SMIRNORFF ICE PINEAPLE 50 CL PROMO",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "CENTRE",
+    "distributeur": {
+      "prix_achat": 8948.959926310445,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 827.5475736895569,
+      "taux": 0.08731790437724804
+    },
+    "detaillant": {
+      "prix_achat": 9690.257500000002,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 2034.0424999999984,
+      "taux": 0.2099059287124205
+    },
+    "consommateur": {
+      "prix_unitaire": 950,
+      "prix_casier": 11400
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "SMIRNORFF ICE PINEAPLE",
+    "code": "SMP50BP",
+    "designation": "CARTON SMIRNORFF ICE PINEAPLE 50 CL PROMO",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 23124.49853761746,
+      "remise": 0,
+      "frais": 0,
+      "marge": 1215.501462382541,
+      "taux": 0.05256336522953095
+    },
+    "detaillant": {
+      "prix_achat": 24340.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 2060.0,
+      "taux": 0.08463434675431389
+    },
+    "consommateur": {
+      "prix_unitaire": 1100,
+      "prix_casier": 26400
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "SMIRNORFF ICE BLACK",
+    "code": "SMB50CP",
+    "designation": "CASIER SMIRNORFF ICE BLACK 50 CL PROMO",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "CENTRE",
+    "distributeur": {
+      "prix_achat": 8948.959926310445,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 827.5475736895569,
+      "taux": 0.08731790437724804
+    },
+    "detaillant": {
+      "prix_achat": 9690.257500000002,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 2034.0424999999984,
+      "taux": 0.2099059287124205
+    },
+    "consommateur": {
+      "prix_unitaire": 950,
+      "prix_casier": 11400
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "SMIRNORFF ICE BLACK",
+    "code": "SMB50BP",
+    "designation": "CARTON SMIRNORFF ICE BLACK  50 CL PROMO",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 23124.49853761746,
+      "remise": 0,
+      "frais": 0,
+      "marge": 1215.501462382541,
+      "taux": 0.05256336522953095
+    },
+    "detaillant": {
+      "prix_achat": 24340.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 2060.0,
+      "taux": 0.08463434675431389
+    },
+    "consommateur": {
+      "prix_unitaire": 1100,
+      "prix_casier": 26400
+    }
+  },
+  {
+    "segment": "ALCOOL MIX",
+    "brand": "ORIJIN",
+    "code": "ORI50CP",
+    "designation": "CASIER ORIJIN 50 CL PROMO",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "OUEST",
+    "distributeur": {
+      "prix_achat": 5738.145263332575,
+      "remise": 339.0,
+      "frais": 528.45,
+      "marge": 748.1047366674256,
+      "taux": 0.11937977565661127
+    },
+    "detaillant": {
+      "prix_achat": 6400.000000000001,
+      "ristourne": 324.3,
+      "frais": 600.0,
+      "marge": 1124.299999999999,
+      "taux": 0.17567187499999984
+    },
+    "consommateur": {
+      "prix_unitaire": 600,
+      "prix_casier": 7200
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP ANANAS",
+    "code": "TPA50C",
+    "designation": "CASIER TOP ANANAS 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2530.917373657755,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 489.082626342245,
+      "taux": 0.1932432213839556
+    },
+    "detaillant": {
+      "prix_achat": 3100.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.22580645161290322
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP ANANAS",
+    "code": "TPA10P",
+    "designation": "PACK TOP ANANAS PET 100 CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2338.28517496733,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 261.71482503267,
+      "taux": 0.11192596516219482
+    },
+    "detaillant": {
+      "prix_achat": 2600.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 500.0,
+      "taux": 0.19230769230769232
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 3000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP ANANAS",
+    "code": "TPA35P",
+    "designation": "PACK 12 TOP ANANAS PET 35 CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2751.7549005372457,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 208.2450994627552,
+      "taux": 0.07567719763925848
+    },
+    "detaillant": {
+      "prix_achat": 3000.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999991,
+      "taux": 0.23333333333333295
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP PAMPLEMOUSSE",
+    "code": "TPP50C",
+    "designation": "CASIER TOP PAMPLEMOUSSE 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2530.917373657755,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 489.082626342245,
+      "taux": 0.1932432213839556
+    },
+    "detaillant": {
+      "prix_achat": 3100.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.22580645161290322
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP PAMPLEMOUSSE",
+    "code": "TPP10P",
+    "designation": "PACK TOP PAMPLEMOUSSE PET 100 CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2338.28517496733,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 261.71482503267,
+      "taux": 0.11192596516219482
+    },
+    "detaillant": {
+      "prix_achat": 2600.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 500.0,
+      "taux": 0.19230769230769232
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 3000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP PAMPLEMOUSSE",
+    "code": "TPP35P",
+    "designation": "PACK 12 TOP PAMPLEMOUSSE PET35CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2751.7549005372457,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 208.2450994627552,
+      "taux": 0.07567719763925848
+    },
+    "detaillant": {
+      "prix_achat": 3000.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999991,
+      "taux": 0.23333333333333295
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP GRENADINE",
+    "code": "TPG50C",
+    "designation": "CASIER TOP GRENADINE 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2530.917373657755,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 489.082626342245,
+      "taux": 0.1932432213839556
+    },
+    "detaillant": {
+      "prix_achat": 3100.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.22580645161290322
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP GRENADINE",
+    "code": "TPG10P",
+    "designation": "PACK TOP GRENADINE PET 100 CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2338.28517496733,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 261.71482503267,
+      "taux": 0.11192596516219482
+    },
+    "detaillant": {
+      "prix_achat": 2600.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 500.0,
+      "taux": 0.19230769230769232
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 3000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP GRENADINE",
+    "code": "TPG35P",
+    "designation": "PACK 6 TOP GRENADINE PET 35 CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2751.7549005372457,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 208.2450994627552,
+      "taux": 0.07567719763925848
+    },
+    "detaillant": {
+      "prix_achat": 3000.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999991,
+      "taux": 0.23333333333333295
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP ORANGE",
+    "code": "TPO50C",
+    "designation": "CASIER TOP ORANGE 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2530.917373657755,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 489.082626342245,
+      "taux": 0.1932432213839556
+    },
+    "detaillant": {
+      "prix_achat": 3100.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.22580645161290322
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP ORANGE",
+    "code": "TPO10P",
+    "designation": "PACK TOP ORANGE PET 100 CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2751.7549005372457,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 248.2450994627552,
+      "taux": 0.09021337598573494
+    },
+    "detaillant": {
+      "prix_achat": 3000.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999991,
+      "taux": 0.23333333333333295
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP ORANGE",
+    "code": "TPO35P",
+    "designation": "PACK 6 TOP ORANGE PET 35 CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2751.7549005372457,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 208.2450994627552,
+      "taux": 0.07567719763925848
+    },
+    "detaillant": {
+      "prix_achat": 3000.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999991,
+      "taux": 0.23333333333333295
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "D'JINO COCKTAIL",
+    "code": "DJC60C",
+    "designation": "CASIER D'JINO COCKTAIL 60 CL",
+    "format": "60 CL",
+    "unite": "C12",
+    "emballage": "MB_60",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 4211.153622767534,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 608.8463772324658,
+      "taux": 0.1445794743608373
+    },
+    "detaillant": {
+      "prix_achat": 4900.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 1300.0,
+      "taux": 0.2653061224489796
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "D'JINO COCKTAIL",
+    "code": "DJC10P",
+    "designation": "PACK 6 D'JINO COCKTAIL FRUITS PET 100CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3164.0046464353136,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 350.99535356468687,
+      "taux": 0.11093389321034386
+    },
+    "detaillant": {
+      "prix_achat": 3515.0000000000005,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 484.99999999999955,
+      "taux": 0.13798008534850625
+    },
+    "consommateur": {
+      "prix_unitaire": 650,
+      "prix_casier": 3900
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "D'JINO COCKTAIL",
+    "code": "DJC35P",
+    "designation": "PACK 12 D'JINO COCKTAIL FRUITS",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3326.4027878611887,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 233.59721213881176,
+      "taux": 0.07022517326863177
+    },
+    "detaillant": {
+      "prix_achat": 3600.0000000000005,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999995,
+      "taux": 0.19444444444444428
+    },
+    "consommateur": {
+      "prix_unitaire": 350,
+      "prix_casier": 4200
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "ORANGINA",
+    "code": "ORG60C",
+    "designation": "CASIER ORANGINA 60 CL",
+    "format": "60 CL",
+    "unite": "C12",
+    "emballage": "MB_60",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 4211.153622767534,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 608.8463772324658,
+      "taux": 0.1445794743608373
+    },
+    "detaillant": {
+      "prix_achat": 4900.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 1300.0,
+      "taux": 0.2653061224489796
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "ORANGINA",
+    "code": "ORG10P",
+    "designation": "PACK 6 ORANGINA PET 100CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3765.873675039932,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 349.1263249600688,
+      "taux": 0.09270792253974552
+    },
+    "detaillant": {
+      "prix_achat": 4115.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 5584.999999999999,
+      "taux": 1.3572296476306192
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 9600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "ORANGINA",
+    "code": "ORG35P",
+    "designation": "PACK 12 ORANGINA PET 35CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3901.296175185132,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 258.70382481486786,
+      "taux": 0.06631227499731966
+    },
+    "detaillant": {
+      "prix_achat": 4200.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.16666666666666666
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 4800
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "VIMTO",
+    "code": "VIM60C",
+    "designation": "CASIER VIMTO 60 CL",
+    "format": "60 CL",
+    "unite": "C12",
+    "emballage": "MB_60",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 4211.153622767534,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 608.8463772324658,
+      "taux": 0.1445794743608373
+    },
+    "detaillant": {
+      "prix_achat": 4900.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 1300.0,
+      "taux": 0.2653061224489796
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "VIMTO",
+    "code": "VIM10P",
+    "designation": "PACK 6 VIMTO PET 100CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3765.873675039932,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 314.1263249600679,
+      "taux": 0.08341393048898195
+    },
+    "detaillant": {
+      "prix_achat": 4080.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 520.0,
+      "taux": 0.12745098039215685
+    },
+    "consommateur": {
+      "prix_unitaire": 750,
+      "prix_casier": 4500
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "VIMTO",
+    "code": "VIM35P",
+    "designation": "PACK 12 VIMTO PET 35CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3901.050675185132,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 258.94932481486785,
+      "taux": 0.06637937990963906
+    },
+    "detaillant": {
+      "prix_achat": 4200.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.16666666666666666
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 4800
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "WORLD COLA",
+    "code": "WCO50C",
+    "designation": "CASIER WORLD COLA 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2530.48423876593,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 489.51576123406994,
+      "taux": 0.19344746500883073
+    },
+    "detaillant": {
+      "prix_achat": 3100.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.22580645161290322
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "WORLD COLA",
+    "code": "WCO10P",
+    "designation": "PACK WORLD COLA PET 100 CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2876.6807027733425,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 338.31929722665836,
+      "taux": 0.11760752484642888
+    },
+    "detaillant": {
+      "prix_achat": 3215.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 484.9999999999991,
+      "taux": 0.1508553654743387
+    },
+    "consommateur": {
+      "prix_unitaire": 600,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "WORLD COLA",
+    "code": "WCO35P",
+    "designation": "PACK 12 WORLD COLA PET 35 CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2751.7549005372457,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 208.2450994627552,
+      "taux": 0.07567719763925848
+    },
+    "detaillant": {
+      "prix_achat": 3000.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999991,
+      "taux": 0.23333333333333295
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "YOUZOU",
+    "code": "YOU50C",
+    "designation": "CASIER YOUZOU 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2530.48423876593,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 489.51576123406994,
+      "taux": 0.19344746500883073
+    },
+    "detaillant": {
+      "prix_achat": 3100.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.22580645161290322
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "YOUZOU",
+    "code": "YOU10P",
+    "designation": "PACK YOUZOU PET 100 CL",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2876.6807027733425,
+      "remise": 100.0,
+      "frais": 0,
+      "marge": 338.31929722665836,
+      "taux": 0.11760752484642888
+    },
+    "detaillant": {
+      "prix_achat": 3215.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 484.9999999999991,
+      "taux": 0.1508553654743387
+    },
+    "consommateur": {
+      "prix_unitaire": 600,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "YOUZOU",
+    "code": "YOU35P",
+    "designation": "PACK 12 YOUZOU PET 35 CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3239.6824659295994,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 220.31753407040196,
+      "taux": 0.06800590378451911
+    },
+    "detaillant": {
+      "prix_achat": 3500.0000000000014,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 199.99999999999864,
+      "taux": 0.05714285714285673
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP SODA",
+    "code": "SOD60C",
+    "designation": "CASIER SODA WATER 60 CL",
+    "format": "60 CL",
+    "unite": "C12",
+    "emballage": "MB_60",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2160.1923914621752,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 359.80760853782476,
+      "taux": 0.16656276077996962
+    },
+    "detaillant": {
+      "prix_achat": 2600.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 600.0,
+      "taux": 0.23076923076923078
+    },
+    "consommateur": {
+      "prix_unitaire": 250,
+      "prix_casier": 3000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP SODA",
+    "code": "SOD35P",
+    "designation": "PACK 12 SODA WATER 35 CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2242.8428301769386,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 217.1571698230614,
+      "taux": 0.09682228594053102
+    },
+    "detaillant": {
+      "prix_achat": 2500.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 600.0,
+      "taux": 0.24
+    },
+    "consommateur": {
+      "prix_unitaire": 250,
+      "prix_casier": 3000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP TONIC",
+    "code": "TPT50C",
+    "designation": "CASIER TOP TONIC 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 2530.48423876593,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 489.51576123406994,
+      "taux": 0.19344746500883073
+    },
+    "detaillant": {
+      "prix_achat": 3100.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 700.0,
+      "taux": 0.22580645161290322
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "TOP TONIC",
+    "code": "TPT35P",
+    "designation": "PACK 12 TOPTONIC 35 CL",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 2751.565392354126,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 208.43460764587508,
+      "taux": 0.07575128260627927
+    },
+    "detaillant": {
+      "prix_achat": 3000.000000000001,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 699.9999999999991,
+      "taux": 0.23333333333333295
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 3600
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "XXL",
+    "code": "XXL50C",
+    "designation": "CASIER XXL 50 CL",
+    "format": "50 CL",
+    "unite": "C12",
+    "emballage": "BB_50",
+    "consigne": 3600,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 4211.153622767534,
+      "remise": 120.0,
+      "frais": 0,
+      "marge": 608.8463772324658,
+      "taux": 0.1445794743608373
+    },
+    "detaillant": {
+      "prix_achat": 4900.0,
+      "ristourne": 200.0,
+      "frais": 0,
+      "marge": 1300.0,
+      "taux": 0.2653061224489796
+    },
+    "consommateur": {
+      "prix_unitaire": 500,
+      "prix_casier": 6000
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "XXL",
+    "code": "XXL50BP",
+    "designation": "CARTON XXL BOITES 50 CL",
+    "format": "50 CL",
+    "unite": "B24",
+    "emballage": "BOÎTE 50",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 12296.309402808605,
+      "remise": 0,
+      "frais": 0,
+      "marge": 1003.6905971913948,
+      "taux": 0.08162535312930085
+    },
+    "detaillant": {
+      "prix_achat": 13300.0,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 1100.0,
+      "taux": 0.08270676691729323
+    },
+    "consommateur": {
+      "prix_unitaire": 600,
+      "prix_casier": 14400
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "XXL",
+    "code": "XXL35P",
+    "designation": "PACK 12 XXL  PET 35 CL ",
+    "format": "35 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "TOUS",
+    "distributeur": {
+      "prix_achat": 3644.9353855089325,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 385.06461449106973,
+      "taux": 0.10564374227920756
+    },
+    "detaillant": {
+      "prix_achat": 4070.0000000000023,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 829.9999999999977,
+      "taux": 0.20393120393120326
+    },
+    "consommateur": {
+      "prix_unitaire": 400,
+      "prix_casier": 4800
+    }
+  },
+  {
+    "segment": "BOISSONS GAZEUSES ",
+    "brand": "XXL",
+    "code": "XXL05P",
+    "designation": "PACK 06 XXL  PET 50 CL ",
+    "format": "50 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "NORD",
+    "distributeur": {
+      "prix_achat": 5980.292683938684,
+      "remise": 60.0,
+      "frais": 0,
+      "marge": 489.7073160613163,
+      "taux": 0.08188684767495191
+    },
+    "detaillant": {
+      "prix_achat": 6510.0,
+      "ristourne": 100.0,
+      "frais": 0,
+      "marge": 790.0,
+      "taux": 0.12135176651305683
+    },
+    "consommateur": {
+      "prix_unitaire": 600,
+      "prix_casier": 7200
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "VITALE",
+    "code": "VIT15P",
+    "designation": "EAU VITALE 150 CL",
+    "format": "150 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1090.7611569416501,
+      "remise": 0,
+      "frais": 0,
+      "marge": 109.23884305835008,
+      "taux": 0.10014918698117316
+    },
+    "detaillant": {
+      "prix_achat": 1200.0000000000002,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 199.99999999999977,
+      "taux": 0.16666666666666644
+    },
+    "consommateur": {
+      "prix_unitaire": 250,
+      "prix_casier": 1400
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "VITALE",
+    "code": "VIT10J",
+    "designation": "BIDON EAU VITALE 10L ",
+    "format": "1000 CL",
+    "unite": "J10",
+    "emballage": "BIDON",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 830.05325,
+      "remise": 0,
+      "frais": 0,
+      "marge": 119.93740000000003,
+      "taux": 0.1444936213429681
+    },
+    "detaillant": {
+      "prix_achat": 949.9906500000001,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 250.00934999999993,
+      "taux": 0.2631703269921656
+    },
+    "consommateur": {
+      "prix_unitaire": 1200,
+      "prix_casier": 1200
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "VITALE",
+    "code": "VIT05P",
+    "designation": "PACK SOURCE VITALE 50 CL ",
+    "format": "50 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1383.7826961770536,
+      "remise": 0,
+      "frais": 0,
+      "marge": 116.21730382293708,
+      "taux": 0.08398522697531058
+    },
+    "detaillant": {
+      "prix_achat": 1499.9999999999907,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 300.0000000000093,
+      "taux": 0.20000000000000745
+    },
+    "consommateur": {
+      "prix_unitaire": 150,
+      "prix_casier": 1800
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "TANGUI NATURELLE",
+    "code": "TGI18P",
+    "designation": "PACK SOURCE TANGUI 180 CL",
+    "format": "180 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1394.9376257545275,
+      "remise": 0,
+      "frais": 0,
+      "marge": 140.0623742454727,
+      "taux": 0.10040762515794381
+    },
+    "detaillant": {
+      "prix_achat": 1535.0000000000002,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 264.9999999999998,
+      "taux": 0.17263843648208452
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 1800
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "TANGUI NATURELLE",
+    "code": "TGI15P",
+    "designation": "PACK SOURCE TANGUI 150 CL",
+    "format": "150 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1309.9875,
+      "remise": 0,
+      "frais": 0,
+      "marge": 140.01,
+      "taux": 0.10687888243208427
+    },
+    "detaillant": {
+      "prix_achat": 1449.9975,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 250.00250000000005,
+      "taux": 0.17241581451002505
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 1700
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "TANGUI NATURELLE",
+    "code": "TGI10P",
+    "designation": "PACK SOURCE TANGUI 100 CL ",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1062.2334004024149,
+      "remise": 0,
+      "frais": 0,
+      "marge": 87.76659959758535,
+      "taux": 0.08262459038130038
+    },
+    "detaillant": {
+      "prix_achat": 1150.0000000000002,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 49.99999999999977,
+      "taux": 0.04347826086956501
+    },
+    "consommateur": {
+      "prix_unitaire": 200,
+      "prix_casier": 1200
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "TANGUI NATURELLE",
+    "code": "TGI05P",
+    "designation": "PACK SOURCE TANGUI 50 CL ",
+    "format": "50 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 945.8551307847088,
+      "remise": 0,
+      "frais": 0,
+      "marge": 54.144869215291465,
+      "taux": 0.05724435746346411
+    },
+    "detaillant": {
+      "prix_achat": 1000.0000000000002,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 99.99999999999977,
+      "taux": 0.09999999999999976
+    },
+    "consommateur": {
+      "prix_unitaire": 200,
+      "prix_casier": 1100
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "TANGUI NATURELLE",
+    "code": "TGI33P",
+    "designation": "PACK SOURCE TANGUI 33 CL ",
+    "format": "33 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1043.4406438631795,
+      "remise": 0,
+      "frais": 0,
+      "marge": 56.559356136820725,
+      "taux": 0.05420467035615783
+    },
+    "detaillant": {
+      "prix_achat": 1100.0000000000002,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 99.99999999999977,
+      "taux": 0.09090909090909069
+    },
+    "consommateur": {
+      "prix_unitaire": 100,
+      "prix_casier": 1200
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "TANGUI CITRON",
+    "code": "TCI10P",
+    "designation": "PACK SOURCE TANGUI AROMATISEES 1.0L ",
+    "format": "100 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1615.8422082494972,
+      "remise": 0,
+      "frais": 0,
+      "marge": 91.15779175050261,
+      "taux": 0.056415033154293755
+    },
+    "detaillant": {
+      "prix_achat": 1706.9999999999998,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 393.0000000000002,
+      "taux": 0.23022847100175764
+    },
+    "consommateur": {
+      "prix_unitaire": 350,
+      "prix_casier": 2100
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "AQUABELLE",
+    "code": "AQB05P",
+    "designation": "PACK EAU AQUABELLE 50 CL",
+    "format": "50 CL",
+    "unite": "P12",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1305.5754527162976,
+      "remise": 0,
+      "frais": 0,
+      "marge": 244.42454728370194,
+      "taux": 0.18721594893283855
+    },
+    "detaillant": {
+      "prix_achat": 1549.9999999999995,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 250.00000000000045,
+      "taux": 0.1612903225806455
+    },
+    "consommateur": {
+      "prix_unitaire": 150,
+      "prix_casier": 1800
+    }
+  },
+  {
+    "segment": "EAUX ",
+    "brand": "AQUABELLE",
+    "code": "AQB15PP",
+    "designation": "PACK EAU AQUABELLE PROMO 150 CL",
+    "format": "150 CL",
+    "unite": "P06",
+    "emballage": "PET",
+    "consigne": 0,
+    "region": "SUD",
+    "distributeur": {
+      "prix_achat": 1109.1971830985917,
+      "remise": 0,
+      "frais": 0,
+      "marge": 290.8028169014085,
+      "taux": 0.2621741393978642
+    },
+    "detaillant": {
+      "prix_achat": 1400.0000000000002,
+      "ristourne": 0,
+      "frais": 0,
+      "marge": 399.9999999999998,
+      "taux": 0.28571428571428553
+    },
+    "consommateur": {
+      "prix_unitaire": 300,
+      "prix_casier": 1800
+    }
+  }
+]

@@ -15,7 +15,7 @@ export async function getVersionInfo(): Promise<VersionInfo> {
 
   return {
     current: packageJson.version,
-    previous: versions[versions.length - 2] || null,
+    previous: versions.at(-2) ?? null,
     canRollback: versions.length >= 2,
     versions,
   };
@@ -37,11 +37,11 @@ export async function rollbackToPreviousVersion(): Promise<void> {
       await registration.unregister();
     }
 
-    const cacheNames = await window.caches.keys();
+    const cacheNames = await globalThis.caches.keys();
     for (const cacheName of cacheNames) {
       if (!cacheName.includes(previous)) {
         console.log('Deleting cache:', cacheName);
-        await window.caches.delete(cacheName);
+        await globalThis.caches.delete(cacheName);
       }
     }
 
@@ -51,7 +51,7 @@ export async function rollbackToPreviousVersion(): Promise<void> {
 
     console.log(`Rollback to v${previous} completed. Reloading...`);
     
-    window.location.reload();
+    globalThis.location.reload();
   } catch (error) {
     console.error('Rollback failed:', error);
     throw new Error(`Rollback failed: ${error}`);
