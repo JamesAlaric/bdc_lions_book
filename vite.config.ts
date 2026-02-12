@@ -1,9 +1,13 @@
 import { VitePWA } from 'vite-plugin-pwa';
 import { defineConfig } from 'vite'
 import preact from '@preact/preset-vite'
+import { version } from './package.json'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    __APP_VERSION__: JSON.stringify(version),
+  },
   plugins: [
     preact({
       babel: {
@@ -57,7 +61,7 @@ export default defineConfig({
       },
 
       workbox: {
-        globPatterns: ['**/*.{js,css,svg,png,ico,woff2}'],
+        globPatterns: ['**/*.{js,css,svg,png,ico,woff2,yaml,json,webp}'],
         additionalManifestEntries: [
           { url: '/offline.html', revision: null }
         ],
@@ -72,6 +76,20 @@ export default defineConfig({
                 maxAgeSeconds: 60 * 60 * 24 * 7 // 7 days
               },
               networkTimeoutSeconds: 3,
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            urlPattern: /\.ya?ml$/,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'yaml-cache',
+              expiration: {
+                maxEntries: 30,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+              },
               cacheableResponse: {
                 statuses: [0, 200]
               }

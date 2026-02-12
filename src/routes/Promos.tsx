@@ -105,7 +105,8 @@ export function Promos(_props: RouteProps) {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-bdc-black transition-colors duration-300 pt-12 pb-24">
       {/* Sub-header */}
-      <header className="sticky top-12 z-40 bg-white/70 dark:bg-bdc-black/70 backdrop-blur-2xl border-b border-black/[0.04] dark:border-white/[0.06]">
+      <header className="sticky top-12 z-40 bg-white/70 dark:bg-bdc-black/70 backdrop-blur-2xl relative">
+        <div className="absolute left-0 right-0 top-full h-6 pointer-events-none bg-gradient-to-b from-white/70 dark:from-[rgba(20,20,20,0.7)] to-transparent" />
         <div className="w-full px-4 h-12 flex items-center justify-center">
           <span className="text-sm font-bold text-bdc-black dark:text-white font-display">
             Promos & Actualites

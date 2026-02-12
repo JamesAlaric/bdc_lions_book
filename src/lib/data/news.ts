@@ -84,7 +84,7 @@ export function getAllNews(): NewsItem[] {
   allItems.sort((a, b) => {
     const [aMonth, aYear] = a.date.split(' ');
     const [bMonth, bYear] = b.date.split(' ');
-    const yearDiff = parseInt(bYear) - parseInt(aYear);
+    const yearDiff = Number.parseInt(bYear) - Number.parseInt(aYear);
     if (yearDiff !== 0) return yearDiff;
     return (monthOrder[bMonth] || 0) - (monthOrder[aMonth] || 0);
   });
@@ -95,5 +95,5 @@ export function getAllNews(): NewsItem[] {
 export function getAllTags(): string[] {
   const allNews = getAllNews();
   const tags = new Set(allNews.map((n) => n.tag).filter(Boolean) as string[]);
-  return Array.from(tags).sort();
+  return Array.from(tags).sort((a, b) => a.localeCompare(b));
 }

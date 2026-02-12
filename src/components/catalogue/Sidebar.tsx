@@ -15,7 +15,7 @@ export function Sidebar({
   onSegmentChange, 
   expandedSegments, 
   onToggleSegment 
-}: SidebarProps) {
+}: Readonly<SidebarProps>) {
   return (
     <aside className="w-72 bg-white border-r border-gray-100 h-full sticky top-16">
       <div className="p-6">

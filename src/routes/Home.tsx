@@ -7,7 +7,7 @@ import { getAllNews, type NewsItem } from '../lib/data/news';
 import { Search, BookOpen, DollarSign, MessageCircle, Bookmark, FileText, Settings } from '../components/ui/Icon';
 import { gsap } from 'gsap';
 
-export function Home(_props: RouteProps) {
+export function Home(_props: Readonly<RouteProps>) {
   const [searchQuery, setSearchQuery] = useState('');
   const [brands, setBrands] = useState<Brand[]>([]);
   const [news, setNews] = useState<NewsItem[]>([]);
@@ -103,6 +103,7 @@ export function Home(_props: RouteProps) {
               />
             </div>
           </form>
+          <div className="absolute left-0 right-0 top-full h-6 pointer-events-none bg-gradient-to-b from-white/60 dark:from-bdc-black/60 to-transparent" />
         </div>
 
         {/* HERO: News carousel with frosted glass transition */}
@@ -121,8 +122,8 @@ export function Home(_props: RouteProps) {
                   }
                 }}
               >
-                {featured.map((item, i) => (
-                  <div key={i} className="flex-shrink-0 w-full snap-center">
+                {featured.map((item) => (
+                  <div key={item.title} className="flex-shrink-0 w-full snap-center">
                     <button
                       className="relative w-full h-[360px] rounded-3xl overflow-hidden text-left"
                       onClick={() => setNewsDialog(item)}
@@ -193,9 +194,9 @@ export function Home(_props: RouteProps) {
 
                         {/* Carousel dots — inside the card, above frosted zone */}
                         <div className="flex items-center gap-1.5 mt-3">
-                          {featured.map((_, di) => (
+                          {featured.map((dot, di) => (
                             <span
-                              key={di}
+                              key={dot.title}
                               className={`rounded-full transition-all duration-300 ${
                                 di === heroIndex
                                   ? 'w-5 h-1.5 bg-bdc-blue'
@@ -304,11 +305,15 @@ export function Home(_props: RouteProps) {
       {newsDialog && (
         <div
           className="fixed inset-0 z-[100] bg-black/50 backdrop-blur-sm flex items-end justify-center p-4"
-          onClick={() => setNewsDialog(null)}
         >
+          <button
+            className="absolute inset-0 w-full h-full cursor-default"
+            onClick={() => setNewsDialog(null)}
+            aria-label="Fermer"
+            tabIndex={-1}
+          />
           <div
-            className="w-full max-w-sm bg-white dark:bg-[#1c1c1e] rounded-2xl overflow-hidden shadow-2xl animate-scale-in"
-            onClick={(e) => e.stopPropagation()}
+            className="relative w-full max-w-sm bg-white dark:bg-[#1c1c1e] rounded-2xl overflow-hidden shadow-2xl animate-scale-in"
           >
             {/* Preview */}
             <div className="p-5 border-b border-gray-100 dark:border-white/10">

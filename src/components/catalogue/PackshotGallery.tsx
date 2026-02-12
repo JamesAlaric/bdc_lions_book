@@ -16,7 +16,7 @@ interface PackshotGalleryProps {
   onPackshotSelect: (packshot: Packshot) => void;
 }
 
-export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect }: PackshotGalleryProps) {
+export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect }: Readonly<PackshotGalleryProps>) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [scrollY, setScrollY] = useState(0);
 

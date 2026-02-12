@@ -841,7 +841,8 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
   return (
     <div className="min-h-screen font-sans bg-gray-50 dark:bg-bdc-black transition-colors duration-300">
       {/* Sticky Sub-Header */}
-      <div className="sticky top-12 z-[55] bg-white/80 dark:bg-bdc-black/80 backdrop-blur-2xl border-b border-black/[0.04] dark:border-white/[0.06]">
+      <div className="sticky top-12 z-[55] bg-white/80 dark:bg-bdc-black/80 backdrop-blur-2xl relative">
+        <div className="absolute left-0 right-0 top-full h-6 pointer-events-none bg-gradient-to-b from-white/80 dark:from-[rgba(20,20,20,0.8)] to-transparent" />
         <div className="h-11 px-4 flex items-center justify-between">
           <button
             onClick={handleBack}
@@ -1464,8 +1465,13 @@ function ProductImagePreview({ images, initialIndex, brandName, onClose, onIndex
     <div
       ref={overlayRef}
       className="fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
-      onClick={handleClose}
     >
+      <button
+        className="absolute inset-0 w-full h-full cursor-default"
+        onClick={handleClose}
+        aria-label="Fermer"
+        tabIndex={-1}
+      />
       {/* Close button */}
       <button
         onClick={handleClose}
@@ -1479,8 +1485,7 @@ function ProductImagePreview({ images, initialIndex, brandName, onClose, onIndex
       {/* Card container */}
       <div
         ref={cardRef}
-        className="max-w-[90vw] max-h-[85vh] flex flex-col items-center"
-        onClick={(e) => e.stopPropagation()}
+        className="relative max-w-[90vw] max-h-[85vh] flex flex-col items-center"
       >
         {/* Main image card */}
         <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl">

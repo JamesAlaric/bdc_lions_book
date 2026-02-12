@@ -127,7 +127,8 @@ export function Segments(_props: RouteProps) {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-bdc-black transition-colors duration-300 pt-12 pb-24">
       {/* Sub-header - glass */}
-      <header className="sticky top-12 z-40 bg-white/60 dark:bg-white/[0.03] backdrop-blur-2xl border-b border-black/[0.04] dark:border-white/[0.06]">
+      <header className="sticky top-12 z-40 bg-white/60 dark:bg-white/[0.03] backdrop-blur-2xl relative">
+        <div className="absolute left-0 right-0 top-full h-6 pointer-events-none bg-gradient-to-b from-white/60 dark:from-[rgba(20,20,20,0.6)] to-transparent" />
         <div className="w-full px-4 h-12 flex items-center justify-between">
           {/* Left: retractable search */}
           <div className="flex items-center gap-2 flex-1 min-w-0">

@@ -1,4 +1,5 @@
 import yaml from 'js-yaml';
+import { getCachedStaticData, setCachedStaticData } from '../storage/staticCache';
 
 export interface Brand {
   id: string;
@@ -28,6 +29,14 @@ export async function loadSegmentsBrands(): Promise<SegmentsData> {
     return cachedSegments;
   }
 
+  // Tier 2: IndexedDB
+  const stored = await getCachedStaticData<SegmentsData>('segments');
+  if (stored) {
+    cachedSegments = stored;
+    return stored;
+  }
+
+  // Tier 3: Network (served from SW precache when offline)
   const response = await fetch('/data/static/catalog/segments-brands.yaml');
   if (!response.ok) {
     throw new Error(`Failed to load segments-brands: ${response.status}`);
@@ -36,6 +45,7 @@ export async function loadSegmentsBrands(): Promise<SegmentsData> {
   const text = await response.text();
   const data = yaml.load(text) as SegmentsData;
   cachedSegments = data;
+  await setCachedStaticData('segments', data);
   return data;
 }
 

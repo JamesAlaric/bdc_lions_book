@@ -2,7 +2,10 @@ import yaml from 'js-yaml';
 import { bulkCreateProducts } from '../storage/catalogue';
 import { bulkCreateBrands } from '../storage/brands';
 import { updateSyncTimestamp } from '../storage/sync';
+import { setCachedStaticData } from '../storage/staticCache';
 import type { ProductStore, BrandStore } from '../storage/types';
+import type { SegmentsData } from './segments';
+import type { ArgumentairesData } from './argumentaires';
 
 type Fetcher = (path: string) => Promise<string>;
 
@@ -204,7 +207,30 @@ export async function loadInitialCatalogue(options: LoadOptions = {}): Promise<v
       lastUpdate: metadata.lastUpdate,
     },
   });
+  // Preload static data into IDB for offline access
+  await preloadStaticData(fetcher);
+
   reportProgress({ stage: 'complete', current: 1, total: 1, percentage: 100 }, onProgress);
+}
+
+async function preloadStaticData(fetcher: Fetcher): Promise<void> {
+  try {
+    const [segmentsText, argumentairesText] = await Promise.all([
+      fetcher('/data/static/catalog/segments-brands.yaml'),
+      fetcher('/data/static/catalog/argumentaires.yaml'),
+    ]);
+
+    const segments = yaml.load(segmentsText) as SegmentsData;
+    const argumentaires = yaml.load(argumentairesText) as ArgumentairesData;
+
+    await Promise.all([
+      setCachedStaticData('segments', segments),
+      setCachedStaticData('argumentaires', argumentaires),
+    ]);
+  } catch (err) {
+    // Non-critical: segments/argumentaires will be fetched on demand
+    console.warn('Failed to preload static data:', err);
+  }
 }
 
 export async function loadBrands(options: LoadOptions = {}): Promise<void> {

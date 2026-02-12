@@ -4,7 +4,7 @@ import { loadSegmentsBrands, type Segment } from '../lib/data/segments';
 import { BrandCard } from '../components/catalogue/BrandCard';
 import { SkeletonBlock } from '../components/ui/Skeleton';
 
-export function Catalogue(_props: RouteProps) {
+export function Catalogue(_props: Readonly<RouteProps>) {
   const [segments, setSegments] = useState<Segment[]>([]);
   const [activeSegment, setActiveSegment] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
@@ -14,7 +14,7 @@ export function Catalogue(_props: RouteProps) {
 
   useEffect(() => {
     loadSegmentsBrands()
-      .then(data => setSegments(data.segments.sort((a, b) => a.order - b.order)))
+      .then(data => setSegments([...data.segments].sort((a, b) => a.order - b.order)))
       .finally(() => setLoading(false));
   }, []);
 
@@ -65,7 +65,8 @@ export function Catalogue(_props: RouteProps) {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-bdc-black transition-colors duration-300 pt-12 pb-24">
       {/* Header - glass design */}
-      <header className="sticky top-12 z-40 bg-white/60 dark:bg-white/[0.03] backdrop-blur-2xl border-b border-black/[0.04] dark:border-white/[0.06]">
+      <header className="sticky top-12 z-40 bg-white/60 dark:bg-white/[0.03] backdrop-blur-2xl relative">
+        <div className="absolute left-0 right-0 top-full h-6 pointer-events-none bg-gradient-to-b from-white/60 dark:from-[rgba(20,20,20,0.6)] to-transparent" />
         <div className="w-full px-4 py-3">
           {/* Title + filter row */}
           <div className="flex items-center justify-between mb-3">

@@ -1,4 +1,5 @@
 import yaml from 'js-yaml';
+import { getCachedStaticData, setCachedStaticData } from '../storage/staticCache';
 
 export interface ArgumentaireIdentity {
   target?: string;
@@ -70,6 +71,14 @@ export async function loadArgumentaires(): Promise<ArgumentairesData> {
     return cachedArgumentaires;
   }
 
+  // Tier 2: IndexedDB
+  const stored = await getCachedStaticData<ArgumentairesData>('argumentaires');
+  if (stored) {
+    cachedArgumentaires = stored;
+    return stored;
+  }
+
+  // Tier 3: Network (served from SW precache when offline)
   const response = await fetch('/data/static/catalog/argumentaires.yaml');
   if (!response.ok) {
     throw new Error(`Failed to load argumentaires: ${response.status}`);
@@ -78,6 +87,7 @@ export async function loadArgumentaires(): Promise<ArgumentairesData> {
   const text = await response.text();
   const data = yaml.load(text) as ArgumentairesData;
   cachedArgumentaires = data;
+  await setCachedStaticData('argumentaires', data);
   return data;
 }
 

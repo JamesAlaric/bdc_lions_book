@@ -16,6 +16,7 @@ import { UpdateNotification } from './components/UpdateNotification';
 import PWABadge from './PWABadge.tsx';
 import { getAllProducts } from './lib/storage/catalogue';
 import { initDatabase } from './lib/storage/database';
+import { clearStaticCache } from './lib/storage/staticCache';
 import { loadInitialCatalogue, type LoadProgress } from './lib/data/loader';
 import { LoadingScreen } from './components/catalogue/LoadingScreen';
 import './app.css';
@@ -36,6 +37,15 @@ export function App() {
 
       try {
         await initDatabase();
+
+        // Invalidate IDB static cache when app version changes
+        const currentVersion = __APP_VERSION__;
+        const storedVersion = localStorage.getItem('lions-book-data-version');
+        if (storedVersion !== currentVersion) {
+          await clearStaticCache();
+          localStorage.setItem('lions-book-data-version', currentVersion);
+        }
+
         const existingProducts = await getAllProducts();
         if (existingProducts.length === 0) {
           await loadInitialCatalogue({ onProgress: (p) => !cancelled && setProgress(p) });

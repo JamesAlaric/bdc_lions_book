@@ -115,7 +115,7 @@ const documents: DocumentAsset[] = [
 // MAIN COMPONENT
 // ============================================
 
-export function Assets(_props: RouteProps) {
+export function Assets(_props: Readonly<RouteProps>) {
   const [activeTab, setActiveTab] = useState<AssetTab>('logos');
   const [search, setSearch] = useState('');
   const [previewAsset, setPreviewAsset] = useState<{ url: string; name: string } | null>(null);
@@ -145,7 +145,8 @@ export function Assets(_props: RouteProps) {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-bdc-black transition-colors duration-300 pt-12 pb-24">
       {/* Sub-Header */}
-      <header className="sticky top-12 z-40 bg-white/80 dark:bg-bdc-black/80 backdrop-blur-xl border-b border-gray-100 dark:border-white/10">
+      <header className="sticky top-12 z-40 bg-white/80 dark:bg-bdc-black/80 backdrop-blur-xl relative">
+        <div className="absolute left-0 right-0 top-full h-6 pointer-events-none bg-gradient-to-b from-white/80 dark:from-[rgba(20,20,20,0.8)] to-transparent" />
         <div className="w-full px-4 h-12 flex items-center justify-between">
           <button
             onClick={() => route('/')}
@@ -280,11 +281,11 @@ function LogosGrid({
   assets,
   search,
   onPreview,
-}: {
+}: Readonly<{
   assets: LogoAsset[];
   search: string;
   onPreview: (asset: { url: string; name: string }) => void;
-}) {
+}>) {
   const filtered = useMemo(() => {
     if (!search.trim()) return assets;
     const q = search.toLowerCase();
@@ -344,10 +345,10 @@ function LogosGrid({
 function LogoCard({
   logo,
   onPreview,
-}: {
+}: Readonly<{
   logo: LogoAsset;
   onPreview: (asset: { url: string; name: string }) => void;
-}) {
+}>) {
   const [imgError, setImgError] = useState(false);
 
   return (
@@ -357,17 +358,17 @@ function LogoCard({
       className="flex flex-col items-center gap-1.5 p-2 rounded-xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-gray-100 dark:border-white/10 hover:border-bdc-blue/30 hover:shadow-md hover:shadow-bdc-blue/5 active:scale-95 transition-all group"
     >
       <div className="w-14 h-14 rounded-lg bg-white dark:bg-gray-800 flex items-center justify-center overflow-hidden">
-        {!imgError ? (
+        {imgError ? (
+          <span className="text-lg font-bold text-bdc-blue/50 font-display">
+            {logo.name.charAt(0)}
+          </span>
+        ) : (
           <img
             src={logo.url}
             alt={logo.name}
             className="w-11 h-11 object-contain group-hover:scale-110 transition-transform duration-200"
             onError={() => setImgError(true)}
           />
-        ) : (
-          <span className="text-lg font-bold text-bdc-blue/50 font-display">
-            {logo.name.charAt(0)}
-          </span>
         )}
       </div>
       <span className="text-[9px] text-muted dark:text-gray-400 font-medium text-center leading-tight line-clamp-2 w-full">
@@ -385,11 +386,11 @@ function PackshotsGrid({
   assets,
   search,
   onPreview,
-}: {
+}: Readonly<{
   assets: PackshotAsset[];
   search: string;
   onPreview: (asset: { url: string; name: string }) => void;
-}) {
+}>) {
   const filtered = useMemo(() => {
     if (!search.trim()) return assets;
     const q = search.toLowerCase();
@@ -397,7 +398,7 @@ function PackshotsGrid({
       (a) =>
         a.brand.toLowerCase().includes(q) ||
         a.name.toLowerCase().includes(q) ||
-        (a.group && a.group.toLowerCase().includes(q))
+        a.group?.toLowerCase().includes(q)
     );
   }, [assets, search]);
 
@@ -457,10 +458,10 @@ function PackshotsGrid({
 function PackshotCard({
   shot,
   onPreview,
-}: {
+}: Readonly<{
   shot: PackshotAsset;
   onPreview: (asset: { url: string; name: string }) => void;
-}) {
+}>) {
   const [imgError, setImgError] = useState(false);
 
   return (
@@ -471,18 +472,18 @@ function PackshotCard({
     >
       {/* Image area */}
       <div className="relative h-[150px] bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center p-3">
-        {!imgError ? (
+        {imgError ? (
+          <div className="flex flex-col items-center gap-1 text-gray-300 dark:text-gray-600">
+            <Camera size={24} strokeWidth={1.2} />
+            <span className="text-[8px]">Indisponible</span>
+          </div>
+        ) : (
           <img
             src={encodeURI(shot.url)}
             alt={shot.name}
             className="max-w-full max-h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-300"
             onError={() => setImgError(true)}
           />
-        ) : (
-          <div className="flex flex-col items-center gap-1 text-gray-300 dark:text-gray-600">
-            <Camera size={24} strokeWidth={1.2} />
-            <span className="text-[8px]">Indisponible</span>
-          </div>
         )}
         {/* Quick preview overlay */}
         <div className="absolute inset-0 bg-bdc-blue/0 group-hover:bg-bdc-blue/10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200">
@@ -500,7 +501,7 @@ function PackshotCard({
           </span>
         )}
         <p className="text-[10px] text-muted dark:text-gray-400 font-medium leading-tight line-clamp-2 mt-0.5">
-          {shot.name.replace(/_/g, ' ')}
+          {shot.name.replaceAll('_', ' ')}
         </p>
       </div>
     </button>
@@ -563,7 +564,7 @@ function DocumentsList() {
   );
 }
 
-function DocumentCard({ doc }: { doc: DocumentAsset }) {
+function DocumentCard({ doc }: Readonly<{ doc: DocumentAsset }>) {
   const DocIcon = doc.icon;
   const typeColor =
     doc.type === 'pdf'
@@ -623,11 +624,11 @@ function ImagePreview({
   url,
   name,
   onClose,
-}: {
+}: Readonly<{
   url: string;
   name: string;
   onClose: () => void;
-}) {
+}>) {
   const overlayRef = useRef<HTMLDivElement>(null);
   const imgRef = useRef<HTMLDivElement>(null);
 
@@ -662,8 +663,13 @@ function ImagePreview({
     <div
       ref={overlayRef}
       className="fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm flex items-center justify-center p-6"
-      onClick={handleClose}
     >
+      <button
+        className="absolute inset-0 w-full h-full cursor-default"
+        onClick={handleClose}
+        aria-label="Fermer"
+        tabIndex={-1}
+      />
       {/* Close button */}
       <button
         onClick={handleClose}
@@ -675,8 +681,7 @@ function ImagePreview({
       {/* Image container */}
       <div
         ref={imgRef}
-        className="max-w-[90vw] max-h-[80vh] flex flex-col items-center"
-        onClick={(e) => e.stopPropagation()}
+        className="relative max-w-[90vw] max-h-[80vh] flex flex-col items-center"
       >
         <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl">
           <img
@@ -685,7 +690,7 @@ function ImagePreview({
             className="max-w-full max-h-[60vh] object-contain"
           />
         </div>
-        <p className="text-white/80 text-sm font-medium mt-4 text-center">{name.replace(/_/g, ' ')}</p>
+        <p className="text-white/80 text-sm font-medium mt-4 text-center">{name.replaceAll('_', ' ')}</p>
       </div>
     </div>
   );
@@ -695,7 +700,7 @@ function ImagePreview({
 // EMPTY STATE
 // ============================================
 
-function EmptyState({ message }: { message: string }) {
+function EmptyState({ message }: Readonly<{ message: string }>) {
   return (
     <div className="px-4 py-16 text-center">
       <div className="w-14 h-14 mx-auto mb-3 rounded-xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-gray-100 dark:border-white/10 flex items-center justify-center">
