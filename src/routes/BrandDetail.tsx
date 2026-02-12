@@ -1224,17 +1224,18 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
         <dialog
           open
           className="fixed inset-0 z-[100] flex items-center justify-center w-full h-full max-w-none max-h-none m-0 p-0 border-none bg-transparent"
-          onClick={closeImageModal}
-          onKeyDown={(e) => { if (e.key === 'Escape') closeImageModal(); }}
         >
-          {/* Blurred backdrop */}
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-xl" />
+          {/* Blurred backdrop — clickable to close */}
+          <button
+            type="button"
+            className="absolute inset-0 w-full h-full bg-black/60 backdrop-blur-xl cursor-default border-none p-0"
+            onClick={closeImageModal}
+            aria-label="Fermer"
+          />
 
           {/* Modal content */}
-          <div
-            className="relative w-full h-full flex flex-col"
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div className="relative w-full h-full flex flex-col pointer-events-none">
+            <div className="pointer-events-auto w-full h-full flex flex-col">
             {/* Close button */}
             <div className="absolute top-4 right-4 z-10">
               <button
@@ -1300,6 +1301,7 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
                 </div>
               </div>
             )}
+            </div>
           </div>
         </dialog>
       )}
