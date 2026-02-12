@@ -1,4 +1,5 @@
-import { useEffect, useState, useMemo, useCallback } from 'preact/hooks';
+import { useEffect, useState, useMemo, useCallback, useRef, useLayoutEffect } from 'preact/hooks';
+import { gsap } from 'gsap';
 import { route } from 'preact-router';
 import { packshotAssets, type PackshotAsset } from '../lib/data/packshots';
 import { findArgumentaireBrand, loadArgumentaires, type ArgumentaireBrand } from '../lib/data/argumentaires';
@@ -7,6 +8,7 @@ import { getAllProducts, getProductsByBrand } from '../lib/storage/catalogue';
 import type { ProductStore } from '../lib/storage/types';
 import { getPricing, getFormatsByBrand } from '../lib/data/pricing';
 import { BRAND_NEWS } from '../lib/data/news';
+import { BrandDetailSkeleton, SkeletonImage, OfflineBanner } from '../components/ui/Skeleton';
 
 interface BrandDetailProps {
   id?: string;
@@ -576,6 +578,24 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
   const [priceAnimating, setPriceAnimating] = useState(false);
   const [showImageModal, setShowImageModal] = useState(false);
   const [modalImageIndex, setModalImageIndex] = useState(0);
+  const [heroImageLoaded, setHeroImageLoaded] = useState(false);
+  const [isOffline, setIsOffline] = useState(!navigator.onLine);
+
+  useEffect(() => {
+    const goOnline = () => setIsOffline(false);
+    const goOffline = () => setIsOffline(true);
+    globalThis.addEventListener('online', goOnline);
+    globalThis.addEventListener('offline', goOffline);
+    return () => {
+      globalThis.removeEventListener('online', goOnline);
+      globalThis.removeEventListener('offline', goOffline);
+    };
+  }, []);
+
+  // Reset heroImageLoaded when image changes
+  useEffect(() => {
+    setHeroImageLoaded(false);
+  }, [selectedImageIndex]);
 
   const openImageModal = useCallback((index: number) => {
     setModalImageIndex(index);
@@ -715,19 +735,13 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
   };
 
   if (loading) {
-    return (
-      <div className="min-h-screen bg-gray-50 dark:bg-bdc-black flex items-center justify-center font-sans">
-        <div className="text-center">
-          <div className="w-10 h-10 border-3 border-gray-200 dark:border-white/10 border-t-bdc-red rounded-full animate-spin mx-auto mb-4" />
-          <p className="text-muted dark:text-gray-400 text-sm">Chargement...</p>
-        </div>
-      </div>
-    );
+    return <BrandDetailSkeleton />;
   }
 
   if (error && products.length === 0) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-bdc-black flex flex-col items-center justify-center px-6 font-sans">
+      <div className="min-h-screen bg-gray-50 dark:bg-bdc-black flex flex-col items-center justify-center px-6 font-sans pt-12 pb-24">
+        {isOffline && <OfflineBanner />}
         <p className="text-muted dark:text-gray-400 mb-6 text-center">{error}</p>
         <button
           onClick={handleBack}
@@ -892,14 +906,18 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
 
                 {/* Product Image */}
                 <div className="relative aspect-[3/4] flex items-center justify-center p-12 lg:p-16 z-[1]">
+                  {!heroImageLoaded && (
+                    <SkeletonImage className="absolute inset-0 m-12 lg:m-16 rounded-2xl" />
+                  )}
                   {productImages.length > 0 && (
                     <img
                       src={encodeURI(selectedImage?.src ?? '/images/products/placeholder.svg')}
                       alt={selectedImage?.alt ?? activeProduct.name}
-                      className="max-w-[70%] max-h-[85%] object-contain transition-all duration-500 hover:scale-105 mx-auto"
+                      className={`max-w-[70%] max-h-[85%] object-contain transition-all duration-500 hover:scale-105 mx-auto ${heroImageLoaded ? 'opacity-100' : 'opacity-0'}`}
                       style={{
                         filter: 'drop-shadow(0 24px 48px rgba(0,0,0,0.35)) drop-shadow(0 8px 20px rgba(0,0,0,0.2))',
                       }}
+                      onLoad={() => setHeroImageLoaded(true)}
                     />
                   )}
                 </div>
@@ -1219,91 +1237,15 @@ export function BrandDetail({ id, path }: Readonly<BrandDetailProps>) {
         </div>
       </main>
 
-      {/* Image Modal */}
+      {/* Image Preview Modal — Assets-style */}
       {showImageModal && (
-        <dialog
-          open
-          className="fixed inset-0 z-[100] flex items-center justify-center w-full h-full max-w-none max-h-none m-0 p-0 border-none bg-transparent"
-        >
-          {/* Blurred backdrop — clickable to close */}
-          <button
-            type="button"
-            className="absolute inset-0 w-full h-full bg-black/60 backdrop-blur-xl cursor-default border-none p-0"
-            onClick={closeImageModal}
-            aria-label="Fermer"
-          />
-
-          {/* Modal content */}
-          <div className="relative w-full h-full flex flex-col pointer-events-none">
-            <div className="pointer-events-auto w-full h-full flex flex-col">
-            {/* Close button */}
-            <div className="absolute top-4 right-4 z-10">
-              <button
-                onClick={closeImageModal}
-                className="w-10 h-10 rounded-full bg-black/30 backdrop-blur-xl border border-white/10 flex items-center justify-center text-white hover:bg-black/50 transition-all active:scale-90"
-              >
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-
-            {/* Brand name */}
-            <div className="absolute top-4 left-4 z-10">
-              <span className="px-4 py-2 bg-white/15 backdrop-blur-2xl rounded-full border border-white/10 text-white text-sm font-bold font-display">
-                {activeProduct.brand}
-              </span>
-            </div>
-
-            {/* Main image area with brand-colored background */}
-            <div
-              className="flex-1 flex items-center justify-center p-8 pt-20 pb-32"
-              style={{ background: brandColor.bg }}
-            >
-              <div
-                className="absolute inset-0 hidden dark:block pointer-events-none"
-                style={{ background: brandColor.darkBg }}
-              />
-              <img
-                src={encodeURI(productImages[modalImageIndex]?.src ?? '/images/products/placeholder.svg')}
-                alt={productImages[modalImageIndex]?.alt ?? activeProduct.name}
-                className="relative z-[1] max-w-[60%] max-h-[70%] object-contain animate-scale-in"
-                style={{
-                  filter: 'drop-shadow(0 32px 64px rgba(0,0,0,0.4)) drop-shadow(0 12px 28px rgba(0,0,0,0.25))',
-                }}
-              />
-            </div>
-
-            {/* Variant thumbnails at bottom */}
-            {productImages.length > 1 && (
-              <div className="absolute bottom-0 left-0 right-0 z-10 bg-black/40 backdrop-blur-2xl border-t border-white/10 px-4 py-4">
-                <div className="flex items-center justify-center gap-3 overflow-x-auto scrollbar-hide">
-                  {productImages.map((img, index) => (
-                    <button
-                      key={img.id}
-                      onClick={() => setModalImageIndex(index)}
-                      className={`relative flex-shrink-0 w-16 h-16 rounded-xl border-2 bg-white/10 backdrop-blur-md flex items-center justify-center transition-all overflow-hidden ${
-                        index === modalImageIndex
-                          ? 'border-white ring-2 ring-white/30 scale-110'
-                          : 'border-white/20 opacity-60 hover:opacity-90'
-                      }`}
-                    >
-                      <img src={encodeURI(img.src)} alt="" className="w-full h-full object-contain p-1" />
-                      {img.label && (
-                        <span className={`absolute bottom-0 left-0 right-0 text-center text-[7px] font-bold py-0.5 ${
-                          index === modalImageIndex ? 'bg-white text-bdc-black' : 'bg-black/40 text-white/80'
-                        }`}>
-                          {img.label}
-                        </span>
-                      )}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-            </div>
-          </div>
-        </dialog>
+        <ProductImagePreview
+          images={productImages}
+          initialIndex={modalImageIndex}
+          brandName={activeProduct.brand}
+          onClose={closeImageModal}
+          onIndexChange={setModalImageIndex}
+        />
       )}
 
     </div>
@@ -1468,6 +1410,118 @@ function ArgumentCell({ label, text }: Readonly<{ label: string; text: string }>
       <p className={`text-xs leading-relaxed ${isEmpty ? 'text-gray-300 dark:text-gray-600 italic' : 'text-gray-700 dark:text-gray-300'}`}>
         {content}
       </p>
+    </div>
+  );
+}
+
+// ============================================
+// PRODUCT IMAGE PREVIEW — Assets-style modal
+// ============================================
+
+interface ProductImagePreviewProps {
+  images: Array<{ id: string; src: string; alt: string; label?: string }>;
+  initialIndex: number;
+  brandName: string;
+  onClose: () => void;
+  onIndexChange: (index: number) => void;
+}
+
+function ProductImagePreview({ images, initialIndex, brandName, onClose, onIndexChange }: Readonly<ProductImagePreviewProps>) {
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+  const overlayRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  useLayoutEffect(() => {
+    if (overlayRef.current) {
+      gsap.fromTo(overlayRef.current, { opacity: 0 }, { opacity: 1, duration: 0.25 });
+    }
+    if (cardRef.current) {
+      gsap.fromTo(
+        cardRef.current,
+        { opacity: 0, scale: 0.9, y: 20 },
+        { opacity: 1, scale: 1, y: 0, duration: 0.35, ease: 'back.out(1.4)' }
+      );
+    }
+  }, []);
+
+  const handleClose = () => {
+    if (overlayRef.current && cardRef.current) {
+      gsap.to(cardRef.current, { opacity: 0, scale: 0.9, duration: 0.2 });
+      gsap.to(overlayRef.current, { opacity: 0, duration: 0.2, delay: 0.05, onComplete: onClose });
+    } else {
+      onClose();
+    }
+  };
+
+  const selectImage = (index: number) => {
+    setCurrentIndex(index);
+    onIndexChange(index);
+  };
+
+  const currentImage = images[currentIndex];
+
+  return (
+    <div
+      ref={overlayRef}
+      className="fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+      onClick={handleClose}
+    >
+      {/* Close button */}
+      <button
+        onClick={handleClose}
+        className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors z-10"
+      >
+        <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      {/* Card container */}
+      <div
+        ref={cardRef}
+        className="max-w-[90vw] max-h-[85vh] flex flex-col items-center"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Main image card */}
+        <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-2xl">
+          <img
+            src={encodeURI(currentImage?.src ?? '/images/products/placeholder.svg')}
+            alt={currentImage?.alt ?? brandName}
+            className="max-w-full max-h-[55vh] object-contain"
+          />
+        </div>
+
+        {/* Image name */}
+        <p className="text-white/80 text-sm font-medium mt-3 text-center font-display">
+          {currentImage?.alt ?? brandName}
+        </p>
+
+        {/* Variant thumbnails */}
+        {images.length > 1 && (
+          <div className="flex items-center justify-center gap-2.5 mt-4 overflow-x-auto scrollbar-hide max-w-[90vw] px-2">
+            {images.map((img, index) => (
+              <button
+                key={img.id}
+                onClick={() => selectImage(index)}
+                className={`relative flex-shrink-0 w-14 h-14 rounded-xl border-2 bg-white/10 backdrop-blur-md flex items-center justify-center transition-all overflow-hidden ${
+                  index === currentIndex
+                    ? 'border-white ring-2 ring-white/30 scale-110'
+                    : 'border-white/20 opacity-50 hover:opacity-80'
+                }`}
+              >
+                <img src={encodeURI(img.src)} alt="" className="w-full h-full object-contain p-1" />
+                {img.label && (
+                  <span className={`absolute bottom-0 left-0 right-0 text-center text-[6px] font-bold py-0.5 ${
+                    index === currentIndex ? 'bg-white text-bdc-black' : 'bg-black/40 text-white/80'
+                  }`}>
+                    {img.label}
+                  </span>
+                )}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

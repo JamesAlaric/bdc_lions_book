@@ -4,6 +4,7 @@ import type { RouteProps } from 'preact-router';
 import { loadSegmentsBrands } from '../lib/data/segments';
 import { logoMap } from '../components/catalogue/BrandCard';
 import { Search, LayoutGrid, ReceiptText, X } from '../components/ui/Icon';
+import { SkeletonBlock } from '../components/ui/Skeleton';
 import { gsap } from 'gsap';
 
 interface SegmentData {
@@ -14,13 +15,13 @@ interface SegmentData {
 }
 
 const segmentImages: Record<string, string> = {
-  bieres: '/images/segments/beer_banner.png',
-  'alcools-mix': '/images/segments/alcoolsmix_banner.png',
-  'boissons-gazeuses': '/images/segments/bg.png',
-  eaux: '/images/segments/eau.png',
-  'malts-energy-drink': '/images/segments/energydrink.png',
-  spiritueux: '/images/segments/spiritueux.png',
-  vins: '/images/segments/vins.png',
+  bieres: '/images/segments/beer_banner.webp',
+  'alcools-mix': '/images/segments/alcoolsmix_banner.webp',
+  'boissons-gazeuses': '/images/segments/bg.webp',
+  eaux: '/images/segments/eau.webp',
+  'malts-energy-drink': '/images/segments/energydrink.webp',
+  spiritueux: '/images/segments/spiritueux.webp',
+  vins: '/images/segments/vins.webp',
 };
 
 // Bento layout: [colStart, colSpan, rowStart, rowSpan]
@@ -106,8 +107,19 @@ export function Segments(_props: RouteProps) {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-bdc-black flex items-center justify-center">
-        <div className="w-10 h-10 border-3 border-gray-200 dark:border-white/10 border-t-bdc-blue rounded-full animate-spin" />
+      <div className="min-h-screen bg-gray-50 dark:bg-bdc-black pt-12 pb-24">
+        <div className="px-4 pt-16">
+          <SkeletonBlock className="h-6 w-40 mb-4" />
+          <div className="grid grid-cols-4 grid-rows-3 gap-2.5" style={{ gridAutoRows: '100px' }}>
+            <SkeletonBlock className="col-span-2 row-span-2 rounded-2xl" />
+            <SkeletonBlock className="rounded-2xl" />
+            <SkeletonBlock className="row-span-2 rounded-2xl" />
+            <SkeletonBlock className="rounded-2xl" />
+            <SkeletonBlock className="rounded-2xl" />
+            <SkeletonBlock className="col-span-2 rounded-2xl" />
+            <SkeletonBlock className="rounded-2xl" />
+          </div>
+        </div>
       </div>
     );
   }

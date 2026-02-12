@@ -14,20 +14,20 @@ export interface NewsItem {
 
 export const BRAND_NEWS: Record<string, NewsItem[]> = {
   '33 EXPORT': [
-    { date: 'Jan 2026', title: 'Nouveau look 33 Export', description: 'Lancement du nouveau design d\'emballage pour renforcer l\'identite visuelle de la marque sur le marche.', tag: 'Lancement', image: '/images/segments/beer_banner.png' },
-    { date: 'Dec 2025', title: 'Campagne festive', description: 'Activation speciale fin d\'annee avec offres promotionnelles sur les formats familiaux.', tag: 'Promo', image: '/images/segments/beer_banner.png' },
+    { date: 'Jan 2026', title: 'Nouveau look 33 Export', description: 'Lancement du nouveau design d\'emballage pour renforcer l\'identite visuelle de la marque sur le marche.', tag: 'Lancement', image: '/images/segments/beer_banner.webp' },
+    { date: 'Dec 2025', title: 'Campagne festive', description: 'Activation speciale fin d\'annee avec offres promotionnelles sur les formats familiaux.', tag: 'Promo', image: '/images/segments/beer_banner.webp' },
   ],
   'BEAUFORT LAGER': [
-    { date: 'Jan 2026', title: 'Beaufort Lager renforce sa presence', description: 'Extension de distribution dans les nouveaux points de vente de la region Sud.', tag: 'Distribution', image: '/images/segments/beer_banner.png' },
+    { date: 'Jan 2026', title: 'Beaufort Lager renforce sa presence', description: 'Extension de distribution dans les nouveaux points de vente de la region Sud.', tag: 'Distribution', image: '/images/segments/beer_banner.webp' },
   ],
   'CASTEL BEER': [
-    { date: 'Fev 2026', title: 'Castel Beer Heritage', description: 'Nouvelle communication axee sur l\'heritage brassicole et le savoir-faire Castel.', tag: 'Communication', image: '/images/segments/beer_banner.png' },
+    { date: 'Fev 2026', title: 'Castel Beer Heritage', description: 'Nouvelle communication axee sur l\'heritage brassicole et le savoir-faire Castel.', tag: 'Communication', image: '/images/segments/beer_banner.webp' },
   ],
   'MUTZIG': [
-    { date: 'Jan 2026', title: 'Mutzig Premium Night', description: 'Evenements nocturnes dans les principales villes pour positionner Mutzig comme la biere premium de reference.', tag: 'Evenement', image: '/images/segments/beer_banner.png' },
+    { date: 'Jan 2026', title: 'Mutzig Premium Night', description: 'Evenements nocturnes dans les principales villes pour positionner Mutzig comme la biere premium de reference.', tag: 'Evenement', image: '/images/segments/beer_banner.webp' },
   ],
   'HEINEKEN': [
-    { date: 'Fev 2026', title: 'UEFA Champions League', description: 'Activation autour du partenariat mondial Heineken x Champions League dans les points de vente.', tag: 'Sponsoring', image: '/images/segments/beer_banner.png' },
+    { date: 'Fev 2026', title: 'UEFA Champions League', description: 'Activation autour du partenariat mondial Heineken x Champions League dans les points de vente.', tag: 'Sponsoring', image: '/images/segments/beer_banner.webp' },
   ],
 };
 
@@ -38,35 +38,35 @@ export const GENERAL_NEWS: NewsItem[] = [
     title: 'SABC renforce son engagement RSE',
     description: 'La Societe Anonyme des Brasseries du Cameroun intensifie ses programmes de developpement durable avec de nouvelles initiatives environnementales dans toutes ses usines.',
     tag: 'RSE',
-    image: '/images/segments/eau.png',
+    image: '/images/segments/eau.webp',
   },
   {
     date: 'Jan 2026',
     title: 'Nouvelle ligne de production a Douala',
     description: 'Inauguration d\'une ligne de production moderne permettant d\'augmenter la capacite de 30% pour repondre a la demande croissante.',
     tag: 'Industrie',
-    image: '/images/segments/bg.png',
+    image: '/images/segments/bg.webp',
   },
   {
     date: 'Jan 2026',
     title: 'Partenariat Distribution Nationale',
     description: 'Accord strategique avec de nouveaux distributeurs pour couvrir les zones rurales et periurbaines du pays.',
     tag: 'Distribution',
-    image: '/images/segments/beer_banner.png',
+    image: '/images/segments/beer_banner.webp',
   },
   {
     date: 'Dec 2025',
     title: 'Fetes de fin d\'annee : offres speciales',
     description: 'Packs promotionnels et activations dans les points de vente pour les celebrations de fin d\'annee a travers le Cameroun.',
     tag: 'Promo',
-    image: '/images/segments/alcoolsmix_banner.png',
+    image: '/images/segments/alcoolsmix_banner.webp',
   },
   {
     date: 'Nov 2025',
     title: 'Lancement gamme Eaux Minerales',
     description: 'Extension de la gamme des eaux minerales avec de nouveaux formats adaptes a la consommation nomade.',
     tag: 'Lancement',
-    image: '/images/segments/eau.png',
+    image: '/images/segments/eau.webp',
   },
 ];
 

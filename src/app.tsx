@@ -9,6 +9,7 @@ import { Objections } from './routes/Objections';
 import { Promos } from './routes/Promos';
 import { Assets } from './routes/Assets';
 import { PricingGrid } from './routes/PricingGrid';
+import { NotFound } from './routes/NotFound';
 import { Navigation } from './components/layout/Navigation';
 import { PageTransition } from './components/layout/PageTransition';
 import { UpdateNotification } from './components/UpdateNotification';
@@ -77,7 +78,7 @@ export function App() {
   return (
     <>
       <Router onChange={(e: { url: string }) => window.dispatchEvent(new CustomEvent('routechange', { detail: e.url }))}>
-        <Home path="/" default />
+        <Home path="/" />
         <Catalogue path="/catalogue" />
         <Segments path="/segments" />
         <Objections path="/objections" />
@@ -86,6 +87,7 @@ export function App() {
         <Promos path="/promos" />
         <Assets path="/assets" />
         <Settings path="/settings" />
+        <NotFound default />
       </Router>
       <div className="nav-bottom-fade" />
       <Navigation />

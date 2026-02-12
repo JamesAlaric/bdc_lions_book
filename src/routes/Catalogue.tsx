@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from 'preact/hooks';
 import type { RouteProps } from 'preact-router';
 import { loadSegmentsBrands, type Segment } from '../lib/data/segments';
 import { BrandCard } from '../components/catalogue/BrandCard';
+import { SkeletonBlock } from '../components/ui/Skeleton';
 
 export function Catalogue(_props: RouteProps) {
   const [segments, setSegments] = useState<Segment[]>([]);
@@ -45,8 +46,18 @@ export function Catalogue(_props: RouteProps) {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-bdc-black flex items-center justify-center">
-        <div className="w-10 h-10 border-3 border-gray-200 dark:border-white/10 border-t-bdc-blue rounded-full animate-spin" />
+      <div className="min-h-screen bg-gray-50 dark:bg-bdc-black pt-12 pb-24">
+        <div className="px-4 pt-6">
+          <SkeletonBlock className="h-10 w-full mb-4" />
+          <div className="grid grid-cols-4 sm:grid-cols-5 gap-4 mt-6">
+            {Array.from({ length: 16 }).map((_, i) => (
+              <div key={`cat-skel-${i}`} className="flex flex-col items-center gap-2">
+                <SkeletonBlock className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl" />
+                <SkeletonBlock className="h-3 w-14" />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     );
   }

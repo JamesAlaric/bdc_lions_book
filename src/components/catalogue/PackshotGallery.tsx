@@ -37,11 +37,11 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
   // Helper function to get image extension
   const getImageExtension = (imagePath: string) => {
     // Try common extensions for packshots
-    const extensions = ['.png', '.jpg', '.jpeg', '.webp'];
+    const extensions = ['.webp', '.png', '.jpg', '.jpeg'];
     for (const ext of extensions) {
       if (imagePath.includes(ext)) return ext;
     }
-    return '.png'; // default
+    return '.webp'; // default
   };
 
   return (
@@ -75,12 +75,10 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     const currentSrc = target.src;
-                    if (currentSrc.includes('.png')) {
+                    if (currentSrc.includes('.webp')) {
+                      target.src = currentSrc.replace('.webp', '.png');
+                    } else if (currentSrc.includes('.png')) {
                       target.src = currentSrc.replace('.png', '.jpg');
-                    } else if (currentSrc.includes('.jpg')) {
-                      target.src = currentSrc.replace('.jpg', '.jpeg');
-                    } else if (currentSrc.includes('.jpeg')) {
-                      target.src = currentSrc.replace('.jpeg', '.webp');
                     } else {
                       target.style.display = 'none';
                     }
@@ -102,16 +100,7 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                   className="max-w-full max-h-full object-contain"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    const currentSrc = target.src;
-                    if (currentSrc.includes('.png')) {
-                      target.src = currentSrc.replace('.png', '.jpg');
-                    } else if (currentSrc.includes('.jpg')) {
-                      target.src = currentSrc.replace('.jpg', '.jpeg');
-                    } else if (currentSrc.includes('.jpeg')) {
-                      target.src = currentSrc.replace('.jpeg', '.webp');
-                    } else {
-                      target.style.display = 'none';
-                    }
+                    target.style.display = 'none';
                   }}
                 />
               </div>
@@ -130,16 +119,7 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                   className="max-w-full max-h-full object-contain"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    const currentSrc = target.src;
-                    if (currentSrc.includes('.png')) {
-                      target.src = currentSrc.replace('.png', '.jpg');
-                    } else if (currentSrc.includes('.jpg')) {
-                      target.src = currentSrc.replace('.jpg', '.jpeg');
-                    } else if (currentSrc.includes('.jpeg')) {
-                      target.src = currentSrc.replace('.jpeg', '.webp');
-                    } else {
-                      target.style.display = 'none';
-                    }
+                    target.style.display = 'none';
                   }}
                 />
               </div>
@@ -160,17 +140,13 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                     filter: 'drop-shadow(0 20px 25px rgba(0, 0, 0, 0.15))'
                   }}
                   onError={(e) => {
-                    // Try alternative extensions if first fails
                     const target = e.target as HTMLImageElement;
                     const currentSrc = target.src;
-                    if (currentSrc.includes('.png')) {
+                    if (currentSrc.includes('.webp')) {
+                      target.src = currentSrc.replace('.webp', '.png');
+                    } else if (currentSrc.includes('.png')) {
                       target.src = currentSrc.replace('.png', '.jpg');
-                    } else if (currentSrc.includes('.jpg')) {
-                      target.src = currentSrc.replace('.jpg', '.jpeg');
-                    } else if (currentSrc.includes('.jpeg')) {
-                      target.src = currentSrc.replace('.jpeg', '.webp');
                     } else {
-                      // Final fallback
                       target.src = '/images/products/placeholder.svg';
                     }
                   }}
@@ -193,15 +169,7 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                       alt={packshots[1]?.name || selectedPackshot.name}
                       className="max-w-full max-h-full object-contain"
                       onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        const currentSrc = target.src;
-                        if (currentSrc.includes('.png')) {
-                          target.src = currentSrc.replace('.png', '.jpg');
-                        } else if (currentSrc.includes('.jpg')) {
-                          target.src = currentSrc.replace('.jpg', '.jpeg');
-                        } else if (currentSrc.includes('.jpeg')) {
-                          target.src = currentSrc.replace('.jpeg', '.webp');
-                        }
+                        (e.target as HTMLImageElement).style.display = 'none';
                       }}
                     />
                   </div>
@@ -219,15 +187,7 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                       alt={packshots[2]?.name || selectedPackshot.name}
                       className="max-w-full max-h-full object-contain"
                       onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        const currentSrc = target.src;
-                        if (currentSrc.includes('.png')) {
-                          target.src = currentSrc.replace('.png', '.jpg');
-                        } else if (currentSrc.includes('.jpg')) {
-                          target.src = currentSrc.replace('.jpg', '.jpeg');
-                        } else if (currentSrc.includes('.jpeg')) {
-                          target.src = currentSrc.replace('.jpeg', '.webp');
-                        }
+                        (e.target as HTMLImageElement).style.display = 'none';
                       }}
                     />
                   </div>
@@ -286,19 +246,9 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                     className="w-full h-full object-contain p-2 transition-transform duration-200 group-hover:scale-110"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      const currentSrc = target.src;
-                      if (currentSrc.includes('.png')) {
-                        target.src = currentSrc.replace('.png', '.jpg');
-                      } else if (currentSrc.includes('.jpg')) {
-                        target.src = currentSrc.replace('.jpg', '.jpeg');
-                      } else if (currentSrc.includes('.jpeg')) {
-                        target.src = currentSrc.replace('.jpeg', '.webp');
-                      } else {
-                        // Fallback to initial letter
-                        target.style.display = 'none';
-                        const fallback = target.nextElementSibling as HTMLElement;
-                        if (fallback) fallback.style.display = 'flex';
-                      }
+                      target.style.display = 'none';
+                      const fallback = target.nextElementSibling as HTMLElement;
+                      if (fallback) fallback.style.display = 'flex';
                     }}
                   />
                   {/* Fallback */}
@@ -356,18 +306,9 @@ export function PackshotGallery({ packshots, selectedPackshot, onPackshotSelect 
                         className="w-full h-full object-contain p-1"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
-                          const currentSrc = target.src;
-                          if (currentSrc.includes('.png')) {
-                            target.src = currentSrc.replace('.png', '.jpg');
-                          } else if (currentSrc.includes('.jpg')) {
-                            target.src = currentSrc.replace('.jpg', '.jpeg');
-                          } else if (currentSrc.includes('.jpeg')) {
-                            target.src = currentSrc.replace('.jpeg', '.webp');
-                          } else {
-                            target.style.display = 'none';
-                            const fallback = target.nextElementSibling as HTMLElement;
-                            if (fallback) fallback.style.display = 'flex';
-                          }
+                          target.style.display = 'none';
+                          const fallback = target.nextElementSibling as HTMLElement;
+                          if (fallback) fallback.style.display = 'flex';
                         }}
                       />
                       <div 

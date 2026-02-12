@@ -71,7 +71,7 @@ const segmentLabels: Record<string, string> = {
 function buildLogoAssets(): LogoAsset[] {
   const assets: LogoAsset[] = [];
   for (const [brandId, url] of Object.entries(logoMap)) {
-    // Extract segment from URL path: /assets/brands/<segment>/filename.png
+    // Extract segment from URL path: /assets/brands/<segment>/filename.webp
     const parts = url.split('/');
     const segmentFolder = parts[3] || '';
     const segment = segmentLabels[segmentFolder] || segmentFolder;
